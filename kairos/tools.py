@@ -5,6 +5,7 @@ the only cached piece is the model-written context line.
 """
 from __future__ import annotations
 
+from contextlib import closing
 from datetime import timedelta
 
 from kairos import store
@@ -25,19 +26,28 @@ def _entities() -> dict:
 
 
 def list_entities() -> list[dict]:
-    conn = store.connect()
     out = []
-    for e in _entities().values():
-        have = [r[0] for r in conn.execute(
-            "SELECT DISTINCT sensor FROM observations WHERE entity_id=? ORDER BY sensor", (e.entity_id,))]
-        out.append({"entity_id": e.entity_id, "name": e.name, "nse_ticker": e.nse_ticker, "sensors": have})
+    with closing(store.connect()) as conn:
+        for e in _entities().values():
+            have = [r[0] for r in conn.execute(
+                "SELECT DISTINCT sensor FROM observations WHERE entity_id=? ORDER BY sensor", (e.entity_id,))]
+            out.append({"entity_id": e.entity_id, "name": e.name, "nse_ticker": e.nse_ticker, "sensors": have})
     return out
 
 
 def get_signals(entity_id: str, sensor: str | None = None, weeks: int = 12) -> list[dict]:
     """Weekly series, latest `weeks` weeks. A week with no reading is absent, never 0."""
-    conn = store.connect()
     e = _entities()[entity_id]
+    if weeks < 1:
+        raise ValueError("weeks must be positive")
+    if sensor is not None and sensor not in SERIES:
+        raise ValueError(f"unknown sensor {sensor!r}")
+    with closing(store.connect()) as conn:
+        return _signals(conn, e, sensor, weeks)
+
+
+def _signals(conn, e, sensor, weeks):
+    entity_id = e.entity_id
     out = []
     for sid, metrics in SERIES.items():
         if sensor and sid != sensor:
@@ -45,6 +55,16 @@ def get_signals(entity_id: str, sensor: str | None = None, weeks: int = 12) -> l
         for metric in metrics:
             rows = (store.read_all_obs(conn, entity_id, sid, metric) if sid == "ads"
                     else store.read_obs(conn, entity_id, sid, metric))
+            if sid == "ads":
+                for window in ("recent", "prior"):
+                    by_week = {}
+                    for r in rows:                   # newest capture first
+                        if r["dims"].get("window") == window:
+                            by_week.setdefault(weekly.week_start(r["observed_at"]), r)
+                    by_week = {w: r for w, r in by_week.items() if r["value"] is not None}
+                    if by_week:
+                        out.append(_series(sid, metric, by_week, weeks, {"window": window}))
+                continue
             if sid == "search_share":
                 by_week = {w: r for w, r in weekly.share_rows(rows, e.primary_trends_query or e.primary_brand).items()}
             elif sid == "price":
@@ -59,33 +79,42 @@ def get_signals(entity_id: str, sensor: str | None = None, weeks: int = 12) -> l
                     counts = {w: r for w, r in counts.items() if min(counts) < w < cap_week}
                 by_week = counts
             else:                                    # point-in-time readings
-                by_week = {weekly.week_start(r["observed_at"]): r for r in rows if r["value"] is not None}
+                by_week = {weekly.week_start(r["captured_at"]): r for r in rows if r["value"] is not None}
             if not by_week:
                 continue
-            last = max(by_week)
-            keep = sorted(w for w in by_week if w > last - timedelta(weeks=weeks))
-            out.append({"sensor": sid, "metric": metric, "label": REGISTRY[sid].label,
-                        "unit": by_week[last]["unit"],
-                        "points": [{"week": str(w), "value": by_week[w]["value"],
-                                    "capture_id": by_week[w]["capture_id"]} for w in keep]})
+            out.append(_series(sid, metric, by_week, weeks))
     return out
+
+
+def _series(sid, metric, by_week, weeks, dims=None):
+    last = max(by_week)
+    keep = sorted(w for w in by_week if w > last - timedelta(weeks=weeks))
+    return {"sensor": sid, "metric": metric, "label": REGISTRY[sid].label,
+            "unit": by_week[last]["unit"], "dims": dims or {},
+            "points": [{"week": str(w), "value": by_week[w]["value"],
+                        "capture_id": by_week[w]["capture_id"], "dims": by_week[w]["dims"],
+                        "captured_at": by_week[w]["captured_at"], "sample_n": by_week[w]["sample_n"]}
+                       for w in keep]}
 
 
 def _cached_context(alerts: list[dict]) -> list[dict]:
     for a in alerts:
-        a["llm_context"] = store.read_llm_context(a["alert_id"])
+        a["llm_context"] = store.read_llm_context(a["alert_id"], fingerprint=store.alert_fingerprint(a))
     return alerts
 
 
 def get_alerts(entity_id: str | None = None, with_evidence: bool = False) -> list[dict]:
     """Every rule evaluation (fired, not fired, insufficient) for one company or all."""
-    conn = store.connect()
     cfg = rules.load_rules()
     out = []
-    for e in _entities().values():
-        if entity_id and e.entity_id != entity_id:
-            continue
-        out.extend(_cached_context(rules.evaluate_entity(conn, e, cfg)))
+    entities = _entities()
+    if entity_id is not None and entity_id not in entities:
+        raise KeyError(f"unknown entity_id {entity_id!r}")
+    with closing(store.connect()) as conn:
+        for e in entities.values():
+            if entity_id and e.entity_id != entity_id:
+                continue
+            out.extend(_cached_context(rules.evaluate_entity(conn, e, cfg)))
     if not with_evidence:
         for a in out:
             a.pop("evidence", None)
@@ -97,5 +126,7 @@ def explain_alert(alert_id: str) -> dict:
     entity_id = alert_id.split(":")[0]
     for a in get_alerts(entity_id, with_evidence=True):
         if a["alert_id"] == alert_id:
+            with closing(store.connect()) as conn:
+                a["captures"] = store.read_captures(conn, entity_id, a["evidence_capture_ids"])
             return a
     raise KeyError(f"unknown alert_id {alert_id!r}")

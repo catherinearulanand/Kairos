@@ -26,8 +26,10 @@ def test_write_and_read_context_survive_re_evaluation(alerts_db):
          "as_of": "2026-10-10", "evidence": [{"big": "rows"}], "llm_context": "Reviews look softer."}
     store.write_alerts([a])
     assert store.read_llm_context(a["alert_id"]) == "Reviews look softer."
-    store.write_alerts([{**a, "llm_context": None, "status": "not_fired"}])      # re-run without a model
+    store.write_alerts([{**a, "llm_context": None}])      # identical re-run without a model
     assert store.read_llm_context(a["alert_id"]) == "Reviews look softer."
+    store.write_alerts([{**a, "llm_context": None, "status": "not_fired"}])
+    assert store.read_llm_context(a["alert_id"]) is None
     assert store.read_llm_context("missing") is None
 
 

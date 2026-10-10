@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from contextlib import closing
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from statistics import mean
@@ -79,6 +80,9 @@ def r1(entity_id: str, query: str, share_obs: list[dict], close_obs: list[dict],
     closes = weekly.last_close_rows(close_obs)
     if price_from not in closes or as_of not in closes:
         return fail("price close is missing for the start or end week")
+    if any(r["value"] is not None and r["value"] <= 0 for r in close_obs
+           if price_from <= weekly.week_start(r["observed_at"]) <= as_of):
+        return fail("price closes must be positive")
     if weekly.max_daily_move_pct(close_obs, price_from, as_of + timedelta(days=6)) > c["max_daily_move_pct"]:
         return fail("a single-day price move this large may be a split or bonus (prices are unadjusted)")
 
@@ -89,13 +93,13 @@ def r1(entity_id: str, query: str, share_obs: list[dict], close_obs: list[dict],
     big_share, big_price = abs(change) > c["share_change_pct"], abs(ret) > c["price_return_pct"]
     conditions = [
         _cond(f"Search share change for {query}", change, "abs>", c["share_change_pct"], "pct", big_share),
-        _cond("Price return over the same 4 weeks", ret, "abs>", c["price_return_pct"], "pct", big_price),
+        _cond(f"Price return over the same {rw} weeks", ret, "abs>", c["price_return_pct"], "pct", big_price),
         _cond("Move in opposite directions", float(opposite), "==", 1.0, "bool", opposite),
     ]
     fired = big_share and big_price and opposite
     words = (f"search share for {query} {'rose' if change > 0 else 'fell'} {abs(change):.1f}% "
-             f"(4 weeks from {recent[0]} vs the prior {bw}) while the price "
-             f"{'rose' if ret > 0 else 'fell'} {abs(ret):.1f}% over the same 4 weeks")
+             f"({rw} weeks from {recent[0]} vs the prior {bw}) while the price "
+             f"{'rose' if ret > 0 else 'fell'} {abs(ret):.1f}% over the same {rw} weeks")
     sentence = f"Opposite directions: {words}." if fired else f"R1 did not fire: {words}."
     return _alert(entity_id, "R1", as_of, "fired" if fired else "not_fired", sentence,
                   windows=windows, conditions=conditions, evidence=evidence)
@@ -117,7 +121,7 @@ def r2(entity_id: str, recent_obs: list[dict], displayed_obs: list[dict], cfg: d
     shown = displayed_obs[-1] if displayed_obs else None
     anchor = recent or shown
     as_of = (datetime.fromisoformat(anchor["captured_at"]).astimezone(IST).date()
-             if anchor else date.today())
+             if anchor else datetime.now(IST).date())
     if recent is None or shown is None or recent["value"] is None or shown["value"] is None:
         return _insufficient(entity_id, "R2", as_of, "recent review mean or displayed rating is missing")
     n = recent["sample_n"] or 0
@@ -147,7 +151,7 @@ def r3(entity_id: str, ad_obs: list[dict], cfg: dict) -> dict:
         latest.setdefault(r["dims"].get("window", ""), r)
     recent, prior = latest.get("recent"), latest.get("prior")
     as_of = (datetime.fromisoformat(recent["captured_at"]).astimezone(IST).date()
-             if recent else date.today())
+             if recent else datetime.now(IST).date())
     if recent is None or prior is None or recent["value"] is None or prior["value"] is None:
         return _insufficient(entity_id, "R3", as_of, "one of the two ad windows is missing")
     ev = [recent, prior]
@@ -181,7 +185,7 @@ def evaluate_entity(conn, entity: Entity, cfg: dict) -> list[dict]:
         a1 = r1(eid, query, share_obs, close_obs, weeks[-1], cfg)
         a1["base_rate"] = base_rate_r1(eid, query, share_obs, close_obs, cfg)
     else:
-        a1 = _insufficient(eid, "R1", date.today(), "no search share data")
+        a1 = _insufficient(eid, "R1", datetime.now(IST).date(), "no search share data")
     a2 = r2(eid, store.read_obs(conn, eid, "app_reviews", "recent_mean"),
             store.read_obs(conn, eid, "app_reviews", "displayed_rating"), cfg)
     a3 = r3(eid, store.read_all_obs(conn, eid, "ads", "active_creatives"), cfg)
@@ -195,20 +199,23 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--llm", action="store_true", help="add the model-written context line")
     args = ap.parse_args(argv)
     load_dotenv(ROOT / ".env")
-    conn = store.connect(args.db)
     cfg = load_rules()
-    for e in load_watchlist(ROOT / "watchlist.yaml"):
-        if args.entity and e.entity_id not in args.entity:
-            continue
-        alerts = evaluate_entity(conn, e, cfg)
-        if args.llm:
-            from kairos.llm.context import add_context
-            add_context(alerts)
-        store.write_alerts(alerts)
-        for a in alerts:
-            br = a["base_rate"]
-            rate = f"  [true in {br['n']} of {br['m']} weeks]" if br else ""
-            print(f"{a['alert_id']:26} {a['status']:12} {a['sentence']}{rate}")
+    entities = load_watchlist(ROOT / "watchlist.yaml")
+    if args.entity and set(args.entity) - {e.entity_id for e in entities}:
+        ap.error("unknown entity in --entity")
+    with closing(store.connect(args.db)) as conn:
+        for e in entities:
+            if args.entity and e.entity_id not in args.entity:
+                continue
+            alerts = evaluate_entity(conn, e, cfg)
+            if args.llm:
+                from kairos.llm.context import add_context
+                add_context(alerts)
+            store.write_alerts(alerts)
+            for a in alerts:
+                br = a["base_rate"]
+                rate = f"  [true in {br['n']} of {br['m']} weeks]" if br else ""
+                print(f"{a['alert_id']:26} {a['status']:12} {a['sentence']}{rate}")
     return 0
 
 

@@ -103,3 +103,16 @@ def test_r3_zero_prior_is_insufficient_not_infinite():
 def test_alert_id_is_deterministic():
     assert run_r1(FLAT + UP, DOWN_10)["alert_id"] == "T:R1:2026-09-27"
     assert CAPTURED  # helpers import sanity
+
+
+@pytest.mark.parametrize("price", [0, -1])
+def test_r1_nonpositive_price_is_insufficient(price):
+    a = run_r1(FLAT + UP, [price, 98, 95, 92, 90])
+    assert a["status"] == "insufficient" and "positive" in a["reason"]
+
+
+def test_r1_sentence_uses_configured_window():
+    cfg = {**CFG, "R1": {**CFG["R1"], "recent_weeks": 3}}
+    a = rules.r1("T", "T", share_series(FLAT + [12] * 3),
+                 close_series([100, 97, 93, 90]), SUNDAY, cfg)
+    assert "3 weeks" in a["sentence"] and "4 weeks" not in a["sentence"]
