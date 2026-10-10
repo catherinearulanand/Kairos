@@ -17,7 +17,7 @@ entities:
     ads_text: zomato.com
     ads_region: "2356"          # India, from SerpApi's Ads Transparency region list
     news_query: Zomato
-    verified_by: null
+    verified_by: Catherine
 
   - entity_id: SWIGGY
     name: Swiggy Ltd
@@ -30,7 +30,7 @@ entities:
     ads_text: swiggy.com
     ads_region: "2356"
     news_query: Swiggy
-    verified_by: null
+    verified_by: Catherine
 
   - entity_id: NYKAA
     name: FSN E-Commerce Ventures (Nykaa)
@@ -43,4 +43,4 @@ entities:
     ads_text: nykaa.com
     ads_region: "2356"
     news_query: Nykaa
-    verified_by: null
+    verified_by: Catherine

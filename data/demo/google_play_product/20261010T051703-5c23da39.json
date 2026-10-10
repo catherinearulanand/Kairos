@@ -1,0 +1,559 @@
+{
+ "search_metadata": {
+  "id": "6ac9ca4dc20348f428541716",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/jGp3DJcP4zQTMRslOJEXDZHXPlqX1ocPsUY8mjhwJo8/6ac9ca4dc20348f428541716.json",
+  "markdown_endpoint": "https://serpapi.com/searches/jGp3DJcP4zQTMRslOJEXDZHXPlqX1ocPsUY8mjhwJo8/6ac9ca4dc20348f428541716.md",
+  "created_at": "2026-10-10 05:17:01 UTC",
+  "processed_at": "2026-10-10 05:17:01 UTC",
+  "google_play_product_url": "https://play.google.com/store/apps/details?id=com.application.zomato&hl=en&gl=in",
+  "raw_html_file": "https://serpapi.com/searches/jGp3DJcP4zQTMRslOJEXDZHXPlqX1ocPsUY8mjhwJo8/6ac9ca4dc20348f428541716.html",
+  "total_time_taken": 1.15
+ },
+ "search_parameters": {
+  "engine": "google_play_product",
+  "product_id": "com.application.zomato",
+  "hl": "en",
+  "gl": "in",
+  "store": "apps",
+  "platform": "phone",
+  "sort_by": "1"
+ },
+ "product_info": {
+  "title": "Zomato: Food Delivery & Dining",
+  "editors_choice": true,
+  "authors": [
+   {
+    "name": "Zomato",
+    "link": "https://play.google.com/store/apps/dev?id=7812834815367511165"
+   }
+  ],
+  "extensions": [
+   "Contains ads"
+  ],
+  "rating": 4.6,
+  "reviews": 14600000,
+  "content_rating": {
+   "text": "Rated for 3+",
+   "thumbnail": "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw=w48-h16-rw"
+  },
+  "downloads": "100M+",
+  "thumbnail": "https://play-lh.googleusercontent.com/F3A40FhcqC9fAoPeYpC_olDg2Upkq1UsylJCvmZmB7a26R0S6L-2Zo35-exR8n-__0M-uFTHq3T_nbS9oxDQ15w=w240-h480-rw",
+  "offers": [
+   {
+    "text": "Install",
+    "link": "https://play.google.com/store/apps/details?id=com.application.zomato&rdid=com.application.zomato&feature=md&offerId"
+   }
+  ]
+ },
+ "media": {
+  "images": [
+   "https://play-lh.googleusercontent.com/xzDubnEXG_rixL70S0tBB69w2SGvd3xkrYPNT6uw0x3Z6d9gk3BaAznEpx__jSclDkZOtoZU7AdhXbXNT4uwvg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/flSw0B9de9GnfeV3hn1TtPXxMbjmf24LyXqH2A4WFX9fk7kQr16ywXyq5T9pOwK4HgHmj0eoG0Qa4gIhulx6=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/JUBQd3EzqpPEcPeBU0wgKmV1Ij2lcoRWau_v6idp7vAkjYlRU6Ph0p-c_owPbcJyFgZ3Xpv-cTOJ6bdZ_hLutZg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/MrlCQU1rB1r4xISQRWca0S0mspOm2AZV3qTfaeM2RAJARHJKmsEL3_8pgj41z6u9JKkok3BVXRLVdAuyT__z5HA=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/NWbZmnowu-hhNOp3gSq8pXoLxRJ8Edl6VRXe380-_u0_8WNXsGxpD1AjJ1Op8Xy5C3PtDz4Uz7L9kzf8hkmH=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/xrpkyhi7KcYmkjFz5t0kTwO3bnmf3p_Soz3YZ7y_mh32G-bqHMIM7y2ygiI1EryDNobU2WTPIwTBcpM38N17wD4=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/29h-C9sYELCuHmgLhNxD7fsW45atXa-_a7zFff8sqgBpxKtQvm27J6pgQtuMkPAvlJu9-VKnXlAnOwjIAonU=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/AMxG7iejTX06wyJdFrlpZGh8HyW2MxywiiTeiLv2B3p72j1xp_dAmM7sxagKt9EoTyJtgFeLwBrcq8G7L0nV=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/xzDubnEXG_rixL70S0tBB69w2SGvd3xkrYPNT6uw0x3Z6d9gk3BaAznEpx__jSclDkZOtoZU7AdhXbXNT4uwvg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/flSw0B9de9GnfeV3hn1TtPXxMbjmf24LyXqH2A4WFX9fk7kQr16ywXyq5T9pOwK4HgHmj0eoG0Qa4gIhulx6=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/JUBQd3EzqpPEcPeBU0wgKmV1Ij2lcoRWau_v6idp7vAkjYlRU6Ph0p-c_owPbcJyFgZ3Xpv-cTOJ6bdZ_hLutZg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/MrlCQU1rB1r4xISQRWca0S0mspOm2AZV3qTfaeM2RAJARHJKmsEL3_8pgj41z6u9JKkok3BVXRLVdAuyT__z5HA=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/NWbZmnowu-hhNOp3gSq8pXoLxRJ8Edl6VRXe380-_u0_8WNXsGxpD1AjJ1Op8Xy5C3PtDz4Uz7L9kzf8hkmH=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/xrpkyhi7KcYmkjFz5t0kTwO3bnmf3p_Soz3YZ7y_mh32G-bqHMIM7y2ygiI1EryDNobU2WTPIwTBcpM38N17wD4=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/29h-C9sYELCuHmgLhNxD7fsW45atXa-_a7zFff8sqgBpxKtQvm27J6pgQtuMkPAvlJu9-VKnXlAnOwjIAonU=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/AMxG7iejTX06wyJdFrlpZGh8HyW2MxywiiTeiLv2B3p72j1xp_dAmM7sxagKt9EoTyJtgFeLwBrcq8G7L0nV=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/xzDubnEXG_rixL70S0tBB69w2SGvd3xkrYPNT6uw0x3Z6d9gk3BaAznEpx__jSclDkZOtoZU7AdhXbXNT4uwvg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/flSw0B9de9GnfeV3hn1TtPXxMbjmf24LyXqH2A4WFX9fk7kQr16ywXyq5T9pOwK4HgHmj0eoG0Qa4gIhulx6=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/JUBQd3EzqpPEcPeBU0wgKmV1Ij2lcoRWau_v6idp7vAkjYlRU6Ph0p-c_owPbcJyFgZ3Xpv-cTOJ6bdZ_hLutZg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/MrlCQU1rB1r4xISQRWca0S0mspOm2AZV3qTfaeM2RAJARHJKmsEL3_8pgj41z6u9JKkok3BVXRLVdAuyT__z5HA=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/NWbZmnowu-hhNOp3gSq8pXoLxRJ8Edl6VRXe380-_u0_8WNXsGxpD1AjJ1Op8Xy5C3PtDz4Uz7L9kzf8hkmH=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/xrpkyhi7KcYmkjFz5t0kTwO3bnmf3p_Soz3YZ7y_mh32G-bqHMIM7y2ygiI1EryDNobU2WTPIwTBcpM38N17wD4=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/29h-C9sYELCuHmgLhNxD7fsW45atXa-_a7zFff8sqgBpxKtQvm27J6pgQtuMkPAvlJu9-VKnXlAnOwjIAonU=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/AMxG7iejTX06wyJdFrlpZGh8HyW2MxywiiTeiLv2B3p72j1xp_dAmM7sxagKt9EoTyJtgFeLwBrcq8G7L0nV=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/yHFpqAgnI_SAgW9hLJBQfJk5qePlgJja1u9bp2dWabLq8rgsEHEx6ff8YYDZFvrzkV5ZLof4ntY8sr8NdDJQLA=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/eSja3W7OBXSSdWjHlFfhWwSgfoenxe6y9T6lRkZJxNJzS4YhFXJ9NOepnm9lkZAlXY3oW9kgVMyfJ69aAAd6Zg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/YFv-qoWbf1fRCuvkR_IMlxjgNXEKtJemmQlTsCJsistdbC64Gvyac-TSauvQ0iuBZqucK-nrBoJ5DhbB9CSJIcQ=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/BuO5SxKLyigFO15KIPUmLTX7bHmh1EXnoe9yJDDDu7hWnixxwP3SWFPsDvntX-9BmEpEBur1QOqS6Vqn3AoeIQ=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/W9aY1-Bf5pC2h3Rqql93aBWKPMzDfcA1G1m0rovMW9THorNIG-Ja8VCNMDpavecDDvUzHgTiEPam_x0vqosw=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/LVcrasqC06M0S0N-7Vz0GmiYYoADKAAtwSA1iqVCxZDebWx7Zza-6jATVFTzyXc5feWgk61NSY46iT3FtCaJ2g=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/GqlCDtN5jiweU-y71sgg68hV89pvMkj5K-G0l56PSg0lYCTQCXB9HhDyB0WkqSPi-f4gD7qZNCb_3zA6zDJjrA=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/4bc4U4DdG4GbpTsju71BfNBv92HT7O501TKO_USln9N0iqOENRyrWiEQi7R8BOMAUuJGbDznc2Ojiw4KQIubyg=w526-h296-rw"
+  ]
+ },
+ "about_this_app": {
+  "snippet": "Fuel up. You’ve got things to chase.Whether it’s biryani that fires you up, or a much-needed dosa break, or a pizza after a long day — Zomato delivers what keeps you moving. With 1.5 million+ restaurants, we’re here to power your hustle, one meal at a time. Since 2008, we’ve kept India’s hungriest (and busiest) fed. Here’s what you get with the Zomato app: 1) Order food that keeps up with you:🍴Food. Fast. Anywhere. 1000+ cities. Day or night. From local legends to global chains — we deliver what drives you.📍Real-time tracking. Round-the-clock support. Watch every move your food makes. Got an issue? Chat with us, anytime.💳Smart payments. Bigger discounts.Pay safely & securely with UPI, cash on delivery or cards/wallets/netbanking/buy now pay later/Pluxee/Simpl. Plus, score up to 60% OFF or a free dish.💪Big day? No time? We got you. Missed lunch? Surprise guests? Office party? Too drained to cook? Open Zomato — we move fast so you don’t have to.👀Search like a pro. Eat like a boss. Dosas to dimsum, biryani to burgers — filter by cravings, mood, budget, or speed.🌿Veg? Healthy? No compromise. Choose veg-only joints or dive into nutritionist-approved meals. Balance, your way.2) Dine out like a regular:✅Find your next go-to spot Look up restaurant menus, ratings, reviews, photos, contact details, map directions. Use search filters to find restaurants that fit your budget or are close by, or just refer to our curated lists called ‘Collections’ — all in one scroll.👫Book tables, skip the line Hustlers don’t wait. Reserve ahead and walk right in.💰Pay smart. Earn while you eat. Pay your bill on Zomato to get the biggest discounts & up to 100% cashback.👌Rate, review, rep your favourites Share the love. Drop honest reviews and help fellow foodies make the right call.Zomato runs across India & UAE. Some features are city-specific. #1 food delivery app in India, according to Play Store ratings & SimilarWeb.",
+  "version": "19.9.3",
+  "requires_android": "7.0",
+  "released_on": "Jan 10, 2011",
+  "updated_on": "Oct 6, 2026",
+  "downloads": "100,000,000+",
+  "content_rating": "Rated for 3+",
+  "interactive_elements": "Users Interact",
+  "offered_by": "Zomato",
+  "permissions": [
+   {
+    "type": "Identity",
+    "details": [
+     "find accounts on the device"
+    ]
+   },
+   {
+    "type": "Contacts",
+    "details": [
+     "find accounts on the device",
+     "read your contacts"
+    ]
+   },
+   {
+    "type": "Location",
+    "details": [
+     "approximate location (network-based)",
+     "precise location (GPS and network-based)"
+    ]
+   },
+   {
+    "type": "Phone",
+    "details": [
+     "directly call phone numbers",
+     "read phone status and identity"
+    ]
+   },
+   {
+    "type": "Photos/Media/Files",
+    "details": [
+     "read the contents of your USB storage",
+     "modify or delete the contents of your USB storage"
+    ]
+   },
+   {
+    "type": "Storage",
+    "details": [
+     "read the contents of your USB storage",
+     "modify or delete the contents of your USB storage"
+    ]
+   },
+   {
+    "type": "Camera",
+    "details": [
+     "take pictures and videos"
+    ]
+   },
+   {
+    "type": "Microphone",
+    "details": [
+     "record audio"
+    ]
+   },
+   {
+    "type": "Wi-Fi connection information",
+    "details": [
+     "view Wi-Fi connections"
+    ]
+   },
+   {
+    "type": "Device ID & call information",
+    "details": [
+     "read phone status and identity"
+    ]
+   },
+   {
+    "type": "Other",
+    "details": [
+     "view network connections",
+     "connect and disconnect from Wi-Fi",
+     "full network access",
+     "change your audio settings",
+     "run at startup",
+     "use accounts on the device",
+     "control vibration",
+     "prevent device from sleeping",
+     "read Google service configuration",
+     "receive data from Internet"
+    ]
+   }
+  ]
+ },
+ "badges": [
+  {
+   "name": "#4 top free food & drink"
+  }
+ ],
+ "categories": [
+  {
+   "name": "Food & Drink",
+   "link": "https://play.google.com/store/apps/category/FOOD_AND_DRINK",
+   "category_id": "FOOD_AND_DRINK",
+   "serpapi_link": "https://serpapi.com/search.json?apps_category=FOOD_AND_DRINK&engine=google_play&gl=in&hl=en&store=apps"
+  }
+ ],
+ "updated_on": "Oct 6, 2026",
+ "data_safety": [
+  {
+   "text": "This app may share these data types with third parties",
+   "subtext": "Location, Personal info and 2 others"
+  },
+  {
+   "text": "This app may collect these data types",
+   "subtext": "Location, Personal info and 7 others"
+  },
+  {
+   "text": "Data is encrypted in transit"
+  },
+  {
+   "text": "You can request that data be deleted"
+  }
+ ],
+ "ratings": [
+  {
+   "stars": 1,
+   "count": 611995
+  },
+  {
+   "stars": 2,
+   "count": 235023
+  },
+  {
+   "stars": 3,
+   "count": 647316
+  },
+  {
+   "stars": 4,
+   "count": 1911026
+  },
+  {
+   "stars": 5,
+   "count": 11087162
+  }
+ ],
+ "reviews": [
+  {
+   "id": "5787b9cf7d21a9d0",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience. While placing an order, payment failed and I received no confirmation message or notification, so I assumed the order was not placed and ordered again from another phone",
+   "likes": 9,
+   "date": "September 05, 2026",
+   "iso_date": "2026-09-05T16:13:45Z"
+  },
+  {
+   "id": "6e386638d3ddc5f4",
+   "rating": 1.0,
+   "snippet": "The payment system is a scam. They always try to convert to another currency with inconvenient rate, I many times ticked \"remember for future payments\" and still sets the wrong currency by default. Th",
+   "likes": 5,
+   "date": "September 17, 2026",
+   "iso_date": "2026-09-17T10:58:45Z"
+  },
+  {
+   "id": "9612a068a69022cb",
+   "rating": 5.0,
+   "snippet": "Zomato is a very convenient food delivery app with a wide variety of restaurants and food options. The app is easy to use, and finding my favourite dishes is quick and simple. I like that I can check ",
+   "likes": 9,
+   "date": "September 08, 2026",
+   "iso_date": "2026-09-08T07:10:08Z"
+  },
+  {
+   "id": "7dcb17c09c34a080",
+   "rating": 1.0,
+   "snippet": "The worst experience I had to wait for 1 hour and 45 mins for an order for a restaurant that is literally 3 mins away. AND I STILL HAVEN'T RECEIVED IT. I had no other option other than to cancel it. I",
+   "likes": 11,
+   "date": "September 02, 2026",
+   "iso_date": "2026-09-02T14:12:28Z"
+  },
+  {
+   "id": "fa087bdfbb0d5a33",
+   "rating": 5.0,
+   "snippet": "I’ve been using Zomato for quite some time and overall I’m happy with it. The app is easy to use, there are lots of restaurants to choose from, and ordering is pretty simple. Delivery is usually on ti",
+   "likes": 7,
+   "date": "September 15, 2026",
+   "iso_date": "2026-09-15T13:37:03Z"
+  },
+  {
+   "id": "0312e27aa69a0c33",
+   "rating": 2.0,
+   "snippet": "1. High moq (199rs) for free delivery with gold membership 2. Frequently items miss in my orders 3. No customer care number to contact. It is all computerised support they have. We can't even explain ",
+   "likes": 9,
+   "date": "September 10, 2026",
+   "iso_date": "2026-09-10T18:51:00Z"
+  },
+  {
+   "id": "2a335829ca4eb440",
+   "rating": 1.0,
+   "snippet": "They always show me more money on Zomato and I also get coupons for less... I never get any good offer. not satisfied....I don't get any offers on Zomato and it shows all the expensive ones. I uninsta",
+   "likes": 6,
+   "date": "September 12, 2026",
+   "iso_date": "2026-09-12T18:39:35Z"
+  },
+  {
+   "id": "632500a00dd70e1c",
+   "rating": 2.0,
+   "snippet": "The offers are already very limited, and whenever there is an issue with an order, the resolution is not handled properly either. Now you’re charging extra for COD as well, and the charges are inconsi",
+   "likes": 11,
+   "date": "September 08, 2026",
+   "iso_date": "2026-09-08T19:26:08Z"
+  },
+  {
+   "id": "f72cb396017f64f4",
+   "rating": 1.0,
+   "snippet": "No resolutions of issues related to missing items, food quality, quantity. It just says to write a mail. So I guess that's what you charge platform fees for. Chat support is bad, and doesn't give you ",
+   "likes": 85,
+   "date": "September 12, 2026",
+   "iso_date": "2026-09-12T08:29:47Z"
+  },
+  {
+   "id": "34243a5756eba756",
+   "rating": 1.0,
+   "snippet": "For the past 1–2 weeks, whenever I place a food order, a delivery partner who is located quite far from the restaurant is being assigned. As a result, my food consistently arrives cold and not in an a",
+   "likes": 12,
+   "date": "September 05, 2026",
+   "iso_date": "2026-09-05T08:14:52Z"
+  },
+  {
+   "id": "281deb6874efb6d3",
+   "rating": 2.0,
+   "snippet": "I have noticed that zomato has consistently increased prices on its item to the point where it doesn't make sense. First there was that ridiculous platform fee, now they are charging extra for COD too",
+   "likes": 7,
+   "date": "September 14, 2026",
+   "iso_date": "2026-09-14T09:37:13Z"
+  },
+  {
+   "id": "8ab48b5bb415c0c0",
+   "rating": 1.0,
+   "snippet": "It was good in the beginning, but now it feels like the focus is only on charging loyal customers more. Even after paying for Gold membership, there are platform fees, handling charges, and many other",
+   "likes": 45,
+   "date": "August 12, 2026",
+   "iso_date": "2026-08-12T16:23:35Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "April 04, 2025",
+    "iso_date": "2025-04-04T16:23:35Z"
+   }
+  },
+  {
+   "id": "58cf72ff7b994bed",
+   "rating": 1.0,
+   "snippet": "I've been using Zomato for 4–5 years, but I've had some very frustrating experiences. Sometimes a delivery partner is assigned from 20 km away, so the food gets prepared but isn't picked up on time. T",
+   "likes": 36,
+   "date": "July 02, 2026",
+   "iso_date": "2026-07-02T15:07:09Z"
+  },
+  {
+   "id": "1e5b5e97cb086680",
+   "rating": 1.0,
+   "snippet": "Worst support experience. The chatbot doesn't let you do anything. Please don't use AI just for the sake of it. Where is my order and I want to send delivery instructions are the only options. Even af",
+   "likes": 16,
+   "date": "August 18, 2026",
+   "iso_date": "2026-08-18T19:24:48Z"
+  },
+  {
+   "id": "1c30b2d8514dfc0b",
+   "rating": 1.0,
+   "snippet": "Their customer relations after service is the worst . Restaurants do fraud but they do not take any responsibility, even after uploading pictures and videos. think twice before ordering anything from ",
+   "likes": 7,
+   "date": "September 12, 2026",
+   "iso_date": "2026-09-12T15:48:03Z"
+  },
+  {
+   "id": "7bf2986d101f3550",
+   "rating": 1.0,
+   "snippet": "Disappointing Experience The order from Bengali Sweet Center was quite disappointing. The quantity was much less than expected and, more importantly, it was not accurate as per the quantity ordered. C",
+   "likes": 15,
+   "date": "August 28, 2026",
+   "iso_date": "2026-08-28T13:57:54Z"
+  },
+  {
+   "id": "8792e8ece50324d4",
+   "rating": 1.0,
+   "snippet": "Had a really bad experience today. I ordered a falooda from a juice shop, and it arrived completely spilled due to poor packaging. Mistakes can happen, but the customer support experience made it even",
+   "likes": 8,
+   "date": "September 09, 2026",
+   "iso_date": "2026-09-09T15:29:51Z"
+  },
+  {
+   "id": "59e064e6dc9db3be",
+   "rating": 2.0,
+   "snippet": "Good restaurant selection and convenient, but pricing is increasingly difficult to justify. Food prices are often higher than the outlet menu and seem to keep increasing even when the actual menu pric",
+   "likes": 7,
+   "date": "September 12, 2026",
+   "iso_date": "2026-09-12T07:21:23Z"
+  },
+  {
+   "id": "c05458517109233b",
+   "rating": 1.0,
+   "snippet": "Very disappointing customer support experience. I received a product that was different from what was shown on the app and raised a complaint with proof. I was also charged twice for the same order be",
+   "likes": 14,
+   "date": "August 29, 2026",
+   "iso_date": "2026-08-29T06:46:30Z"
+  },
+  {
+   "id": "74249e8e92461d2c",
+   "rating": 1.0,
+   "snippet": "Very disappointing customer support. I paid ₹540 for my order, but one of the items was missing. I was offered a ₹155 promo as compensation and was repeatedly given different timelines—first 2 hours, ",
+   "likes": 10,
+   "date": "September 02, 2026",
+   "iso_date": "2026-09-02T06:59:00Z"
+  }
+ ],
+ "serpapi_pagination": {
+  "next": "https://serpapi.com/search.json?all_reviews=true&engine=google_play_product&gl=in&hl=en&next_page_token=CrUBIqwBAV8d1P3-bHy5xrgVVeo9eGt5HseVuvaI_eAp4C8I2m33MF5cM18BCUEyEGFkAhY3KaN0pLuVhuBcr3KYA_Bzqks6Rb6kigghtEHRDcuG-myvOlwyCK8NevsQIrDTylYcx6YXPd_h3DYKl2V3d123j8yfRE-l_9Cgkx4o5NgZZenK2fneZahf9JHZwYc_EftI-N0jpduspDcKI1usEbC29a8AGOXKJfzZd9OyUSiN4KbWBg&platform=phone&product_id=com.application.zomato&sort_by=1&store=apps",
+  "next_page_token": "CrUBIqwBAV8d1P3-bHy5xrgVVeo9eGt5HseVuvaI_eAp4C8I2m33MF5cM18BCUEyEGFkAhY3KaN0pLuVhuBcr3KYA_Bzqks6Rb6kigghtEHRDcuG-myvOlwyCK8NevsQIrDTylYcx6YXPd_h3DYKl2V3d123j8yfRE-l_9Cgkx4o5NgZZenK2fneZahf9JHZwYc_EftI-N0jpduspDcKI1usEbC29a8AGOXKJfzZd9OyUSiN4KbWBg"
+ },
+ "developer_contact": {
+  "website": "https://www.zomato.com",
+  "support_email": "android@zomato.com",
+  "privacy_policy": "https://www.zomato.com/privacy",
+  "name": "ETERNAL LIMITED",
+  "alternative_email": "asheesh.a@zomato.com",
+  "address": "Ground Floor, 12A, 94 Meghdoot, Nehru Place, South Delhi, Delhi, 110019 India",
+  "phone_number": "+1 815-214-9414"
+ },
+ "similar_results": [
+  {
+   "title": "More by Zomato",
+   "see_more_link": "https://play.google.com/store/apps/dev?id=7812834815367511165",
+   "items": [
+    {
+     "title": "District: Movies Events Dining",
+     "link": "https://play.google.com/store/apps/details?id=com.application.zomato.district",
+     "product_id": "com.application.zomato.district",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.application.zomato.district&sort_by=1&store=apps",
+     "rating": 4.7,
+     "extension": [
+      "Zomato"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/t0LH2EDF97k1-d2i8kSh_vUlZlnntAGWRYIX8BVSRSAyMGUlNAraa-q4kez1YMKQmGc_9BeEFGmD3wTud5NDOg=s64-rw"
+    },
+    {
+     "title": "Zomato Restaurant Partner",
+     "link": "https://play.google.com/store/apps/details?id=com.application.services.partner",
+     "product_id": "com.application.services.partner",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.application.services.partner&sort_by=1&store=apps",
+     "rating": 4.6,
+     "extension": [
+      "Zomato"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/2nrk5vf5YzHoPAfGZuIVODZouadaZwZc8qw3RNpKMMfa-vHFb0Ug5ATTNJ1LIAMORF7nbzepadwfDO1CjzNB=s64-rw"
+    },
+    {
+     "title": "Hyperpure",
+     "link": "https://play.google.com/store/apps/details?id=com.wotu.app",
+     "product_id": "com.wotu.app",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.wotu.app&sort_by=1&store=apps",
+     "rating": 4.6,
+     "extension": [
+      "Zomato"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/mrJ13wWTlHG2qxvPaB2pn53GEgrnoa570ord0hFZlp5ZwR9WgY69B-k7Hpi5tBi3NGSqvRcwEHNWyZFJ0WrTzw=s64-rw"
+    },
+    {
+     "title": "Zomato Dining Partner",
+     "link": "https://play.google.com/store/apps/details?id=com.application.zomato.partner.dining",
+     "product_id": "com.application.zomato.partner.dining",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.application.zomato.partner.dining&sort_by=1&store=apps",
+     "rating": 3.7,
+     "extension": [
+      "Zomato"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/OjNC4zYaCgQznhn-XB2hVjNSj3jkjRiw51M9pVArf4cnvWAS2qjz37T8A7vKcWaO5T6UcDB-A_Y8BqIJFBVUNg=s64-rw"
+    },
+    {
+     "title": "District Play Partner",
+     "link": "https://play.google.com/store/apps/details?id=com.eternal.district.play.partner",
+     "product_id": "com.eternal.district.play.partner",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.eternal.district.play.partner&sort_by=1&store=apps",
+     "rating": 3.4,
+     "extension": [
+      "Zomato"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/grutIdo_z3zCLXIqECzxk4n16hy4Hvb4Aixp9otCu2OIcmFa4x0jY5fnX-jprGJCdMmYFwsEuEqtJRNKoudJ=s64-rw"
+    },
+    {
+     "title": "insider.in: Events Near You",
+     "link": "https://play.google.com/store/apps/details?id=in.insider.consumer",
+     "product_id": "in.insider.consumer",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.insider.consumer&sort_by=1&store=apps",
+     "rating": 3.7,
+     "extension": [
+      "Zomato"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/dmHEaFR5HOcotoK6R-DOhCT2hXccaudwAzekz4ND5p0Xs9XvfVADH3vKhcvIniydsT6FIpdA_LL2tsJTF_l2hxA=s64-rw"
+    }
+   ]
+  },
+  {
+   "title": "Similar apps",
+   "see_more_link": "https://play.google.com/store/apps/collection/cluster?gsr=SogBaix1V0x1UTBYWk82Qk1NUEFDYUtnNWRmU0ZEVU1ibnZGa3VlRWxvSURVTFRVPcICVAoaChZjb20uYXBwbGljYXRpb24uem9tYXRvEAcYCDABOABKKggBEAAaHlpvbWF0bzogRm9vZCBEZWxpdmVyeSAmIERpbmluZyAAKAAwAFAAWAFgALASAA%3D%3D:S:ANO1ljK5cmo",
+   "see_more_token": "SogBaix1V0x1UTBYWk82Qk1NUEFDYUtnNWRmU0ZEVU1ibnZGa3VlRWxvSURVTFRVPcICVAoaChZjb20uYXBwbGljYXRpb24uem9tYXRvEAcYCDABOABKKggBEAAaHlpvbWF0bzogRm9vZCBEZWxpdmVyeSAmIERpbmluZyAAKAAwAFAAWAFgALASAA%3D%3D:S:ANO1ljK5cmo",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_play&gl=in&hl=en&see_more_token=SogBaix1V0x1UTBYWk82Qk1NUEFDYUtnNWRmU0ZEVU1ibnZGa3VlRWxvSURVTFRVPcICVAoaChZjb20uYXBwbGljYXRpb24uem9tYXRvEAcYCDABOABKKggBEAAaHlpvbWF0bzogRm9vZCBEZWxpdmVyeSAmIERpbmluZyAAKAAwAFAAWAFgALASAA%253D%253D%3AS%3AANO1ljK5cmo&store=apps",
+   "items": [
+    {
+     "title": "Swiggy: Food Instamart Dineout",
+     "link": "https://play.google.com/store/apps/details?id=in.swiggy.android",
+     "product_id": "in.swiggy.android",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.swiggy.android&sort_by=1&store=apps",
+     "rating": 4.5,
+     "extension": [
+      "Swiggy"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/FJ5W5ygiN-DYfpd2-3LqyN5F-OxDtQ7z_9v5nAeD4vOrN8kQitoOwULactKgKvktXowVEM491wE-unmGmnt8OWM=s64-rw"
+    },
+    {
+     "title": "JioHotstar",
+     "link": "https://play.google.com/store/apps/details?id=in.startv.hotstar",
+     "product_id": "in.startv.hotstar",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.startv.hotstar&sort_by=1&store=apps",
+     "rating": 4.3,
+     "extension": [
+      "JIOSTAR INDIA PRIVATE LIMITED"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/02xiO0ptbXjD8NR3sbS2StP1P9aytDN56dDR15zqM_i66Vwq5W_hD-98CoFxvRVoUS4uV_xMSv-iQh3nQFeDeQ=s64-rw"
+    },
+    {
+     "title": "Blinkit: Groceries & more",
+     "link": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
+     "product_id": "com.grofers.customerapp",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.grofers.customerapp&sort_by=1&store=apps",
+     "rating": 4.6,
+     "extension": [
+      "Blinkit"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/dY1ryTjOaVsnslxvNamNvSBulmDUkvW5f5FJ_HDApMfecSOIxjCafpNAv4LTG8TJVyp0XR9tAAaRI4K77Eiqfg=s64-rw"
+    },
+    {
+     "title": "PhonePe UPI Payments, Loan App",
+     "link": "https://play.google.com/store/apps/details?id=com.phonepe.app",
+     "product_id": "com.phonepe.app",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.phonepe.app&sort_by=1&store=apps",
+     "rating": 4.4,
+     "extension": [
+      "PhonePe"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/ARGoCZk-5QCKPpyTsGhn1WahhPbVMa95T1U7clwnI8gjtW-YNY96rAANqFkuENbU35IbYF2Gjg2UjZXA495x0A=s64-rw"
+    },
+    {
+     "title": "Meesho: Online Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.meesho.supply",
+     "product_id": "com.meesho.supply",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.meesho.supply&sort_by=1&store=apps",
+     "rating": 4.4,
+     "extension": [
+      "Meesho"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/lQrsRJ7PT25f2J8n14Zp4j0695_2NIpIUEQpG6bEuljhk7oJ8q_GeA5iYgWm1DiDq0WFPBWP4iaJcXi4XPwoWCk=s64-rw"
+    },
+    {
+     "title": "Flipkart Online Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.flipkart.android",
+     "product_id": "com.flipkart.android",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.flipkart.android&sort_by=1&store=apps",
+     "rating": 4.3,
+     "extension": [
+      "Flipkart"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/mlWjVjxflQoYJHBBgDQ08FqT8i3KnDG__2RH8P-GWOKlEPAIo8TllTZo3HDQ3J5zlO6oAhc1FAv0Bf2on0wL8w=s64-rw"
+    }
+   ]
+  }
+ ]
+}
