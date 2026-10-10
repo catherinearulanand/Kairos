@@ -63,8 +63,43 @@ class Observation(BaseModel):
     raw_sha256: str
 ```
 
+### Analytics contract (Part 2 implements in `kairos/tools.py`; Part 3 only reads it)
+
+```python
+list_entities() -> list[dict]            # {entity_id, name, nse_ticker, sensors: [ids with data]}
+get_signals(entity_id, sensor=None, weeks=12) -> list[dict]
+    # {sensor, metric, label, unit, dims, points: [{week, value, capture_id, dims, captured_at, sample_n}]}
+    # A week with no reading is absent, never 0. Ads returns separate recent/prior series:
+    # key chart series by (sensor, metric, dims.window); these are rolling windows, not weekly totals.
+get_alerts(entity_id=None) -> list[dict]  # every rule evaluation, fired or not
+explain_alert(alert_id) -> dict           # alert plus "evidence" rows and "captures" metadata
+
+alert = {
+  "alert_id": "NYKAA:R1:2026-09-27",      # entity:rule:as_of, deterministic
+  "entity_id": str, "rule_id": "R1"|"R2"|"R3", "role": "headline"|"context",
+  "status": "fired"|"not_fired"|"insufficient", "reason": str | None,   # reason set when insufficient
+  "as_of": iso_date, "windows": {name: [start, end]},
+  "sentence": str,                        # template filled by the engine, no model involved
+  "llm_context": str | None,              # model-written, contains no digits; show it labelled as such
+  "conditions": [{"name", "value", "op", "threshold", "unit", "passed"}],
+  "base_rate": {"n": int, "m": int} | None,   # R1 only: "true in n of m weeks"
+  "evidence_capture_ids": [str],          # keys into captures.capture_id
+}
+```
+
+Alerts are recomputed from observations on each call (no network); `KAIROS_OFFLINE=1` or a missing
+`data/kairos.db` reads `data/demo/kairos.db`. Thresholds live in `rules.yaml`.
+
 - Raw responses: `data/raw/<engine>/<capture_id>.json` (gitignored); demo copies in `data/demo/` (committed, reviewer names and profile links removed).
-- Database: one SQLite file, tables `observations`, `captures`, `alerts`.
+- Source database: `data/kairos.db` (or committed `data/demo/kairos.db` offline), tables
+  `observations` and `captures`. Analytics opens sources read-only; collection keeps its
+  existing schema and workflow.
+- Alerts and optional LLM context: separate gitignored `data/alerts.db` (override with
+  `KAIROS_ALERTS_DB`). Context is reused only for identical analytical inputs; changed evidence,
+  conditions or status invalidates it. The committed demo database is never an alert cache.
+- Evidence metadata returned by `explain_alert` includes engine, params, captured_at, path,
+  raw_sha256 and fixture_sha256. Paths are relative to the repository root; the fixture hash
+  verifies sanitized demo bytes, while the raw hash preserves original response provenance.
 - Branches: `part1-data`, `part2-analytics`, `part3-app`. Small pull requests into `main`.
 - `.env` is gitignored from the first commit; no key is ever committed.
 
@@ -83,7 +118,7 @@ Done when: `kairos snapshot --entity NYKAA` fills the database, and tests pass o
 
 ### Part 2: Store and analytics
 
-Owns `kairos/store/`, `kairos/analytics/`, `kairos/llm/`, `kairos/tools.py`, `rules.yaml`, `tests/analytics/`.
+Owns `kairos/store.py`, `kairos/analytics/`, `kairos/llm/`, `kairos/tools.py`, `rules.yaml`, `tests/analytics/`.
 
 1. SQLite schema and insert/read helpers for the three tables.
 2. Weekly normalisation: search share per week, weekly last close, no forward-fill.
