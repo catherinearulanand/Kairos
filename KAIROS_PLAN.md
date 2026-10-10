@@ -63,6 +63,31 @@ class Observation(BaseModel):
     raw_sha256: str
 ```
 
+### Analytics contract (Part 2 implements in `kairos/tools.py`; Part 3 only reads it)
+
+```python
+list_entities() -> list[dict]            # {entity_id, name, nse_ticker, sensors: [ids with data]}
+get_signals(entity_id, sensor=None, weeks=12) -> list[dict]
+    # {sensor, metric, label, unit, points: [{week, value, capture_id}]}; a week with no reading is absent, never 0
+get_alerts(entity_id=None) -> list[dict]  # every rule evaluation, fired or not
+explain_alert(alert_id) -> dict           # the alert plus "evidence": [observation rows used]
+
+alert = {
+  "alert_id": "NYKAA:R1:2026-09-27",      # entity:rule:as_of, deterministic
+  "entity_id": str, "rule_id": "R1"|"R2"|"R3", "role": "headline"|"context",
+  "status": "fired"|"not_fired"|"insufficient", "reason": str | None,   # reason set when insufficient
+  "as_of": iso_date, "windows": {name: [start, end]},
+  "sentence": str,                        # template filled by the engine, no model involved
+  "llm_context": str | None,              # model-written, contains no digits; show it labelled as such
+  "conditions": [{"name", "value", "op", "threshold", "unit", "passed"}],
+  "base_rate": {"n": int, "m": int} | None,   # R1 only: "true in n of m weeks"
+  "evidence_capture_ids": [str],          # keys into captures.capture_id
+}
+```
+
+Alerts are recomputed from observations on each call (no network); `KAIROS_OFFLINE=1` or a missing
+`data/kairos.db` reads `data/demo/kairos.db`. Thresholds live in `rules.yaml`.
+
 - Raw responses: `data/raw/<engine>/<capture_id>.json` (gitignored); demo copies in `data/demo/` (committed, reviewer names and profile links removed).
 - Database: one SQLite file, tables `observations`, `captures`, `alerts`.
 - Branches: `part1-data`, `part2-analytics`, `part3-app`. Small pull requests into `main`.

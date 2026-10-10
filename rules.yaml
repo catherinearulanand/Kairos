@@ -1,0 +1,13 @@
+# Starting heuristics, not calibrated values. Edit here; code reads nothing else.
+R1:   # headline: search share and price point in opposite directions
+  recent_weeks: 4
+  baseline_weeks: 8
+  share_change_pct: 15
+  price_return_pct: 8
+  max_daily_move_pct: 20     # bigger single-day move in the window = possible split/bonus
+R2:   # context: recent Play review mean vs displayed rating
+  gap: 0.3
+  min_sample_n: 50
+R3:   # context: active ad creatives, recent 14 days vs prior 14 days
+  ratio: 2
+  min_prior: 5
