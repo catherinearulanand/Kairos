@@ -88,6 +88,8 @@ class SerpClient:
     ):
         if mode not in ("live", "cache", "offline"):
             raise ValueError(f"unknown mode {mode!r}")
+        if reserve < 0:
+            raise ValueError("reserve must be nonnegative")
         self.root = Path(root)
         self.mode = "offline" if os.environ.get("KAIROS_OFFLINE") == "1" else mode
         self._key = api_key or os.environ.get("SERPAPI_API_KEY") or ""
@@ -114,7 +116,7 @@ class SerpClient:
         h = params_hash(p)
         tag = {"entity_id": entity_id, "sensor": sensor, "role": role}
 
-        if self.mode == "offline":
+        if self.mode == "offline" or os.environ.get("KAIROS_OFFLINE") == "1":
             return self._offline(h, p["engine"], tag)
 
         if h in self._run:                      # same request earlier in this run
@@ -131,17 +133,19 @@ class SerpClient:
 
     def account(self) -> dict:
         """Plan and quota from SerpApi's Account API (free). Identity fields are dropped."""
+        self._require_online()
         self._need_key()
         status, body = self._transport(ACCOUNT_URL + "?" + urllib.parse.urlencode({"api_key": self._key}))
         data = _json(body)
         if status != 200 or "error" in data:
-            raise SerpError(f"account API: {data.get('error', f'HTTP {status}')}")
+            raise SerpError(self._redact(f"account API: {data.get('error', f'HTTP {status}')}"))
         keep = ("plan_name", "searches_per_month", "plan_searches_left", "extra_credits",
                 "total_searches_left", "this_month_usage", "this_hour_searches",
                 "account_rate_limit_per_hour")
         return {k: data.get(k) for k in keep}
 
     def searches_left(self) -> int | None:
+        self._require_online()
         if not self._left_known:
             try:
                 self._left = self.account().get("total_searches_left")
@@ -159,6 +163,13 @@ class SerpClient:
     def _need_key(self) -> None:
         if not self._key:
             raise SerpError("SERPAPI_API_KEY is not set (put it in .env, never in the repo)")
+
+    def _require_online(self) -> None:
+        if self.mode == "offline" or os.environ.get("KAIROS_OFFLINE") == "1":
+            raise OfflineMiss("offline: Account API access is disabled")
+
+    def _redact(self, message: str) -> str:
+        return message.replace(self._key, "REDACTED") if self._key else message
 
     def _offline(self, h: str, engine: str, tag: dict) -> Capture:
         # Committed demo set first, then local captures newest first.
@@ -184,6 +195,9 @@ class SerpClient:
     def _call(self, p: dict[str, str], h: str, tag: dict) -> Capture:
         self._need_key()
         left = self.searches_left()
+        if left is None and self.reserve:
+            raise BudgetError("account quota is unavailable; cannot enforce the credit reserve. "
+                              "Retry later, or explicitly use --reserve 0 to proceed without the quota guard")
         if left is not None and left - 1 < self.reserve:
             raise BudgetError(f"{left} searches left on '{self.key_label}'; reserve is {self.reserve}")
 
@@ -200,7 +214,7 @@ class SerpClient:
             if attempt == 1:
                 time.sleep(2)
         if failed or (err and not empty) or status != 200:
-            raise SerpError(f"{p['engine']}: {err or f'HTTP {status}'}")
+            raise SerpError(self._redact(f"{p['engine']}: {err or f'HTTP {status}'}"))
 
         text = body.decode("utf-8", errors="replace").replace(self._key, "REDACTED")
         stored = text.encode("utf-8")

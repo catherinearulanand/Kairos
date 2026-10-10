@@ -111,3 +111,35 @@ def test_account_drops_identity_fields(tmp_path, serp):
 def test_missing_key_is_a_clear_error(tmp_path, serp):
     with pytest.raises(SerpError, match="SERPAPI_API_KEY"):
         SerpClient(tmp_path, mode="live", transport=serp).search(Q)
+
+
+@pytest.mark.parametrize("method", ["account", "searches_left"])
+@pytest.mark.parametrize("key", [None, KEY])
+@pytest.mark.parametrize("override", [False, True])
+def test_account_paths_cannot_escape_offline(tmp_path, monkeypatch, method, key, override):
+    calls = []
+    c = SerpClient(tmp_path, mode="live" if override else "offline", api_key=key,
+                   transport=lambda url: calls.append(url))
+    if override:
+        monkeypatch.setenv("KAIROS_OFFLINE", "1")
+    with pytest.raises(OfflineMiss):
+        getattr(c, method)()
+    assert calls == []
+
+
+def test_unavailable_quota_does_not_silently_spend_reserve(tmp_path, serp):
+    def no_account(url):
+        if "account.json" in url:
+            return 503, b'{"error":"unavailable"}'
+        return serp(url)
+    with pytest.raises(BudgetError, match="quota is unavailable"):
+        SerpClient(tmp_path, mode="live", api_key=KEY, transport=no_account).search(Q)
+    assert not serp.calls
+    assert SerpClient(tmp_path, mode="live", api_key=KEY, reserve=0, transport=no_account).search(Q)
+
+
+def test_provider_error_redacts_echoed_key(tmp_path, serp):
+    serp.override = (401, {"error": f"Rejected token {KEY}"})
+    with pytest.raises(SerpError) as err:
+        client(tmp_path, serp).search(Q)
+    assert KEY not in str(err.value)

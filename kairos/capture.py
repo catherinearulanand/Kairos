@@ -14,7 +14,12 @@ import hashlib
 import json
 import os
 import sys
-from datetime import date
+import sqlite3
+import shutil
+import tempfile
+import uuid
+from contextlib import closing
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from kairos import db
@@ -31,6 +36,8 @@ DEMO_DB_PATH = "data/demo/kairos.db"
 
 def plan(entities: list[Entity], today: date, sensors: list[str] | None = None):
     """Every request a snapshot would make: (entity, sensor, role, params)."""
+    if sensors and set(sensors) - REGISTRY.keys():
+        raise ValueError(f"unknown sensors: {', '.join(sorted(set(sensors) - REGISTRY.keys()))}")
     out = []
     for e in entities:
         for sid, sensor in REGISTRY.items():
@@ -59,92 +66,157 @@ def run_snapshot(
     observations: its readings stay missing, they never become zero."""
     root = Path(root)
     today = today or today_ist()
-    conn = db.connect(db_path or root / DB_PATH)
     result = {"ok": [], "failed": []}
     by_sensor: dict[tuple[str, str], dict] = {}
     for e, sensor, role, params in plan(entities, today, sensors):
         by_sensor.setdefault((e.entity_id, sensor.id), {"e": e, "s": sensor, "req": {}})["req"][role] = params
 
-    for (entity_id, sid), job in by_sensor.items():
-        e, sensor = job["e"], job["s"]
-        try:
-            captures = {role: client.search(params, entity_id=entity_id, sensor=sid, role=role)
-                        for role, params in job["req"].items()}
-            rows = sensor.parse(e, captures, root)
-        except (SerpError, ValueError, KeyError, TypeError, OSError) as err:
-            result["failed"].append((entity_id, sid, f"{type(err).__name__}: {err}"))
-            log(f"  FAILED  {entity_id:8} {sid:13} {type(err).__name__}: {err}")
-            continue
+    with closing(db.connect(db_path or root / DB_PATH)) as conn:
+        # Preserve the legacy successful baseline before the first new replay/bundle.
+        # Otherwise an older offline replay could hide newer pre-migration live data.
         with conn:
-            db.write_captures(conn, list(captures.values()))
-            db.write_observations(conn, rows)
-        credits = sum(c.credits_charged for c in captures.values())
-        result["ok"].append((entity_id, sid, len(rows)))
-        log(f"  ok      {entity_id:8} {sid:13} {len(rows):4} observations, {credits} credit(s)")
-    conn.close()
+            for (eid, sid), captures in _committed_bundles(root, conn).items():
+                entity = next((e for e in entities if e.entity_id == eid), None)
+                if entity and sid in REGISTRY and set(captures) == set(REGISTRY[sid].requests(entity, today)):
+                    db.write_bundle(conn, list(captures.values()))
+        for (entity_id, sid), job in by_sensor.items():
+            e, sensor = job["e"], job["s"]
+            run_id = uuid.uuid4().hex
+            with conn:
+                conn.execute("INSERT INTO sensor_runs VALUES (?,?,?,?,NULL,'running',NULL,NULL)",
+                             (run_id, entity_id, sid, datetime.now(timezone.utc).isoformat()))
+            try:
+                captures = {role: client.search(params, entity_id=entity_id, sensor=sid, role=role)
+                            for role, params in job["req"].items()}
+                rows = sensor.parse(e, captures, root)
+                with conn:
+                    db.write_captures(conn, list(captures.values()))
+                    db.write_observations(conn, rows)
+                    bundle_id = db.write_bundle(conn, list(captures.values()))
+                    conn.execute("UPDATE sensor_runs SET status='ok', completed_at=?, bundle_id=? WHERE run_id=?",
+                                 (datetime.now(timezone.utc).isoformat(), bundle_id, run_id))
+            except (SerpError, ValueError, KeyError, TypeError, OSError) as err:
+                message = f"{type(err).__name__}: {err}"
+                with conn:
+                    conn.execute("UPDATE sensor_runs SET status='failed', completed_at=?, error=? WHERE run_id=?",
+                                 (datetime.now(timezone.utc).isoformat(), message, run_id))
+                result["failed"].append((entity_id, sid, message))
+                log(f"  FAILED  {entity_id:8} {sid:13} {message}")
+                continue
+            credits = sum(c.credits_charged for c in captures.values())
+            result["ok"].append((entity_id, sid, len(rows)))
+            log(f"  ok      {entity_id:8} {sid:13} {len(rows):4} observations, {credits} credit(s)")
     return result
 
 
+def _committed_bundles(root, conn):
+    bundles = db.read_bundles(conn)
+    # Legacy captures were written only after a complete sensor parsed successfully.
+    # Their exact attempt boundaries are unavailable; never use uncommitted ledger rows.
+    known = {(c.capture_id, c.entity_id, c.sensor, c.role): c for base in (ledger.DEMO_DIR, ledger.RAW_DIR)
+             for c in ledger.load(ledger.manifest_path(root, base))}
+    legacy = {}
+    conn.row_factory = sqlite3.Row
+    for row in conn.execute("SELECT * FROM captures ORDER BY captured_at DESC, capture_id DESC"):
+        data = dict(row)
+        key = (data["entity_id"], data["sensor"])
+        if key in bundles:
+            continue
+        data["params"] = json.loads(data["params"])
+        old = known.get((data["capture_id"], *key, data["role"]))
+        data["empty"] = old.empty if old else False
+        legacy.setdefault(key, {}).setdefault(data["role"], Capture.model_validate(data))
+    return {**legacy, **bundles}
+
+
 def export_demo(root: Path | str, entities: list[Entity], log=print) -> int:
-    """Copy the latest capture of every sensor slot into data/demo/, sanitised, and build
-    data/demo/kairos.db from the sanitised copies. Stops if any value changes."""
-    root = Path(root)
-    latest: dict[tuple, Capture] = {}
-    for c in ledger.load(ledger.manifest_path(root, ledger.RAW_DIR)):
-        if c.sensor:
-            latest[(c.entity_id, c.sensor, c.role)] = c
-    if not latest:
-        raise SystemExit("nothing to export: run a snapshot first")
+    """Verify and stage complete successful bundles before replacing the demo directory.
 
-    demo_caps: dict[tuple, Capture] = {}
-    written: dict[str, str] = {}                # capture_id -> fixture sha
-    for slot, cap in latest.items():
-        rel = f"{ledger.DEMO_DIR}/{cap.engine}/{cap.capture_id}.json"
-        if cap.capture_id not in written:
-            clean = sanitize(cap.engine, cap.load(root))
-            blob = json.dumps(clean, ensure_ascii=False, indent=1).encode("utf-8")
-            (root / rel).parent.mkdir(parents=True, exist_ok=True)
-            (root / rel).write_bytes(blob)
-            written[cap.capture_id] = hashlib.sha256(blob).hexdigest()
-        demo_caps[slot] = cap.model_copy(update={"path": rel, "fixture_sha256": written[cap.capture_id]})
-
+    Any parse, hash or sanitization error leaves the previously published demo intact.
+    """
+    root = Path(root).resolve()
+    source = root / DB_PATH
+    if not source.exists():
+        raise ValueError("nothing to export: run a snapshot first")
+    with closing(sqlite3.connect(source.as_uri() + "?mode=ro", uri=True)) as conn:
+        bundles = _committed_bundles(root, conn)
+        attempts = {}
+        if conn.execute("SELECT 1 FROM sqlite_master WHERE name='sensor_runs'").fetchone():
+            for r in conn.execute("SELECT * FROM sensor_runs ORDER BY started_at DESC, rowid DESC"):
+                attempts.setdefault((r["entity_id"], r["sensor"]), dict(r))
     by_id = {e.entity_id: e for e in entities}
-    all_rows: list[Observation] = []
-    for (entity_id, sid) in sorted({(s[0], s[1]) for s in latest}):
-        e, sensor = by_id.get(entity_id), REGISTRY.get(sid)
-        if e is None or sensor is None:
-            continue
-        roles = [s[2] for s in latest if s[:2] == (entity_id, sid)]
+    bundles = {k: v for k, v in bundles.items() if k[0] in by_id and k[1] in REGISTRY}
+    if not bundles:
+        raise ValueError("nothing to export: no successful sensor captures")
+    data_dir = root / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=".kairos-export-", dir=data_dir) as temporary:
+        stage = Path(temporary)
+        demo_caps, all_rows, written = [], [], {}
+        for (eid, sid), captures in sorted(bundles.items()):
+            e, sensor = by_id[eid], REGISTRY[sid]
+            if set(captures) != set(sensor.requests(e, today_ist())):
+                raise ValueError(f"export stopped: incomplete successful bundle for {eid} {sid}")
+            original = sensor.parse(e, captures, root)
+            sanitized = {}
+            for role, cap in captures.items():
+                rel = f"{ledger.DEMO_DIR}/{cap.engine}/{cap.capture_id}.json"
+                if cap.capture_id not in written:
+                    payload = cap.load(root)
+                    blob = ((root / cap.path).read_bytes() if cap.fixture_sha256 else
+                            json.dumps(sanitize(cap.engine, payload), ensure_ascii=False, indent=1).encode())
+                    key = os.environ.get("SERPAPI_API_KEY")
+                    if key and key.encode() in blob:
+                        raise ValueError("export stopped: API key found in sanitized capture")
+                    target = stage / rel
+                    if not target.resolve().is_relative_to(stage / ledger.DEMO_DIR):
+                        raise ValueError("export stopped: invalid capture identifier or engine")
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(blob)
+                    written[cap.capture_id] = hashlib.sha256(blob).hexdigest()
+                sanitized[role] = cap.model_copy(update={"path": rel, "fixture_sha256": written[cap.capture_id]})
+            demo = sensor.parse(e, sanitized, stage)
+            if [o.model_dump() for o in original] != [o.model_dump() for o in demo]:
+                raise ValueError(f"export stopped: sanitising changed a value in {eid} {sid}")
+            demo_caps.extend(sanitized.values())
+            all_rows.extend(demo)
+        ledger.write(ledger.manifest_path(stage, ledger.DEMO_DIR), demo_caps)
+        with closing(db.connect(stage / DEMO_DB_PATH)) as conn:
+            with conn:
+                db.write_captures(conn, demo_caps)
+                db.write_observations(conn, all_rows)
+                bundle_mapping = {}
+                for eid, sid in bundles:
+                    exported_id = db.write_bundle(conn, [c for c in demo_caps if c.entity_id == eid and c.sensor == sid])
+                    bundle_mapping[db.bundle_id(list(bundles[(eid, sid)].values()))] = exported_id
+                for (eid, sid), attempt in attempts.items():
+                    if eid in by_id and sid in REGISTRY:
+                        attempt = {**attempt, "bundle_id": bundle_mapping.get(attempt["bundle_id"])}
+                        conn.execute("INSERT INTO sensor_runs VALUES (?,?,?,?,?,?,?,?)",
+                                     tuple(attempt[k] for k in ("run_id", "entity_id", "sensor", "started_at",
+                                                               "completed_at", "status", "error", "bundle_id")))
+        final = root / ledger.DEMO_DIR
+        # A rollback failure or process crash must leave the backup outside temporary cleanup.
+        backup = data_dir / f".kairos-demo-backup-{uuid.uuid4().hex}"
+        if not backup.resolve().is_relative_to(data_dir):
+            raise ValueError("export stopped: backup path is outside the data directory")
+        if final.exists():
+            os.replace(final, backup)
         try:
-            original = sensor.parse(e, {r: latest[(entity_id, sid, r)] for r in roles}, root)
-            demo = sensor.parse(e, {r: demo_caps[(entity_id, sid, r)] for r in roles}, root)
-        except (ValueError, KeyError, TypeError) as err:
-            log(f"  skipped {entity_id} {sid}: {type(err).__name__}: {err}")
-            continue
-        if [o.model_dump() for o in original] != [o.model_dump() for o in demo]:
-            raise SystemExit(f"export stopped: sanitising changed a value in {entity_id} {sid}")
-        all_rows.extend(demo)
-
-    key = os.environ.get("SERPAPI_API_KEY") or ""
-    demo_dir = root / ledger.DEMO_DIR
-    for f in demo_dir.rglob("*.json"):
-        if key and key in f.read_text(encoding="utf-8", errors="replace"):
-            raise SystemExit(f"export stopped: API key found in {f}")
-
-    ledger.write(ledger.manifest_path(root, ledger.DEMO_DIR), list(demo_caps.values()))
-    demo_db = root / DEMO_DB_PATH
-    demo_db.unlink(missing_ok=True)
-    conn = db.connect(demo_db)
-    with conn:
-        db.write_captures(conn, list(demo_caps.values()))
-        db.write_observations(conn, all_rows)
-    conn.close()
+            os.replace(stage / ledger.DEMO_DIR, final)
+        except BaseException:
+            if backup.exists():
+                os.replace(backup, final)
+            raise
+        if backup.exists():
+            shutil.rmtree(backup)
     log(f"exported {len(written)} captures, {len(all_rows)} observations to {ledger.DEMO_DIR}/")
     return len(all_rows)
 
 
 def print_credits(root: Path | str, client: SerpClient | None = None, log=print) -> None:
-    rows = ledger.credit_summary(ledger.load(ledger.manifest_path(root, ledger.RAW_DIR)))
+    base = ledger.DEMO_DIR if client is not None and client.mode == "offline" else ledger.RAW_DIR
+    rows = ledger.credit_summary(ledger.load(ledger.manifest_path(root, base)))
     log(f"{'key':14} {'engine':34} {'paid':>5} {'credits':>8} {'free':>5}")
     for r in rows:
         log(f"{r['key_label']:14} {r['engine']:34} {r['calls']:5} {r['credits']:8} {r['free']:5}")
@@ -191,6 +263,10 @@ def main(argv: list[str] | None = None) -> int:
         if unknown:
             ap.error(f"not in the watchlist: {', '.join(sorted(unknown))}")
         entities = [e for e in entities if e.entity_id in args.entity]
+    if args.sensor and set(args.sensor) - REGISTRY.keys():
+        ap.error("unknown sensor in --sensor")
+    if args.reserve < 0:
+        ap.error("--reserve must be nonnegative")
     today = today_ist()
     requests = plan(entities, today, args.sensor)
     client = SerpClient(root, mode=args.mode, reserve=args.reserve)

@@ -37,7 +37,7 @@ class PriceSensor(Sensor):
         days: dict = {}                         # trading day -> last point of that day
         for point in graph:
             when = parse_finance_date(str(point.get("date", "")))
-            if when is None or point.get("price") is None:
+            if when is None:
                 continue
             day = when.date()
             if day not in days or when >= days[day][0]:
@@ -48,7 +48,7 @@ class PriceSensor(Sensor):
         out = []
         for when, point in (days[d] for d in sorted(days)):
             dims = {"ticker": e.nse_ticker, "currency": str(point.get("currency", ""))}
-            out.append(self.obs(e, cap, "close", point["price"], "inr", when, dims))
+            out.append(self.obs(e, cap, "close", point.get("price"), "inr", when, dims))
             if point.get("volume") is not None:
                 out.append(self.obs(e, cap, "volume", point["volume"], "shares", when, dims))
         return out

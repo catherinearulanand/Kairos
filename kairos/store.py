@@ -50,6 +50,10 @@ def latest_capture_id(conn, entity_id: str, sensor: str, metric: str | None = No
              ("app_reviews", "displayed_rating"): "product"}
     role = roles.get((sensor, metric))
     if role:
+        from kairos import db
+        bundle = db.read_bundles(conn).get((entity_id, sensor))
+        if bundle and role in bundle:
+            return bundle[role].capture_id
         # A successful empty capture supersedes old readings too.
         row = conn.execute("SELECT capture_id FROM captures WHERE entity_id=? AND sensor=? AND role=? "
                            "ORDER BY captured_at DESC, capture_id DESC LIMIT 1",
@@ -63,6 +67,43 @@ def latest_capture_id(conn, entity_id: str, sensor: str, metric: str | None = No
         args.append(metric)
     row = conn.execute(sql + " ORDER BY captured_at DESC, capture_id DESC LIMIT 1", args).fetchone()
     return row[0] if row else None
+
+
+def collection_status(conn, entity_id: str) -> dict:
+    if not conn.execute("SELECT 1 FROM sqlite_master WHERE name='sensor_runs'").fetchone():
+        return {}
+    latest = {}
+    for row in conn.execute("SELECT * FROM sensor_runs WHERE entity_id=? ORDER BY started_at DESC, rowid DESC",
+                            (entity_id,)):
+        latest.setdefault(row["sensor"], dict(row))
+    return latest
+
+
+def latest_sensor_captures(conn, entity_id: str, sensor: str) -> list[dict]:
+    from kairos import db
+    bundle = db.read_bundles(conn).get((entity_id, sensor))
+    if bundle:
+        return [c.model_dump(mode="json") for c in bundle.values()]
+    latest = {}
+    for row in conn.execute("SELECT * FROM captures WHERE entity_id=? AND sensor=? "
+                            "ORDER BY captured_at DESC, capture_id DESC", (entity_id, sensor)):
+        data = dict(row)
+        data["params"] = json.loads(data["params"])
+        latest.setdefault(data["role"], data)
+    return list(latest.values())
+
+
+def demo_backed_source() -> bool:
+    """An offline replay into a live-named DB still contains demo evidence."""
+    path = Path(db_path())
+    if path.resolve() == (ROOT / "data/demo/kairos.db").resolve():
+        return True
+    if not path.exists():
+        return False
+    from contextlib import closing
+    with closing(connect()) as conn:
+        paths = [r[0] for r in conn.execute("SELECT path FROM captures")]
+    return bool(paths) and all(p.startswith("data/demo/") for p in paths)
 
 
 def _rows(conn, sql: str, args: list) -> list[dict]:
@@ -109,7 +150,9 @@ def alert_fingerprint(alert: dict) -> str:
 
 def write_alerts(alerts: list[dict], path: Path | str | None = None) -> None:
     """Upsert alerts; preserve commentary only when its analytical inputs are identical."""
-    conn = sqlite3.connect(path or alerts_path())
+    target = Path(path or alerts_path())
+    target.parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(target)
     try:
         conn.executescript(ALERTS)
         if "context_fingerprint" not in {r[1] for r in conn.execute("PRAGMA table_info(alerts)")}:

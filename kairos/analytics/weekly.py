@@ -27,9 +27,8 @@ def last_close_rows(rows: list[dict]) -> dict[date, dict]:
     """week -> the last close row of that week. Rows must be oldest first."""
     out: dict[date, dict] = {}
     for r in rows:
-        if r["value"] is not None:
-            out[week_start(r["observed_at"])] = r
-    return out
+        out[week_start(r["observed_at"])] = r
+    return {w: r for w, r in out.items() if r["value"] is not None}
 
 
 def weekly_share(rows: list[dict], query: str) -> dict[date, tuple[float, str]]:

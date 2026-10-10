@@ -1,11 +1,13 @@
 """SQLite tables written by data collection: `captures` and `observations`.
 
-Insert-only. Analytics adds its own tables (alerts) next to these.
+Capture rows are insert-only. Successful sensor bundles and attempt outcomes are
+recorded alongside observations; analytics keeps alerts in a separate database.
 """
 from __future__ import annotations
 
 import json
 import sqlite3
+import hashlib
 from pathlib import Path
 
 from kairos.models import Capture, Observation
@@ -28,6 +30,15 @@ CREATE TABLE IF NOT EXISTS observations (
 );
 CREATE INDEX IF NOT EXISTS observations_series
     ON observations (entity_id, sensor, metric, observed_at);
+CREATE TABLE IF NOT EXISTS sensor_bundles (
+    bundle_id TEXT PRIMARY KEY, entity_id TEXT NOT NULL, sensor TEXT NOT NULL,
+    captures TEXT NOT NULL, oldest_capture TEXT NOT NULL, newest_capture TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS sensor_runs (
+    run_id TEXT PRIMARY KEY, entity_id TEXT NOT NULL, sensor TEXT NOT NULL,
+    started_at TEXT NOT NULL, completed_at TEXT, status TEXT NOT NULL,
+    error TEXT, bundle_id TEXT
+);
 """
 
 
@@ -57,3 +68,34 @@ def write_observations(conn: sqlite3.Connection, rows: list[Observation]) -> int
           o.capture_id, o.raw_sha256) for o in rows],
     )
     return conn.total_changes - before
+
+
+def bundle_payload(captures: list[Capture]) -> str:
+    return json.dumps([c.model_dump(mode="json") for c in sorted(captures, key=lambda c: c.role or "")], sort_keys=True)
+
+
+def bundle_id(captures: list[Capture]) -> str:
+    return hashlib.sha256(bundle_payload(captures).encode()).hexdigest()
+
+
+def write_bundle(conn, captures: list[Capture]) -> str:
+    ordered = sorted(captures, key=lambda c: c.role or "")
+    payload = bundle_payload(ordered)
+    identity = hashlib.sha256(payload.encode()).hexdigest()
+    times = sorted(c.captured_at.isoformat() for c in ordered)
+    conn.execute("INSERT OR IGNORE INTO sensor_bundles VALUES (?,?,?,?,?,?)",
+                 (identity, ordered[0].entity_id, ordered[0].sensor, payload, times[0], times[-1]))
+    return identity
+
+
+def read_bundles(conn) -> dict[tuple[str, str], dict[str, Capture]]:
+    """Newest complete bundles by capture time, never by fixture replay time."""
+    if not conn.execute("SELECT 1 FROM sqlite_master WHERE name='sensor_bundles'").fetchone():
+        return {}
+    bundles = {}
+    for eid, sid, payload in conn.execute(
+            "SELECT entity_id, sensor, captures FROM sensor_bundles "
+            "ORDER BY oldest_capture DESC, newest_capture DESC, bundle_id DESC"):
+        bundles.setdefault((eid, sid), {c.role: c for c in
+                                       (Capture.model_validate(p) for p in json.loads(payload))})
+    return bundles

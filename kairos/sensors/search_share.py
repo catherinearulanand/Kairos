@@ -41,7 +41,8 @@ class SearchShareSensor(Sensor):
             # The period still running at capture time is incomplete; leave it out.
             if point.get("partial_data") or start + step > cap.captured_at:
                 continue
-            values = {v["query"]: v.get("extracted_value") for v in point.get("values", [])}
+            returned = {v["query"]: v.get("extracted_value") for v in point.get("values", [])}
+            values = {query: returned.get(query) for query in e.trends_queries}
             known = [v for v in values.values() if v is not None]
             total = sum(known) if len(known) == len(values) else None
             for query, v in values.items():

@@ -33,3 +33,9 @@ def test_last_close_of_the_week_wins():
 def test_max_daily_move():
     rows = close_series([100, 100, 60])
     assert round(weekly.max_daily_move_pct(rows, date(2026, 9, 1), date(2026, 10, 31)), 1) == 40.0
+
+
+def test_null_final_close_does_not_resurrect_earlier_value():
+    thu = row("price", "close", 100, datetime(2026, 10, 1, 10, tzinfo=timezone.utc))
+    fri = row("price", "close", None, datetime(2026, 10, 2, 10, tzinfo=timezone.utc))
+    assert weekly.weekly_last_close([thu, fri]) == {}

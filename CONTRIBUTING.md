@@ -22,9 +22,8 @@ A sensor defines:
 
 Here is the complete implementation of the Google Trends Search Share sensor from `kairos/sensors/search_share.py`:
 
-This mirrors the current collection parser. Its incomplete-basket handling is an open
-lane 1 finding: a completely absent competitor must produce missing share rather than
-shrink the denominator. See `docs/LANE1_REVIEW_HANDOFF.md` before copying that behavior.
+This uses the fixed configured basket. Missing requested queries make the period's
+shares unavailable; unexpected queries never enlarge the denominator.
 
 ```python
 from __future__ import annotations
@@ -73,7 +72,8 @@ class SearchShareSensor(Sensor):
             if point.get("partial_data") or start + step > cap.captured_at:
                 continue
 
-            values = {v["query"]: v.get("extracted_value") for v in point.get("values", [])}
+            returned = {v["query"]: v.get("extracted_value") for v in point.get("values", [])}
+            values = {query: returned.get(query) for query in e.trends_queries}
             known = [v for v in values.values() if v is not None]
             total = sum(known) if len(known) == len(values) else None
 

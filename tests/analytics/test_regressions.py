@@ -1,6 +1,7 @@
 """Regression checks for the committed-code review; all providers are local fakes."""
 import copy
 import sqlite3
+from contextlib import closing
 from datetime import datetime, timezone
 
 import pytest
@@ -8,7 +9,7 @@ import pytest
 from kairos import db, store, tools
 from kairos.analytics import rules
 from kairos.models import Capture, Observation
-from tests.analytics.helpers import row
+from tests.analytics.helpers import row, share_series, close_series, SUNDAY
 
 
 def test_ads_series_keeps_newest_reading_and_each_window(monkeypatch):
@@ -133,3 +134,18 @@ def test_successful_empty_capture_does_not_resurrect_old_articles(tmp_path):
         assert store.read_obs(conn, "T", "news", "article") == []
     finally:
         conn.close()
+
+
+def test_r1_uses_latest_period_even_when_share_is_null(tmp_path):
+    target = tmp_path / "source.db"
+    share = share_series([10] * 9 + [12] * 4)
+    share[-1]["value"] = None
+    with closing(db.connect(target)) as conn:
+        with conn:
+            db.write_observations(conn, [Observation.model_validate(r) for r in share + close_series([100, 98, 95, 92, 90, 88])])
+    from kairos.models import Entity
+    entity = Entity(entity_id="T", name="T", primary_brand="T", trends_queries=["T"], primary_trends_query="T")
+    with closing(store.connect(target)) as conn:
+        r1 = rules.evaluate_entity(conn, entity, rules.load_rules())[0]
+        assert r1["as_of"] == str(SUNDAY) and r1["status"] == "insufficient"
+        assert "search share is missing" in r1["reason"]
