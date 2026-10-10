@@ -247,7 +247,12 @@ Kairos uses a modular plugin architecture. Read [CONTRIBUTING.md](CONTRIBUTING.m
 
 ## 11. AI Tools Disclosure
 
-The team's disclosure names Claude and Gemini. Codex also performed code review, integration fixes and regression-test work. Human owners remain responsible for identifier verification, interpretation and submission.
+- Claude Code (Anthropic) was used as a pair programmer for the analytics layer (weekly normalisation, rules R1 to R3, the base rate, the agent functions and their tests), the local web terminal and its evidence viewer, README updates, and the submission text.
+- OpenAI Codex reviewed the implementation plan and the codebase, fixed bugs, helped with frontend design and implementation, and ran tests and integration checks.
+- Google Antigravity was used as a pair programmer for full-stack features, the Streamlit and web terminal UI refactor, and the pytest unit and integration tests.
+- Graphify generated knowledge graphs of the codebase for review. They are produced locally and are not committed.
+
+Kairos computes its signals and decides its alerts with deterministic rules. An optional, off-by-default model-written context line can be attached to an alert, and any number in it is rejected. People set the requirements, reviewed the output, ran the tests, checked sample numbers by hand against the raw SerpApi responses, and verified the company identifiers in `watchlist.yaml`. Human owners remain responsible for interpretation and submission.
 
 ---
 
