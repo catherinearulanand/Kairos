@@ -93,7 +93,35 @@ def test_rendered_views_work_with_offline_fixtures(view, monkeypatch):
         content = " ".join(m.value for m in at.markdown)
         assert "≥5000" in content and "ratio unavailable" in content
         assert "Sampled headlines, week of 2026-09-27" in content
+        assert any("title" in frame.value.columns for frame in at.dataframe)
+        at.selectbox(key="sensor_evidence").set_value("news").run()
+        assert not at.exception and not at.error
+        assert any("google_news / search" in caption.value for caption in at.caption)
     elif view == "Alert Evidence Deep-Dive":
         at.selectbox[-1].select_index(1).run()
         assert not at.exception and not at.error
         assert any("Sanitized fixture SHA-256" in m.value for m in at.markdown)
+
+
+def test_empty_watchlist_has_clear_dashboard_state(monkeypatch):
+    monkeypatch.setattr(time, "sleep", REAL_SLEEP)
+    monkeypatch.setattr("kairos.tools.list_entities", lambda: [])
+    at = AppTest.from_file(str(Path(__file__).resolve().parents[1] / "app/streamlit_app.py"),
+                           default_timeout=20).run()
+    assert not at.exception
+    assert any("No companies configured" in i.value for i in at.info)
+
+
+def test_dashboard_labels_failed_collection(monkeypatch):
+    monkeypatch.setattr(time, "sleep", REAL_SLEEP)
+    from kairos import tools
+    actual = tools.list_entities
+    def entities_with_failure():
+        entities = actual()
+        entities[0]["collection_status"] = {"app_reviews": {"status": "failed", "started_at": "2026-10-10T06:00:00+00:00"}}
+        return entities
+    monkeypatch.setattr(tools, "list_entities", entities_with_failure)
+    at = AppTest.from_file(str(Path(__file__).resolve().parents[1] / "app/streamlit_app.py"),
+                           default_timeout=20).run()
+    assert not at.exception
+    assert any("latest collection failed" in warning.value for warning in at.warning)

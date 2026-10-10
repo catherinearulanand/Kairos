@@ -121,7 +121,8 @@ def get_credit_data() -> List[Dict[str, Any]]:
 
 
 def using_demo() -> bool:
-    return Path(store.db_path()).resolve() == (ROOT / "data/demo/kairos.db").resolve()
+    return (Path(store.db_path()).resolve() == (ROOT / "data/demo/kairos.db").resolve()
+            or store.demo_backed_source())
 
 
 # ----------------------------------------------------------------------------
@@ -146,6 +147,9 @@ view = st.sidebar.radio(
 
 entities = get_entity_list()
 entity_map = {e["entity_id"]: e for e in entities}
+if not entities:
+    st.info("No companies configured. Add an entity to watchlist.yaml, then refresh stored data.")
+    st.stop()
 
 if view in ["Company Terminal", "Alert Evidence Deep-Dive"]:
     selected_eid = st.sidebar.selectbox(
@@ -180,12 +184,18 @@ if view == "Company Terminal" and selected_entity:
         st.markdown(
             f"**Ticker:** `{selected_entity['nse_ticker']}` | "
             f"**Sensors Active:** `{len(selected_entity['sensors'])}/5` | "
-            f"**Verification:** `Hand-verified`"
+            f"**Verification:** `{selected_entity.get('verified_by') or 'Not yet verified'}`"
         )
     with col_meta:
-        st.metric(label="Data Source", value="SerpApi Engines")
+        st.caption("Data Source")
+        st.write("SerpApi engines")
 
     st.markdown("---")
+
+    for sid, outcome in selected_entity.get("collection_status", {}).items():
+        if outcome["status"] != "ok":
+            st.warning(f"{sid}: latest collection {outcome['status']} at {outcome['started_at']}. "
+                       "Any readings below are from an earlier successful capture.")
 
     # Fetch signals
     signals = get_company_signals(selected_eid, weeks=16)
@@ -377,6 +387,28 @@ if view == "Company Terminal" and selected_entity:
             st.markdown('<div class="metric-card"><div class="badge-insufficient">No Reading</div></div>', unsafe_allow_html=True)
 
     st.markdown("---")
+
+    st.subheader("News Headlines for Context")
+    headlines = tools.get_headlines(selected_eid)
+    if headlines:
+        st.dataframe(pd.DataFrame(headlines)[["title", "source", "link", "observed_at", "captured_at", "capture_id"]],
+                     hide_index=True, width="stretch")
+    else:
+        st.info("No sampled headlines in the latest successful News capture.")
+
+    with st.expander("Sensor Evidence — open the response behind any sensor tile"):
+        sensor_id = st.selectbox("Sensor evidence", options=list(tools.SERIES), key="sensor_evidence")
+        captures = tools.get_sensor_evidence(selected_eid, sensor_id)
+        for cap in captures:
+            st.caption(f"{cap['engine']} / {cap.get('role')}; captured {cap['captured_at']}")
+            st.code(f"Raw SHA-256: {cap['raw_sha256']}\nFixture SHA-256: {cap.get('fixture_sha256') or 'not applicable'}")
+            st.json(cap["params"])
+            try:
+                st.json(load_verified_capture(ROOT, cap))
+            except (OSError, ValueError) as err:
+                st.error(f"Cannot verify sensor evidence: {err}")
+        if not captures:
+            st.info("No stored successful capture for this sensor.")
 
     # Divergence Alerts Panel
     st.subheader("Divergence Alert Engine")
@@ -575,8 +607,8 @@ elif view == "SerpApi Credit Ledger":
         ### Collection behavior:
         1. **Cache-First Client:** Local cache mode reuses stored requests. The ledger estimates provider cache hits; the Account API is the authority on quota.
         2. **Multi-Company Deduplication:** Companies sharing search terms (e.g., Eternal and Swiggy sharing the `Zomato,Swiggy` basket) execute the search once and share the cache.
-        3. **Budget Guard:** Collection checks the reserve (30 credits by default) when the account quota is available. If quota lookup fails, the current client skips that check.
-        4. **Offline Mode:** This dashboard reads stored data and makes no SerpApi requests. The collection client's direct Account API offline gate remains a lane 1 follow-up.
+        3. **Budget Guard:** Collection preserves the reserve (30 credits by default). If quota is unavailable, collection stops; explicitly setting `--reserve 0` permits collection without that guard.
+        4. **Offline Mode:** The dashboard reads stored data. Offline collection and direct Account API methods cannot call SerpApi.
         """
     )
 

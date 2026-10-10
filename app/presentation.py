@@ -1,8 +1,6 @@
 """Local data presentation and byte verification for the dashboard."""
-import hashlib
-import json
 from datetime import date, timedelta
-from pathlib import Path
+from kairos.models import load_verified_json
 
 
 def weekly_change(points):
@@ -36,12 +34,5 @@ def ads_summary(signals):
 
 def load_verified_capture(root, capture):
     """Verify the stored bytes before displaying JSON; never read outside the repo."""
-    root = Path(root).resolve()
-    target = (root / capture["path"]).resolve()
-    if not target.is_relative_to(root):
-        raise ValueError("Capture path is outside the repository")
-    blob = target.read_bytes()
-    expected = capture.get("fixture_sha256") or capture.get("raw_sha256")
-    if not expected or hashlib.sha256(blob).hexdigest() != expected:
-        raise ValueError("Stored capture bytes do not match their recorded SHA-256")
-    return json.loads(blob)
+    return load_verified_json(root, capture["path"],
+                              capture.get("fixture_sha256") or capture.get("raw_sha256"))

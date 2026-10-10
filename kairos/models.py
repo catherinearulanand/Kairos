@@ -1,11 +1,26 @@
 """Shared contract between data collection, analytics and the app."""
 from __future__ import annotations
 
+import hashlib
 import json
 from datetime import datetime
 from pathlib import Path
 
 from pydantic import BaseModel, Field
+
+
+def load_verified_json(root: Path | str, path: str, expected_hash: str | None) -> dict:
+    root = Path(root).resolve()
+    target = (root / path).resolve()
+    if not target.is_relative_to(root):
+        raise ValueError("Capture path is outside the repository")
+    blob = target.read_bytes()
+    if not expected_hash or hashlib.sha256(blob).hexdigest() != expected_hash:
+        raise ValueError("Stored capture bytes do not match their recorded SHA-256")
+    data = json.loads(blob)
+    if not isinstance(data, dict):
+        raise ValueError("Capture response must be a JSON object")
+    return data
 
 
 class Observation(BaseModel):
@@ -42,7 +57,7 @@ class Capture(BaseModel):
     path: str                       # relative to the repo root, posix separators
 
     def load(self, root: Path | str = ".") -> dict:
-        return json.loads((Path(root) / self.path).read_text(encoding="utf-8"))
+        return load_verified_json(root, self.path, self.fixture_sha256 or self.raw_sha256)
 
 
 class Entity(BaseModel):

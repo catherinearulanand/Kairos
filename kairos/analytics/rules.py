@@ -180,7 +180,7 @@ def evaluate_entity(conn, entity: Entity, cfg: dict) -> list[dict]:
     eid, query = entity.entity_id, entity.primary_trends_query or entity.primary_brand
     share_obs = store.read_obs(conn, eid, "search_share", "share")
     close_obs = store.read_obs(conn, eid, "price", "close")
-    weeks = sorted(weekly.share_rows(share_obs, query))
+    weeks = sorted({weekly.week_start(r["observed_at"]) for r in share_obs if r["dims"].get("query") == query})
     if weeks:
         a1 = r1(eid, query, share_obs, close_obs, weeks[-1], cfg)
         a1["base_rate"] = base_rate_r1(eid, query, share_obs, close_obs, cfg)
@@ -188,8 +188,23 @@ def evaluate_entity(conn, entity: Entity, cfg: dict) -> list[dict]:
         a1 = _insufficient(eid, "R1", datetime.now(IST).date(), "no search share data")
     a2 = r2(eid, store.read_obs(conn, eid, "app_reviews", "recent_mean"),
             store.read_obs(conn, eid, "app_reviews", "displayed_rating"), cfg)
-    a3 = r3(eid, store.read_all_obs(conn, eid, "ads", "active_creatives"), cfg)
-    return [a1, a2, a3]
+    ad_caps = store.latest_sensor_captures(conn, eid, "ads")
+    ad_rows = store.read_all_obs(conn, eid, "ads", "active_creatives")
+    if ad_caps:
+        ids = {c["capture_id"] for c in ad_caps}
+        ad_rows = [r for r in ad_rows if r["capture_id"] in ids]
+    a3 = r3(eid, ad_rows, cfg)
+    statuses = store.collection_status(conn, eid)
+    alerts = [a1, a2, a3]
+    dependencies = {"R1": ("search_share", "price"), "R2": ("app_reviews",), "R3": ("ads",)}
+    for i, alert in enumerate(alerts):
+        bad = [statuses[s] for s in dependencies[alert["rule_id"]] if s in statuses and statuses[s]["status"] != "ok"]
+        if bad:
+            latest = max(bad, key=lambda r: r["started_at"])
+            as_of = datetime.fromisoformat(latest["started_at"]).astimezone(IST).date()
+            reason = "; ".join(f"latest {r['sensor']} collection {r['status']}" for r in bad)
+            alerts[i] = _insufficient(eid, alert["rule_id"], as_of, reason)
+    return alerts
 
 
 def main(argv: list[str] | None = None) -> int:

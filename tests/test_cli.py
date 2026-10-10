@@ -26,6 +26,7 @@ def test_cli_credits():
     result = runner.invoke(app, ["credits"])
     assert result.exit_code == 0
     assert "credits" in result.output
+    assert "google_trends" in result.output and "google_finance" in result.output
 
 
 def test_cli_snapshot_dry_run():

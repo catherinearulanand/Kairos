@@ -4,6 +4,8 @@
 
 ---
 
+![Kairos terminal running against committed fixtures](docs/screenshots/terminal.jpg)
+
 ## 1. Why Search Data is Alternative Data
 
 Small research teams and analysts can compare public search, app-review, ad-activity and news signals with stock prices, but the signals sit on separate surfaces.
@@ -29,6 +31,9 @@ KAIROS_OFFLINE=1 streamlit run app/streamlit_app.py
 ```
 
 PowerShell: set `$env:KAIROS_OFFLINE = "1"`, then run `python -m streamlit run app/streamlit_app.py`.
+If Windows Application Control blocks generated CLI launchers, use `python -m kairos.cli`
+in place of `kairos` (for example, `python -m kairos.cli alerts --entity NYKAA`).
+The original capture interface also supports `python -m kairos.capture`.
 The dashboard reads stored observations and makes no SerpApi calls. Use **Refresh stored data**
 after a capture or threshold edit; every rerun reads the store again. Its data-source badge
 reflects the selected database, including automatic demo fallback when no live database exists.
@@ -119,7 +124,7 @@ Kairos is architected specifically around SerpApi's quota model:
 
 1. **Cache-First Client:** Local cache mode reuses stored identical requests without an expiry. Live mode makes a fresh request, deduplicating identical requests within one run. Provider cache classification and ledger credits are estimates; the Account API is the quota authority.
 2. **Shared Request Deduplication:** Competitors sharing a Trends basket (e.g., `Eternal` and `Swiggy` both requesting `Zomato,Swiggy`) execute the query once; the second entity consumes the cached response at 0 credits.
-3. **Credit Budget Guard:** The reserve (`--reserve 30`) is enforced when account quota is available. If quota lookup fails, the current client skips that check.
+3. **Credit Budget Guard:** The reserve (`--reserve 30`) is enforced before collection. If account quota is unavailable, collection stops. Use `--reserve 0` explicitly to proceed without the quota guard.
 4. **Dry-Run Mode:** `kairos snapshot --dry-run` calculates the upper-bound credit cost before making network requests.
 
 Run `kairos credits` to inspect the credit ledger:
@@ -193,10 +198,10 @@ Kairos uses a modular plugin architecture. Read [CONTRIBUTING.md](CONTRIBUTING.m
 - **Signals, Not Predictions:** Kairos does not predict stock prices or make trade recommendations. It detects and explains divergences between public behavior and price.
 - **Samples, Not Totals:** Review means describe the newest returned reviews. News counts describe at most 60 sampled headlines in explicitly dated completed weeks. Ads totals at the provider cap are lower bounds; exact capped ratios are suppressed.
 - **Strict LLM Boundary:** Quantitative sentences come from deterministic templates. Optional model JSON is checked with regular expressions for digits/number words, a word limit and evidence-ID membership. These checks do not establish the truth of the model's prose. Offline mode disables model generation.
-- **Freshness:** Capture timestamps are separate from observation weeks. An old successful reading does not prove that a newer collection succeeded. The dashboard's credit ledger follows its selected demo/live source.
-- **Open collection findings:** Incomplete competitor baskets can inflate search share, direct Account API methods bypass offline mode, and demo export can select partial failed sensor captures. These remain with the lane 1 owner; see [the handoff](docs/LANE1_REVIEW_HANDOFF.md).
+- **Freshness:** Capture timestamps are separate from observation weeks. Collection attempts are recorded; a failed or unfinished latest attempt marks dependent rules insufficient and displays a dashboard warning. Older successful readings remain available with their dates. Demo-backed replay databases retain the demo source label.
+- **Capture integrity:** Trends share requires the whole configured competitor basket. All parser and evidence reads verify byte hashes and repository path containment. Demo export stages complete successful bundles, checks metric equality after sanitization and preserves collection outcomes before publication. Already sanitized fixtures keep their original bytes. Legacy databases are backfilled from committed captures; historical attempt boundaries cannot be reconstructed exactly.
 - **Integration:** Ads series share sensor/metric but differ by `dims.window`. Analytics opens source databases read-only; commentary uses the separate writable `data/alerts.db` cache and invalidates when analytical inputs change.
-- **Release work:** Screenshot, demo video, form submission and public-link checks remain unverified by the code suite. Live-provider validation is also outstanding.
+- **Release work:** The screenshot above was captured from the running offline app. Demo video, form submission and public-link checks remain unverified by the code suite. Live-provider validation is also outstanding.
 
 ---
 
@@ -210,4 +215,4 @@ The team's disclosure names Claude and Gemini. Codex also performed code review,
 
 **Disclaimer:** Data via SerpApi. Kairos is an analytical research tool and does not provide investment advice.
 
-The earlier project description specifies MIT; a standalone `LICENSE` file has not yet been added.
+Licensed under [MIT](LICENSE).

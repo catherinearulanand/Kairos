@@ -13,7 +13,7 @@ from kairos.analytics import rules, weekly
 from kairos.sensors import REGISTRY
 from kairos.watchlist import load_watchlist
 
-__all__ = ["list_entities", "get_signals", "get_alerts", "explain_alert"]
+__all__ = ["list_entities", "get_signals", "get_alerts", "explain_alert", "get_sensor_evidence", "get_headlines"]
 
 SERIES = {                       # sensor -> metrics worth charting
     "search_share": ["share"], "price": ["close"],
@@ -31,7 +31,9 @@ def list_entities() -> list[dict]:
         for e in _entities().values():
             have = [r[0] for r in conn.execute(
                 "SELECT DISTINCT sensor FROM observations WHERE entity_id=? ORDER BY sensor", (e.entity_id,))]
-            out.append({"entity_id": e.entity_id, "name": e.name, "nse_ticker": e.nse_ticker, "sensors": have})
+            out.append({"entity_id": e.entity_id, "name": e.name, "nse_ticker": e.nse_ticker,
+                        "verified_by": e.verified_by, "sensors": have,
+                        "collection_status": store.collection_status(conn, e.entity_id)})
     return out
 
 
@@ -130,3 +132,19 @@ def explain_alert(alert_id: str) -> dict:
                 a["captures"] = store.read_captures(conn, entity_id, a["evidence_capture_ids"])
             return a
     raise KeyError(f"unknown alert_id {alert_id!r}")
+
+
+def get_sensor_evidence(entity_id: str, sensor: str) -> list[dict]:
+    _entities()[entity_id]
+    if sensor not in REGISTRY:
+        raise ValueError(f"unknown sensor {sensor!r}")
+    with closing(store.connect()) as conn:
+        return store.latest_sensor_captures(conn, entity_id, sensor)
+
+
+def get_headlines(entity_id: str) -> list[dict]:
+    _entities()[entity_id]
+    with closing(store.connect()) as conn:
+        rows = store.read_obs(conn, entity_id, "news", "article")
+    return [{**r["dims"], "observed_at": r["observed_at"], "captured_at": r["captured_at"],
+             "capture_id": r["capture_id"]} for r in reversed(rows)]
