@@ -7,7 +7,7 @@ name = "kairos"
 version = "0.1.0"
 description = "Alternative-data terminal for Indian equities, built on SerpApi"
 requires-python = ">=3.11"
-dependencies = ["pydantic>=2", "pyyaml>=6", "streamlit", "plotly", "typer", "pandas"]
+dependencies = ["pydantic>=2", "pyyaml>=6", "streamlit", "plotly", "typer", "pandas", "truststore>=0.10; sys_platform == 'win32'"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]

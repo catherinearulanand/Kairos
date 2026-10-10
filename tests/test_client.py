@@ -1,9 +1,52 @@
 import json
+import ssl
+import sys
+import urllib.error
+from contextlib import contextmanager
 
 import pytest
 
 from kairos.serp import BudgetError, OfflineMiss, SerpClient, SerpError, ledger, params_hash
 from tests.conftest import KEY
+
+
+def test_http_transport_preserves_certificate_and_hostname_verification(monkeypatch):
+    from kairos.serp.client import _http_get
+
+    @contextmanager
+    def verified_response(request, *, timeout, context):
+        assert context.check_hostname
+        assert context.verify_mode == ssl.CERT_REQUIRED
+        if sys.platform == "win32":
+            import truststore
+            assert isinstance(context, truststore.SSLContext)
+        assert request.full_url == "https://serpapi.com/account.json"
+        assert timeout == 90
+
+        class Response:
+            status = 200
+            def read(self):
+                return b'{"total_searches_left":100}'
+
+        yield Response()
+
+    monkeypatch.setattr("urllib.request.urlopen", verified_response)
+    assert _http_get("https://serpapi.com/account.json") == (200, b'{"total_searches_left":100}')
+
+
+def test_http_transport_does_not_retry_with_unverified_tls(monkeypatch):
+    from kairos.serp.client import _http_get
+    calls = []
+
+    def reject_certificate(request, *, timeout, context):
+        calls.append(context)
+        raise urllib.error.URLError(ssl.SSLCertVerificationError("certificate verification failed"))
+
+    monkeypatch.setattr("urllib.request.urlopen", reject_certificate)
+    with pytest.raises(SerpError, match="certificate verification failed"):
+        _http_get("https://serpapi.com/account.json")
+    assert len(calls) == 1
+    assert calls[0].check_hostname and calls[0].verify_mode == ssl.CERT_REQUIRED
 
 Q = {"engine": "google_news", "q": "Alpha", "gl": "in", "hl": "en"}
 
