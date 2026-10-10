@@ -18,7 +18,7 @@ export function renderCompany(root, data, entity) {
 
   page.append(
     h("div", { class: "page-head" },
-      h("div", {}, h("h1", { text: entity.name }),
+      h("div", {}, h("p", { class: "eyebrow", text: `Company file / ${entity.entity_id} / India` }), h("h1", { text: entity.name }),
         h("div", { class: "meta" },
           h("span", { class: "tag", text: entity.nse_ticker }),
           h("span", { class: "sep" }),
@@ -32,7 +32,7 @@ export function renderCompany(root, data, entity) {
   const readout = h("div", { class: "readout", "aria-live": "off" });
   const legend = h("div", { class: "legend" });
   const chartHost = h("div");
-  const chartPanel = h("section", { class: "panel col-8", "aria-label": "Price against search share" },
+  const chartPanel = h("section", { class: "panel chart-panel col-8", "aria-label": "Price against search share" },
     h("div", { class: "panel-head" }, h("h2", { class: "panel-title", text: "Price vs search share" }),
       h("span", { class: "panel-meta", text: "Weekly. Search share is a relative index across the tracked brand basket." })),
     readout, legend, chartHost,
@@ -78,7 +78,7 @@ export function renderCompany(root, data, entity) {
   // ---- R1 panel ---------------------------------------------------------------------
   const mapHost = h("div");
   const ticksHost = h("div");
-  const r1Panel = h("section", { class: "panel col-4", "aria-label": "Headline rule R1" },
+  const r1Panel = h("section", { class: "panel r1-panel col-4", "aria-label": "Headline rule R1" },
     h("div", { class: "panel-head" }, h("h2", { class: "panel-title", text: "R1: search share vs price" }), r1 ? chip(r1.status) : null),
     h("div", { class: "panel-body stack" },
       r1 ? h("p", { class: "alert-sentence", text: r1.sentence }) : h("p", { class: "alert-sentence", text: "R1 has not been evaluated for this company." }),

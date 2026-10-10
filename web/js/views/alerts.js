@@ -32,7 +32,7 @@ export function renderAlerts(root, data, focusId) {
   }
 
   root.replaceChildren(h("div", { class: "page", "data-enter": "" },
-    h("div", { class: "page-head" }, h("div", {}, h("h1", { text: "Rule evaluations" }),
+    h("div", { class: "page-head" }, h("div", {}, h("p", { class: "eyebrow", text: "The research desk / deterministic analysis" }), h("h1", { text: "Reading the signals." }),
       h("div", { class: "meta" }, h("span", { text: "Every rule, for every company, whether it fired or not. A rule without enough data says so and does not default to false." })))),
     h("div", { class: "filters" },
       seg("status", "Status", [["all", "All"], ...Object.entries(STATUS).map(([k, v]) => [k, v.label])]),

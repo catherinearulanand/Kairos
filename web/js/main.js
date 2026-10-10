@@ -64,7 +64,8 @@ function chrome() {
     src.dataset.mode = data.source.mode;
     const last = latestCapture(data);
     clear(src).append(h("span", { class: "dot", "aria-hidden": "true" }),
-      h("span", { text: `${data.source.label}${last ? ` · captured ${fmt.dateTime(last)}` : ""}` }));
+      h("span", { text: data.source.label }));
+    src.title = last ? `Latest capture ${fmt.dateTime(last)}` : data.source.label;
   }
 
   const strip = clear($("strip"));

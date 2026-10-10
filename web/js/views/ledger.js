@@ -18,9 +18,12 @@ export function renderLedger(root, data) {
   }));
 
   root.replaceChildren(h("div", { class: "page", "data-enter": "" },
-    h("div", { class: "page-head" }, h("div", {}, h("h1", { text: "Credit ledger" }),
+    h("div", { class: "page-head" }, h("div", {}, h("p", { class: "eyebrow", text: "The accounts / SerpApi usage" }), h("h1", { text: "Every search accounted for." }),
       h("div", { class: "meta" }, h("span", { text: data.source.mode === "demo" ? "Ledger of the committed demo captures" : "Ledger of stored live captures" }),
         h("span", { class: "sep" }), h("span", { text: "One row per engine and key label. Reused or cached requests cost nothing." })))),
+    h("div", { class: "ledger-summary" },
+      ...[[total.calls, "Paid calls"], [total.credits, "Estimated credits"], [total.free, "Reused / cached"]].map(([n, label]) =>
+        h("div", { class: "ledger-stat" }, h("strong", { text: fmt.int(n) }), h("span", { text: label })))),
     h("section", { class: "panel", "aria-label": "SerpApi usage" },
       rows.length ? h("div", { class: "tbl-wrap" }, h("table", { class: "tbl" },
         h("thead", {}, h("tr", {}, ["Engine", "Key", "Paid calls", "Credits", "Free", "Share of credits"].map((t, i) => h("th", { class: i >= 2 && i <= 4 ? "r" : "", text: t })))),

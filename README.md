@@ -4,7 +4,7 @@
 
 ---
 
-![Kairos terminal running against committed fixtures](docs/screenshots/terminal.jpg)
+![Kairos research terminal running against committed fixtures](docs/screenshots/web-terminal.png)
 
 ## 1. Why Search Data is Alternative Data
 
@@ -30,24 +30,35 @@ pip install -e '.[dev]'
 KAIROS_OFFLINE=1 python -m kairos.web --open      # or: kairos web --open
 ```
 
-The web terminal (`web/`, served by `kairos/web.py`) is a read-only, dependency-free frontend:
-watchlist matrix, company page with the price/search-share chart and the R1 divergence map,
-rule evaluations, credit ledger, and an evidence inspector that re-hashes the stored SerpApi
-response in your browser before showing it. It binds to `127.0.0.1` only and refreshes from the
-store on **Refresh**. Press `Ctrl K` for the command palette. The earlier Streamlit dashboard
-still works:
+### The terminal at a glance
+
+The web terminal (`web/`, served by `kairos/web.py`) is a read-only frontend with no JavaScript
+dependencies and no external requests, so it works offline. It binds to `127.0.0.1` only.
+
+| View | What it shows |
+|---|---|
+| **Watchlist** | A summary header, one "company file" card per tracked company (latest price, weekly move, search share, R1 status) and a sortable comparison table of price, search share, review gap, ad creatives and every rule's status. |
+| **Company** | Weekly price against search share on dual axes (12, 26 or 52 weeks) with R1's baseline and recent windows shaded and a live crosshair readout. Beside it, the **divergence map**: every week of the capture plotted against R1's firing zones, with a one-tick-per-week base-rate strip. Below: a sensor table with each engine's latest reading, the company's rule evaluations and recent headlines. |
+| **Rules** | Every rule for every company, fired or not, filterable by status, rule and company. Each row expands to its conditions, windows, base rate and evidence. A rule without enough data says why. |
+| **Ledger** | SerpApi calls, estimated credits and reused requests per engine and key label. |
+| **Evidence inspector** | Opens from any chart point, sensor row or evidence link. Shows the engine, request parameters, capture time and file, then re-hashes the stored response in your browser and compares it with the recorded SHA-256 before showing the JSON fields Kairos reads. |
+
+Also included: a `Ctrl K` command palette, a light/dark theme toggle (follows the OS by default),
+charts you can read with the arrow keys, and `prefers-reduced-motion` support. The earlier
+Streamlit dashboard still works:
 
 ```bash
 KAIROS_OFFLINE=1 streamlit run app/streamlit_app.py
 ```
 
-PowerShell: set `$env:KAIROS_OFFLINE = "1"`, then run `python -m streamlit run app/streamlit_app.py`.
+PowerShell: set `$env:KAIROS_OFFLINE = "1"`, then run `python -m kairos.web --open` (or `python -m streamlit run app/streamlit_app.py` for the Streamlit dashboard).
 If Windows Application Control blocks generated CLI launchers, use `python -m kairos.cli`
 in place of `kairos` (for example, `python -m kairos.cli alerts --entity NYKAA`).
 The original capture interface also supports `python -m kairos.capture`.
-The dashboard reads stored observations and makes no SerpApi calls. Use **Refresh stored data**
-after a capture or threshold edit; every rerun reads the store again. Its data-source badge
-reflects the selected database, including automatic demo fallback when no live database exists.
+The terminal reads stored observations and makes no SerpApi calls. Use **Refresh** after a
+capture or threshold edit; every refresh reads the store again. The data-source badge in the top
+bar ("Demo fixtures" or "Stored live captures") reflects the selected database, including automatic
+demo fallback when no live database exists; hover it for the latest capture time.
 
 ### Running in Live Mode with SerpApi
 
@@ -75,8 +86,8 @@ for SerpApi requests. HTTPS certificates and hostnames are still verified.
 
 ## 3. How Kairos Uses SerpApi
 
-Every observation is parsed from a stored SerpApi response. The dashboard verifies stored
-JSON bytes before displaying them. Sanitized demo files use `fixture_sha256`; `raw_sha256`
+Every observation is parsed from a stored SerpApi response. The server verifies stored JSON
+bytes before serving them, and the evidence inspector re-hashes them again in your browser. Sanitized demo files use `fixture_sha256`; `raw_sha256`
 preserves original response provenance and can differ. Live files use the raw hash. These
 hashes check local bytes, not the authenticity of the external provider.
 
@@ -107,7 +118,8 @@ flowchart TD
     G --> H2["Rule R2: App Health Gap"]
     G --> H3["Rule R3: Ad Push Acceleration"]
     H1 & H2 & H3 --> I["Surface Layer"]
-    I --> J1["Streamlit Dashboard (app/streamlit_app.py)"]
+    I --> J1["Web Terminal (web/ + kairos/web.py)"]
+    I --> J1b["Streamlit Dashboard (app/streamlit_app.py, earlier UI)"]
     I --> J2["Terminal CLI (kairos/cli.py)"]
     I --> J3["Agent Functions (kairos/tools.py)"]
 ```
@@ -128,6 +140,17 @@ Only R1 calculates a historical base rate over evaluable backfilled weeks. The d
 **0/41** R1 fires for every company. This is descriptive frequency, not a prediction or
 confidence score. The price safeguard rejects daily moves over 20% by default; it does
 not identify or exclude all corporate actions, and the prices are unadjusted.
+
+### What the committed demo shows (captured 10 Oct 2026)
+
+| Company | R1 search share vs price | R2 reviews vs displayed rating | R3 ad activity |
+|---|---|---|---|
+| Eternal (Zomato) | Not fired: share -1.9%, price -2.7% | **Fired**: newest 199 reviews average 4.02, 0.58 below the displayed 4.6 | Not fired: 39 vs 30 creatives (1.30x) |
+| Swiggy | Not fired: share +1.8%, price -13.8% | **Fired**: 3.25, 1.25 below the displayed 4.5 | Not fired: 300 vs 200 creatives (1.50x) |
+| Nykaa | Not fired: share -1.0%, price -2.3% | **Fired**: 3.76, 0.74 below the displayed 4.5 | Insufficient data: a window hit the API's count limit |
+
+R1 does not fire for any company, and the thresholds were not adjusted to make it. The review
+gap (R2) is a gap at one moment in a sample of the newest reviews, not a trend.
 
 ---
 
@@ -170,6 +193,9 @@ kairos alerts --entity NYKAA
 
 # 4. Deep-dive into an alert's conditions and underlying SerpApi captures
 kairos explain NYKAA:R2:2026-10-10
+
+# 5. Serve the web terminal (read-only; --open launches a browser)
+kairos web --open
 ```
 
 ---
@@ -214,6 +240,7 @@ Kairos uses a modular plugin architecture. Read [CONTRIBUTING.md](CONTRIBUTING.m
 - **Freshness:** Capture timestamps are separate from observation weeks. Collection attempts are recorded; a failed or unfinished latest attempt marks dependent rules insufficient and displays a dashboard warning. Older successful readings remain available with their dates. Demo-backed replay databases retain the demo source label.
 - **Capture integrity:** Trends share requires the whole configured competitor basket. All parser and evidence reads verify byte hashes and repository path containment. Demo export stages complete successful bundles, checks metric equality after sanitization and preserves collection outcomes before publication. Already sanitized fixtures keep their original bytes. Legacy databases are backfilled from committed captures; historical attempt boundaries cannot be reconstructed exactly.
 - **Integration:** Ads series share sensor/metric but differ by `dims.window`. Analytics opens source databases read-only; commentary uses the separate writable `data/alerts.db` cache and invalidates when analytical inputs change.
+- **Web terminal safeguards:** The server is read-only, binds to loopback, rejects foreign `Host` headers and sends a strict content-security policy. Captures are served only if listed in the database and only after their bytes match the recorded hash. The frontend renders every value from the data (including news headlines) as text, never as HTML, and the tests fail if `innerHTML` is introduced.
 - **Verification:** Automated checks run the offline test suite, rendered dashboard and CLI, plus a full-history secret scan. See [app readiness](docs/APP_READINESS.md) for the verified revision, reviewed scanner matches and live-provider status. The screenshot above was captured from the running offline app. Video and submission remain the team's responsibility.
 
 ---

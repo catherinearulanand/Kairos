@@ -11,6 +11,7 @@
   <script src="/js/theme-init.js"></script>
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/identity.css">
   <script type="module" src="/js/main.js"></script>
 </head>
 <body>
@@ -21,7 +22,18 @@
       <svg class="brand-mark" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
         <path d="M3 13 L11 12 L21 5" /><path d="M3 13 L11 14 L21 20" />
       </svg>
-      <span class="brand-name">Kairos</span>
+      <svg class="brand-name handwritten-logo" viewBox="0 0 180 68" width="116" height="44" aria-hidden="true" focusable="false">
+        <g class="signature-ink" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <path class="write-k" pathLength="1" d="M12 49 C16 36 21 19 29 10 C34 5 37 9 33 16 C26 28 17 34 15 37 M18 38 C26 31 37 25 36 31 C35 37 23 39 20 39 C31 37 27 49 36 49 C40 49 43 45 47 41" />
+          <path class="write-a" pathLength="1" d="M65 32 C53 23 43 36 44 44 C45 54 57 46 64 33 C62 40 59 49 65 49 C69 49 72 45 75 41" />
+          <path class="write-i" pathLength="1" d="M78 31 C76 37 72 48 77 49 C81 50 86 43 89 38" />
+          <path class="write-r" pathLength="1" d="M86 49 C88 43 90 36 92 31 C93 28 96 28 95 32 L91 40 C98 29 103 28 106 31 C109 34 106 37 104 37 C108 39 112 36 115 33" />
+          <path class="write-o" pathLength="1" d="M130 31 C121 24 110 34 111 43 C112 55 129 49 133 36 C135 29 130 28 127 31 C124 35 130 39 140 32" />
+          <path class="write-s" pathLength="1" d="M154 29 C147 34 139 36 140 40 C141 44 153 41 151 46 C148 54 137 52 136 48 C142 52 153 49 163 43" />
+          <path class="write-dot" pathLength="1" d="M81 22 L82 21" />
+          <path class="write-stop" pathLength="1" d="M170 49 L171 48" />
+        </g>
+      </svg>
     </a>
     <nav class="nav" aria-label="Views" id="nav"></nav>
     <div class="topbar-right">
@@ -37,6 +49,12 @@
   <div class="strip" id="strip" role="navigation" aria-label="Companies"></div>
 
   <main id="main" tabindex="-1" aria-live="polite" aria-busy="true"></main>
+
+  <footer class="site-foot">
+    <a href="#/watchlist" class="foot-brand">kairos.</a>
+    <p>Public signals. Open evidence.<br><span>Data via SerpApi · Not investment advice</span></p>
+    <span class="foot-index">INDIA / ALTERNATIVE DATA</span>
+  </footer>
 
   <aside class="inspector" id="inspector" aria-label="Evidence inspector" aria-hidden="true" inert></aside>
   <div class="scrim" id="scrim" hidden></div>
