@@ -1,0 +1,87 @@
+/* Kairos design tokens.
+   Light is the default: this is read at a desk, in daylight, for hours. Pure white page, a cool
+   second neutral for rails and panels, ink for text and price, one cobalt for what you can act on
+   and for search share, vermilion reserved for a rule that fired. */
+
+:root {
+  --font-sans: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, "Liberation Mono", monospace;
+
+  --text-xs: 0.75rem;     /* 12 */
+  --text-sm: 0.8125rem;   /* 13 */
+  --text-base: 0.875rem;  /* 14 */
+  --text-md: 1rem;        /* 16 */
+  --text-lg: 1.25rem;     /* 20 */
+  --text-xl: 1.5rem;      /* 24 */
+
+  --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-1: 120ms;
+  --dur-2: 180ms;
+  --dur-3: 260ms;
+
+  --radius: 6px;
+  --radius-sm: 4px;
+  --topbar-h: 48px;
+  --strip-h: 40px;
+  --inspector-w: 460px;
+
+  --z-sticky: 20;
+  --z-scrim: 30;
+  --z-inspector: 40;
+  --z-palette: 50;
+  --z-toast: 60;
+  --z-tooltip: 70;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: oklch(1 0 0);
+  --panel: oklch(0.978 0.003 260);
+  --panel-2: oklch(0.955 0.004 260);
+  --line: oklch(0.915 0.005 260);
+  --line-strong: oklch(0.82 0.008 260);
+  --ink: oklch(0.2 0.012 260);
+  --ink-2: oklch(0.36 0.012 260);
+  --ink-3: oklch(0.48 0.012 260);
+  --accent: oklch(0.42 0.15 260);
+  --accent-ink: oklch(1 0 0);
+  --accent-soft: oklch(0.962 0.02 260);
+  --series-a: oklch(0.22 0.01 260);
+  --series-b: oklch(0.5 0.17 260);
+  --fire: oklch(0.55 0.19 30);
+  --fire-ink: oklch(0.46 0.17 30);
+  --fire-soft: oklch(0.965 0.03 30);
+  --warn-ink: oklch(0.46 0.09 75);
+  --warn-soft: oklch(0.965 0.045 90);
+  --ok-ink: oklch(0.42 0.1 155);
+  --ok-soft: oklch(0.96 0.035 155);
+  --scrim: oklch(0.2 0.012 260 / 0.28);
+  --focus: oklch(0.5 0.17 260);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: oklch(0.165 0.01 260);
+  --panel: oklch(0.2 0.011 260);
+  --panel-2: oklch(0.235 0.012 260);
+  --line: oklch(0.29 0.012 260);
+  --line-strong: oklch(0.4 0.014 260);
+  --ink: oklch(0.945 0.005 260);
+  --ink-2: oklch(0.8 0.008 260);
+  --ink-3: oklch(0.68 0.01 260);
+  --accent: oklch(0.76 0.12 260);
+  --accent-ink: oklch(0.2 0.02 260);
+  --accent-soft: oklch(0.26 0.04 260);
+  --series-a: oklch(0.93 0.005 260);
+  --series-b: oklch(0.74 0.14 260);
+  --fire: oklch(0.7 0.17 32);
+  --fire-ink: oklch(0.78 0.14 32);
+  --fire-soft: oklch(0.27 0.05 32);
+  --warn-ink: oklch(0.82 0.1 85);
+  --warn-soft: oklch(0.28 0.04 85);
+  --ok-ink: oklch(0.8 0.12 155);
+  --ok-soft: oklch(0.26 0.04 155);
+  --scrim: oklch(0.05 0.01 260 / 0.55);
+  --focus: oklch(0.76 0.12 260);
+}

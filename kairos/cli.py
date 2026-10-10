@@ -6,6 +6,7 @@ Provides commands for:
   - kairos alerts [--entity ID] [--llm] [--all]
   - kairos explain <alert_id>
   - kairos export-demo
+  - kairos web [--port N] [--open]
 """
 from __future__ import annotations
 
@@ -221,6 +222,17 @@ def export_demo():
     entities = load_watchlist(ROOT / "watchlist.yaml")
     capture.export_demo(ROOT, entities)
     typer.secho("Demo export complete.", fg=typer.colors.GREEN)
+
+
+@app.command()
+def web(
+    port: int = typer.Option(8765, "--port", help="Port on 127.0.0.1"),
+    open_browser: bool = typer.Option(False, "--open", help="Open the terminal in a browser"),
+):
+    """Serve the read-only web terminal (reads stored data; makes no SerpApi calls)."""
+    _init_env()
+    from kairos import web as server
+    server.main(["--port", str(port), *(["--open"] if open_browser else [])])
 
 
 if __name__ == "__main__":

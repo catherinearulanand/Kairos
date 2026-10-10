@@ -26,7 +26,18 @@ cd Kairos
 # 2. Install dependencies in editable mode
 pip install -e '.[dev]'
 
-# 3. Launch the Streamlit Terminal (Offline Mode)
+# 3. Launch the web terminal (offline mode, no keys)
+KAIROS_OFFLINE=1 python -m kairos.web --open      # or: kairos web --open
+```
+
+The web terminal (`web/`, served by `kairos/web.py`) is a read-only, dependency-free frontend:
+watchlist matrix, company page with the price/search-share chart and the R1 divergence map,
+rule evaluations, credit ledger, and an evidence inspector that re-hashes the stored SerpApi
+response in your browser before showing it. It binds to `127.0.0.1` only and refreshes from the
+store on **Refresh**. Press `Ctrl K` for the command palette. The earlier Streamlit dashboard
+still works:
+
+```bash
 KAIROS_OFFLINE=1 streamlit run app/streamlit_app.py
 ```
 
