@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kairos: alt-data terminal for Indian equities</title>
+  <meta name="description" content="Search, review, ad and news signals for listed Indian companies, compared with the share price. Every number opens the SerpApi response it came from.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script src="/js/theme-init.js"></script>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#/watchlist" aria-label="Kairos, watchlist">
+      <svg class="brand-mark" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+        <path d="M3 13 L11 12 L21 5" /><path d="M3 13 L11 14 L21 20" />
+      </svg>
+      <span class="brand-name">Kairos</span>
+    </a>
+    <nav class="nav" aria-label="Views" id="nav"></nav>
+    <div class="topbar-right">
+      <span class="source" id="source" role="status"></span>
+      <button class="btn btn-quiet" id="refresh" type="button" title="Re-read the store">Refresh</button>
+      <button class="btn btn-quiet palette-hint" id="open-palette" type="button" aria-keyshortcuts="Control+K Meta+K">
+        <span>Search</span><kbd>Ctrl K</kbd>
+      </button>
+      <button class="btn btn-icon" id="theme" type="button" aria-label="Switch to dark theme"></button>
+    </div>
+  </header>
+
+  <div class="strip" id="strip" role="navigation" aria-label="Companies"></div>
+
+  <main id="main" tabindex="-1" aria-live="polite" aria-busy="true"></main>
+
+  <aside class="inspector" id="inspector" aria-label="Evidence inspector" aria-hidden="true" inert></aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <dialog class="palette" id="palette" aria-label="Command palette">
+    <div class="palette-box">
+      <input class="palette-input" id="palette-input" type="text" role="combobox" aria-expanded="true"
+             aria-controls="palette-list" aria-autocomplete="list" placeholder="Go to a company, view or action"
+             autocomplete="off" spellcheck="false">
+      <ul class="palette-list" id="palette-list" role="listbox"></ul>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">Kairos needs JavaScript to draw its charts. Start it with <code>python -m kairos.web</code>.</p></noscript>
+</body>
+</html>
