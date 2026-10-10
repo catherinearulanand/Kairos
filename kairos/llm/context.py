@@ -66,7 +66,7 @@ def context_for(alert: dict, ask=_anthropic, log=print) -> str | None:
     return None
 
 
-def add_context(conn, alerts: list[dict], ask=_anthropic) -> None:
+def add_context(alerts: list[dict], ask=_anthropic) -> None:
     """Fill llm_context on fired and not-fired alerts. No key, no model or offline: no-op."""
     if os.environ.get("KAIROS_OFFLINE") == "1" or ask is _anthropic and not (
             os.environ.get("LLM_API_KEY") and os.environ.get("KAIROS_LLM_MODEL")):

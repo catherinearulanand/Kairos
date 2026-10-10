@@ -54,6 +54,9 @@ def get_signals(entity_id: str, sensor: str | None = None, weeks: int = 12) -> l
                 for r in rows:
                     w = weekly.week_start(r["observed_at"])
                     counts[w] = {**r, "value": counts.get(w, {"value": 0})["value"] + 1}
+                if counts:       # the first week is cut off by the 60-article cap, the last is still running
+                    cap_week = weekly.week_start(max(r["captured_at"] for r in rows))
+                    counts = {w: r for w, r in counts.items() if min(counts) < w < cap_week}
                 by_week = counts
             else:                                    # point-in-time readings
                 by_week = {weekly.week_start(r["observed_at"]): r for r in rows if r["value"] is not None}
@@ -68,9 +71,9 @@ def get_signals(entity_id: str, sensor: str | None = None, weeks: int = 12) -> l
     return out
 
 
-def _cached_context(conn, alerts: list[dict]) -> list[dict]:
+def _cached_context(alerts: list[dict]) -> list[dict]:
     for a in alerts:
-        a["llm_context"] = store.read_llm_context(conn, a["alert_id"])
+        a["llm_context"] = store.read_llm_context(a["alert_id"])
     return alerts
 
 
@@ -82,7 +85,7 @@ def get_alerts(entity_id: str | None = None, with_evidence: bool = False) -> lis
     for e in _entities().values():
         if entity_id and e.entity_id != entity_id:
             continue
-        out.extend(_cached_context(conn, rules.evaluate_entity(conn, e, cfg)))
+        out.extend(_cached_context(rules.evaluate_entity(conn, e, cfg)))
     if not with_evidence:
         for a in out:
             a.pop("evidence", None)

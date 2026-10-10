@@ -1,7 +1,9 @@
 """Read helpers over data collection's tables, plus the analytics `alerts` table.
 
-The alerts table is a record and a cache for the model-written context line. Alerts
-themselves are recomputed on demand, so rebuilding data/demo/kairos.db loses nothing.
+Observations and captures are read-only here. The alerts table lives in its own file
+(data/alerts.db, gitignored; override with KAIROS_ALERTS_DB) so nothing in analytics ever
+writes to data/demo/kairos.db. It is a record and a cache for the model-written context
+line; alerts themselves are recomputed on demand.
 """
 from __future__ import annotations
 
@@ -29,8 +31,12 @@ def db_path() -> str:
     return str(live)
 
 
+def alerts_path() -> str:
+    return os.environ.get("KAIROS_ALERTS_DB") or str(ROOT / "data/alerts.db")
+
+
 def connect(path: Path | str | None = None) -> sqlite3.Connection:
-    conn = db.connect(path or db_path())     # alerts table is created on first write only
+    conn = db.connect(path or db_path())
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -72,23 +78,35 @@ def read_by_capture(conn, capture_ids: list[str]) -> list[dict]:
     return _rows(conn, f"SELECT * FROM observations WHERE capture_id IN ({marks})", list(capture_ids))
 
 
-def write_alerts(conn, alerts: list[dict]) -> None:
-    """Upsert alerts; a cached llm_context survives re-evaluation unless a new one is given."""
-    conn.executescript(ALERTS)
-    with conn:
-        for a in alerts:
-            conn.execute(
-                "INSERT INTO alerts (alert_id, entity_id, rule_id, status, as_of, payload, llm_context) "
-                "VALUES (?,?,?,?,?,?,?) ON CONFLICT(alert_id) DO UPDATE SET status=excluded.status, "
-                "as_of=excluded.as_of, payload=excluded.payload, "
-                "llm_context=COALESCE(excluded.llm_context, alerts.llm_context)",
-                (a["alert_id"], a["entity_id"], a["rule_id"], a["status"], a["as_of"],
-                 json.dumps(a, sort_keys=True), a.get("llm_context")))
+def write_alerts(alerts: list[dict], path: Path | str | None = None) -> None:
+    """Upsert alerts into the alerts file; a cached llm_context survives re-evaluation
+    unless a new one is given."""
+    conn = sqlite3.connect(path or alerts_path())
+    try:
+        conn.executescript(ALERTS)
+        with conn:
+            for a in alerts:
+                conn.execute(
+                    "INSERT INTO alerts (alert_id, entity_id, rule_id, status, as_of, payload, llm_context) "
+                    "VALUES (?,?,?,?,?,?,?) ON CONFLICT(alert_id) DO UPDATE SET status=excluded.status, "
+                    "as_of=excluded.as_of, payload=excluded.payload, "
+                    "llm_context=COALESCE(excluded.llm_context, alerts.llm_context)",
+                    (a["alert_id"], a["entity_id"], a["rule_id"], a["status"], a["as_of"],
+                     json.dumps({k: v for k, v in a.items() if k != "evidence"}, sort_keys=True),
+                     a.get("llm_context")))
+    finally:
+        conn.close()
 
 
-def read_llm_context(conn, alert_id: str) -> str | None:
+def read_llm_context(alert_id: str, path: Path | str | None = None) -> str | None:
+    target = Path(path or alerts_path())
+    if not target.exists():                  # nothing cached yet
+        return None
+    conn = sqlite3.connect(target)
     try:
         row = conn.execute("SELECT llm_context FROM alerts WHERE alert_id=?", (alert_id,)).fetchone()
-    except sqlite3.OperationalError:         # no alerts table yet: nothing cached
+    except sqlite3.OperationalError:
         return None
+    finally:
+        conn.close()
     return row[0] if row else None

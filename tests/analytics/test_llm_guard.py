@@ -51,5 +51,5 @@ def test_two_rejections_fall_back_to_none_and_errors_never_raise():
 def test_add_context_is_a_noop_without_a_key(monkeypatch):
     monkeypatch.delenv("LLM_API_KEY", raising=False)
     alerts = [dict(ALERT, llm_context=None)]
-    context.add_context(None, alerts)
+    context.add_context(alerts)
     assert alerts[0]["llm_context"] is None

@@ -201,8 +201,8 @@ def main(argv: list[str] | None = None) -> int:
         alerts = evaluate_entity(conn, e, cfg)
         if args.llm:
             from kairos.llm.context import add_context
-            add_context(conn, alerts)
-        store.write_alerts(conn, [{k: v for k, v in a.items() if k != "evidence"} for a in alerts])
+            add_context(alerts)
+        store.write_alerts(alerts)
         for a in alerts:
             br = a["base_rate"]
             rate = f"  [true in {br['n']} of {br['m']} weeks]" if br else ""
