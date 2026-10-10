@@ -18,7 +18,7 @@ import typer
 
 from kairos import capture, store, tools
 from kairos.analytics import rules
-from kairos.sensors import today_ist
+from kairos.sensors import REGISTRY, today_ist
 from kairos.serp import SerpClient
 from kairos.serp.client import load_dotenv
 from kairos.watchlist import load_watchlist
@@ -51,11 +51,16 @@ def snapshot(
         False, "--dry-run", help="Calculate request plan and credit cost without calling SerpApi."
     ),
     reserve: int = typer.Option(
-        30, "--reserve", help="Credit reserve to leave unspent on the SerpApi key."
+        30, "--reserve", min=0, help="Credit reserve to leave unspent on the SerpApi key."
     ),
 ):
     """Capture and parse sensors for watchlist companies."""
     _init_env()
+    if mode not in {"cache", "live", "offline"}:
+        raise typer.BadParameter("must be cache, live, or offline", param_hint="--mode")
+    if sensor and set(sensor) - REGISTRY.keys():
+        unknown = ", ".join(sorted(set(sensor) - REGISTRY.keys()))
+        raise typer.BadParameter(f"Unknown sensor ID(s): {unknown}", param_hint="--sensor")
     watchlist_path = ROOT / "watchlist.yaml"
     entities = load_watchlist(watchlist_path)
 
@@ -182,7 +187,7 @@ def explain(alert_id: str = typer.Argument(..., help="The full alert ID, e.g. NY
         br = info["base_rate"]
         typer.echo(f"Base Rate: True in {br['n']} of {br['m']} historical weeks")
     if info.get("llm_context"):
-        typer.echo(f"LLM Context: {info['llm_context']}")
+        typer.echo(f"LLM Context (model-written): {info['llm_context']}")
 
     typer.secho("\n--- Conditions Evaluated ---", fg=typer.colors.YELLOW)
     for c in info.get("conditions", []):
@@ -203,6 +208,8 @@ def explain(alert_id: str = typer.Argument(..., help="The full alert ID, e.g. NY
     for cap in info.get("captures", []):
         typer.echo(f"  - Engine: {cap['engine']} | Role: {cap.get('role')} | Captured: {cap['captured_at']}")
         typer.echo(f"    Raw SHA-256: {cap['raw_sha256']}")
+        if cap.get("fixture_sha256"):
+            typer.echo(f"    Sanitized fixture SHA-256: {cap['fixture_sha256']}")
         typer.echo(f"    Fixture: {cap.get('path')}")
         typer.echo(f"    Query Params: {cap['params']}")
 

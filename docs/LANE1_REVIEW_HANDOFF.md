@@ -2,6 +2,8 @@
 
 These findings were reviewed against committed code at `162318e`. **No lane 1 implementation or test changes are included in the lane 2 PR.** The existing collection schema, source files and fixtures are retained. Lane 2's review and API handoff are in `CODE_REVIEW.md` and `PART2_IMPLEMENTATION_PLAN.md`.
 
+Rechecked against the integrated Part 3 tree at `d39161f`: the three implementation findings below remain open. Main now includes Eternal reviews and Catherine's watchlist verification. The current combined review is `COMPLETE_CODE_REVIEW.md`; the older release checklist records the earlier state.
+
 ## P1: incomplete competitor basket fabricates search share
 
 Location: `kairos/sensors/search_share.py`, `SearchShareSensor.parse`.

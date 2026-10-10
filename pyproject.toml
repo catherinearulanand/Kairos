@@ -15,9 +15,10 @@ llm = ["anthropic>=0.40"]
 
 [project.scripts]
 kairos = "kairos.cli:app"
+kairos-capture = "kairos.capture:main"
 
 [tool.setuptools.packages.find]
-include = ["kairos*"]
+include = ["kairos*", "app*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

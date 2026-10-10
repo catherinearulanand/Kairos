@@ -5,8 +5,6 @@ divergence alerts, and the full stored evidence audit trail.
 """
 from __future__ import annotations
 
-import json
-import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -14,9 +12,9 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from kairos import tools
+from kairos import store, tools
 from kairos.serp import ledger
-from kairos.watchlist import load_watchlist
+from app.presentation import ads_summary, load_verified_capture, weekly_change
 
 # ----------------------------------------------------------------------------
 # App Configuration & Theme
@@ -101,46 +99,45 @@ st.markdown(
 # ----------------------------------------------------------------------------
 # Data Access Layer
 # ----------------------------------------------------------------------------
-@st.cache_data
 def get_entity_list() -> List[Dict[str, Any]]:
     return tools.list_entities()
 
 
-@st.cache_data
 def get_company_signals(entity_id: str, weeks: int = 12) -> List[Dict[str, Any]]:
     return tools.get_signals(entity_id, weeks=weeks)
 
 
-@st.cache_data
 def get_company_alerts(entity_id: Optional[str] = None) -> List[Dict[str, Any]]:
     return tools.get_alerts(entity_id)
 
 
-@st.cache_data
 def get_explained_alert(alert_id: str) -> Dict[str, Any]:
     return tools.explain_alert(alert_id)
 
 
-@st.cache_data
 def get_credit_data() -> List[Dict[str, Any]]:
-    manifest_p = ledger.manifest_path(ROOT, "data/demo")
-    if not manifest_p.exists():
-        manifest_p = ledger.manifest_path(ROOT, "data/raw")
+    manifest_p = ledger.manifest_path(ROOT, "data/demo" if using_demo() else "data/raw")
     return ledger.credit_summary(ledger.load(manifest_p))
+
+
+def using_demo() -> bool:
+    return Path(store.db_path()).resolve() == (ROOT / "data/demo/kairos.db").resolve()
 
 
 # ----------------------------------------------------------------------------
 # Sidebar Navigation
 # ----------------------------------------------------------------------------
-is_offline = os.environ.get("KAIROS_OFFLINE", "1") == "1"
+is_offline = using_demo()
 
 st.sidebar.title("Kairos")
 st.sidebar.markdown(
     "**SerpApi Alt-Data Terminal**\n\n*Detecting divergences between public signals and stock prices.*"
 )
 
-mode_badge = "🟢 Offline Mode (Committed Fixtures)" if is_offline else "⚡ Live SerpApi Mode"
+mode_badge = "🟢 Demo data (committed fixtures)" if is_offline else "⚡ Stored live captures"
 st.sidebar.caption(mode_badge)
+st.sidebar.caption("Read-only dashboard. Run snapshots with the CLI, then refresh this page.")
+st.sidebar.button("Refresh stored data")
 
 view = st.sidebar.radio(
     "Navigation",
@@ -249,7 +246,7 @@ if view == "Company Terminal" and selected_entity:
         )
         fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor="#f0f0f0")
         fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor="#f0f0f0")
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
     else:
         st.info("Insufficient timeseries points to render dual-axis chart.")
 
@@ -261,21 +258,22 @@ if view == "Company Terminal" and selected_entity:
     with t1:
         if share_series and share_series["points"]:
             latest_val = share_series["points"][-1]["value"]
-            prev_val = share_series["points"][-2]["value"] if len(share_series["points"]) > 1 else latest_val
-            pct_chg = ((latest_val - prev_val) / prev_val * 100) if prev_val else 0.0
+            pct_chg = weekly_change(share_series["points"])
+            change_text = f"{pct_chg:+.1f}% WoW" if pct_chg is not None else "WoW change unavailable"
             st.markdown(
                 f"""
                 <div class="metric-card">
                     <div class="metric-title">Search Share (S1)</div>
                     <div class="metric-value">{latest_val:.1f}%</div>
-                    <span style="font-size:0.8rem; color:{'#0ca678' if pct_chg>=0 else '#c92a2a'};">
-                        {'+' if pct_chg>=0 else ''}{pct_chg:.1f}% WoW
+                    <span style="font-size:0.8rem; color:{'#0ca678' if pct_chg is not None and pct_chg>=0 else '#495057'};">
+                        {change_text}
                     </span>
                     <div class="metric-proxy">Proxy: relative share vs competitors</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
+            st.caption(f"Week of {share_series['points'][-1]['week']}; captured {share_series['points'][-1]['captured_at']}")
         else:
             st.markdown('<div class="metric-card"><div class="badge-insufficient">No Reading</div></div>', unsafe_allow_html=True)
 
@@ -283,21 +281,22 @@ if view == "Company Terminal" and selected_entity:
     with t2:
         if price_series and price_series["points"]:
             latest_price = price_series["points"][-1]["value"]
-            prev_price = price_series["points"][-2]["value"] if len(price_series["points"]) > 1 else latest_price
-            price_chg = ((latest_price - prev_price) / prev_price * 100) if prev_price else 0.0
+            price_chg = weekly_change(price_series["points"])
+            change_text = f"{price_chg:+.1f}% WoW" if price_chg is not None else "WoW change unavailable"
             st.markdown(
                 f"""
                 <div class="metric-card">
                     <div class="metric-title">Ground Truth Price (S11)</div>
                     <div class="metric-value">₹{latest_price:.1f}</div>
-                    <span style="font-size:0.8rem; color:{'#0ca678' if price_chg>=0 else '#c92a2a'};">
-                        {'+' if price_chg>=0 else ''}{price_chg:.1f}% WoW
+                    <span style="font-size:0.8rem; color:{'#0ca678' if price_chg is not None and price_chg>=0 else '#495057'};">
+                        {change_text}
                     </span>
                     <div class="metric-proxy">Ground truth: NSE weekly close</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
+            st.caption(f"Week of {price_series['points'][-1]['week']}; captured {price_series['points'][-1]['captured_at']}")
         else:
             st.markdown('<div class="metric-card"><div class="badge-insufficient">No Reading</div></div>', unsafe_allow_html=True)
 
@@ -308,7 +307,7 @@ if view == "Company Terminal" and selected_entity:
         if app_mean and app_disp and app_mean["points"] and app_disp["points"]:
             rmean = app_mean["points"][-1]["value"]
             rdisp = app_disp["points"][-1]["value"]
-            sample_n = app_mean["points"][-1].get("sample_n", 199)
+            sample_n = app_mean["points"][-1].get("sample_n")
             gap = rmean - rdisp
             st.markdown(
                 f"""
@@ -323,30 +322,33 @@ if view == "Company Terminal" and selected_entity:
                 """,
                 unsafe_allow_html=True,
             )
+            sample = app_mean["points"][-1]
+            st.caption(f"Review span: {sample['dims'].get('sample_start', 'unknown')} to "
+                       f"{sample['dims'].get('sample_end', 'unknown')}; captured {sample['captured_at']}")
         else:
             st.markdown('<div class="metric-card"><div class="badge-insufficient">No Reading</div></div>', unsafe_allow_html=True)
 
     # Tile 4: Ads Creatives
-    ads_signals = [s for s in signals if s["sensor"] == "ads"]
+    ad_reading = ads_summary(signals)
     with t4:
-        if ads_signals and any(s["points"] for s in ads_signals):
-            recent_ads = next((s["points"][-1]["value"] for s in ads_signals if s.get("dims", {}).get("window") == "recent" and s["points"]), None)
-            prior_ads = next((s["points"][-1]["value"] for s in ads_signals if s.get("dims", {}).get("window") == "prior" and s["points"]), None)
-            if recent_ads is not None:
-                ratio_str = f"{recent_ads / prior_ads:.1f}x prior" if prior_ads else "N/A"
+        if ad_reading:
+            if ad_reading["recent"]:
                 st.markdown(
                     f"""
                     <div class="metric-card">
                         <div class="metric-title">Ad Push (S8)</div>
-                        <div class="metric-value">{int(recent_ads)}</div>
+                        <div class="metric-value">{ad_reading['count']}</div>
                         <span style="font-size:0.8rem; color:#495057;">
-                            Active creatives ({ratio_str})
+                            {ad_reading['comparison']}
                         </span>
                         <div class="metric-proxy">Proxy: active creatives in 14-day window</div>
                     </div>
                     """,
                     unsafe_allow_html=True,
                 )
+                recent = ad_reading["recent"]
+                st.caption(f"Window {recent['dims'].get('start_date')} to {recent['dims'].get('end_date')}; "
+                           f"captured {recent['captured_at']}")
             else:
                 st.markdown('<div class="metric-card"><div class="badge-insufficient">No Reading</div></div>', unsafe_allow_html=True)
         else:
@@ -363,13 +365,14 @@ if view == "Company Terminal" and selected_entity:
                     <div class="metric-title">News Activity (S9)</div>
                     <div class="metric-value">{int(latest_art)}</div>
                     <span style="font-size:0.8rem; color:#495057;">
-                        Articles indexed this week
+                        Sampled headlines, week of {news_sig['points'][-1]['week']}
                     </span>
                     <div class="metric-proxy">Context: Google News mentions</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
+            st.caption(f"Captured {news_sig['points'][-1]['captured_at']}; sampled results, not total coverage")
         else:
             st.markdown('<div class="metric-card"><div class="badge-insufficient">No Reading</div></div>', unsafe_allow_html=True)
 
@@ -392,7 +395,7 @@ if view == "Company Terminal" and selected_entity:
         role_label = "Headline Divergence" if a["role"] == "headline" else "Contextual Gap"
 
         with st.expander(f"{a['rule_id']} ({role_label}) — {status.upper()}", expanded=(status == "fired")):
-            st.markdown(f"**Status:** {badge_html} | **Evaluation Cutoff:** `{a['as_of']}`", unsafe_allow_html=True)
+            st.markdown(f"**Status:** {badge_html} | **Evaluation week/date:** `{a['as_of']}`", unsafe_allow_html=True)
             st.markdown(f"**Synthesized Finding:** {a['sentence']}")
 
             if a.get("base_rate"):
@@ -422,7 +425,7 @@ if view == "Company Terminal" and selected_entity:
                         "Threshold": f"{c['threshold']} {c['unit']}",
                         "Passed": "PASS" if c["passed"] else "FAIL",
                     })
-                st.dataframe(pd.DataFrame(cond_rows), hide_index=True, use_container_width=True)
+                st.dataframe(pd.DataFrame(cond_rows), hide_index=True, width="stretch")
 
             st.caption(f"Evidence Captures behind this alert: `{', '.join(a['evidence_capture_ids'])}`")
 
@@ -454,7 +457,7 @@ elif view == "Alert Evidence Deep-Dive" and selected_entity:
         obs_list = detailed_alert.get("evidence", [])
         if obs_list:
             df_obs = pd.DataFrame(obs_list)
-            st.dataframe(df_obs[["sensor", "metric", "value", "unit", "observed_at", "sample_n", "capture_id", "raw_sha256"]], use_container_width=True)
+            st.dataframe(df_obs[["sensor", "metric", "value", "unit", "observed_at", "sample_n", "capture_id", "raw_sha256"]], width="stretch")
         else:
             st.info("No observation rows recorded.")
 
@@ -470,7 +473,9 @@ elif view == "Alert Evidence Deep-Dive" and selected_entity:
                 st.markdown(f"**Credits Charged:** `{cap.get('credits_charged', 0)}`")
             with col_b:
                 st.markdown(f"**Captured Timestamp:** `{cap.get('captured_at')}`")
-                st.markdown(f"**Raw SHA-256:** `{cap.get('raw_sha256')}`")
+                st.markdown(f"**Original response SHA-256:** `{cap.get('raw_sha256')}`")
+                if cap.get("fixture_sha256"):
+                    st.markdown(f"**Sanitized fixture SHA-256:** `{cap['fixture_sha256']}`")
                 st.markdown(f"**Fixture Path:** `{cap.get('path')}`")
 
             st.markdown("**SerpApi Query Parameters:**")
@@ -479,14 +484,13 @@ elif view == "Alert Evidence Deep-Dive" and selected_entity:
             # Inspect raw fixture JSON on disk
             rel_path = cap.get("path")
             if rel_path:
-                fixture_file = ROOT / rel_path
-                if fixture_file.exists():
-                    with st.expander(f"View Raw JSON Stored in `{rel_path}`"):
-                        try:
-                            raw_content = json.loads(fixture_file.read_text(encoding="utf-8"))
-                            st.json(raw_content)
-                        except Exception as e:
-                            st.error(f"Failed to load fixture JSON: {e}")
+                with st.expander(f"View Stored JSON in `{rel_path}`"):
+                    try:
+                        raw_content = load_verified_capture(ROOT, cap)
+                        st.caption("Stored bytes verified against the fixture hash (demo) or response hash (live).")
+                        st.json(raw_content)
+                    except (OSError, ValueError) as e:
+                        st.error(f"Failed to load fixture JSON: {e}")
 
 # ----------------------------------------------------------------------------
 # View 3: Watchlist Overview
@@ -517,13 +521,13 @@ elif view == "Watchlist Overview":
             "Company Name": e["name"],
             "Ticker": e["nse_ticker"],
             "Fired Alerts": f"{fired_count} Fired" if fired_count > 0 else "0",
-            "Latest Price (₹)": f"₹{price_val:.1f}" if price_val else "N/A",
-            "Search Share (%)": f"{share_val:.1f}%" if share_val else "N/A",
-            "Play Rating Sample": f"{app_val:.2f} ★" if app_val else "N/A",
+            "Latest Price (₹)": f"₹{price_val:.1f}" if price_val is not None else "N/A",
+            "Search Share (%)": f"{share_val:.1f}%" if share_val is not None else "N/A",
+            "Play Rating Sample": f"{app_val:.2f} ★" if app_val is not None else "N/A",
             "Sensors Configured": len(e["sensors"]),
         })
 
-    st.dataframe(pd.DataFrame(summary_rows), use_container_width=True, hide_index=True)
+    st.dataframe(pd.DataFrame(summary_rows), width="stretch", hide_index=True)
 
 # ----------------------------------------------------------------------------
 # View 4: SerpApi Credit Ledger
@@ -544,8 +548,8 @@ elif view == "SerpApi Credit Ledger":
         c_free = df_ledger["free"].sum()
 
         m1, m2, m3 = st.columns(3)
-        m1.metric("Total SerpApi Calls Made", c_calls)
-        m2.metric("Credits Charged", c_credits)
+        m1.metric("Paid calls recorded", c_calls)
+        m2.metric("Estimated credits recorded", c_credits)
         m3.metric("Free Hits (1-hr cache / local)", c_free)
 
         st.subheader("Usage Breakdown by Engine")
@@ -559,7 +563,7 @@ elif view == "SerpApi Credit Ledger":
                     "free": "Free / Cached",
                 }
             ),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
     else:
@@ -568,11 +572,11 @@ elif view == "SerpApi Credit Ledger":
     st.markdown("---")
     st.markdown(
         """
-        ### Architectural Guarantees for Hackathon Judges:
-        1. **Cache-First Client:** Identical calls within 1 hour are served by SerpApi's caching tier at 0 credits.
+        ### Collection behavior:
+        1. **Cache-First Client:** Local cache mode reuses stored requests. The ledger estimates provider cache hits; the Account API is the authority on quota.
         2. **Multi-Company Deduplication:** Companies sharing search terms (e.g., Eternal and Swiggy sharing the `Zomato,Swiggy` basket) execute the search once and share the cache.
-        3. **Budget Guard:** `CreditBudget` halts queries if the remaining balance falls below the hard reserve (30 credits).
-        4. **Offline Mode:** `KAIROS_OFFLINE=1` blocks outbound network calls completely, running seamlessly from committed fixtures in `data/demo/`.
+        3. **Budget Guard:** Collection checks the reserve (30 credits by default) when the account quota is available. If quota lookup fails, the current client skips that check.
+        4. **Offline Mode:** This dashboard reads stored data and makes no SerpApi requests. The collection client's direct Account API offline gate remains a lane 1 follow-up.
         """
     )
 

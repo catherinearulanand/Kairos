@@ -22,6 +22,10 @@ A sensor defines:
 
 Here is the complete implementation of the Google Trends Search Share sensor from `kairos/sensors/search_share.py`:
 
+This mirrors the current collection parser. Its incomplete-basket handling is an open
+lane 1 finding: a completely absent competitor must produce missing share rather than
+shrink the denominator. See `docs/LANE1_REVIEW_HANDOFF.md` before copying that behavior.
+
 ```python
 from __future__ import annotations
 
@@ -92,7 +96,11 @@ class SearchShareSensor(Sensor):
 Create a new file in `kairos/sensors/<sensor_name>.py`.
 
 ### 2. Implement Subclass & Decorate with `@register`
-Inherit from `Sensor` and decorate your class with `@register`. The `@register` decorator adds the sensor to `REGISTRY` in `kairos.sensors`, making it immediately accessible to snapshot planning, capture, and the UI.
+Inherit from `Sensor` and decorate your class with `@register`. Import the module in
+`kairos/sensors/__init__.py` so registration actually runs. Once imported, snapshot
+planning and collection can use the registry entry. To chart the sensor, add its metrics
+to `SERIES` in `kairos/tools.py`, define the appropriate normalization, and update the
+dashboard presentation. Add rule integration separately if it drives an alert.
 
 ### 3. Implement `requests(self, e, today)`
 Return a dictionary of `role -> params`.

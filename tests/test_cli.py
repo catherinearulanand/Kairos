@@ -1,7 +1,19 @@
 from typer.testing import CliRunner
+import pytest
 from kairos.cli import app
 
 runner = CliRunner()
+
+
+@pytest.fixture(autouse=True)
+def offline_cli(monkeypatch):
+    monkeypatch.setenv("KAIROS_OFFLINE", "1")
+    monkeypatch.setattr("kairos.cli._init_env", lambda: None)
+
+    def blocked(url):
+        raise AssertionError("CLI tests must not call a live provider")
+
+    monkeypatch.setattr("kairos.serp.client._http_get", blocked)
 
 
 def test_cli_help():
@@ -43,3 +55,14 @@ def test_cli_explain():
     assert "Alert Breakdown" in result.output
     assert "Conditions Evaluated" in result.output
     assert "SerpApi Captures Used" in result.output
+
+
+@pytest.mark.parametrize("args", [["--sensor", "TYPO"], ["--mode", "TYPO"], ["--reserve", "-1"]])
+def test_snapshot_invalid_options_fail_before_collection(monkeypatch, args):
+    def unexpected(*a, **kw):
+        pytest.fail("invalid options must not start collection")
+
+    monkeypatch.setattr("kairos.capture.run_snapshot", unexpected)
+    result = runner.invoke(app, ["snapshot", *args])
+    assert result.exit_code != 0
+    assert "Error" in result.output

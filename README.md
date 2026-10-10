@@ -6,13 +6,13 @@
 
 ## 1. Why Search Data is Alternative Data
 
-Hedge funds and institutional quants routinely pay six figures for alternative data: customer sentiment, consumer app ratings, ad spend velocity, and organic search volume. Retail investors and small research teams in India have never had access to this intelligence.
+Small research teams and analysts can compare public search, app-review, ad-activity and news signals with stock prices, but the signals sit on separate surfaces.
 
-The raw signals already exist in public search surfaces, but they remain scattered and unrecorded over time. Kairos is the layer that transforms SerpApi's search engines into a scheduled network of time-series sensors. A single SERP query is merely a snapshot; the same query repeated over time, normalized into a strict schema, is a continuous dataset.
+Kairos stores SerpApi responses and normalizes them into observations. Repeated CLI captures can build a dataset; an automatic scheduler is not implemented.
 
 ---
 
-## 2. Quickstart (Works 100% Offline with Zero Setup)
+## 2. Quickstart (Offline Runtime After Installing Dependencies)
 
 Kairos includes committed fixtures and an offline SQLite database so judges can run the entire terminal immediately without needing an API key.
 
@@ -22,11 +22,16 @@ git clone https://github.com/catherinearulanand/Kairos.git
 cd Kairos
 
 # 2. Install dependencies in editable mode
-pip install -e .
+pip install -e '.[dev]'
 
 # 3. Launch the Streamlit Terminal (Offline Mode)
 KAIROS_OFFLINE=1 streamlit run app/streamlit_app.py
 ```
+
+PowerShell: set `$env:KAIROS_OFFLINE = "1"`, then run `python -m streamlit run app/streamlit_app.py`.
+The dashboard reads stored observations and makes no SerpApi calls. Use **Refresh stored data**
+after a capture or threshold edit; every rerun reads the store again. Its data-source badge
+reflects the selected database, including automatic demo fallback when no live database exists.
 
 ### Running in Live Mode with SerpApi
 
@@ -45,11 +50,17 @@ kairos snapshot --entity NYKAA --mode live
 kairos alerts --entity NYKAA
 ```
 
+Unset `KAIROS_OFFLINE` or set it to `0` in the shell before live collection; shell variables
+take precedence over `.env`. The earlier `kairos-capture` command remains available.
+
 ---
 
 ## 3. How Kairos Uses SerpApi
 
-SerpApi is the load-bearing data provider in Kairos. Every observation is parsed from a SerpApi response, and every number traces back to a SHA-256-verified capture.
+Every observation is parsed from a stored SerpApi response. The dashboard verifies stored
+JSON bytes before displaying them. Sanitized demo files use `fixture_sha256`; `raw_sha256`
+preserves original response provenance and can differ. Live files use the raw hash. These
+hashes check local bytes, not the authenticity of the external provider.
 
 | Sensor ID | SerpApi Engine | Key Parameters | Metrics Extracted | What It Tells an Analyst |
 |---|---|---|---|---|
@@ -59,7 +70,8 @@ SerpApi is the load-bearing data provider in Kairos. Every observation is parsed
 | **S8** | `google_ads_transparency_center` | `text=<domain>`, `region=2356`, `start_date`, `end_date` (14-day windows) | `active_creatives` | Advertising & customer acquisition push: compares active creatives across two 14-day windows. |
 | **S9** | `google_news` | `q=<company>`, `gl=in`, `hl=en` | `article` count | Event stream and headline velocity to contextualize sudden signal shifts. |
 
-*Additional engines used for entity resolution include `google_trends_autocomplete`, `google_play`, and `google_finance` suggestions.*
+These five engines have committed fixtures. Identifiers are hand-verified in `watchlist.yaml`;
+an automated identifier-resolution pipeline is not implemented.
 
 ---
 
@@ -70,7 +82,7 @@ flowchart TD
     A["Watchlist Configuration (watchlist.yaml)"] --> B["SerpClient (Cache-First & Budget Guard)"]
     B --> C["Raw SerpApi Search Engines (5 Engines)"]
     C --> D["Immutable JSON Store (data/raw & data/demo)"]
-    D --> E["Sensor Normalization (ObsDraft -> Observation)"]
+    D --> E["Sensor Normalization (Observation)"]
     E --> F["SQLite Datastore (observations, captures)"]
     F --> G["Analytics Engine (kairos/analytics/rules.py)"]
     G --> H1["Rule R1: Headline Search vs Price Disconnect"]
@@ -90,11 +102,14 @@ Rules live in `rules.yaml` and run deterministically. The engine never lets an L
 
 | Rule ID | Role | Name | Condition | Severity / Interpretation |
 |---|---|---|---|---|
-| **R1** | Headline | Search Share vs Price Disconnect | 4-week mean search share vs prior 8 weeks moves `> 15%` one way, while the 4-week price return moves `> 8%` the other way. Windows with corporate actions excluded. | **High**: Public consumer interest and equity market pricing point in opposite directions. |
-| **R2** | Context | App Review Sample Gap | Mean of newest 199 Play Store reviews is `< displayed rating - 0.3` stars. Sample date range and `n` explicitly stated. | **Medium**: Recent user sentiment has deteriorated below the advertised store rating. |
-| **R3** | Context | Ad Acceleration Push | Active ad creatives in the latest 14 days are `≥ 2.0x` the prior 14 days. | **Medium**: Company is heavily scaling acquisition spend. |
+| **R1** | Headline | Search Share vs Price Disconnect | 4-week mean search share vs prior 8 weeks moves `> 15%` one way, while the 4-week price return moves `> 8%` the other way. | Public search share and equity price move in opposite directions. |
+| **R2** | Context | App Review Sample Gap | Recent review mean is `< displayed rating - 0.3` stars; at least 50 valid reviews. Actual sample date range and `n` are shown. | A gap at one moment; it does not establish deterioration over time. |
+| **R3** | Context | Ad Activity | Latest 14-day creatives are `≥ 2.0x` the prior window, with at least five prior creatives, adjacent windows and no cap. | Activity proxy, not measured acquisition spending. |
 
-Every alert calculates its **Historical Base Rate** (e.g., "True in 0 of 41 weeks") over the entire 52-week backfill, telling analysts immediately whether an alert is a rare inflection or normal volatility.
+Only R1 calculates a historical base rate over evaluable backfilled weeks. The demo has
+**0/41** R1 fires for every company. This is descriptive frequency, not a prediction or
+confidence score. The price safeguard rejects daily moves over 20% by default; it does
+not identify or exclude all corporate actions, and the prices are unadjusted.
 
 ---
 
@@ -102,9 +117,9 @@ Every alert calculates its **Historical Base Rate** (e.g., "True in 0 of 41 week
 
 Kairos is architected specifically around SerpApi's quota model:
 
-1. **Cache-First Client:** Identical searches within 1 hour are returned by SerpApi's caching tier at 0 credits.
+1. **Cache-First Client:** Local cache mode reuses stored identical requests without an expiry. Live mode makes a fresh request, deduplicating identical requests within one run. Provider cache classification and ledger credits are estimates; the Account API is the quota authority.
 2. **Shared Request Deduplication:** Competitors sharing a Trends basket (e.g., `Eternal` and `Swiggy` both requesting `Zomato,Swiggy`) execute the query once; the second entity consumes the cached response at 0 credits.
-3. **Credit Budget Guard:** An automated reserve (`--reserve 30`) prevents accidental exhaustion during captures.
+3. **Credit Budget Guard:** The reserve (`--reserve 30`) is enforced when account quota is available. If quota lookup fails, the current client skips that check.
 4. **Dry-Run Mode:** `kairos snapshot --dry-run` calculates the upper-bound credit cost before making network requests.
 
 Run `kairos credits` to inspect the credit ledger:
@@ -132,7 +147,7 @@ kairos credits
 # 2. Plan snapshot without spending credits
 kairos snapshot --entity NYKAA --dry-run
 
-# 3. View active and historical divergence alerts
+# 3. View current rule evaluations (all statuses)
 kairos alerts --entity NYKAA
 
 # 4. Deep-dive into an alert's conditions and underlying SerpApi captures
@@ -154,13 +169,14 @@ entities = tools.list_entities()
 # 2. Query 12-week normalized signal timeseries
 signals = tools.get_signals("NYKAA", sensor="search_share", weeks=12)
 
-# 3. Retrieve fired alerts with evidence IDs
+# 3. Retrieve every rule evaluation with evidence IDs
 alerts = tools.get_alerts("NYKAA")
 for alert in alerts:
     print(f"[{alert['status'].upper()}] {alert['sentence']}")
 
-# 4. Audit an alert down to its raw SerpApi captures
-explanation = tools.explain_alert("NYKAA:R2:2026-10-10")
+# 4. Audit the current review-gap evaluation and its SerpApi captures
+review_alert = next(a for a in alerts if a["rule_id"] == "R2")
+explanation = tools.explain_alert(review_alert["alert_id"])
 print("Captures used:", [c["engine"] for c in explanation["captures"]])
 ```
 
@@ -175,14 +191,18 @@ Kairos uses a modular plugin architecture. Read [CONTRIBUTING.md](CONTRIBUTING.m
 ## 10. Limitations & Honesty Guardrails
 
 - **Signals, Not Predictions:** Kairos does not predict stock prices or make trade recommendations. It detects and explains divergences between public behavior and price.
-- **Samples, Not Totals:** Play Store review samples and sampled store locations are statistical samples, not census totals. The UI explicitly states sample size ($n$) and time intervals.
-- **Strict LLM Boundary:** The LLM never computes or alters numbers. Every quantitative sentence is filled by a deterministic template. Any LLM commentary is strictly validated by an AST-based guard that rejects numerals and enforces citations.
+- **Samples, Not Totals:** Review means describe the newest returned reviews. News counts describe at most 60 sampled headlines in explicitly dated completed weeks. Ads totals at the provider cap are lower bounds; exact capped ratios are suppressed.
+- **Strict LLM Boundary:** Quantitative sentences come from deterministic templates. Optional model JSON is checked with regular expressions for digits/number words, a word limit and evidence-ID membership. These checks do not establish the truth of the model's prose. Offline mode disables model generation.
+- **Freshness:** Capture timestamps are separate from observation weeks. An old successful reading does not prove that a newer collection succeeded. The dashboard's credit ledger follows its selected demo/live source.
+- **Open collection findings:** Incomplete competitor baskets can inflate search share, direct Account API methods bypass offline mode, and demo export can select partial failed sensor captures. These remain with the lane 1 owner; see [the handoff](docs/LANE1_REVIEW_HANDOFF.md).
+- **Integration:** Ads series share sensor/metric but differ by `dims.window`. Analytics opens source databases read-only; commentary uses the separate writable `data/alerts.db` cache and invalidates when analytical inputs change.
+- **Release work:** Screenshot, demo video, form submission and public-link checks remain unverified by the code suite. Live-provider validation is also outstanding.
 
 ---
 
 ## 11. AI Tools Disclosure
 
-Built with Claude and Gemini coding assistants for specification, code generation, and test validation under team architectural direction. All rule logic, validation formulas, and schemas were designed and verified by the team.
+The team's disclosure names Claude and Gemini. Codex also performed code review, integration fixes and regression-test work. Human owners remain responsible for identifier verification, interpretation and submission.
 
 ---
 
@@ -190,4 +210,4 @@ Built with Claude and Gemini coding assistants for specification, code generatio
 
 **Disclaimer:** Data via SerpApi. Kairos is an analytical research tool and does not provide investment advice.
 
-Licensed under the **MIT License**.
+The earlier project description specifies MIT; a standalone `LICENSE` file has not yet been added.

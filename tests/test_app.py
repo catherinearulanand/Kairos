@@ -1,5 +1,15 @@
-import os
+import time
+from pathlib import Path
+import pytest
+from streamlit.testing.v1 import AppTest
 from app.streamlit_app import get_entity_list, get_company_signals, get_company_alerts, get_explained_alert, get_credit_data
+
+REAL_SLEEP = time.sleep
+
+
+@pytest.fixture(autouse=True)
+def offline_app(monkeypatch):
+    monkeypatch.setenv("KAIROS_OFFLINE", "1")
 
 
 def test_app_entity_list():
@@ -41,3 +51,49 @@ def test_app_credit_data():
     engines = {c["engine"] for c in credits}
     assert "google_trends" in engines
     assert "google_finance" in engines
+
+
+def test_data_helpers_recompute_on_every_call(monkeypatch):
+    monkeypatch.setattr("kairos.tools.get_alerts", lambda *a: [{"status": "fired"}])
+    assert get_company_alerts("NYKAA") == [{"status": "fired"}]
+    monkeypatch.setattr("kairos.tools.get_alerts", lambda *a: [{"status": "not_fired"}])
+    assert get_company_alerts("NYKAA") == [{"status": "not_fired"}]
+
+
+def test_mode_and_ledger_follow_actual_database(tmp_path, monkeypatch):
+    from app import streamlit_app as dashboard
+    from kairos.serp import ledger
+
+    monkeypatch.setattr(dashboard, "ROOT", tmp_path)
+    monkeypatch.setattr("kairos.store.db_path", lambda: str(tmp_path / "data/kairos.db"))
+    assert not dashboard.using_demo()
+    paths = []
+    monkeypatch.setattr(ledger, "load", lambda path: paths.append(path) or [])
+    assert get_credit_data() == []
+    assert paths == [tmp_path / "data/raw/manifest.jsonl"]
+    monkeypatch.setattr("kairos.store.db_path", lambda: str(tmp_path / "data/demo/kairos.db"))
+    assert dashboard.using_demo()
+    get_credit_data()
+    assert paths[-1] == tmp_path / "data/demo/manifest.jsonl"
+
+
+@pytest.mark.parametrize("view", ["Company Terminal", "Alert Evidence Deep-Dive",
+                                  "Watchlist Overview", "SerpApi Credit Ledger"])
+def test_rendered_views_work_with_offline_fixtures(view, monkeypatch):
+    # Collection tests disable retry delays globally; the threaded UI runner must yield.
+    monkeypatch.setattr(time, "sleep", REAL_SLEEP)
+    at = AppTest.from_file(str(Path(__file__).resolve().parents[1] / "app/streamlit_app.py"),
+                           default_timeout=20).run()
+    assert not at.exception
+    at.sidebar.radio[0].set_value(view).run()
+    assert not at.exception
+    if view == "Company Terminal":
+        at.sidebar.selectbox[0].set_value("NYKAA").run()
+        assert not at.exception
+        content = " ".join(m.value for m in at.markdown)
+        assert "≥5000" in content and "ratio unavailable" in content
+        assert "Sampled headlines, week of 2026-09-27" in content
+    elif view == "Alert Evidence Deep-Dive":
+        at.selectbox[-1].select_index(1).run()
+        assert not at.exception and not at.error
+        assert any("Sanitized fixture SHA-256" in m.value for m in at.markdown)
