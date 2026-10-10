@@ -7,17 +7,18 @@ name = "kairos"
 version = "0.1.0"
 description = "Alternative-data terminal for Indian equities, built on SerpApi"
 requires-python = ">=3.11"
-dependencies = ["pydantic>=2", "pyyaml>=6"]
+dependencies = ["pydantic>=2", "pyyaml>=6", "streamlit", "plotly", "typer", "pandas"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 llm = ["anthropic>=0.40"]
 
 [project.scripts]
+kairos = "kairos.cli:app"
 kairos-capture = "kairos.capture:main"
 
 [tool.setuptools.packages.find]
-include = ["kairos*"]
+include = ["kairos*", "app*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
