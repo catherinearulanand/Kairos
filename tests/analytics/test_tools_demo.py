@@ -31,11 +31,11 @@ def test_get_alerts_returns_every_rule_with_resolvable_evidence():
             assert "evidence" not in a
 
 
-def test_r1_carries_a_base_rate_and_eternal_has_no_review_reading():
+def test_r1_carries_a_base_rate_and_eternal_has_review_reading():
     r1 = tools.get_alerts("NYKAA")[0]
     assert r1["base_rate"] and r1["base_rate"]["m"] >= 30
     r2 = tools.get_alerts("ETERNAL")[1]
-    assert r2["status"] == "insufficient" and "missing" in r2["reason"]
+    assert r2["status"] == "fired"
 
 
 def test_explain_alert_returns_the_rows_behind_it():
