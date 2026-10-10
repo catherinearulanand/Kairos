@@ -19,6 +19,7 @@ from kairos import store
 from kairos.analytics import weekly
 from kairos.models import Entity
 from kairos.sensors.base import IST
+from kairos.serp.client import load_dotenv
 from kairos.watchlist import load_watchlist
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -193,6 +194,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--entity", action="append")
     ap.add_argument("--llm", action="store_true", help="add the model-written context line")
     args = ap.parse_args(argv)
+    load_dotenv(ROOT / ".env")
     conn = store.connect(args.db)
     cfg = load_rules()
     for e in load_watchlist(ROOT / "watchlist.yaml"):
