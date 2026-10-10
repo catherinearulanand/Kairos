@@ -1,0 +1,1512 @@
+{
+ "search_metadata": {
+  "id": "6ac9b6b071a41dc9a7117ebc",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/l6vJPJONc4m5O3GprgA-1-lF4BxEvf48qrl2hBVTAm4/6ac9b6b071a41dc9a7117ebc.json",
+  "markdown_endpoint": "https://serpapi.com/searches/l6vJPJONc4m5O3GprgA-1-lF4BxEvf48qrl2hBVTAm4/6ac9b6b071a41dc9a7117ebc.md",
+  "created_at": "2026-10-10 03:53:20 UTC",
+  "processed_at": "2026-10-10 03:53:20 UTC",
+  "google_news_url": "https://news.google.com/search?q=Zomato&hl=en&gl=IN",
+  "raw_html_file": "https://serpapi.com/searches/l6vJPJONc4m5O3GprgA-1-lF4BxEvf48qrl2hBVTAm4/6ac9b6b071a41dc9a7117ebc.html",
+  "total_time_taken": 0.81
+ },
+ "search_parameters": {
+  "engine": "google_news",
+  "gl": "in",
+  "hl": "en",
+  "q": "Zomato"
+ },
+ "news_results": [
+  {
+   "position": 1,
+   "title": "'Rs 50,000 To Rs 2.2 Lakh': Ex-Zomato Employee Reveals How She Increased Her Earnings",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Abhinav Singh"
+    ]
+   },
+   "link": "https://www.ndtv.com/offbeat/rs-50-000-to-rs-2-2-lakh-ex-zomato-employee-reveals-how-she-increased-her-earnings-12162858",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/ntv022s4_as_625x300_09_October_26.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTZYMnhRUVhGSU56ZGZURkE0VFJDZkF4ampCU2dLTWdB",
+   "date": "10/09/2026, 02:36 PM, +0000 UTC",
+   "iso_date": "2026-10-09T14:36:39Z"
+  },
+  {
+   "position": 2,
+   "title": "Exclusive: Swish Pilots Swish Go To Take On Swiggy, Zomato",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Gaurav Bagur"
+    ]
+   },
+   "link": "https://inc42.com/buzz/exclusive-swish-pilots-swish-go-to-take-on-swiggy-zomato/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Swish-ftr-760x570.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUpRUzFPU0dSTWFtVXdiMFoxVFJEZ0F4aUFCU2dLTWdZUmNZNEpNUVk",
+   "date": "10/07/2026, 03:20 PM, +0000 UTC",
+   "iso_date": "2026-10-07T15:20:56Z"
+  },
+  {
+   "position": 3,
+   "title": "Zomato, Blinkit onboarded 3.1 lakh delivery partners in FY26, says Deepinder Goyal",
+   "source": {
+    "name": "Business Today",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businesstoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.businesstoday.in/india/story/zomato-blinkit-onboard-3-1-lakh-delivery-partners-in-fy26-says-deepinder-goyal-560771-2026-10-09",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202610/6ac90e32580a4-zomato-founder-deepinder-goyal-155213608-16x9.jpeg?size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpZVXRHTTA1RVgzcDRWSEZzVFJDZkF4ampCU2dLTWdZdFpaVE9LUWM",
+   "date": "10/09/2026, 04:19 PM, +0000 UTC",
+   "iso_date": "2026-10-09T16:19:02Z"
+  },
+  {
+   "position": 4,
+   "title": "Zomato staff asked to learn hindi or leave job in Bengaluru, supervisor later apologises",
+   "source": {
+    "name": "CNBC TV18",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnbctv18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.cnbctv18.com/india/zomato-staff-asked-to-learn-hindi-or-leave-job-in-bengaluru-supervisor-later-apologises-20007407.htm",
+   "thumbnail": "https://images.cnbctv18.com/uploads/2026/10/zomato-bla-blah-2026-10-ee55d1cbe1c7d45ae317f7f7018441db.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHplR2QxUkd0ZmFqRlBhSEpJVFJDZkF4ampCU2dLTWdZQlFJaGFtQWs",
+   "date": "10/08/2026, 06:28 AM, +0000 UTC",
+   "iso_date": "2026-10-08T06:28:23Z"
+  },
+  {
+   "position": 5,
+   "title": "Woman quits 'perfect' Zomato job, shares what first 5 months on her own looked like",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.indiatoday.in/trending-news/story/woman-quits-perfect-zomato-job-shares-what-first-5-months-on-her-own-looked-like-3013483-2026-10-09",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/woman-quits-perfect-zomato-job--shares-what-first-5-months-on-her-own-looked-like-093255540-16x9_0.jpg?VersionId=QEv3S4GMYU71isG5w9j3RiI_1H5O1ObB&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXROVWRPVFRsQ1RTMUlWVjl0VFJDZkF4ampCU2dLTWdrTmNaQzJNT2VwekFF",
+   "date": "10/09/2026, 02:06 PM, +0000 UTC",
+   "iso_date": "2026-10-09T14:06:48Z"
+  },
+  {
+   "position": 6,
+   "title": "Swish tests no-fee restaurant delivery with Swish Go: We compared its prices with Swiggy and Zomato",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aakriti Bansal"
+    ]
+   },
+   "link": "https://www.medianama.com/2026/10/223-swish-go-food-delivery-vs-swiggy-zomato/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2024/05/quick-commerce.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBRbkJUVlVweVlYcDRTMDluVFJDZkF4ampCU2dLTWdZQmNKYXRyUWM",
+   "date": "10/08/2026, 08:05 AM, +0000 UTC",
+   "iso_date": "2026-10-08T08:05:19Z"
+  },
+  {
+   "position": 7,
+   "title": "'Learn Hindi or quit': Remark by Zomato supervisor in Bengaluru triggers backlash",
+   "source": {
+    "name": "Deccan Herald",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.deccanherald.com/india/karnataka/bengaluru/learn-hindi-or-quit-remark-by-zomato-supervisor-in-bengaluru-triggers-backlash-4173030",
+   "thumbnail": "https://media.assettype.com/deccanherald%2F2026-08-05%2Fsaohtxb1%2Ffile7hai2ypa6wlq1qmb3js.jpg?rect=1%2C0%2C3870%2C2177&w=undefined&auto=format%2Ccompress&fit=max",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUNWRnBtZEhCS1gwTk1WRUpUVFJDZkF4ampCU2dLTWdrQkFJeWt0S1UwRlFF",
+   "date": "10/07/2026, 01:59 AM, +0000 UTC",
+   "iso_date": "2026-10-07T01:59:54Z"
+  },
+  {
+   "position": 8,
+   "title": "Zomato and Blinkit Hold Third EV Bazaar in New Delhi for Delivery Partners",
+   "source": {
+    "name": "Autocar Professional",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.autocarpro.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.autocarpro.in/news/zomato-and-blinkit-hold-third-ev-bazaar-in-new-delhi-for-delivery-partners-135150",
+   "thumbnail": "https://img.autocarpro.in/autocarpro/542d127c-0cbf-4b68-9465-485e19528483_image.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBRM0ZOWmtKUE5VNXZhRWxhVFJEQUF4aXRCU2dLTWdZNUVvajBFQW8",
+   "date": "10/09/2026, 01:20 PM, +0000 UTC",
+   "iso_date": "2026-10-09T13:20:07Z"
+  },
+  {
+   "position": 9,
+   "title": "5% GST on Ola, Uber, Swiggy, Zomato, Amazon and Flipkart regardless of business model: Report",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/companies/news/5-gst-on-ola-uber-swiggy-zomato-amazon-and-flipkart-regardless-of-business-model-report-11791567413508.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/09/1600x900/logo/ola_1791569585402_konI_1791569637277_soSl_9bbf85ae-a741-43eb-8bec-6eb13c990c4d_bNJS.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNTRZWEJ3UWsxek1HVjFOR05rVFJDZkF4ampCU2dLTWdzQkVJWjRDS3ByMXVqY3NR",
+   "date": "10/09/2026, 06:32 PM, +0000 UTC",
+   "iso_date": "2026-10-09T18:32:45Z"
+  },
+  {
+   "position": 10,
+   "title": "Differently Abled Zomato Delivery Executive’s Inspiring Bengaluru Story:‘This City Never Made Me Feel Disabled’and appeals to Bengalureans:‘Wear a Helmet, Someone Is Waiting for You at Home’",
+   "source": {
+    "name": "Country and Politics",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.countryandpolitics.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.countryandpolitics.in/2026/10/10/differently-abled-zomato-delivery-executives-inspiring-bengaluru-storythis-city-never-made-me-feel-disabledand-appeals-to-bengalureanswear-a-helmet-someone-is-wa/",
+   "thumbnail": "https://www.countryandpolitics.in/wp-content/uploads/2026/10/1003299816.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXlRMWd5YkVkQldFNXlRVTVHVFJDakJCaXdCQ2dLTWdhTllwaW1KZ2c",
+   "date": "10/09/2026, 07:33 PM, +0000 UTC",
+   "iso_date": "2026-10-09T19:33:32Z"
+  },
+  {
+   "position": 11,
+   "title": "Eternal’s Zomato and Blinkit launch \"Main Udega\" anthem celebrating delivery partners' dreams",
+   "source": {
+    "name": "Adgully.com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.adgully.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.adgully.com/post/22037/eternals-zomato-and-blinkit-launch-main-udega-anthem-celebrating-delivery-partners-dreams",
+   "thumbnail": "https://erp.adgully.com/artical_image/cd2ca3143a654066c4c7a13dfc022030.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNXdSV2hZVjNCTWFYWnFXR1Y0VFJDZkF4ampCU2dLTWdB",
+   "date": "10/09/2026, 11:38 AM, +0000 UTC",
+   "iso_date": "2026-10-09T11:38:00Z"
+  },
+  {
+   "position": 12,
+   "title": "Zomato and Blinkit Host Third EV Bazaar to Boost Electric Mobility",
+   "source": {
+    "name": "The CSR Universe",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://thecsruniverse.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://thecsruniverse.com/articles/zomato-and-blinkit-host-third-ev-bazaar-to-boost-electric-mobility",
+   "thumbnail": "https://thecsruniverse.com/media/EV%20Bazaar%20(3).jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNWpTek5HTkZodVVFWTRZbUZTVFJERUF4aW1CU2dLTWdB",
+   "date": "10/09/2026, 12:06 PM, +0000 UTC",
+   "iso_date": "2026-10-09T12:06:00Z"
+  },
+  {
+   "position": 13,
+   "title": "Video | Ola, Uber To Swiggy, Zomato: Your Everyday Apps Will Face A 5% GST Rate. CBIC Clarifies What It Mean",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtvprofit.com/videos/business/ola-uber-to-swiggy-zomato-your-everyday-apps-will-face-a-5-gst-rate-cbic-clarifies-what-it-means-1171691",
+   "thumbnail": "https://c.ndtvimg.com/dmx-images/video/images/vod/medium/2026-10/shrimicbicongstratefall_202190_116843_5000_hd_big_thumb.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900&q=70",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWhjRFJmU1hadVZXeGFWVFJmVFJDZkF4ampCU2dLTWdtTk1ZelZvS2lwS1FJ",
+   "date": "10/09/2026, 01:19 PM, +0000 UTC",
+   "iso_date": "2026-10-09T13:19:43Z"
+  },
+  {
+   "position": 14,
+   "title": "Woman quits Rs 50,000 Zomato job, earns Rs 2.28 lakh in September through 4 different income streams",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Teesha Shirodkar"
+    ]
+   },
+   "link": "https://www.moneycontrol.com/news/trends/woman-quits-rs-50-000-zomato-job-earns-rs-2-28-lakh-in-september-through-4-different-income-streams-14048471.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/10/20261009075507_Zomatoquits.png?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUZaVkZLZGxOdVgzUnhlVWREVFJDZkF4ampCU2dLTWdZZEo1d3FGZ28",
+   "date": "10/09/2026, 07:56 AM, +0000 UTC",
+   "iso_date": "2026-10-09T07:56:47Z"
+  },
+  {
+   "position": 15,
+   "title": "‘Learn Hindi or leave job’: Bengaluru Zomato warehouse manager booked for threatening Kannada-speaking st",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/city/bengaluru/learn-hindi-or-leave-job-zomato-warehouse-manager-booked-for-threatening-kannada-speaking-staff/articleshow/134725444.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-134725569,width-1280,height-720,imgsize-77449,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDJObXB1UWxFNGF6QkZNMU40VFJDZkF4ampCU2dLTWdiSk1aTFdIQWs",
+   "date": "10/06/2026, 06:29 AM, +0000 UTC",
+   "iso_date": "2026-10-06T06:29:00Z"
+  },
+  {
+   "position": 16,
+   "title": "Ola, Uber To Swiggy, Zomato: Your Everyday Apps Will Face A 5% GST Rate. CBIC Clarifies What It Means",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtvprofit.com/economy/ola-uber-to-swiggy-zomato-your-everyday-apps-will-face-a-5-gst-rate-cbic-clarifies-what-it-means-12162625",
+   "thumbnail": "https://c.ndtvimg.com/2026-09/ps2uhu9k_gst_625x300_01_September_26.png?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJiV0pyYlZWcmExSlNaWEo2VFJDZkF4ampCU2dLTWdZQllZaTNvQWs",
+   "date": "10/09/2026, 01:59 PM, +0000 UTC",
+   "iso_date": "2026-10-09T13:59:34Z"
+  },
+  {
+   "position": 17,
+   "title": "Bengaluru Zomato staffer tells team to learn Hindi or leave, viral video sparks row",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sagay Raj"
+    ]
+   },
+   "link": "https://www.indiatoday.in/cities/bengaluru/story/zomato-warehouse-viral-video-shift-in-charge-backlash-hindi-remarks-karnataka-3010135-2026-10-05",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/the-zomato-staffer-apologised-after-his-video-went-viral-052100331-16x9_0.jpg?VersionId=zUSphWVKPTIDG5DGd6mtP6Ej2ViTnb3f&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVBWRXhaV2xGNVFuaGxRWEJPVFJDZkF4ampCU2dLTWdaSklvYlZtQWs",
+   "date": "10/05/2026, 02:18 PM, +0000 UTC",
+   "iso_date": "2026-10-05T14:18:16Z"
+  },
+  {
+   "position": 18,
+   "title": "Bengaluru Zomato Staff Tells Team To Learn Hindi, Later Apologises In Kannada",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Deepak Bopanna"
+    ]
+   },
+   "link": "https://www.ndtv.com/india-news/bengaluru-zomato-staff-tells-team-to-learn-hindi-later-apologises-in-kannada-12143780",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/3n4t0qtc_zomato_625x300_06_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZSRjkwYW14dlNYVlNNV1p3VFJDZkF4ampCU2dLTWdaSk1wTDFIQWs",
+   "date": "10/06/2026, 03:39 AM, +0000 UTC",
+   "iso_date": "2026-10-06T03:39:35Z"
+  },
+  {
+   "position": 19,
+   "title": "GST Council Meeting On Oct. 8: Swiggy, Zomato Delivery Fees May Drop To 5%; ITC Relief On Agenda",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Shrimi Choudhary"
+    ]
+   },
+   "link": "https://www.ndtvprofit.com/economy/gst-council-meeting-on-oct-8-swiggy-zomato-delivery-fees-may-drop-to-5-itc-boost-healthcare-tax-cuts-on-agenda-12147562",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/0pa7cric_gst-council-meeting_625x300_04_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWthMFZvV1RkNFpreFhTRWhJVFJDZkF4ampCU2dLTWdZQmtKQmdNQWM",
+   "date": "10/06/2026, 03:51 PM, +0000 UTC",
+   "iso_date": "2026-10-06T15:51:08Z"
+  },
+  {
+   "position": 20,
+   "title": "Late Stage Funding Dips, Swish Takes On Zomato & More",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://inc42.com/buzz/late-stage-funding-dips-swish-takes-on-zomato-more/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/FTR-Daily-Brief-22-760x570.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZSbXhtVTBwelYyWlNRVmxHVFJEZ0F4aUFCU2dLTWdhVmtvQ3N0UVE",
+   "date": "10/08/2026, 02:30 AM, +0000 UTC",
+   "iso_date": "2026-10-08T02:30:21Z"
+  },
+  {
+   "position": 21,
+   "title": "Woman Leaves Rs 50,000 Zomato Salary Behind, Reveals How She Now Earns Rs 2.28 Lakh A Month",
+   "source": {
+    "name": "News18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.news18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.news18.com/viral/woman-leaves-rs-50000-zomato-salary-behind-reveals-how-she-now-earns-rs-2-28-lakh-a-month-ws-l-10374828.html",
+   "thumbnail": "https://images.news18.com/ibnlive/uploads/2026/10/Untitled-design-2026-10-09T170121.414-2026-10-1f62f137b7f950afc013a02a184b63c8.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHlWbTV2VWs1VVZEUTVORWhGVFJDZkF4ampCU2dLTWdrQllaSzJyS2VoNndF",
+   "date": "10/09/2026, 12:01 PM, +0000 UTC",
+   "iso_date": "2026-10-09T12:01:41Z"
+  },
+  {
+   "position": 22,
+   "title": "Netizens slam Bengaluru Zomato manager for telling Kannada-speaking staff to 'learn Hindi or leave job'",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/trends/bengaluru-zomato-manager-booked-for-telling-kannada-speaking-staff-learn-hindi-or-leave-job-14045883.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/10/20261006123413_MixCollage-06-Oct-2026-06-04-PM-4081.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXZiV1JtUzFsb2RHTkxVVVZvVFJDZkF4ampCU2dLTWdtUm9JS0t1V05GMWdB",
+   "date": "10/06/2026, 12:38 PM, +0000 UTC",
+   "iso_date": "2026-10-06T12:38:05Z"
+  },
+  {
+   "position": 23,
+   "title": "Eternal vs TCS shares: Zomato parent’s weightage more than IT giant in Nifty 50 | Should you buy?",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Dhanya Nagasundaram"
+    ]
+   },
+   "link": "https://www.livemint.com/market/eternal-vs-tcs-shares-zomato-parent-s-weightage-more-than-it-giant-in-nifty-50-should-you-buy-11791368188227.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/07/1600x900/logo/Eternal_TCS_Nifty_50_Weightage_1791370892195_ohXm_1791370926055_q8pf_7317af0a-7333-4c91-bd5e-a044642c6440_8kmk.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNVNRVWRQVUU1YVZESm1YMFZyVFJDZkF4amlCU2dLTWd1QkFZeUVEdXA2TWVrWXdR",
+   "date": "10/07/2026, 11:07 AM, +0000 UTC",
+   "iso_date": "2026-10-07T11:07:23Z"
+  },
+  {
+   "position": 24,
+   "title": "Why Swiggy’s Listing Lagged Zomato’s Despite an 8% Premium",
+   "source": {
+    "name": "HDFC Sky",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://hdfcsky.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://hdfcsky.com/sky-learn/market-wtf-by-sky/why-swiggy-struggled-to-match-zomatos-market-debut",
+   "thumbnail": "https://static.hdfcsky.com/wp-content/uploads/2026/10/Why-Swiggy-listed-weak-while-Zomato-was-thriving.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXNSVGQ0UlhGVlYyWTVNaTFzVFJDZkF4amlCU2dLTWdZQlVwSmpJZ2M",
+   "date": "10/06/2026, 09:49 AM, +0000 UTC",
+   "iso_date": "2026-10-06T09:49:31Z"
+  },
+  {
+   "position": 25,
+   "title": "Learn Hindi Or Leave The Job: Zomato Warehouse Supervisor Tells Staff In Bengaluru, Later Apologises In Kannada",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtvprofit.com/india/learn-hindi-or-leave-the-job-zomato-warehouse-supervisor-tells-staff-in-bengaluru-later-apologises-in-kannada-12145321",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/3n4t0qtc_zomato_625x300_06_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZSRjkwYW14dlNYVlNNV1p3VFJDZkF4ampCU2dLTWdaSk1wTDFIQWs",
+   "date": "10/06/2026, 09:45 AM, +0000 UTC",
+   "iso_date": "2026-10-06T09:45:44Z"
+  },
+  {
+   "position": 26,
+   "title": "Bengaluru Zomato supervisor viral video: Manager booked for telling workers to learn Hindi or quit the job",
+   "source": {
+    "name": "The Economic Times",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://m.economictimes.com/news/new-updates/bengaluru-zomato-supervisor-viral-video-manager-booked-for-telling-workers-to-learn-hindi-or-quit-the-job/articleshow/134754886.cms",
+   "thumbnail": "https://m.economictimes.com/thumb/msid-134755050,width-1200,height-900,resizemode-4,imgsize-119290/bengaluru-zomato-manager-hindi-viral-video.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUhibUl4U1RseVZHVXpOVkF0VFJEZ0F4aUFCU2dLTWdrSlFackZucWs5YVFJ",
+   "date": "10/07/2026, 03:31 AM, +0000 UTC",
+   "iso_date": "2026-10-07T03:31:58Z"
+  },
+  {
+   "position": 27,
+   "title": "Bengaluru Zomato supervisor tells staff to learn Hindi or leave, later apologises in Kannada",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/city/bengaluru-zomato-supervisor-tells-staff-to-learn-hindi-or-leave-later-apologises-in-kannada-article-14045650.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/10/20261006074445_biurwebfwe.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHRORTVWVVU0emVERkxWMjVzVFJDZkF4ampCU2dLTWdhTk9aTEduZ2c",
+   "date": "10/06/2026, 07:49 AM, +0000 UTC",
+   "iso_date": "2026-10-06T07:49:00Z"
+  },
+  {
+   "position": 28,
+   "title": "Zomato founder Deepinder Goyal reveals six colours for Temple wearable",
+   "source": {
+    "name": "Indian Television Dot Com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indiantelevision.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://indiantelevision.com/mam/zomato-founder-deepinder-goyal-reveals-six-colours-for-temple-wearable/",
+   "thumbnail": "https://indiantelevision.com/wp-content/uploads/2026/10/deepinder-goyal.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBiWFpvUkZSVFJuSm1ObUpJVFJDZkF4ampCU2dLTWdZbHhJVE1UUU0",
+   "date": "10/05/2026, 10:14 AM, +0000 UTC",
+   "iso_date": "2026-10-05T10:14:25Z"
+  },
+  {
+   "position": 29,
+   "title": "'I Don’t Know Kannada': Bengaluru Zomato Manager Tells Staff 'Learn Hindi Or Leave Job', Video Sparks Outra",
+   "source": {
+    "name": "News18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.news18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.news18.com/viral/i-dont-know-kannada-bengaluru-zomato-manager-tells-staff-learn-hindi-or-leave-job-video-sparks-outrage-ws-l-10370610.html",
+   "thumbnail": "https://images.news18.com/ibnlive/uploads/2026/10/Untitled-design-21-2026-10-9f1a913c78b7f9d22c53f8d2f8c76e56.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNXBWMjFEVTNKdVEzbHZUalZaVFJDZkF4ampCU2dLTWdzTndJS3EwR0tDa2xuSEhn",
+   "date": "10/07/2026, 04:25 AM, +0000 UTC",
+   "iso_date": "2026-10-07T04:25:12Z"
+  },
+  {
+   "position": 30,
+   "title": "Zomato Q3 Results: Eternal Board Meeting in January 2026; Check Date, Timings, Trading Window Closure and More",
+   "source": {
+    "name": "Goodreturns",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.goodreturns.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Harshika Yadav"
+    ]
+   },
+   "link": "https://www.goodreturns.in/news/zomato-q3-results-eternal-board-meeting-in-january-2026-check-date-timings-trading-window-closur-1482781.html",
+   "thumbnail": "https://images.goodreturns.in/img/2026/01/zomatoq4-1768881440.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJjVzV1Y25aR1kzazRjbVZyVFJDZkF4ampCU2dLTWdZTlVwVEduZ2s",
+   "date": "10/03/2026, 05:42 PM, +0000 UTC",
+   "iso_date": "2026-10-03T17:42:50Z"
+  },
+  {
+   "position": 31,
+   "title": "Zomato founder Deepinder Goyal teases six colours for Temple device, pre-orders may begin next week",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-founder-deepinder-goyal-teases-six-colours-for-temple-device-pre-orders-may-begin-next-week/articleshow/134624450.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-134624513,imgsize-148559,width-400,resizemode-4/zomato-founder-deepinder-goyal-teases-six-colours-for-temple-devicebr.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWtZazF1U0ZWc1RTMUZXR2x3VFJEaEFSaVFBeWdLTWdhUk9JaUh2Z1E",
+   "date": "10/02/2026, 03:25 AM, +0000 UTC",
+   "iso_date": "2026-10-02T03:25:00Z"
+  },
+  {
+   "position": 32,
+   "title": "Eternal (Zomato) Competitor Amazon Plans $3 Billion Quick Commerce Push, Eyeing 1,300 Stores",
+   "source": {
+    "name": "Sahi",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.sahi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.sahi.com/news/eternal-zomato-competitor-amazon-plans-3-billion-quick-commerce-push-eyeing-1-300-stores",
+   "thumbnail": "https://www.sahi.com/assets/uploads/4478_PE_1_CORPORATE_24_09_2026_16x9_03b5babd2e.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWFjMFkyWkRGcFUzZHVZVWhWVFJDZUF4amxCU2dLTWdtSllKRGxKbWMxekFF",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 33,
+   "title": "'This Is So Thoughtful:' Woman Praises Zomato After Receiving Unexpected Call",
+   "source": {
+    "name": "NDTV Food",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://food.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://food.ndtv.com/news/this-is-so-thoughtful-woman-praises-zomato-after-receiving-unexpected-call-12125348",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/7m443u2c_zomato_625x300_01_October_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720?im=FaceCrop,algorithm=dnn,width=1200,height=886",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTFWbmhDZDJkT0xYWXlOVVpxVFJDZkF4ampCU2dLTWdZSk9ZNm1KZ2M",
+   "date": "10/02/2026, 05:50 AM, +0000 UTC",
+   "iso_date": "2026-10-02T05:50:32Z"
+  },
+  {
+   "position": 34,
+   "title": "DoorDash, which inspired Swiggy-Zomato, comes to India; looks to create 3,000 jobs",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sounak Mukherjee"
+    ]
+   },
+   "link": "https://www.livemint.com/companies/news/doordash-which-inspired-swiggy-zomato-comes-to-india-looks-to-create-3-000-jobs-11790763807628.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/09/30/1600x900/logo/DoorDash_1790764413565_QWQf_1790764421799_17kX_37ed6b7f-5426-4ccb-b630-cd12d3b651ab_fIqU.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU5kMGxqYXpKWmNuZ3dUMUF0VFJDZkF4ampCU2dLTWdhTlFKS3hzQVk",
+   "date": "09/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-30T07:00:00Z"
+  },
+  {
+   "position": 35,
+   "title": "E-commerce platforms Eternal's Zomato, Blinkit, Meesho's Valmo facilitate ITR refunds for delivery partners—What we know",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jocelyn Fernandes"
+    ]
+   },
+   "link": "https://www.livemint.com/money/personal-finance/e-commerce-platforms-eternal-zomato-blinkit-meesho-valmo-facilitate-itr-refunds-delivery-partners-first-time-tax-filers-11789836630916.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/09/19/1600x900/logo/ITR_1785327729090_1785327742091_5e840704-9bf5-4cd7-b4d3-0ca2dfda18fa_1789841167151_Wp8M_02f389fd-ecee-4110-a2d0-71121a12f566_hzLC.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVBTR2hGWldKd1UxbHVWMnhLVFJDZkF4ampCU2dLTWdZZElKQ05GUWc",
+   "date": "09/19/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-19T07:00:00Z"
+  },
+  {
+   "position": 36,
+   "title": "Delhi Man Tracks Delayed Zomato Order, Claims He Found Two People Eating His Dinner",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Ritu Singh"
+    ]
+   },
+   "link": "https://www.ndtv.com/offbeat/delhi-man-tracks-delayed-zomato-order-claims-he-found-two-people-eating-his-dinner-12013116",
+   "thumbnail": "https://c.ndtvimg.com/2026-09/g4pgk77s_zomato-order_625x300_07_September_26.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhRWEpMYW5CblREVkRZMlp4VFJDZkF4ampCU2dLTWdhQmdZenZOQVU",
+   "date": "09/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-07T07:00:00Z"
+  },
+  {
+   "position": 37,
+   "title": "Zomato and Blinkit facilitate over 2 lakh delivery partners file ITR for FY25-26",
+   "source": {
+    "name": "ETRetail.com",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://retail.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://retail.economictimes.indiatimes.com/news/e-commerce/e-tailing/zomato-and-blinkit-facilitate-over-2-lakh-delivery-partners-file-itr-for-fy25-26/134331024",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134331024,width-1600,height-900,resizemode-4/.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHhOVEZIUjFSMmMyMUZOSHBLVFJDZkF4ampCU2dLTWdhVkpJYkp4UU0",
+   "date": "09/18/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-18T07:00:00Z"
+  },
+  {
+   "position": 38,
+   "title": "Zomato, Swiggy's competitive intensity in qcom may inch up in medium term",
+   "source": {
+    "name": "Business Standard",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Devangshu Datta"
+    ]
+   },
+   "link": "https://www.business-standard.com/markets/news/zomato-swiggy-s-competitive-intensity-in-qcom-may-inch-up-in-medium-term-126091801407_1.html",
+   "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-06/17/full/1750183132-2795.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWxSRmhQWkd0S1oyNTFaSEo0VFJERUF4aW1CU2dLTWdZbFJJck5uUWM",
+   "date": "09/18/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-18T07:00:00Z"
+  },
+  {
+   "position": 39,
+   "title": "2.10 Lakh Zomato, Blinkit Delivery Partners File ITRs, Receive Rs 33.60 Crore In Refunds",
+   "source": {
+    "name": "Outlook Money",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.outlookmoney.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.outlookmoney.com/tax/210-lakh-zomato-blinkit-delivery-partners-file-itrs-receive-rs-3360-crore-in-refunds",
+   "thumbnail": "https://media.assettype.com/outlookmoney/2026-09-18/1xc6a6ae/Delvery-Riders-Tax.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNXFYMHN4Wm1SWWRrVXROemxxVFJEZ0F4aUFCU2dLTWdB",
+   "date": "09/18/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-18T07:00:00Z"
+  },
+  {
+   "position": 40,
+   "title": "Zomato begins charging Rs 5 for cash on delivery orders in latest monetisation drive",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aryaman Gupta"
+    ]
+   },
+   "link": "https://www.moneycontrol.com/news/business/startup/zomato-begins-charging-rs-5-for-cash-on-delivery-orders-in-latest-monetisation-drive-14028398.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2023/09/ZOMATO.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRTRk40TVd4MlJFbHdTbEk0VFJDZkF4ampCU2dLTWdZaGdwSU1NUWM",
+   "date": "09/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-12T07:00:00Z"
+  },
+  {
+   "position": 41,
+   "title": "Zomato begins charging extra for cash on delivery orders; Will Swiggy follow suit?",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.medianama.com/2026/09/223-zomato-charging-cash-on-delivery/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2018/08/Logo-e1531394551900.png.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNVakJzYkVJNVJtTnplRTFCVFJDcUJCaXFCQ2dLTWdhSm9aUkh2UWM",
+   "date": "09/14/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-14T07:00:00Z"
+  },
+  {
+   "position": 42,
+   "title": "Zomato, Blinkit delivery partners get ₹33.6 crore in tax refunds as 2.1 lakh file ITRs",
+   "source": {
+    "name": "Fortune India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fortuneindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Urvashi Mishra"
+    ]
+   },
+   "link": "https://www.fortuneindia.com/business-news/zomato-blinkit-delivery-partners-get-336-crore-in-tax-refunds-as-21-lakh-file-itrs/159716",
+   "thumbnail": "https://media.fortuneindia.com/fortune-india/2025-06-18/ewp4hwog/Zomato00102-copy.jpg?auto=format,compress&format=webp&w=1200&h=675&dpr=1.0&q=90&fit=cover",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhiVVUzZG1sSlVEVkpMVzFZVFJDZkF4ampCU2dLTWdhUk1ZalZsQW8",
+   "date": "09/17/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-17T07:00:00Z"
+  },
+  {
+   "position": 43,
+   "title": "Zomato bans analogue paneer on its platform, asks restaurants to switch to dairy | India News",
+   "source": {
+    "name": "Hindustan Times",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Abhimanyu Kulkarni"
+    ]
+   },
+   "link": "https://www.hindustantimes.com/india-news/zomato-bans-analogue-paneer-on-its-platform-asks-restaurants-to-switch-to-dairy-101788162058983.html",
+   "thumbnail": "https://www.hindustantimes.com/ht-img/img/2026/08/31/1600x900/logo/paneer_tikka_1788160918069_1788160918197_2e9d344b-e38a-4dfe-810a-58791aed053d_1788162168832_15f30391-aa07-4d1b-b53a-221f3513cd91.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDFXVlF5ZEVnMFgwVkZOVGhSVFJDZkF4ampCU2dLTWdhQk1vYUxvUVE",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 44,
+   "title": "430 mutual funds hold Eternal as the Zomato-Blinkit parent gains 45% in six months: Which funds are betting big?",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Kirti Jha"
+    ]
+   },
+   "link": "https://www.livemint.com/money/personal-finance/430-mutual-funds-hold-eternal-as-the-zomato-blinkit-parent-gains-45-in-six-months-which-funds-are-betting-big-11789353510193.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/09/14/1600x900/logo/Gemin_Generated_Image_qlvyheqlvyheqlvy_17893536_1789353700073_c2eb4ac6-219c-469b-9750-459898b32a79_1789353700219_4345b778-5455-4705-9f16-fd837069c769_05084c68-37f6-421a-a184-4fbaf29aea66_d2a6b018-71e8-4bfe-9753-d83e7aacad71.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHdhbkpXWkMxVFQzRmxPVXhNVFJDZkF4ampCU2dLTWdrRkFJYW5JQ1lXSWdN",
+   "date": "09/14/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-14T07:00:00Z"
+  },
+  {
+   "position": 45,
+   "title": "Gurugram man tracks down delayed Zomato order, finds two people eating it",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.indiatoday.in/trending-news/story/gurugram-man-tracks-down-delayed-zomato-order-finds-delivery-rider-eating-it-2988670-2026-09-07",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/zomato-074608530-16x9_0.jpg?VersionId=h3fn5mL0_IuDo.rrXyMvy8tJr6cNGNSl&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDRhMDUzVEcxak0wVjVSRE5sVFJDZkF4ampCU2dLTWdrQllZd0tLV2MxVWdF",
+   "date": "09/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-07T07:00:00Z"
+  },
+  {
+   "position": 46,
+   "title": "Zomato Introduces Cash On Delivery Charges, Adds Minimum Of Rs 5 To Customer Bills",
+   "source": {
+    "name": "NDTV Food",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://food.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://food.ndtv.com/news/zomato-introduces-cash-on-delivery-charges-adds-minimum-of-rs-5-to-customer-bills-12037763",
+   "thumbnail": "https://c.ndtvimg.com/2026-08/33muq3bo_zomato-paneer_625x300_31_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720?im=FaceCrop,algorithm=dnn,width=1200,height=886",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUxTemh6UWtrMFdrNU1NbDlFVFJDZkF4ampCU2dLTWdrQlFZcWlvdVUwaVFF",
+   "date": "09/13/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-13T07:00:00Z"
+  },
+  {
+   "position": 47,
+   "title": "Here’s why Jaipur’s iconic sweet shops are boycotting Zomato",
+   "source": {
+    "name": "The Indian Express",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Hamza Khan"
+    ]
+   },
+   "link": "https://indianexpress.com/article/india/jaipur-sweet-shops-zomato-boycott-10869171/",
+   "thumbnail": "https://images.indianexpress.com/2026/09/zomato-file-photo_20260908202703.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRjVXRDU3pneE1IZFhhMWRzVFJDZkF4ampCU2dLTWdhZEE0Z3FrZ2c",
+   "date": "09/09/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-09T07:00:00Z"
+  },
+  {
+   "position": 48,
+   "title": "Swiggy, Zomato And Restaurants: Inside A Battle That's Far From Over",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Prateek Shukla"
+    ]
+   },
+   "link": "https://www.ndtv.com/business-news/swiggy-zomato-boycott-bengaluru-august-15-restaurants-commission-discount-11836903",
+   "thumbnail": "https://c.ndtvimg.com/2022-07/bekrmj3_swiggy-zomato_625x300_18_July_22.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHljbTFoTlV4WmIzaGhTWGt4VFJDZkF4ampCU2dLTWdZcGhKQ3ROUVk",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 49,
+   "title": "Zomato shuts Hyderabad customer support centre, lays off 250 employees",
+   "source": {
+    "name": "People Matters - HR News",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.peoplematters.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Samriddhi Srivastava"
+    ]
+   },
+   "link": "https://www.peoplematters.in/news/strategic-hr/zomato-shuts-hyderabad-customer-support-centre-lays-off-250-employees-51793",
+   "thumbnail": "https://asset.peoplematters.in/images/f8aa8370-fd72-47ba-81dc-9eb1283fb78f.png?w=800&auto=format,compress",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNWlkVzVwUTJOR1MwNHpVamN6VFJERUF4aW5CU2dLTWdB",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 50,
+   "title": "Cyberabad civic body asks Zomato to delist repeat violators, tighten checks before onboarding",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-civic-body-asks-zomato-to-delist-repeat-violators-tighten-checks-before-onboarding/article71316536.ece",
+   "thumbnail": "https://th-i.thgim.com/public/incoming/1ak2mm/article71316541.ece/alternates/LANDSCAPE_1200/HPGCpQQbUAA8Fwx.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDVhRlpZVGxoMk9URkNhMUI0VFJDZkF4ampCU2dLTWdrQlFKQzJKR2l4REFJ",
+   "date": "08/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-07T07:00:00Z"
+  },
+  {
+   "position": 51,
+   "title": "No Name, No Logo, No Problem: Why Zomato's Swiggy Ad Is More Than A Greeting",
+   "source": {
+    "name": "BW Marketing World",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bwmarketingworld.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Soumya Sehgal Bhutani",
+     "Soumya Sehgal"
+    ]
+   },
+   "link": "https://www.bwmarketingworld.com/article/no-name-no-logo-no-problem-why-zomato-s-swiggy-ad-is-more-than-a-greeting-618246",
+   "thumbnail": "https://static.businessworld.in/zomato_20260806140316_original_image_9.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNWFOMVJmTW1sWFZWUm9TSGsyVFJEUkF4aVRCU2dLTWdNaEJ3SQ",
+   "date": "08/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-07T07:00:00Z"
+  },
+  {
+   "position": 52,
+   "title": "Zomato bans analogue dairy: What’s behind the big crackdown on ‘fake’ paneer and cheese?",
+   "source": {
+    "name": "Open Magazine",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://openthemagazine.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://openthemagazine.com/india/zomato-bans-analogue-dairy-whats-behind-the-big-crackdown-on-fake-paneer-and-cheese",
+   "thumbnail": "https://media.openthemagazine.com/openthemagazine/2026-09-01/39wacrth/pan.jpg?w=640&auto=format,compress&q=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVdORTlaYUVOQmVFTklXRzFSVFJDaUFoaURCQ2dLTWdB",
+   "date": "09/01/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-01T07:00:00Z"
+  },
+  {
+   "position": 53,
+   "title": "Shivamogga consumer forum slaps fine on Zomato, hotel for delivering non-veg burger instead of veg burger",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thehindu.com/news/national/karnataka/shivamogga-consumer-forum-slaps-fine-on-zomato-hotel-for-delivering-non-veg-burger-instead-of-veg-burger/article71234195.ece",
+   "thumbnail": "https://www.thehindu.com/theme/images/amp-og-image.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxjMll5TjBOVFpUQjRNSEZ4VFJDcUJCaXFCQ2dLTWdhTmtwQUlOUVk",
+   "date": "07/17/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-17T07:00:00Z"
+  },
+  {
+   "position": 54,
+   "title": "Bengaluru restaurants warn of Swiggy, Zomato boycott after Aug 15 over commissions",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.indiatoday.in/business/story/bengaluru-restaurants-swiggy-zomato-boycott-warning-august-15-commissions-discounts-2958807-2026-07-29",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202607/why-are-bengaluru-restaurants-boycotting-swiggy--zomato-294815262-16x9_0.jpg?VersionId=qWnyqqnRAzKCPhDZTNisZ_AA_CqXg6dU&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVFPRXBSTnpCd2NIRjJRMDkwVFJDZkF4ampCU2dLTWdrQklwUXdtU25KU1FJ",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 55,
+   "title": "Tech3 | Ownly takes a bite out of Swiggy, Zomato; Why Swiggy hired Nandita Sinha as Instamart CEO; and more",
+   "source": {
+    "name": "LinkedIn",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.linkedin.com/pulse/tech3-ownly-takes-bite-out-swiggy-zomato-why-hired-nandita-qgn0c",
+   "thumbnail": "https://media.licdn.com/dms/image/v2/D5612AQG0YhPcvD18wA/article-cover_image-shrink_720_1280/B56Z.uOconKIAQ-/0/1785334450948?e=2147483647&v=beta&t=EzSHArZP4FgRgscTTLzJ05BoIR90Oma-_BKkq840EsI",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9RVGRxWnpWWFJ6bDNWVVZFVFJDZkF4ampCU2dLTWdhQklKQ1BsUW8",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 56,
+   "title": "Zomato founder’s brain wearable is (almost) here",
+   "source": {
+    "name": "YourStory.com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://yourstory.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://yourstory.com/2026/08/zomato-founders-brain-wearable-is-almost-here",
+   "thumbnail": "https://images.yourstory.com/cs/2/47afd43024ec11ec9ecb9b7afb0df1da/goyaltempleforDC-1787330432375.jpg?mode=fit&crop=faces&ar=16%3A9&format=auto&w=1920&q=75",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVdkRVJwZWxZemRGOXhUVmRWVFJDZkF4ampCU2dLTWdB",
+   "date": "08/22/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-22T07:00:00Z"
+  },
+  {
+   "position": 57,
+   "title": "Swiggy’s Toing user base now almost as large as Zomato’s: CLSA",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/startup/swiggy-s-toing-user-base-now-almost-as-large-as-zomato-s-clsa-14025987.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2024/11/20241111045247_Swiggy-riders-file-photo.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXJhbk5vU25oSWQweGtaVTlQVFJDZkF4ampCU2dLTWdrRklJcGxwdVljUndJ",
+   "date": "09/09/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-09T07:00:00Z"
+  },
+  {
+   "position": 58,
+   "title": "Why did CCI reject ‘abuse of dominance’ claims against Zomato’s platform fees and delivery charges? | Explained",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aaratrika Bhaumik"
+    ]
+   },
+   "link": "https://www.thehindu.com/news/national/why-did-cci-clear-zomatos-platform-fees-and-delivery-charges-of-abuse-of-dominance-charges-explained/article71263794.ece",
+   "thumbnail": "https://th-i.thgim.com/public/incoming/mwxoqt/article68928976.ece/alternates/LANDSCAPE_1200/IMG_FILE_PHOTO__Illustra_2_1_RPCGK1ED.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBlVVJzVVVwTVZreHdNMVJMVFJDZkF4ampCU2dLTWdZZEE0Q05pUXM",
+   "date": "07/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-25T07:00:00Z"
+  },
+  {
+   "position": 59,
+   "title": "Zomato, Swiggy deliver near-Meituan unit economics despite 22X smaller Indian market",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://entrackr.com/news/zomato-swiggy-deliver-near-meituan-unit-economics-despite-22x-smaller-indian-market-12518269",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2026/09/10/zomato-swiggy-meituan-2026-09-10-18-21-19.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDRVakJmUzBkdU16SkdTaTFyVFJDZkF4ampCU2dLTWdZQmNJcWxSZ1U",
+   "date": "09/11/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-11T07:00:00Z"
+  },
+  {
+   "position": 60,
+   "title": "Zomato lays off 250 employees as customer support operations restructured",
+   "source": {
+    "name": "ET HospitalityWorld",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "http://hospitality.economictimes.indiatimes.com/news/operations/technology/zomato-lays-off-250-employees-as-customer-support-operations-restructured/133667251",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-133667251,width-1600,height-900,resizemode-4/.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1lRk56Y1RscVNsRkpTa3M1VFJDZkF4ampCU2dLTWdZQmtvd1R4UVE",
+   "date": "09/01/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-01T07:00:00Z"
+  },
+  {
+   "position": 61,
+   "title": "Consumer forum orders Zomato to pay customer ₹8,250 for cancelling food orders worth ₹250",
+   "source": {
+    "name": "Bar and Bench",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.barandbench.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Arna Chatterjee"
+    ]
+   },
+   "link": "https://www.barandbench.com/news/litigation/consumer-forum-orders-zomato-to-pay-customer-8250-for-cancelling-food-orders-worth-250",
+   "thumbnail": "https://cf-images.assettype.com/barandbench%2F2021-03%2Fd90fe093-3950-4916-99dc-44dd7688621f%2FZomato.jpg?w=480&auto=format%2Ccompress&fit=max",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWtkMGx3UkVjekxYWkdhVTl4VFJDT0FoamdBeWdLTWdhdEZZVE9sUWM",
+   "date": "09/03/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-03T07:00:00Z"
+  },
+  {
+   "position": 62,
+   "title": "Bengaluru man finds beedi in Zomato pav bhaji order; company responds | Trending",
+   "source": {
+    "name": "Hindustan Times",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Vaishali kapila"
+    ]
+   },
+   "link": "https://www.hindustantimes.com/trending/bengaluru-man-finds-beedi-in-zomato-pav-bhaji-order-company-responds-101788506761785.html",
+   "thumbnail": "https://www.hindustantimes.com/ht-img/img/2026/09/04/1600x900/logo/Untitled_design_1788507006186_a680116c-b2ff-4cb8-a141-23589b1ccaac_1788507009459_1d9a6f04-1a32-44d9-b6a0-d741cb961192_e73dd2bd-84cf-4765-b91f-36e013021184_d66640f2-e394-4f49-88c5-1b16fc7746e9.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTJhM2hMTURsdGNVa3RkMUF5VFJDZkF4ampCU2dLTWdrQkFJSWFBRzB0dFFB",
+   "date": "09/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-04T07:00:00Z"
+  },
+  {
+   "position": 63,
+   "title": "Zomato starts levying additional fee on cash-on-delivery orders",
+   "source": {
+    "name": "BusinessLine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thehindubusinessline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thehindubusinessline.com/companies/zomato-starts-levying-additional-fee-on-cash-on-delivery-orders/article71459684.ece",
+   "thumbnail": "https://bl-i.thgim.com/public/incoming/akekaz/article71459691.ece/alternates/LANDSCAPE_1200/414432641.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBaMmwxU0d0dVpYZG1lVkpPVFJDZkF4ampCU2dLTWdZcGxKS3RzUVk",
+   "date": "09/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-12T07:00:00Z"
+  },
+  {
+   "position": 64,
+   "title": "When discounts cost dearly: Why Bengaluru restaurants are upset with Swiggy, Zomato",
+   "source": {
+    "name": "The News Minute",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thenewsminute.com/karnataka/when-discounts-cost-dearly-why-bengaluru-restaurants-are-upset-with-swiggy-zomato",
+   "thumbnail": "https://cf-images.assettype.com/tnm%2Fimport%2Fsites%2Fdefault%2Ffiles%2FSwiggy_Zomato_Workers_PTI_Delhi_31032020_1200x800.jpg?rect=0%2C63%2C1200%2C675&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZiblI0ZFUxd2NuWm9VRXQxVFJDZkF4ampCU2dLTWdrQlFwQXdvZWpBS2dJ",
+   "date": "08/16/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-16T07:00:00Z"
+  },
+  {
+   "position": 65,
+   "title": "CCI says platform fees and delivery charges charged by Zomato not ‘abuse of dominance’",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "T. C. A. Sharad Raghavan",
+     "Sharad Raghavan"
+    ]
+   },
+   "link": "https://www.thehindu.com/business/cci-says-platform-fees-and-delivery-charges-charged-by-zomato-not-abuse-of-dominance/article71261264.ece",
+   "thumbnail": "https://th-i.thgim.com/public/incoming/eiby7l/article71261376.ece/alternates/LANDSCAPE_1200/2025-02-06T114547Z_1366095262_RC2YOCADODRZ_RTRMADP_3_ZOMATO-NAMECHANGE.JPG",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXROMnBYYjJ0Rk9UbHNkamRtVFJDZkF4ampCU2dLTWdZaGtJeXJPUVk",
+   "date": "07/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-24T07:00:00Z"
+  },
+  {
+   "position": 66,
+   "title": "Zomato adds Rs 5-Rs 20 fee for cash-on-delivery orders",
+   "source": {
+    "name": "Telangana Today",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://telanganatoday.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://telanganatoday.com/zomato-adds-rs-5-rs-20-fee-for-cash-on-delivery-orders",
+   "thumbnail": "https://media.telanganatoday.com/wp-content/uploads/2026/09/zomato.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNVbkIzWmpkUExXOXZkR3hWVFJDb0F4alVCU2dLTWdhVm9wUnJPUWM",
+   "date": "09/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-12T07:00:00Z"
+  },
+  {
+   "position": 67,
+   "title": "Zomato layoffs: 250 jobs cut as company shuts customer support centre in Hyderabad",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-133644835,width-1280,height-720,imgsize-23578,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJkMlUxWW1KSlVrSmpXVTEyVFJDZkF4ampCU2dLTWdZZEE0S05pUW8",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 68,
+   "title": "Eternal (Zomato) (ETERNAL) Share Price NSE",
+   "source": {
+    "name": "TechGraph",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://techgraph.co&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://techgraph.co/stock-market/quote/eternal-ns/",
+   "date": "09/12/2026, 10:41 AM, +0000 UTC",
+   "iso_date": "2026-09-12T10:41:32Z"
+  },
+  {
+   "position": 69,
+   "title": "Zomato cracks down on ‘Fake’ paneer and cheese on its platform",
+   "source": {
+    "name": "ThePrint",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sakshi Mehra"
+    ]
+   },
+   "link": "https://theprint.in/feature/zomato-cracks-down-on-fake-paneer-and-cheese-on-its-platform/3029674/",
+   "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/01/1200x675-30.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUpRbGx5VjIxQ1ZEVkxhVTkwVFJDZkF4ampCU2dLTWdZaHNJcXJRUVU",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 70,
+   "title": "Zomato Cancels Delhi Man's Rs 250 Order, Ends Up Paying 33 Times More",
+   "source": {
+    "name": "NDTV Food",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://food.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jigyasa Kakwani"
+    ]
+   },
+   "link": "https://food.ndtv.com/news/zomato-cancels-delhi-mans-rs-250-order-ends-up-paying-33-times-more-11997206",
+   "thumbnail": "https://c.ndtvimg.com/2026-04/42hemhm4_zomato_650x400_28_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720?im=FaceCrop,algorithm=dnn,width=1200,height=886",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFkVlpYZHpka0xXWlJjMVJWVFJDZkF4amlCU2dLTWdhbEJZWXNEZ2M",
+   "date": "09/03/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-03T07:00:00Z"
+  },
+  {
+   "position": 71,
+   "title": "Zomato, Urban Company gig workers embrace NPS, contributing up to ₹5,000 weekly: HDFC Pension’s CEO",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Balasubramanyam CP"
+    ]
+   },
+   "link": "https://www.thehindu.com/business/zomato-urban-company-gig-workers-embrace-nps-contributing-up-to-5000-weekly-hdfc-pensions-ceo/article71297701.ece",
+   "thumbnail": "https://th-i.thgim.com/public/incoming/6fdh50/article71297934.ece/alternates/LANDSCAPE_1200/IMG_FILE_PHOTO__A_delive_2_1_C8CKA08P.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpVelZFZHpFNFdscHhUVXRXVFJDZkF4ampCU2dLTWdhWkpvUUxsZ2s",
+   "date": "08/02/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-02T07:00:00Z"
+  },
+  {
+   "position": 72,
+   "title": "Zomato bans analogue dairy dishes on platform amid food safety crackdown",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Asmita Dey"
+    ]
+   },
+   "link": "https://timesofindia.indiatimes.com/city/mumbai/zomato-bans-analogue-dairy-dishes-on-platform-amid-food-safety-crackdown/articleshow/133656300.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-133656697,width-1280,height-720,imgsize-1492368,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWhVR0ZEZEdoT1RtdFpOWEJuVFJDZkF4ampCU2dLTWdhRkVJeWx4Z1E",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 73,
+   "title": "Zomato expands subscriptions to coffee and breakfast across seven cities",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.storyboard18.com/brand-marketing/zomato-expands-subscription-to-coffee-breakfast-ws-l-108737.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/08/Untitled-design-2026-08-18T091028.939-2026-08-4762594107c108a844af767de7ec7eb1-1019x573.jpg?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVlVbTl1ZVZwUWJ6bE5hMk00VFJEOEFoaWpCU2dLTWdhZG81U01PUWM",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 74,
+   "title": "After Zepto, Food Safety Lens On Zomato, Inspection On At Bengaluru Warehouse",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Deepak Bopanna",
+     "Mohd Asim"
+    ]
+   },
+   "link": "https://www.ndtv.com/india-news/after-zepto-food-safety-lens-on-zomato-inspection-on-at-bengaluru-warehouse-11898295",
+   "thumbnail": "https://c.ndtvimg.com/2026-08/no8r5fvs_zomato_625x300_12_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBSRXBwTWxWV1p6SkdUV1V5VFJDZkF4ampCU2dLTWdhSlVvUUxKZ2c",
+   "date": "08/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-12T07:00:00Z"
+  },
+  {
+   "position": 75,
+   "title": "Zomato Job Cuts: What Will The Laid-Off Hyderabad Workers Get?",
+   "source": {
+    "name": "Outlook Business",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.outlookbusiness.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.outlookbusiness.com/corporate/zomato-job-cuts-four-months-pay-ex-gratia-medical-insurance-what-will-250-laid-off-hyderabad-workers-get",
+   "thumbnail": "https://media.assettype.com/outlookbusiness/2026-08-31/80egjfaj/Screenshot_2025_03_15_103243.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNVemcyZVU5NFluUm9aR3R4VFJDZkF4ampCU2dLTWdhQkk0YXBUUU0",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 76,
+   "title": "Zomato Stock: From 70% Crash to Multibagger Returns",
+   "source": {
+    "name": "HDFC Sky",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://hdfcsky.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://hdfcsky.com/sky-learn/market-wtf-by-sky/zomato-stock-performance-from-ipo-listing-to-multibagger",
+   "thumbnail": "https://static.hdfcsky.com/wp-content/uploads/2026/08/Why-Zomato-went-from-hated-listing-to-multibagger-1.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWZWbWRrU0ZKMFVHVk5SME41VFJDZkF4amlCU2dLTWdrQllwQ2pvdVpFQ3dJ",
+   "date": "08/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-24T07:00:00Z"
+  },
+  {
+   "position": 77,
+   "title": "Zomato bans these dishes on its platform with immediate effect",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-bans-these-dishes-on-its-platform-with-immediate-effect/articleshow/133646558.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-133646598,width-1280,height-720,imgsize-23578,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJkMlUxWW1KSlVrSmpXVTEyVFJDZkF4ampCU2dLTWdZZEE0S05pUW8",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 78,
+   "title": "21,000 Karnataka restaurants plan Swiggy, Zomato boycott from August 15. Here's why",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.storyboard18.com/brand-marketing/21000-karnataka-restaurants-plan-swiggy-zomato-boycott-from-august-15-heres-why-106261.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/07/yo-67-2026-07-947361aba3fa5b15cf89c68d4fab1e2e-1019x573.jpg?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJOVWxEZUdnNVduVlRkMkZKVFJEOEFoaWpCU2dLTWdhbGtvaXR2UVE",
+   "date": "07/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-31T07:00:00Z"
+  },
+  {
+   "position": 79,
+   "title": "'15 days to rectify issues': Un-appy Bengaluru eateries warn of Swiggy, Zomato boycott",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Supriya Roy"
+    ]
+   },
+   "link": "https://timesofindia.indiatimes.com/city/bengaluru/citing-steep-commission-bluru-eateries-threaten-to-boycott-swiggy-zomato-from-aug-15/articleshow/132721349.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-132726036,width-1280,height-720,imgsize-1049111,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZaMlJ0ZDAxV2VGbDFjMDlZVFJDZkF4ampCU2dLTWdrSlFwQ21vcVk5WndJ",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 80,
+   "title": "Zomato, Bosch Take Onam Celebrations Beyond Campaigns With On-ground Activations",
+   "source": {
+    "name": "Everything Experiential",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://everythingexperiential.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://everythingexperiential.com/article/zomato-bosch-take-onam-celebrations-beyond-campaigns-with-on-ground-activations-621084",
+   "thumbnail": "https://static.businessworld.in/Screenshot%202026-08-27%20142226_20260827142303_original_image_5.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDRUblpuWjJoMFJHTkRSalpQVFJDYUFSaklBaWdCTWdtQllKTEdzT2Voc1FF",
+   "date": "08/27/2026, 08:55 AM, +0000 UTC",
+   "iso_date": "2026-08-27T08:55:30Z"
+  },
+  {
+   "position": 81,
+   "title": "Zomato introduces separate fee on cash-on-delivery orders; charges vary across users",
+   "source": {
+    "name": "Fortune India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fortuneindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Subhojit Sarkar"
+    ]
+   },
+   "link": "https://www.fortuneindia.com/business-news/zomato-introduces-separate-fee-on-cash-on-delivery-orders-charges-vary-across-users/158916",
+   "thumbnail": "https://media.fortuneindia.com/fortune-india/2026-09-12/zafmc1ck/Zomato00100-copy.jpg?auto=format,compress&format=webp&w=1200&h=675&dpr=1.0&q=90&fit=cover",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBaMUl6TFRFM1dHZHBXV2RFVFJDZkF4ampCU2dLTWdhaEJaRE5DUXM",
+   "date": "09/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-12T07:00:00Z"
+  },
+  {
+   "position": 82,
+   "title": "Eternal tests Zomato Now food vending pods in Gurugram offices",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.medianama.com/2026/08/223-eternal-food-delivery-zomato-now/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2026/08/zomato-now-624x1024.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUdSMmRvZUZCR2NVUlZha2xxVFJER0JSaXdBeWdLTWdZQk1JaXVwUWs",
+   "date": "08/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-24T07:00:00Z"
+  },
+  {
+   "position": 83,
+   "title": "Swiggy top brass to meet Bengaluru hoteliers on Friday; Zomato adds OTP approval for discounts",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Supriya Roy"
+    ]
+   },
+   "link": "https://timesofindia.indiatimes.com/city/bengaluru/swiggy-top-brass-to-meet-bengaluru-hoteliers-on-friday-zomato-adds-otp-approval-for-discounts/articleshow/132839607.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-132839606,width-1280,height-720,imgsize-982545,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVUWGxsU1ZaT05GWlRlSFIxVFJDZ0F4amlCU2dLTWdZcHBJaU90UVE",
+   "date": "08/03/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-03T07:00:00Z"
+  },
+  {
+   "position": 84,
+   "title": "Zomato Experiments Rapid Food Delivery With Vending Machines",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Anne Florentyna"
+    ]
+   },
+   "link": "https://inc42.com/buzz/zomato-experiments-rapid-food-delivery-with-vending-machines/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/Zomato-Now-Vending-Machine-Feature-760x570.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBWR0k0U1RWMFF6ZFNOWEZUVFJEZ0F4aUFCU2dLTWdZbEZaRE1FUXM",
+   "date": "08/21/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-21T07:00:00Z"
+  },
+  {
+   "position": 85,
+   "title": "I quit Swiggy, Zomato for a month and cooked my meals instead. This is what happened",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Tiasa Bhowal"
+    ]
+   },
+   "link": "https://www.indiatoday.in/lifestyle/society/story/i-quit-swiggy-zomato-for-a-month-and-cooked-my-meals-instead-this-is-what-happened-2970602-2026-08-14",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202608/i-rediscovered-my-love-for-cooking-that-month-14100826-16x9_0.jpg?VersionId=xp.RoAYfQbJzc1OMfFFNwO6zquZ.fcLn&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVialIwWkZOWGJtbDBPR1JqVFJDZkF4ampCU2dLTWdhQkVKQ09GUW8",
+   "date": "08/14/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-14T07:00:00Z"
+  },
+  {
+   "position": 86,
+   "title": "Zomato Bans Analogue Dairy Products On Platform Amid FDA Crackdown",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Khushi Maheshwari"
+    ]
+   },
+   "link": "https://www.ndtvprofit.com/business/zomato-bans-analogue-dairy-products-on-platform-amid-tukaram-mundhe-led-fda-crackdown-11980786",
+   "thumbnail": "https://c.ndtvimg.com/2026-01/4bd3f7ff_Zomato-Ltd.s-delivery-woman-rider-waiting-on-street-to-pick-up-order.-Photographer-Vijay-Sartape-Source-NDTV-Profit-14052024.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXViRlJwTjFwQ1NIcDVhMmt4VFJDZkF4ampCU2dLTWdhQkVvNk91UVU",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 87,
+   "title": "Bengaluru restaurants threaten Swiggy, Zomato boycott: What's the dispute?",
+   "source": {
+    "name": "Business Standard",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Vrinda Goel"
+    ]
+   },
+   "link": "https://www.business-standard.com/industry/news/bengaluru-restaurants-threaten-swiggy-zomato-boycott-what-s-the-dispute-126073000471_1.html",
+   "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/13/full/1773425313-7762.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhhVFZKYlU5MGJVeHVZbGR3VFJEQ0F4aXBCU2dLTWdZcEZaRE5GUWs",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 88,
+   "title": "Zomato launches website to help restaurants select packaging materials for food delivery",
+   "source": {
+    "name": "Packaging Europe",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://packagingeurope.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://packagingeurope.com/news/zomato-launches-website-to-help-restaurants-select-packaging-materials-for-food-delivery/14672.article",
+   "thumbnail": "https://d2wrwj382xgrci.cloudfront.net/Pictures/480xany/0/7/3/20073_zomato_13551.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNHRTRWgzWTBjeE1taHJXR2xOVFJEQ0FSaURBaWdCTWdB",
+   "date": "08/28/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-28T07:00:00Z"
+  },
+  {
+   "position": 89,
+   "title": "ITR filing 2026: Zomato and Blinkit help over 1 lakh delivery partners across 905 cities secure Rs 18...",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Navneet Dubey"
+    ]
+   },
+   "link": "https://www.moneycontrol.com/news/business/personal-finance/itr-filing-2026-zomato-and-blinkit-help-over-1-lakh-delivery-partners-across-905-cities-secure-rs-18-crore-in-income-tax-refunds-13990165.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/07/20260731083142_image.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJVVXhxUzJJdGJEaEdiWE14VFJDZkF4ampCU2dLTWdhZGNaRHJxUWc",
+   "date": "07/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-31T07:00:00Z"
+  },
+  {
+   "position": 90,
+   "title": "Zomato Bans Analogue Paneer Dishes From Platform, Announces Zero-Tolerance Policy",
+   "source": {
+    "name": "NDTV Food",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://food.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jigyasa Kakwani"
+    ]
+   },
+   "link": "https://food.ndtv.com/news/zomato-bans-analogue-paneer-dishes-from-platform-announces-zero-tolerance-policy-11981039",
+   "thumbnail": "https://c.ndtvimg.com/2026-08/33muq3bo_zomato-paneer_625x300_31_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720?im=FaceCrop,algorithm=dnn,width=1200,height=886",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUxTemh6UWtrMFdrNU1NbDlFVFJDZkF4ampCU2dLTWdrQlFZcWlvdVUwaVFF",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 91,
+   "title": "Zomato bans analogue paneer. But how will they know who's cheating?",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Tiasa Bhowal"
+    ]
+   },
+   "link": "https://www.indiatoday.in/lifestyle/food/story/zomato-bans-analogue-paneer-but-how-will-they-know-whos-cheating-2984403-2026-09-01",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/the-announcement-comes-amid-growing-scrutiny-of-analogue-paneer-and-other-dairy-substitutes-being-us-013142290-16x9_0.png?VersionId=1j9tLPgk4nFih1XmDSBLbvvIEI_Ezag8&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVRblpwTlRReGJGRjNOV2hzVFJDZkF4ampCU2dLTWdhUndZTHIwQUk",
+   "date": "09/01/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-01T07:00:00Z"
+  },
+  {
+   "position": 92,
+   "title": "Your food delivery from Swiggy, Zomato could be hit after August 15. Here's why",
+   "source": {
+    "name": "Deccan Herald",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Asra Mavad"
+    ]
+   },
+   "link": "https://www.deccanherald.com/india/karnataka/bengaluru/your-food-delivery-from-swiggy-zomato-could-be-hit-after-august-15-heres-why-4091672",
+   "thumbnail": "https://media.assettype.com/deccanherald%2F2026-07-29%2Fgyai1rpy%2Fac40fa89-3a16-473c-8aeb-119e8cfea99b.png?w=undefined&auto=format%2Ccompress&fit=max",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBNakJtYzFKVGVrSm9RemRtVFJDZkF4amlCU2dLTWdrQk1JcmttcWN0SndJ",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 93,
+   "title": "Zomato wishes Swiggy a happy birthday with a Times of India front-page ad",
+   "source": {
+    "name": "https://www.manifest-media.in/",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.manifest-media.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.manifest-media.in/advertising/060826/zomato-wishes-swiggy-a-happy-birthday-with-a-minimalist-times-of-india.html",
+   "thumbnail": "https://manifest-media.in/cover/org/f178311a-1786005325.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxMVkZrYldwQ016bHZNM2hvVFJDZkF4ampCU2dLTWdZbEJZcnRGUW8",
+   "date": "08/06/2026, 08:43 AM, +0000 UTC",
+   "iso_date": "2026-08-06T08:43:42Z"
+  },
+  {
+   "position": 94,
+   "title": "Man Who Applied To Zomato's Rs 20 lakh Chief Of Staff Role Reveals Why He Quit 16 Months Later",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Abhinav Singh"
+    ]
+   },
+   "link": "https://www.ndtv.com/offbeat/man-who-applied-to-zomatos-rs-20-lakh-chief-of-staff-role-reveals-why-he-quit-16-months-later-11820903",
+   "thumbnail": "https://c.ndtvimg.com/2026-07/grkbkllk_as_625x300_25_July_26.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXphekZCZDE5aFdGUlZPVWxXVFJDZkF4ampCU2dLTWdtQlFZelVzQ1RCN0FF",
+   "date": "07/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-25T07:00:00Z"
+  },
+  {
+   "position": 95,
+   "title": "Zomato introduces additional fee for cash-on-delivery orders",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Kanchan Yadav"
+    ]
+   },
+   "link": "https://timesofindia.indiatimes.com/business/india-business/zomato-introduces-additional-fee-for-cash-on-delivery-orders/articleshow/134124148.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-134124796,width-1280,height-720,imgsize-58341,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNU1aelp0UTBwRGJtRm1aSGRXVFJDZkF4ampCU2dLTWdB",
+   "date": "09/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-12T07:00:00Z"
+  },
+  {
+   "position": 96,
+   "title": "Bengaluru restaurants defer Swiggy, Zomato boycott till August 31 after marathon talks; propose commission...",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/bengaluru-restaurants-defer-swiggy-zomato-boycott-till-august-31-after-marathon-talks-propose-commission-cap-13998270.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2025/09/20250915124732_zomatoswiggy.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVhTbXBZUkZOU1prUkdSMjF0VFJDZkF4ampCU2dLTWdtSlFZVDFuS214YVFJ",
+   "date": "08/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-07T07:00:00Z"
+  },
+  {
+   "position": 97,
+   "title": "Inside Rapido’s plan to upend Zomato and Swiggy’s hard-won food-delivery math",
+   "source": {
+    "name": "The Ken",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://the-ken.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Shriya Sahni"
+    ]
+   },
+   "link": "https://the-ken.com/story/inside-rapidos-plan-to-upend-zomato-and-swiggys-hard-won-food-delivery-math/",
+   "thumbnail": "https://the-ken.com/wp-content/uploads/2026/08/ownly-1-1024x575.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW5lRFZ0WWtoNFlTMUZPV2RhVFJDZkF4ampCU2dLTWdZZEpJU3NQUU0",
+   "date": "08/18/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-18T07:00:00Z"
+  },
+  {
+   "position": 98,
+   "title": "Karnataka food safety dept issues notice to Zomato warehouse in Bengaluru over violations",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/india/after-zepto-karnataka-food-safety-department-inspects-zomato-warehouse-in-bengaluru-14002608.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/08/20260812041154_IMG-20260812-WA0018.jpg?impolicy=website&width=350&height=196",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBZemRWVVROelFUVnFaWEIxVFJERUFSamVBaWdLTWdhSlFJYktJUWc",
+   "date": "08/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-12T07:00:00Z"
+  },
+  {
+   "position": 99,
+   "title": "Zomato bans analogue dairy dishes, says non-compliant restaurants will be delisted",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aakriti Bansal"
+    ]
+   },
+   "link": "https://www.medianama.com/2026/08/223-zomato-analogue-dairy-dishes/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2026/08/analogue-dairy-zomato.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNU1lbFZGYW1OZlkwTndjblpmVFJDc0FoaW5CQ2dLTWdB",
+   "date": "08/31/2026, 11:14 AM, +0000 UTC",
+   "iso_date": "2026-08-31T11:14:28Z"
+  },
+  {
+   "position": 100,
+   "title": "Zomato to cut 250-300 jobs as it shuts Hyderabad customer support centre",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/companies/zomato-to-cut-250-300-jobs-as-it-shuts-hyderabad-customer-support-centre-14019145.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2025/04/20250401091155_zomato.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWxlbTlOY1ZoZlZTMURUSGhhVFJDZkF4ampCU2dLTWdtVk1vaElUbU5GcGdJ",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  }
+ ],
+ "menu_links": [
+  {
+   "title": "India",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE"
+  },
+  {
+   "title": "World",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Your local news",
+   "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+  },
+  {
+   "title": "Business",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Technology",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Entertainment",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Sports",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Science",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Health",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE"
+  }
+ ],
+ "related_topics": [
+  {
+   "topic_token": "CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZ5YzJjM09YUm5aQklGWlc0dFIwSW9BQVAB",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZ5YzJjM09YUm5aQklGWlc0dFIwSW9BQVAB",
+   "title": "Eternal Limited",
+   "thumbnail": "https://lh3.googleusercontent.com/proxy/q2JGO75X4YI3jxfRBUM4jYqwnyYnMPRiZpE95csPggoMwzaLk8C7czBFRsLvbm0E614xMP7kuphGqqwT7ABqT9bmWwR_wiwxaWPOnkwXEupVMYN3oqW9v1mYGJVHcJhl9wGWZNG8kmW0lorHe3H0LKE1Pn-KCx25wCPdDFTT4q8z6-o"
+  }
+ ]
+}

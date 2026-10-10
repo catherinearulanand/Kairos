@@ -1,0 +1,659 @@
+{
+ "search_metadata": {
+  "id": "6ac9b6bd5c9301a22a84fdc4",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/Mi0MeuIBk9oRSHWnib34_ICaKr_IWZ61PS8GuwQLaow/6ac9b6bd5c9301a22a84fdc4.json",
+  "markdown_endpoint": "https://serpapi.com/searches/Mi0MeuIBk9oRSHWnib34_ICaKr_IWZ61PS8GuwQLaow/6ac9b6bd5c9301a22a84fdc4.md",
+  "created_at": "2026-10-10 03:53:33 UTC",
+  "processed_at": "2026-10-10 03:53:33 UTC",
+  "google_play_product_url": "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en&gl=in",
+  "raw_html_file": "https://serpapi.com/searches/Mi0MeuIBk9oRSHWnib34_ICaKr_IWZ61PS8GuwQLaow/6ac9b6bd5c9301a22a84fdc4.html",
+  "total_time_taken": 1.32
+ },
+ "search_parameters": {
+  "engine": "google_play_product",
+  "product_id": "in.swiggy.android",
+  "hl": "en",
+  "gl": "in",
+  "store": "apps",
+  "platform": "phone",
+  "sort_by": "1"
+ },
+ "product_info": {
+  "title": "Swiggy: Food Instamart Dineout",
+  "editors_choice": true,
+  "authors": [
+   {
+    "name": "Swiggy",
+    "link": "https://play.google.com/store/apps/developer?id=Swiggy"
+   }
+  ],
+  "extensions": [],
+  "rating": 4.5,
+  "reviews": 13600000,
+  "content_rating": {
+   "text": "Rated for 3+",
+   "thumbnail": "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw=w48-h16-rw"
+  },
+  "downloads": "100M+",
+  "thumbnail": "https://play-lh.googleusercontent.com/FJ5W5ygiN-DYfpd2-3LqyN5F-OxDtQ7z_9v5nAeD4vOrN8kQitoOwULactKgKvktXowVEM491wE-unmGmnt8OWM=w240-h480-rw",
+  "offers": [
+   {
+    "text": "Install",
+    "link": "https://play.google.com/store/apps/details?id=in.swiggy.android&rdid=in.swiggy.android&feature=md&offerId"
+   }
+  ]
+ },
+ "media": {
+  "images": [
+   "https://play-lh.googleusercontent.com/Wo8o8NRstX1mn5KaV30ltJB_t1H2Cm2XSoX3Vn_4ZmKAqPB0tnSvBS2r5bLdsSQpzp_Ztn4VlNC5DnH-1rS_=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/eQrtxNFpjUgoV26weTu1bQvqJTJAcgqdFteZKMvJ7zL5ZOJBMVhf6N1B72_n-lJ7SA3zBM8lUuU2kJ9t2vl-9Q=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/rClpM50TFfD5czVmCMH5XWefmcuWuuKINfifTXCz6vOFziMG7dJK2ejdPfqnVMQR38RxqOaYbu8YtZlKBYIvlJ8=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/iiP5zB2r5hWmNILYO140cUdTQRM0OW9qOXEp9cW-0_KQ-w7ES4WCsJvkkC7E1GweLvZ2NNxedVKAwxUq4WalSQ=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/x782Q17Ne2Y1B1JcTApwo4sF9Yf-hfoOf4olLoUF-GfBzUZNsnKgSrqTWHHwVGtWeiieHMmyu0jF6zw3ZIoo=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/MDt7uyGdwkaM0OKbGkzWJZDVE3tRNhwY93tcQBBjxIZs7Piw1KB6Ee5k8QfYfWe2G02j5rws_XYM7CBlkDybCg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/2_-cWtXgPEtRh5YeWVc1NEKluqamwCwQ-I0GQmBifK-H7bBbWpsFIJll8AIO_O_unCuseTL30EIpN-3bu7njhzE=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/Wo8o8NRstX1mn5KaV30ltJB_t1H2Cm2XSoX3Vn_4ZmKAqPB0tnSvBS2r5bLdsSQpzp_Ztn4VlNC5DnH-1rS_=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/eQrtxNFpjUgoV26weTu1bQvqJTJAcgqdFteZKMvJ7zL5ZOJBMVhf6N1B72_n-lJ7SA3zBM8lUuU2kJ9t2vl-9Q=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/rClpM50TFfD5czVmCMH5XWefmcuWuuKINfifTXCz6vOFziMG7dJK2ejdPfqnVMQR38RxqOaYbu8YtZlKBYIvlJ8=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/iiP5zB2r5hWmNILYO140cUdTQRM0OW9qOXEp9cW-0_KQ-w7ES4WCsJvkkC7E1GweLvZ2NNxedVKAwxUq4WalSQ=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/x782Q17Ne2Y1B1JcTApwo4sF9Yf-hfoOf4olLoUF-GfBzUZNsnKgSrqTWHHwVGtWeiieHMmyu0jF6zw3ZIoo=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/MDt7uyGdwkaM0OKbGkzWJZDVE3tRNhwY93tcQBBjxIZs7Piw1KB6Ee5k8QfYfWe2G02j5rws_XYM7CBlkDybCg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/2_-cWtXgPEtRh5YeWVc1NEKluqamwCwQ-I0GQmBifK-H7bBbWpsFIJll8AIO_O_unCuseTL30EIpN-3bu7njhzE=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/Wo8o8NRstX1mn5KaV30ltJB_t1H2Cm2XSoX3Vn_4ZmKAqPB0tnSvBS2r5bLdsSQpzp_Ztn4VlNC5DnH-1rS_=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/eQrtxNFpjUgoV26weTu1bQvqJTJAcgqdFteZKMvJ7zL5ZOJBMVhf6N1B72_n-lJ7SA3zBM8lUuU2kJ9t2vl-9Q=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/rClpM50TFfD5czVmCMH5XWefmcuWuuKINfifTXCz6vOFziMG7dJK2ejdPfqnVMQR38RxqOaYbu8YtZlKBYIvlJ8=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/iiP5zB2r5hWmNILYO140cUdTQRM0OW9qOXEp9cW-0_KQ-w7ES4WCsJvkkC7E1GweLvZ2NNxedVKAwxUq4WalSQ=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/x782Q17Ne2Y1B1JcTApwo4sF9Yf-hfoOf4olLoUF-GfBzUZNsnKgSrqTWHHwVGtWeiieHMmyu0jF6zw3ZIoo=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/MDt7uyGdwkaM0OKbGkzWJZDVE3tRNhwY93tcQBBjxIZs7Piw1KB6Ee5k8QfYfWe2G02j5rws_XYM7CBlkDybCg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/2_-cWtXgPEtRh5YeWVc1NEKluqamwCwQ-I0GQmBifK-H7bBbWpsFIJll8AIO_O_unCuseTL30EIpN-3bu7njhzE=w526-h296-rw"
+  ]
+ },
+ "about_this_app": {
+  "snippet": "Hungry or Need Groceries delivered to your doorstep? 🛍️🍔Welcome to Swiggy, your one-stop shop for online food ordering, groceries, dining, and convenient pickup & delivery!Here's why India LOVES Swiggy 👇- Order food, get grocery delivery, & other essential services online- 30+ cuisines on Swiggy Food.- Swiggy One users get unlimited Free Delivery on all orders- Find top local restaurants like Mcdonald's & Burger King in your city- Order Groceries like Maggi, Dairy Milk Chocolate, and Amul fresh cream & enjoy free delivery with Instamart- Get great discounts by paying dining out bills via Dineout- Late-night delivery- Real-time updates on your order status & an ETA - Make payments via VISA/MasterCard Credit or Debit Cards, Net Banking, Paytm, FreeCharge, MobiKwik wallet, Sodexo Meal Cards, cash on delivery & credit services like LazyPay.🥙 Food Delivery: Order Delicious Food With A Tap 🥙Get Up To 60% Off + Free Delivery with Pocket Hero's picksThat's not all! There are No Minimum Order conditions, so you can order even a single item on Swiggy.Order chicken biryani, Margherita pizza, masala dosa, vegetarian and chicken burgers, coffee, tacos, chicken momos, desserts, and more.Explore our endless range of cuisines, including North Indian, Chinese, South Indian, Thai, Vietnamese, American, Healthy, Street Food, Breakfast, Late-Night Cravings, and more.Get North Indian dishes, Punjabi cuisine, South Indian cuisine, Thai cuisine, and Bengali cuisine with top chains like Domino's Pizza, Wow Momo, KFC, Burger King, Pizza Hut, FreshMenu, McDonald's, Subway, Faasos, Starbucks coffee, and more.- Find local restaurants, breakfast places, brunch spots, cafes & bars🛒 INSTAMART- Get Anything delivered to your doorstep. 🛒Instamart delivers groceries and more to your doorstep. We take care of your groceries, emergency supplies, midnight cravings, cake deliveries, and more.From Lay's chips, Davidoff coffee, and diet coke to fruits, vegetables, Amul ice cream delivery, dairy, Galaxy chocolate, cleaning essentials, personal care products like Santoor soap and Sunsilk shampoo, and baby care, you can find everything here.- Present in 120+ cities, open from 6 a.m. to late at night* for Grocery Essentials like Maggi, Pringles Chips, Nescafe Coffee, and more.*Opening & closing times might vary across cities owing to Govt. regulations.- Grab 30,000+ products across groceries & other categories like toys, stationery, home & kitchen appliances, electronics, beauty & more.🍽️ DINEOUT - deals on dining out at top restaurantsUse Dineout to get up to 50% FLAT discounts with no upper limit on your dining-out bills.Over 40,000+ restaurants across 40 cities additional up to 15% off on your bills with HDFC Bank Credit CardsPre-booking / reserve your table options for hassle-free diningFind the trending cafes, bars, pubs, breweries, luxury dining, kid-friendly, rooftop dining, brunch buffets, and much more! With Swiggy One, you'll experience savings like never before. 🍔 Unlimited free delivery from top restaurants🍕 Extra 30% discount from popular restaurants🛒 Unlimited free delivery on all Instamart orders🚗 No additional surge fee🚂Order Food Delivery In Train IRCTC Delivery 🚂Now, you can enjoy Swiggy's online food delivery even while traveling! With Swiggy's IRCTC delivery service, order food on train from top-rated restaurants at major railway stations and have it delivered directly to your train seat. Enter your train number, and let Swiggy handle the rest.",
+  "version": "4.118.0",
+  "requires_android": "7.0",
+  "released_on": "Mar 21, 2015",
+  "updated_on": "Oct 9, 2026",
+  "downloads": "100,000,000+",
+  "content_rating": "Rated for 3+",
+  "offered_by": "Swiggy",
+  "permissions": [
+   {
+    "type": "Identity",
+    "details": [
+     "find accounts on the device"
+    ]
+   },
+   {
+    "type": "Contacts",
+    "details": [
+     "find accounts on the device",
+     "read your contacts"
+    ]
+   },
+   {
+    "type": "Location",
+    "details": [
+     "approximate location (network-based)",
+     "precise location (GPS and network-based)"
+    ]
+   },
+   {
+    "type": "SMS",
+    "details": [
+     "read your text messages (SMS or MMS)",
+     "receive text messages (SMS)",
+     "send SMS messages"
+    ]
+   },
+   {
+    "type": "Phone",
+    "details": [
+     "directly call phone numbers",
+     "read phone status and identity"
+    ]
+   },
+   {
+    "type": "Photos/Media/Files",
+    "details": [
+     "read the contents of your USB storage",
+     "modify or delete the contents of your USB storage"
+    ]
+   },
+   {
+    "type": "Storage",
+    "details": [
+     "read the contents of your USB storage",
+     "modify or delete the contents of your USB storage"
+    ]
+   },
+   {
+    "type": "Camera",
+    "details": [
+     "take pictures and videos"
+    ]
+   },
+   {
+    "type": "Microphone",
+    "details": [
+     "record audio"
+    ]
+   },
+   {
+    "type": "Wi-Fi connection information",
+    "details": [
+     "view Wi-Fi connections"
+    ]
+   },
+   {
+    "type": "Device ID & call information",
+    "details": [
+     "read phone status and identity"
+    ]
+   },
+   {
+    "type": "Other",
+    "details": [
+     "view network connections",
+     "pair with Bluetooth devices",
+     "full network access",
+     "change your audio settings",
+     "run at startup",
+     "reorder running apps",
+     "draw over other apps",
+     "control vibration",
+     "prevent device from sleeping",
+     "Google Play license check",
+     "read Google service configuration",
+     "download files without notification",
+     "receive data from Internet"
+    ]
+   }
+  ]
+ },
+ "badges": [
+  {
+   "name": "#4 top free food & drink"
+  }
+ ],
+ "categories": [
+  {
+   "name": "Food & Drink",
+   "link": "https://play.google.com/store/apps/category/FOOD_AND_DRINK",
+   "category_id": "FOOD_AND_DRINK",
+   "serpapi_link": "https://serpapi.com/search.json?apps_category=FOOD_AND_DRINK&engine=google_play&gl=in&hl=en&store=apps"
+  }
+ ],
+ "updated_on": "Oct 9, 2026",
+ "data_safety": [
+  {
+   "text": "This app may share these data types with third parties",
+   "subtext": "Location, Personal info and 5 others"
+  },
+  {
+   "text": "This app may collect these data types",
+   "subtext": "Location, Personal info and 5 others"
+  },
+  {
+   "text": "Data is encrypted in transit"
+  },
+  {
+   "text": "You can request that data be deleted"
+  }
+ ],
+ "ratings": [
+  {
+   "stars": 1,
+   "count": 754207
+  },
+  {
+   "stars": 2,
+   "count": 228209
+  },
+  {
+   "stars": 3,
+   "count": 613540
+  },
+  {
+   "stars": 4,
+   "count": 1881754
+  },
+  {
+   "stars": 5,
+   "count": 10068182
+  }
+ ],
+ "reviews": [
+  {
+   "id": "13e4a0f04d1e8d04",
+   "rating": 1.0,
+   "snippet": "Offers and fast deliveries are very good but there is no immediate cancelling option.Today while i was selecting items i just tapped the payment option to change it to cash on delivery, suddenly the o",
+   "likes": 5,
+   "date": "September 16, 2026",
+   "iso_date": "2026-09-16T16:00:35Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "September 16, 2026",
+    "iso_date": "2026-09-16T16:02:41Z"
+   }
+  },
+  {
+   "id": "291e1274bdbf47ff",
+   "rating": 1.0,
+   "snippet": "Unfair and unethical cancellation policy! I ordered pre-packaged sweets, and the app showed a delayed preparation time of over 40 minutes. Since it was too late, I canceled it. Swiggy charged me a 100",
+   "likes": 1,
+   "date": "September 17, 2026",
+   "iso_date": "2026-09-17T15:52:46Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're apologetic about this experience you've faced while ordering with us. Please write to us at swiggysocial@swiggy.in from your registered email address detailing your experience, so we can look into the issue and resolve it for you.",
+    "date": "September 17, 2026",
+    "iso_date": "2026-09-17T15:55:17Z"
+   }
+  },
+  {
+   "id": "7f3245d4731778d8",
+   "rating": 1.0,
+   "snippet": "i added 2 items to my cart and went to the payment page. when the payment got initiated I saw that the amount is being charged for just 1 item and it went through. That's when I realised the restauran",
+   "likes": 197,
+   "date": "August 14, 2025",
+   "iso_date": "2025-08-14T16:08:40Z"
+  },
+  {
+   "id": "a42e546720aac698",
+   "rating": 1.0,
+   "snippet": "Worst app ever. Whenever I order from Instamart, the prices are always higher compared to other apps. I’ve literally compared the prices, and the difference is noticeable.On top of that, there was an ",
+   "likes": 10,
+   "date": "September 08, 2026",
+   "iso_date": "2026-09-08T14:44:28Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're disappointed to know the service has not been to your satisfaction. Kindly write to us at swiggysocial@swiggy.in from your registered email address and we'll have this addressed.",
+    "date": "September 08, 2026",
+    "iso_date": "2026-09-08T14:52:52Z"
+   }
+  },
+  {
+   "id": "6cd7cd3c6fe19f9a",
+   "rating": 1.0,
+   "snippet": "They don’t deliver the food within the time they show. They usually take much longer, and the estimated delivery time isn’t accurate either. For example, if I order something from them, they may show ",
+   "likes": 17,
+   "date": "August 29, 2026",
+   "iso_date": "2026-08-29T13:51:11Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "That doesn't seem right. Kindly help us with more details of this concern by writing to us at swiggysocial@swiggy.in from your registered email ID and we'll get this checked right away for you.",
+    "date": "August 29, 2026",
+    "iso_date": "2026-08-29T13:52:42Z"
+   }
+  },
+  {
+   "id": "93f28a8be8214a63",
+   "rating": 1.0,
+   "snippet": "Happened again today. Always when I do prepaid (online pay) orders they scam. The delivery person always says to cancel the order or make some excuses. At last I have to cancel the order and pay for t",
+   "likes": 4,
+   "date": "September 11, 2026",
+   "iso_date": "2026-09-11T19:44:53Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry to have put you through such a situation. We would like to make amends and request you to kindly share the order ID along with the details of your concern at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "September 11, 2026",
+    "iso_date": "2026-09-11T19:55:05Z"
+   }
+  },
+  {
+   "id": "2e39b5cd6f861b90",
+   "rating": 1.0,
+   "snippet": "I have been trying to log in to my Swiggy account, but I continuously receive the message: “Too many login attempts detected on this device. Please login from an account used earlier.” I have already ",
+   "likes": 15,
+   "date": "September 05, 2026",
+   "iso_date": "2026-09-05T11:15:29Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "This shouldn't have happened. Kindly help us with the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email ID & we will have this checked.",
+    "date": "September 05, 2026",
+    "iso_date": "2026-09-05T11:22:21Z"
+   }
+  },
+  {
+   "id": "c548cebdc02aedbe",
+   "rating": 1.0,
+   "snippet": "Worst app! Just now, I've ordered from KFC and there was an item missing from the order. So, I contacted the Help desk. Even if they couldn't get my item again, they could've just Refunded my amount f",
+   "likes": 6,
+   "date": "September 13, 2026",
+   "iso_date": "2026-09-13T14:23:27Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, that doesn't sound right. We would like to have this investigated. Please share the relevant order ID to swiggysocial@swiggy.in and we will assist you further in this regard.",
+    "date": "September 13, 2026",
+    "iso_date": "2026-09-13T14:24:41Z"
+   }
+  },
+  {
+   "id": "b0fb75b8f291aa9c",
+   "rating": 1.0,
+   "snippet": "Swiggy is honestly one of the worst apps I’ve ever used. This has happened to me 3–4 times now. I place an order, it gets confirmed, and the app shows 20–25 minutes for delivery, but even after an hou",
+   "likes": 7,
+   "date": "September 13, 2026",
+   "iso_date": "2026-09-13T14:02:14Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please write to us about your experience at swiggysocial@swiggy.in from your registered email address, so we can better our services.",
+    "date": "September 13, 2026",
+    "iso_date": "2026-09-13T14:04:34Z"
+   }
+  },
+  {
+   "id": "fe7216fc5903acce",
+   "rating": 1.0,
+   "snippet": "Just giving 1 star because I can’t give -100 stars. I placed an order and tried to cancel it almost immediately, but the app said, “Your food is being cooked.” Seriously? How is the food already being",
+   "likes": 4,
+   "date": "September 15, 2026",
+   "iso_date": "2026-09-15T14:35:41Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about this. Please help us with the order id over an email at swiggysocial@swiggy.in, so we can help resolve the issue.",
+    "date": "September 15, 2026",
+    "iso_date": "2026-09-15T14:43:34Z"
+   }
+  },
+  {
+   "id": "e614054e7a15ac09",
+   "rating": 1.0,
+   "snippet": "Very poor service and a very disappointing experience. My order was cancelled without my permission, which is completely unacceptable. The delivery partner was not assigned on time, and the delivery p",
+   "likes": 12,
+   "date": "September 05, 2026",
+   "iso_date": "2026-09-05T08:49:53Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry for the unpleasant experience you had. Please share more details about the incident by writing an email at swiggysocial@swiggy.in from your registered email ID. we'll take it up.",
+    "date": "September 05, 2026",
+    "iso_date": "2026-09-05T08:52:33Z"
+   }
+  },
+  {
+   "id": "b11af34983d8585f",
+   "rating": 1.0,
+   "snippet": "Absolutely terrible experience with Swiggy. I received the wrong item and, despite trying repeatedly to get help, there was absolutely no proper customer support. No agent was available to resolve the",
+   "likes": 7,
+   "date": "September 17, 2026",
+   "iso_date": "2026-09-17T00:28:55Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "September 17, 2026",
+    "iso_date": "2026-09-17T00:33:13Z"
+   }
+  },
+  {
+   "id": "a453f75a58cc14a4",
+   "rating": 1.0,
+   "snippet": "I had an extremely disappointing experience with Swiggy. I placed an order, and even after 15 minutes of order being ready no delivery partner had been assigned. When I contacted customer support, ins",
+   "likes": 7,
+   "date": "September 17, 2026",
+   "iso_date": "2026-09-17T15:44:10Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We are sorry to let you down. Please write to us at swiggysocial@swiggy.in from your registered email address elaborating further on your ordeal, so we can expiate for the miss.",
+    "date": "September 17, 2026",
+    "iso_date": "2026-09-17T15:55:18Z"
+   }
+  },
+  {
+   "id": "1a168e2bae6493f2",
+   "rating": 1.0,
+   "snippet": "I have been a regular Swiggy customer and have placed most of my food orders through your app. However, after today’s experience, I feel extremely disappointed and honestly feel that Swiggy has lost a",
+   "likes": 6,
+   "date": "September 14, 2026",
+   "iso_date": "2026-09-14T07:24:51Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, that doesn't sound right. We would like to have this investigated. Please share the relevant order ID to swiggysocial@swiggy.in and we will assist you further in this regard.",
+    "date": "September 14, 2026",
+    "iso_date": "2026-09-14T07:33:24Z"
+   }
+  },
+  {
+   "id": "4ae0b798598f2140",
+   "rating": 2.0,
+   "snippet": "Browse the restaurant: \"Free Delivery.\" Hit the payment screen: ₹71 delivery fee magically added, even though the place is under 7 km away. Apparently \"free\" means something entirely different in your",
+   "likes": 5,
+   "date": "September 10, 2026",
+   "iso_date": "2026-09-10T07:10:22Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please let us know how we can make our service better by writing to us at swiggysocial@swiggy.in from your registered email address.",
+    "date": "September 10, 2026",
+    "iso_date": "2026-09-10T07:17:12Z"
+   }
+  },
+  {
+   "id": "7ab520b254760923",
+   "rating": 2.0,
+   "snippet": "Recently placed an order in Swiggy and I raised a complaint regarding the order issues. I also sent the details via email. I had ordered a guava mojito, but instead received a completely different ite",
+   "likes": 7,
+   "date": "September 10, 2026",
+   "iso_date": "2026-09-10T10:47:39Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the ordeal. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "September 10, 2026",
+    "iso_date": "2026-09-10T10:53:43Z"
+   }
+  },
+  {
+   "id": "d16c68c6de7128b5",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience with Swiggy. I placed my order yesterday, but it was delivered 1 hour 25 minutes after placing the order. The food was prepared the delivery agent did not pick up the ord",
+   "likes": 7,
+   "date": "September 13, 2026",
+   "iso_date": "2026-09-13T09:09:25Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry to have put you through such a situation. We would like to make amends and request you to kindly share the order ID along with the details of your concern at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "September 13, 2026",
+    "iso_date": "2026-09-13T09:14:44Z"
+   }
+  },
+  {
+   "id": "cfcc3b2e117dd564",
+   "rating": 4.0,
+   "snippet": "I think swiggy's competitors are doing good then swiggy, because first very huge issue faced by not only me but many people is that their delivery partner assigning process is very slow and it's very ",
+   "likes": 4,
+   "date": "September 13, 2026",
+   "iso_date": "2026-09-13T18:10:50Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, appreciate your feedback, we give utmost priority to our user's feedback and would request you to share yours on swiggysocial@swiggy.in and we can work towards implementing them to provide better services.",
+    "date": "September 13, 2026",
+    "iso_date": "2026-09-13T18:15:01Z"
+   }
+  },
+  {
+   "id": "4ccbf6c36dd045a3",
+   "rating": 1.0,
+   "snippet": "added 2 items to my cart and went to the payment page. When the payment got initiated I saw that the amount is being charged for just 1 item and it went through. That's when I realised the restaurant ",
+   "likes": 10,
+   "date": "September 07, 2026",
+   "iso_date": "2026-09-07T10:35:00Z"
+  },
+  {
+   "id": "aea696b50d7a64d1",
+   "rating": 2.0,
+   "snippet": "Found a workflow bug that when you select an item and in cart you change the delivery location, but instead of ordering you by chance want to look at the other restaurants and move away from the cart,",
+   "likes": 3,
+   "date": "September 18, 2026",
+   "iso_date": "2026-09-18T13:48:07Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're apologetic about this experience you've faced while ordering with us. Please write to us at swiggysocial@swiggy.in from your registered email address detailing your experience, so we can look into the issue and resolve it for you.",
+    "date": "September 18, 2026",
+    "iso_date": "2026-09-18T14:03:44Z"
+   }
+  }
+ ],
+ "serpapi_pagination": {
+  "next": "https://serpapi.com/search.json?all_reviews=true&engine=google_play_product&gl=in&hl=en&next_page_token=CrABIqcBAV8d1P2QYoSrBHi1N_eNAUiUvvljb7eFxSMi6CPt9SSJRzgrWDAP4G5ORYSxkQCAROpykoGVTC0AdX67uRPsNOZhFZDVIW-2n9qMVe21BQ9MzAS_PNVWubJTJ50vN3ZeQnWFoL5GTVZxbD2gsyKHEtM0mhavTUbg80--MCQklhnn9JclTrFuv_PwtAyXgdH1xNoUptHSHEshdeV7jQgAK4DbShXG1oMovu2m1gY&platform=phone&product_id=in.swiggy.android&sort_by=1&store=apps",
+  "next_page_token": "CrABIqcBAV8d1P2QYoSrBHi1N_eNAUiUvvljb7eFxSMi6CPt9SSJRzgrWDAP4G5ORYSxkQCAROpykoGVTC0AdX67uRPsNOZhFZDVIW-2n9qMVe21BQ9MzAS_PNVWubJTJ50vN3ZeQnWFoL5GTVZxbD2gsyKHEtM0mhavTUbg80--MCQklhnn9JclTrFuv_PwtAyXgdH1xNoUptHSHEshdeV7jQgAK4DbShXG1oMovu2m1gY"
+ },
+ "developer_contact": {
+  "website": "https://www.swiggy.com",
+  "support_email": "android@swiggy.in",
+  "privacy_policy": "https://www.swiggy.com/privacy-policy",
+  "name": "SWIGGY LIMITED",
+  "address": "No. 55 Sy No. 8-14, Ground Floor, I&J Block, Embassy Tech Village, Bengaluru, Karnataka 560103 India",
+  "phone_number": "+91 98807 47417"
+ },
+ "similar_results": [
+  {
+   "title": "More by Swiggy",
+   "see_more_link": "https://play.google.com/store/apps/collection/cluster?gsr=SmZqLGpjREIvSHRpMXVFMTZDRnJPOW1SbjNxQ1d6Q3FGSXlBL1ZGSXdaemloMXc9sgIyChUKEWluLnN3aWdneS5hbmRyb2lkEAcSFwgBEhM4NjEwMDU1ODM0ODc5MzEwMDQ0GACwEgA%3D:S:ANO1ljLlRQ4",
+   "see_more_token": "SmZqLGpjREIvSHRpMXVFMTZDRnJPOW1SbjNxQ1d6Q3FGSXlBL1ZGSXdaemloMXc9sgIyChUKEWluLnN3aWdneS5hbmRyb2lkEAcSFwgBEhM4NjEwMDU1ODM0ODc5MzEwMDQ0GACwEgA%3D:S:ANO1ljLlRQ4",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_play&gl=in&hl=en&see_more_token=SmZqLGpjREIvSHRpMXVFMTZDRnJPOW1SbjNxQ1d6Q3FGSXlBL1ZGSXdaemloMXc9sgIyChUKEWluLnN3aWdneS5hbmRyb2lkEAcSFwgBEhM4NjEwMDU1ODM0ODc5MzEwMDQ0GACwEgA%253D%3AS%3AANO1ljLlRQ4&store=apps",
+   "items": [
+    {
+     "title": "toing - Food Delivery",
+     "link": "https://play.google.com/store/apps/details?id=in.swiggy.android.toing",
+     "product_id": "in.swiggy.android.toing",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.swiggy.android.toing&sort_by=1&store=apps",
+     "rating": 4.4,
+     "extension": [
+      "Swiggy"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/Xn7ZGxLDyXvckEjvDzflHj3Qh1eFhj5zD4Pp5F3WVml2YKRAXMVWhvwuIAZkcHkuRciZKBd78bD_F50onO2l3Mk=s64-rw"
+    },
+    {
+     "title": "Swiggy Delivery Partner App",
+     "link": "https://play.google.com/store/apps/details?id=in.swiggy.deliveryapp",
+     "product_id": "in.swiggy.deliveryapp",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.swiggy.deliveryapp&sort_by=1&store=apps",
+     "rating": 4.0,
+     "extension": [
+      "Swiggy"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/tknFnX0d0qK3lD8zufFzjjlWHFxjZGBRDh9CGGBwMZ9suvef5cqYz66s18XeBUcz2eigykrRpM5rBT9S_sSCpA=s64-rw"
+    },
+    {
+     "title": "Choice Delivery Partner App",
+     "link": "https://play.google.com/store/apps/details?id=in.swiggy.deliveryapp.choice",
+     "product_id": "in.swiggy.deliveryapp.choice",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.swiggy.deliveryapp.choice&sort_by=1&store=apps",
+     "rating": 4.0,
+     "extension": [
+      "Swiggy"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/mf9AkjiOyPEk3coQH6tNZY1PvrqPqSHKuirLJHGU0Ps7RUloXFr5o77iBlMlCGwTdmEFhcqRmqrDrL1aySCsw1M=s64-rw"
+    },
+    {
+     "title": "Swiggy Partner App",
+     "link": "https://play.google.com/store/apps/details?id=in.swiggy.partnerapp",
+     "product_id": "in.swiggy.partnerapp",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.swiggy.partnerapp&sort_by=1&store=apps",
+     "rating": 3.2,
+     "extension": [
+      "Swiggy"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/_Lu1yCIaYZ85fJNtgebA_gvnMNWjKXQmhEiD3RNcGWTK-WglnU0mJ6Y__9dbAc7M4Dvdk3J24W7husBwCtwZzg=s64-rw"
+    },
+    {
+     "title": "Dineout: Restaurant Offers",
+     "link": "https://play.google.com/store/apps/details?id=com.dineout.book",
+     "product_id": "com.dineout.book",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.dineout.book&sort_by=1&store=apps",
+     "rating": 4.7,
+     "extension": [
+      "Swiggy"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/cmTxmGjmfsiJDHaPCahDde5KGUzxtgkHPvVN1_doQg1xLHniAo11LA_fvilzc2MJldmuiUOlAlhrccvGguBosg=s64-rw"
+    },
+    {
+     "title": "CREW - Your Travel Concierge",
+     "link": "https://play.google.com/store/apps/details?id=in.co.crew",
+     "product_id": "in.co.crew",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.co.crew&sort_by=1&store=apps",
+     "rating": 4.2,
+     "extension": [
+      "Swiggy"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/jxNlVCiV8KcXxxzdE_jJuPrgEaM7OPmCNi4Ft33-P-OBOT9i9r6Il4AlBlJnDsCkmYL2QIdFUqIZMGdWCAUF=s64-rw"
+    }
+   ]
+  },
+  {
+   "title": "Similar apps",
+   "see_more_link": "https://play.google.com/store/apps/collection/cluster?gsr=SoMBaixWZFo0bWg1U0s1YTFLY0ZQa0RPbHVhZFdzY0VnOXhXQlM1cXJUVTl3WHBVPcICTwoVChFpbi5zd2lnZ3kuYW5kcm9pZBAHGAgwATgASioIARAAGh5Td2lnZ3k6IEZvb2QgSW5zdGFtYXJ0IERpbmVvdXQgACgAMABQAFgBYACwEgA%3D:S:ANO1ljLw-Xc",
+   "see_more_token": "SoMBaixWZFo0bWg1U0s1YTFLY0ZQa0RPbHVhZFdzY0VnOXhXQlM1cXJUVTl3WHBVPcICTwoVChFpbi5zd2lnZ3kuYW5kcm9pZBAHGAgwATgASioIARAAGh5Td2lnZ3k6IEZvb2QgSW5zdGFtYXJ0IERpbmVvdXQgACgAMABQAFgBYACwEgA%3D:S:ANO1ljLw-Xc",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_play&gl=in&hl=en&see_more_token=SoMBaixWZFo0bWg1U0s1YTFLY0ZQa0RPbHVhZFdzY0VnOXhXQlM1cXJUVTl3WHBVPcICTwoVChFpbi5zd2lnZ3kuYW5kcm9pZBAHGAgwATgASioIARAAGh5Td2lnZ3k6IEZvb2QgSW5zdGFtYXJ0IERpbmVvdXQgACgAMABQAFgBYACwEgA%253D%3AS%3AANO1ljLw-Xc&store=apps",
+   "items": [
+    {
+     "title": "Zomato: Food Delivery & Dining",
+     "link": "https://play.google.com/store/apps/details?id=com.application.zomato",
+     "product_id": "com.application.zomato",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.application.zomato&sort_by=1&store=apps",
+     "rating": 4.6,
+     "extension": [
+      "Zomato"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/F3A40FhcqC9fAoPeYpC_olDg2Upkq1UsylJCvmZmB7a26R0S6L-2Zo35-exR8n-__0M-uFTHq3T_nbS9oxDQ15w=s64-rw"
+    },
+    {
+     "title": "Instamart: Groceries & more",
+     "link": "https://play.google.com/store/apps/details?id=in.swiggy.android.instamart",
+     "product_id": "in.swiggy.android.instamart",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.swiggy.android.instamart&sort_by=1&store=apps",
+     "rating": 4.6,
+     "extension": [
+      "Swiggy Instamart"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/eVvxzc9zxEIWRCnEkJjRsCdVK5oEWINHrmCz8uNBrSi_gLwHK2J94-gqM3LMhnyg7ogq_iV52z3zzzuselZx5Zc=s64-rw"
+    },
+    {
+     "title": "Meesho: Online Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.meesho.supply",
+     "product_id": "com.meesho.supply",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.meesho.supply&sort_by=1&store=apps",
+     "rating": 4.4,
+     "extension": [
+      "Meesho"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/lQrsRJ7PT25f2J8n14Zp4j0695_2NIpIUEQpG6bEuljhk7oJ8q_GeA5iYgWm1DiDq0WFPBWP4iaJcXi4XPwoWCk=s64-rw"
+    },
+    {
+     "title": "Blinkit: Groceries & more",
+     "link": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
+     "product_id": "com.grofers.customerapp",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.grofers.customerapp&sort_by=1&store=apps",
+     "rating": 4.6,
+     "extension": [
+      "Blinkit"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/dY1ryTjOaVsnslxvNamNvSBulmDUkvW5f5FJ_HDApMfecSOIxjCafpNAv4LTG8TJVyp0XR9tAAaRI4K77Eiqfg=s64-rw"
+    },
+    {
+     "title": "Flipkart Online Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.flipkart.android",
+     "product_id": "com.flipkart.android",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.flipkart.android&sort_by=1&store=apps",
+     "rating": 4.3,
+     "extension": [
+      "Flipkart"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/mlWjVjxflQoYJHBBgDQ08FqT8i3KnDG__2RH8P-GWOKlEPAIo8TllTZo3HDQ3J5zlO6oAhc1FAv0Bf2on0wL8w=s64-rw"
+    },
+    {
+     "title": "bigbasket: Groceries and more",
+     "link": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp",
+     "product_id": "com.bigbasket.mobileapp",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.bigbasket.mobileapp&sort_by=1&store=apps",
+     "rating": 4.7,
+     "extension": [
+      "Bigbasket.com"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/OP5Xf_95EAJhJ_riZcWxyaFUu4TaEISBVHXLkzRfK2PH2AZQrVGsZgru0Y4r2BMJhnl_fCRixVBDLQGVhNuI=s64-rw"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,617 @@
+{
+ "search_metadata": {
+  "id": "6ac9b3b9368070aa531c2a96",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/q_9VBXdfPnwJJ9YPhtps55xP5qR6dLr3Lcz3fcDht1s/6ac9b3b9368070aa531c2a96.json",
+  "markdown_endpoint": "https://serpapi.com/searches/q_9VBXdfPnwJJ9YPhtps55xP5qR6dLr3Lcz3fcDht1s/6ac9b3b9368070aa531c2a96.md",
+  "created_at": "2026-10-10 03:40:41 UTC",
+  "processed_at": "2026-10-10 03:40:41 UTC",
+  "google_play_product_url": "https://play.google.com/store/apps/details?id=com.fsn.nykaa&hl=en&gl=in",
+  "raw_html_file": "https://serpapi.com/searches/q_9VBXdfPnwJJ9YPhtps55xP5qR6dLr3Lcz3fcDht1s/6ac9b3b9368070aa531c2a96.html",
+  "total_time_taken": 1.38
+ },
+ "search_parameters": {
+  "engine": "google_play_product",
+  "product_id": "com.fsn.nykaa",
+  "hl": "en",
+  "gl": "in",
+  "store": "apps",
+  "platform": "phone",
+  "sort_by": "1"
+ },
+ "product_info": {
+  "title": "Nykaa - Beauty Shopping App",
+  "authors": [
+   {
+    "name": "NYKAA",
+    "link": "https://play.google.com/store/apps/dev?id=7268060619270196997"
+   }
+  ],
+  "extensions": [],
+  "rating": 4.5,
+  "reviews": 2920000,
+  "content_rating": {
+   "text": "Rated for 3+",
+   "thumbnail": "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw=w48-h16-rw"
+  },
+  "downloads": "100M+",
+  "thumbnail": "https://play-lh.googleusercontent.com/LphGQF2SgqzQpY8iWHgC-3_iMf59_3RmprjXPTwCxACPymuxQRyB93-pBl575S7PRXo1WUW-Mp4lqYfgQNLoYK4=w240-h480-rw",
+  "offers": [
+   {
+    "text": "Install",
+    "link": "https://play.google.com/store/apps/details?id=com.fsn.nykaa&rdid=com.fsn.nykaa&feature=md&offerId"
+   }
+  ]
+ },
+ "media": {
+  "images": [
+   "https://play-lh.googleusercontent.com/WFm3TmDMfaUjQYWv2imbFTIWxuIHTQj53Vez-dfpf2X7ixNS-vg1KBUhj-mI1rUrGuZN77QSZaVgJL-iLdFC1Q=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/6xRQSO3hBX7UBzjTbQFVPS5KyXHR4QY_j8yBQJPt3IVmtWcU-I6y6uGaWwb1qNCVzUQdJ4F_GYKUPSBKyAYLOzE=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/xh3yjGv_hx6sIlxF0sf0TrM86GFJCSqpE3wjlDXLdO-aAksc6SYygxp6cBVcfMKKgzK9RDysPwjuZZHI46Ismrg=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/sFFxM6YBCRYOVpYWbL3mo-kKeeCayyRqGGw-6kQ6Qa6gyOsTNXGib8gtjk9HdYeLgPj2RVCL5xiqB_ReyTYrHA=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/CJ1Sy8UtlK5O3ZAo4VKivCrOcJ7x399a_Yhd8PP57fm36k5nlCRK-DW-mYmgbolOMdEvJedMXeYCW4xj3TTjMw=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/-3kJQPcISmpuPZY7u6W2tT_Rgj-9ItMT63TnPuDPPTwSEcl4lqGeaYkq-jNzT6dBBp2qCheiXyDQCYZIUwY3ZQ=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/oQltaZIBnihJRgFyPmPN_LGq2Gy5uJ4v8wIfzXZgq76QEG0Hwu8ij880kCJs71RZNMDsTjYNoEnfQeFFjPLVpw=w526-h296-rw",
+   "https://play-lh.googleusercontent.com/ep_IXhbmqi_hjAK13RPYTFQEwdQkrvzFBqWwFb-VZI5DVEaRH0xPnwJUO_geqqSze2elWuvl7RMuMKnyNaD8WA=w526-h296-rw"
+  ]
+ },
+ "about_this_app": {
+  "snippet": "Nykaa is the trendiest go-to online beauty app & wellness destination for men & women. Purchase from over 1 Lakh beauty products & 2400+ brands. Buy products that are 100% genuine & reliable, sourced directly from the brands.Get the latest collection of products for men & women through luxury, wellness, makeup, natural skin care, hair care, herbal, perfumes, bath & body, mom & baby products.Buy cosmetics online at the best prices & avail discounts with India’s leading beauty shopping app.Makeup products: Get the best make-up products online at low prices. Browse through our makeup store app to shop for your favorite lipsticks, mascaras, lip glosses, eyeliners, foundations, etc. You can also buy a makeup kit of your favourite brand from our latest collection. Shop from brands like Lakme, Maybelline, L'Oreal Paris, HUDA Beauty etc.Skin care: Buy creams, moisturizers, face masks, lip balms, etc., from our online Skin store. We have a number of sun protection, skin lightening & pigmentation products available from top brands - Cetaphil, Plum, Mamaearth, Ponds, Minimalist.Hair Care: Shop hair care products for women online. Break-up with split ends, hair fall, dandruff, frizzy/dry hair with our wide variety of shampoos, conditioners, hair oils & creams available in top brands @ Nykaa Hair Care Store. Shop from hair care brands Wella Professionals, BBlunt, Herbal Essences, Schwarzkopf Professional, Minimalist, Tresemme.Natural: Check out some of the best organic beauty products available online at our natural make up & skin care store. Buy from brands like Biotique, Lotus Herbals, The Body Shop, Kama Ayurveda, Forest Essentials, Himalaya etc. Fragrance: Premium perfumes & colognes for men & women from brands such as Jimmy Choo, Davidoff, Calvin Klein, Bvlgari, Dior, Bath & Body Works etc.Nails: Buy Nail polish, art kits, manicure & pedicure kits from one of India’s best shopping apps online from brands like Elle 18, Swiss Beauty, Faces Canada, Sugar Pop etc.Glam & Fit: Shop comfy lingerie from our fancy collection of bras, underwear & swimwear from brands like Zivame, Jockey, Nykd, Enamor etc.Bath & Body: Get the coolest bath & body products body wash, shower gel, soap and moisturizer for daily use from brands such as Nivea, Pond’s, Vaseline etc.Accessories: Grab the best deals on Handbags, jewelry, sunglasses & more.Appliances: Order beauty appliances such as air straighteners, blow dryers, men’s beard trimmers, & more at best prices. Buy from top brands like Philips, VEGA, Braun, Dyson.Men’s Store: Shaving creams, razor, shavers, beard trimmers, hair care, wellness & gift offers for men.Nykaa Luxe: Shop the latest in makeup, skincare, haircare, fragrances, bath & body from our luxury brands.Shopping at Nykaa is fun. Satisfy every woman’s shopping needs with our makeup shopping app.Follow What’s Trending - Shop the latest makeup products, cosmetic products, natural hair products, with our beauty trends. Buy from our collection of sunglasses, handbags & jewellery.Shopping is now made more worthwhile with our shopping deals and discounts on brands like L’Oreal Paris, Nykaa Cosmetics, M.A.C, & other beauty products.Visit Nykaa beauty store for a great shopping experience, the virtual makeover tool, free expert advice & articles on beauty trends, tutorials & celebrity looks. Select from options of paying via Cash on Delivery, Mobile Wallet, UPI, Debit Card, Credit Card & Net Banking processed through secure gateways. You can also buy gift cards for your loved ones.Nykaa Affiliate Program: Partner with us, share reviews about your favorite offering from Nykaa & earn money when someone purchases from us using your affiliate link.Download India’s most loved makeup app & boost your online shopping experience with makeup tutorial videos, beauty tips for women, beauty advice from style divas.Have any questions or issues related to Nykaa beauty app? Reach out to us at support@nykaa.com",
+  "version": "4.0.7",
+  "requires_android": "7.0",
+  "released_on": "Dec 4, 2014",
+  "updated_on": "Oct 1, 2026",
+  "downloads": "100,000,000+",
+  "content_rating": "Rated for 3+",
+  "offered_by": "NYKAA",
+  "permissions": [
+   {
+    "type": "Location",
+    "details": [
+     "approximate location (network-based)",
+     "precise location (GPS and network-based)"
+    ]
+   },
+   {
+    "type": "Phone",
+    "details": [
+     "read phone status and identity"
+    ]
+   },
+   {
+    "type": "Photos/Media/Files",
+    "details": [
+     "read the contents of your USB storage",
+     "modify or delete the contents of your USB storage"
+    ]
+   },
+   {
+    "type": "Storage",
+    "details": [
+     "read the contents of your USB storage",
+     "modify or delete the contents of your USB storage"
+    ]
+   },
+   {
+    "type": "Camera",
+    "details": [
+     "take pictures and videos"
+    ]
+   },
+   {
+    "type": "Microphone",
+    "details": [
+     "record audio"
+    ]
+   },
+   {
+    "type": "Wi-Fi connection information",
+    "details": [
+     "view Wi-Fi connections"
+    ]
+   },
+   {
+    "type": "Device ID & call information",
+    "details": [
+     "read phone status and identity"
+    ]
+   },
+   {
+    "type": "Other",
+    "details": [
+     "view network connections",
+     "pair with Bluetooth devices",
+     "full network access",
+     "change your audio settings",
+     "control Near Field Communication",
+     "run at startup",
+     "draw over other apps",
+     "use accounts on the device",
+     "control vibration",
+     "prevent device from sleeping",
+     "Google Play license check",
+     "read Google service configuration",
+     "receive data from Internet"
+    ]
+   }
+  ]
+ },
+ "categories": [
+  {
+   "name": "Shopping",
+   "link": "https://play.google.com/store/apps/category/SHOPPING",
+   "category_id": "SHOPPING",
+   "serpapi_link": "https://serpapi.com/search.json?apps_category=SHOPPING&engine=google_play&gl=in&hl=en&store=apps"
+  }
+ ],
+ "updated_on": "Oct 1, 2026",
+ "data_safety": [
+  {
+   "text": "This app may share these data types with third parties",
+   "subtext": "Personal info, Financial info and 3 others"
+  },
+  {
+   "text": "This app may collect these data types",
+   "subtext": "Location, Personal info and 7 others"
+  },
+  {
+   "text": "Data is encrypted in transit"
+  },
+  {
+   "text": "You can request that data be deleted"
+  }
+ ],
+ "ratings": [
+  {
+   "stars": 1,
+   "count": 89190
+  },
+  {
+   "stars": 2,
+   "count": 45026
+  },
+  {
+   "stars": 3,
+   "count": 148557
+  },
+  {
+   "stars": 4,
+   "count": 541272
+  },
+  {
+   "stars": 5,
+   "count": 2081337
+  }
+ ],
+ "reviews": [
+  {
+   "id": "09ec538c2bed3a73",
+   "rating": 4.0,
+   "snippet": "Nykaa offers fast delivery—usually within just 3 days—which is impressive. The products are genuine and of good quality, and there are often great discounts available. However, the only drawback is th",
+   "likes": 6919,
+   "date": "June 22, 2025",
+   "iso_date": "2025-06-22T08:49:56Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Gopika Unnikrishnan, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "June 22, 2025",
+    "iso_date": "2025-06-22T08:51:27Z"
+   }
+  },
+  {
+   "id": "1672f1e0ed335739",
+   "rating": 3.0,
+   "snippet": "I had ordered a few products and a few of those were to be delivered 30 minutes after the order got confirmed. I was told there was a delay,after 49 minutes of waiting I was shocked to see that they s",
+   "likes": 4,
+   "date": "September 17, 2026",
+   "iso_date": "2026-09-17T16:17:58Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Joytirmoyee Saha, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "September 17, 2026",
+    "iso_date": "2026-09-17T16:23:46Z"
+   }
+  },
+  {
+   "id": "5082e347dd3d9ff4",
+   "rating": 1.0,
+   "snippet": "1. Delivery Delay: I placed an order under the 30-minute delivery option, but even after 5–6 hours, the order has not been delivered. The delivery partner informed me that they are facing navigation i",
+   "likes": 7,
+   "date": "September 13, 2026",
+   "iso_date": "2026-09-13T11:24:39Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Sonali Bhowmick, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "September 13, 2026",
+    "iso_date": "2026-09-13T11:29:30Z"
+   }
+  },
+  {
+   "id": "b32387ea4504929c",
+   "rating": 2.0,
+   "snippet": "its a genuine app but the problem is that when every you see an Ad on any other app like YouTube or Instagram and you open it to look for the product, they show completely different coupon and discoun",
+   "likes": 4,
+   "date": "September 12, 2026",
+   "iso_date": "2026-09-12T17:11:35Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Rekha, we are sorry for your experience, would request you to email us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "September 13, 2026",
+    "iso_date": "2026-09-13T04:34:44Z"
+   }
+  },
+  {
+   "id": "f823ae1366b9dcaf",
+   "rating": 5.0,
+   "snippet": "I had a good shopping experience with Nykaa. The products were delivered on time, the packaging was good, and the products were genuine. I also liked the variety of skincare and beauty products availa",
+   "likes": 5,
+   "date": "September 08, 2026",
+   "iso_date": "2026-09-08T12:52:10Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Noor Khalifa, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "September 08, 2026",
+    "iso_date": "2026-09-08T12:59:15Z"
+   }
+  },
+  {
+   "id": "e6e72b63b8180792",
+   "rating": 1.0,
+   "snippet": "Nykaa now is a scam. They promise 30 mins delivery and once the order is placed they face logistical issues and delay your order. Add to that the completely useless customer support team that has noth",
+   "likes": 10,
+   "date": "September 07, 2026",
+   "iso_date": "2026-09-07T16:43:00Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Nayna Garg, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "September 07, 2026",
+    "iso_date": "2026-09-07T16:48:32Z"
+   }
+  },
+  {
+   "id": "1d2129a46514bd21",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience. My prepaid order has been delayed repeatedly, and the delivery date has already been changed three times. Even after contacting customer support twice, I only received a",
+   "likes": 6,
+   "date": "September 08, 2026",
+   "iso_date": "2026-09-08T13:08:07Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Saanwi kumari! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "September 08, 2026",
+    "iso_date": "2026-09-08T13:13:24Z"
+   }
+  },
+  {
+   "id": "fa25357b7406ce8f",
+   "rating": 1.0,
+   "snippet": "My experience with every product I’ve ordered from Nykaa so far has been terrible... 1. The items are never delivered on time. 2. When I try to return something, they don't come to pick up the product",
+   "likes": 5,
+   "date": "September 16, 2026",
+   "iso_date": "2026-09-16T13:34:54Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Sangita Kalita, we regret to hear this, we'd like to know what went wrong and help you with it. We request you to email us at support@nykaa.com with your order details so that we can have this addressed for you.",
+    "date": "September 16, 2026",
+    "iso_date": "2026-09-16T13:40:48Z"
+   }
+  },
+  {
+   "id": "9d196a5abd7fc0bc",
+   "rating": 1.0,
+   "snippet": "​I had the worst experience ordering from this site. I needed my order to arrive before the festival, but delivery was delayed by a full week. To make matters worse, their customer service team kept p",
+   "likes": 4,
+   "date": "September 16, 2026",
+   "iso_date": "2026-09-16T05:01:38Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey divya Ramji, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "September 16, 2026",
+    "iso_date": "2026-09-16T05:07:11Z"
+   }
+  },
+  {
+   "id": "2e1a6431d411098a",
+   "rating": 1.0,
+   "snippet": "very bad experience Delivery agent never contacted me and the app shows that our delivery agent is trying his best to deliver my products. It's been more than 10 days I have ordered my products, they ",
+   "likes": 5,
+   "date": "September 13, 2026",
+   "iso_date": "2026-09-13T13:26:44Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Meena Shukla, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "September 13, 2026",
+    "iso_date": "2026-09-13T13:33:24Z"
+   }
+  },
+  {
+   "id": "77ab324399c7dd8c",
+   "rating": 1.0,
+   "snippet": "Very disappointing return policy and customer service. Very disappointed with my experience with Nykaa. I purchased this product, but after trying the shade, I realised that it was not suitable for me",
+   "likes": 5,
+   "date": "September 10, 2026",
+   "iso_date": "2026-09-10T06:21:02Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Budheswar Behera! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "September 10, 2026",
+    "iso_date": "2026-09-10T06:29:20Z"
+   }
+  },
+  {
+   "id": "1d4d1f30de7ccd18",
+   "rating": 1.0,
+   "snippet": "My experience with my last few orders has been extremely disappointing. Almost every order I placed was eventually cancelled. Some products were initially supposed to be delivered the next day, but th",
+   "likes": 17,
+   "date": "August 11, 2026",
+   "iso_date": "2026-08-11T19:11:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Megha Sardar, we regret to hear this, we'd like to know what went wrong and help you with it. We request you to email us at support@nykaa.com with your order details so that we can have this addressed for you.",
+    "date": "August 11, 2026",
+    "iso_date": "2026-08-11T19:18:45Z"
+   }
+  },
+  {
+   "id": "a70e18a6798eef84",
+   "rating": 1.0,
+   "snippet": "The worst experience with this app. When I placed my order, it showed 90-minute delivery, but the order kept getting delayed repeatedly for an entire week. Finally, they cancelled the order themselves",
+   "likes": 12,
+   "date": "August 13, 2026",
+   "iso_date": "2026-08-13T09:05:13Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Rajani B, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "August 13, 2026",
+    "iso_date": "2026-08-13T09:12:30Z"
+   }
+  },
+  {
+   "id": "b005ca641b1c7d4c",
+   "rating": 1.0,
+   "snippet": "Worst e-commerce platform ever, I've requested return for a product, which was labeled easy return, but whenever I request for return, it cancels. I tried to reach out customer care too, but couldn't ",
+   "likes": 17,
+   "date": "August 12, 2026",
+   "iso_date": "2026-08-12T09:30:06Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "We regret to hear this. Please send an email to support@nykaa.com with your registered email address and a screenshot of the product or issue so that we can resolve this as soon as possible.",
+    "date": "August 12, 2026",
+    "iso_date": "2026-08-12T09:32:29Z"
+   }
+  },
+  {
+   "id": "498c8fe9ed2c9ff8",
+   "rating": 1.0,
+   "snippet": "Apart from the products, the confirmation, shipment and delivery is worst! I don't understand what's wrong with the invoice, the prices differs and goes high. I'm dissatisfied with my first order, the",
+   "likes": 17,
+   "date": "July 02, 2026",
+   "iso_date": "2026-07-02T07:13:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi M Shravya! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "July 02, 2026",
+    "iso_date": "2026-07-02T07:18:29Z"
+   }
+  },
+  {
+   "id": "917b6d98c81703f9",
+   "rating": 1.0,
+   "snippet": "Very disappointed with the overall experience. The delivery was already delayed, and even the pickup for the replacement took too long. The replacement process was not smooth at all, and I had to wait",
+   "likes": 11,
+   "date": "September 01, 2026",
+   "iso_date": "2026-09-01T14:18:47Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi MINI VYDIA! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "September 01, 2026",
+    "iso_date": "2026-09-01T14:24:49Z"
+   }
+  },
+  {
+   "id": "3a642c950c719e89",
+   "rating": 5.0,
+   "snippet": "it's the best application with reasonable offers and prices. Writing Absolutely loved my experience with Nykaa! 💕 The products are genuine, the packaging is secure, and the delivery was quick. I reall",
+   "likes": 9,
+   "date": "September 09, 2026",
+   "iso_date": "2026-09-09T02:20:07Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "September 09, 2026",
+    "iso_date": "2026-09-09T04:06:52Z"
+   }
+  },
+  {
+   "id": "dedab45fbb397898",
+   "rating": 1.0,
+   "snippet": "Extremely disappointing and unacceptable. My order was delivered in 2 shipments, and one shipment was supposed to contain 21 items but had only 3 products inside, including 1 free gift. 19 paid produc",
+   "likes": 17,
+   "date": "August 14, 2026",
+   "iso_date": "2026-08-14T16:31:10Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Sebastiana Fernandes, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "August 14, 2026",
+    "iso_date": "2026-08-14T16:38:27Z"
+   }
+  },
+  {
+   "id": "296174e7b04b4163",
+   "rating": 1.0,
+   "snippet": "Worst app I have ever seen. The delivery date keeps changing. There are options like urgent delivery, cancellation, delivery person's contact number, and customer support, but it always says, \"This se",
+   "likes": 13,
+   "date": "September 01, 2026",
+   "iso_date": "2026-09-01T06:28:15Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Krithika M, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "September 01, 2026",
+    "iso_date": "2026-09-01T06:33:19Z"
+   }
+  },
+  {
+   "id": "8947391decfaef07",
+   "rating": 5.0,
+   "snippet": "Nykaa is a really convenient and user-friendly app for beauty and skincare shopping. The product range is amazing, with options for every budget and skin type. Delivery is usually on time, and the pac",
+   "likes": 17,
+   "date": "July 18, 2026",
+   "iso_date": "2026-07-18T13:15:08Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Sehar Javaid, thank you for taking the time to rate us!",
+    "date": "July 18, 2026",
+    "iso_date": "2026-07-18T13:21:56Z"
+   }
+  }
+ ],
+ "serpapi_pagination": {
+  "next": "https://serpapi.com/search.json?all_reviews=true&engine=google_play_product&gl=in&hl=en&next_page_token=Cq0BIqQBAV8d1P1q7lxJBVCYyKePHe4a5Jr6DWx-YvtGd4Wv8M4Xl8tJ0dcdXs-QLKwY2YA0zlRFo-IpN2z20MKT82pT-joXGcr0hfeXGZSUbzbvUPR6Vl4PIapTvoymRoS49DIOtVyXzDVl-_g7S7zH_WRQDEsul1-ffOv6hh_5MIlT58U8o3j_ID2D83tb1xGllC1niJuCiBvnpUgdcrJth6rzdmWwtlkoi-Gm1gY&platform=phone&product_id=com.fsn.nykaa&sort_by=1&store=apps",
+  "next_page_token": "Cq0BIqQBAV8d1P1q7lxJBVCYyKePHe4a5Jr6DWx-YvtGd4Wv8M4Xl8tJ0dcdXs-QLKwY2YA0zlRFo-IpN2z20MKT82pT-joXGcr0hfeXGZSUbzbvUPR6Vl4PIapTvoymRoS49DIOtVyXzDVl-_g7S7zH_WRQDEsul1-ffOv6hh_5MIlT58U8o3j_ID2D83tb1xGllC1niJuCiBvnpUgdcrJth6rzdmWwtlkoi-Gm1gY"
+ },
+ "developer_contact": {
+  "website": "http://www.nykaa.com",
+  "support_email": "appdevelopers@nykaa.com",
+  "privacy_policy": "https://www.nykaa.com/privacy-policy",
+  "name": "FSN E-COMMERCE VENTURES LIMITED",
+  "address": "104, First Floor, Vasan Udyog Bhavan, Senapati Bapat Marg, Sun Mill Compound, Mumbai, Maharashtra 400013 India",
+  "phone_number": "+91 93219 12122"
+ },
+ "similar_results": [
+  {
+   "title": "More by NYKAA",
+   "see_more_link": "https://play.google.com/store/apps/dev?id=7268060619270196997",
+   "items": [
+    {
+     "title": "Nykaa Fashion – Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.fsn.nds",
+     "product_id": "com.fsn.nds",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.fsn.nds&sort_by=1&store=apps",
+     "rating": 4.5,
+     "extension": [
+      "NYKAA"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/dfTSZA8NgdFsudbX5ffFEkezbH8bbKzPCWsDrEZDSV_kE0AoQXt0oaeUl8lsLz6zAbwp_GW8PjNHAY8AvkGclqI=s64-rw"
+    },
+    {
+     "title": "Nykaa Man - Men's Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.fsn.nykaa.man",
+     "product_id": "com.fsn.nykaa.man",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.fsn.nykaa.man&sort_by=1&store=apps",
+     "rating": 4.3,
+     "extension": [
+      "NYKAA"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/JOjteamVcxlK4D4IZeZnNtEQ29K0MjvvbWoDp5eb83L2bkn9QFG4A1h-4fQ_PaG7C45mvmskBlwDlKB-V-hb=s64-rw"
+    },
+    {
+     "title": "Nike : Shoes & Apparel",
+     "link": "https://play.google.com/store/apps/details?id=com.nike.india",
+     "product_id": "com.nike.india",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.nike.india&sort_by=1&store=apps",
+     "rating": 4.7,
+     "extension": [
+      "NYKAA"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/PSuevMXLFnVUce9fQL9Fk30SeIq-FJ1getGZQpTtqHRq94OfocIF-oB7Hiq47kaJH6JzXWOLM-JoJC186R25Dw=s64-rw"
+    },
+    {
+     "title": "Superstore By Nykaa",
+     "link": "https://play.google.com/store/apps/details?id=com.fsn.nykaa.superstore",
+     "product_id": "com.fsn.nykaa.superstore",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.fsn.nykaa.superstore&sort_by=1&store=apps",
+     "rating": 4.4,
+     "extension": [
+      "NYKAA"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/7G8JBYdbPPTRfQJhpjd7EMQab9uED0iyS-j3Hn87mdtVnFhVKAFrFut6Sogy0ZHlrJQ8TaKmPlj_yaPohOUBIT4=s64-rw"
+    },
+    {
+     "title": "DISHA By Superstore",
+     "link": "https://play.google.com/store/apps/details?id=com.fsn.nykaa.disha",
+     "product_id": "com.fsn.nykaa.disha",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.fsn.nykaa.disha&sort_by=1&store=apps",
+     "rating": 4.0,
+     "extension": [
+      "NYKAA"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/PDJMJuVXe8KqfSQv3VGZWguUK4EJj1mLRO_rEztpAM7veif3dFh6-16KFes1kddcmd-D_wmDalI0pwtkINyHmw=s64-rw"
+    }
+   ]
+  },
+  {
+   "title": "Similar apps",
+   "see_more_link": "https://play.google.com/store/apps/collection/cluster?gsr=SnxqLGVidTI1RjZFaDBiQWQ4SDlHdW1xYmJBaWNrWEMzQ0RsVzdBNmEvM1JGYjg9wgJIChEKDWNvbS5mc24ubnlrYWEQBxgIMAE4AEonCAEQABobTnlrYWEgLSBCZWF1dHkgU2hvcHBpbmcgQXBwIAAoADAAUABYAWAAsBIA:S:ANO1ljLQ9Ms",
+   "see_more_token": "SnxqLGVidTI1RjZFaDBiQWQ4SDlHdW1xYmJBaWNrWEMzQ0RsVzdBNmEvM1JGYjg9wgJIChEKDWNvbS5mc24ubnlrYWEQBxgIMAE4AEonCAEQABobTnlrYWEgLSBCZWF1dHkgU2hvcHBpbmcgQXBwIAAoADAAUABYAWAAsBIA:S:ANO1ljLQ9Ms",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_play&gl=in&hl=en&see_more_token=SnxqLGVidTI1RjZFaDBiQWQ4SDlHdW1xYmJBaWNrWEMzQ0RsVzdBNmEvM1JGYjg9wgJIChEKDWNvbS5mc24ubnlrYWEQBxgIMAE4AEonCAEQABobTnlrYWEgLSBCZWF1dHkgU2hvcHBpbmcgQXBwIAAoADAAUABYAWAAsBIA%3AS%3AANO1ljLQ9Ms&store=apps",
+   "items": [
+    {
+     "title": "Purplle Online Beauty Shopping",
+     "link": "https://play.google.com/store/apps/details?id=com.manash.purplle",
+     "product_id": "com.manash.purplle",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.manash.purplle&sort_by=1&store=apps",
+     "rating": 4.0,
+     "extension": [
+      "Purplle.com"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/e9jdFgY6cEYF5H1ksNpUQVBvWT3H9rSj055CfxeoDkl1ysHQP6FLbQ453FJew5gAJ0jZbi7I2HuYzN4FqvgY=s64-rw"
+    },
+    {
+     "title": "Flipkart Online Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.flipkart.android",
+     "product_id": "com.flipkart.android",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.flipkart.android&sort_by=1&store=apps",
+     "rating": 4.3,
+     "extension": [
+      "Flipkart"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/mlWjVjxflQoYJHBBgDQ08FqT8i3KnDG__2RH8P-GWOKlEPAIo8TllTZo3HDQ3J5zlO6oAhc1FAv0Bf2on0wL8w=s64-rw"
+    },
+    {
+     "title": "Meesho: Online Shopping App",
+     "link": "https://play.google.com/store/apps/details?id=com.meesho.supply",
+     "product_id": "com.meesho.supply",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.meesho.supply&sort_by=1&store=apps",
+     "rating": 4.4,
+     "extension": [
+      "Meesho"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/lQrsRJ7PT25f2J8n14Zp4j0695_2NIpIUEQpG6bEuljhk7oJ8q_GeA5iYgWm1DiDq0WFPBWP4iaJcXi4XPwoWCk=s64-rw"
+    },
+    {
+     "title": "FirstCry India - Baby & Kids",
+     "link": "https://play.google.com/store/apps/details?id=fc.admin.fcexpressadmin",
+     "product_id": "fc.admin.fcexpressadmin",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=fc.admin.fcexpressadmin&sort_by=1&store=apps",
+     "rating": 4.5,
+     "extension": [
+      "FirstCry.com"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/SRHTBcU3-AQ0lTcmC0cPWjanJqgOqEEvs4eix-5Bpq4RFQaZHPpbzfrN6aEeQZ4IXIKAu8764ktdAOlPS8VwyA=s64-rw"
+    },
+    {
+     "title": "Dot & Key Skincare Shopping",
+     "link": "https://play.google.com/store/apps/details?id=com.dotandkey",
+     "product_id": "com.dotandkey",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=com.dotandkey&sort_by=1&store=apps",
+     "rating": 4.6,
+     "extension": [
+      "DOT & KEY WELLNESS LIMITED"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/3XkCJt_KR_8fkF0Viqd7yKyL9EvPU-FGMJUTcrif_h0UAjqh-0U1Y0OJANZWf8TSkI9J8sT-hB0jUCf87dOsMw=s64-rw"
+    },
+    {
+     "title": "Amazon India Shop, Pay, miniTV",
+     "link": "https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping",
+     "product_id": "in.amazon.mShop.android.shopping",
+     "serpapi_link": "https://serpapi.com/search.json?engine=google_play_product&gl=in&hl=en&platform=phone&product_id=in.amazon.mShop.android.shopping&sort_by=1&store=apps",
+     "rating": 4.2,
+     "extension": [
+      "Amazon Mobile LLC"
+     ],
+     "thumbnail": "https://play-lh.googleusercontent.com/E2Nyw1kSrYFvi5DFOznWOR2iXY9mwxwfYHXV37aLHmuKtEW3gs7StIvVptoV2x8_ykiHQQmliwpfDsFm0Quuwbk=s64-rw"
+    }
+   ]
+  }
+ ]
+}

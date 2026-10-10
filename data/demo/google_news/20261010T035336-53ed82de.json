@@ -1,0 +1,1503 @@
+{
+ "search_metadata": {
+  "id": "6ac9b6bf69819d4605463110",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/a2gLYdji7UlTjK8Jwy9dYy0PueUYsuk1dkgAf9nbllc/6ac9b6bf69819d4605463110.json",
+  "markdown_endpoint": "https://serpapi.com/searches/a2gLYdji7UlTjK8Jwy9dYy0PueUYsuk1dkgAf9nbllc/6ac9b6bf69819d4605463110.md",
+  "created_at": "2026-10-10 03:53:35 UTC",
+  "processed_at": "2026-10-10 03:53:35 UTC",
+  "google_news_url": "https://news.google.com/search?q=Swiggy&hl=en&gl=IN",
+  "raw_html_file": "https://serpapi.com/searches/a2gLYdji7UlTjK8Jwy9dYy0PueUYsuk1dkgAf9nbllc/6ac9b6bf69819d4605463110.html",
+  "total_time_taken": 0.87
+ },
+ "search_parameters": {
+  "engine": "google_news",
+  "gl": "in",
+  "hl": "en",
+  "q": "Swiggy"
+ },
+ "news_results": [
+  {
+   "position": 1,
+   "title": "Exclusive: Swish Pilots Swish Go To Take On Swiggy, Zomato",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Gaurav Bagur"
+    ]
+   },
+   "link": "https://inc42.com/buzz/exclusive-swish-pilots-swish-go-to-take-on-swiggy-zomato/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Swish-ftr-760x570.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUpRUzFPU0dSTWFtVXdiMFoxVFJEZ0F4aUFCU2dLTWdZUmNZNEpNUVk",
+   "date": "10/07/2026, 03:20 PM, +0000 UTC",
+   "iso_date": "2026-10-07T15:20:56Z"
+  },
+  {
+   "position": 2,
+   "title": "Swiggy forced us to deliver old items, say riders in Hyderabad",
+   "source": {
+    "name": "The New Indian Express",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.newindianexpress.com/cities/hyderabad/2026/Oct/09/swiggy-forced-us-to-deliver-old-items-say-riders-in-hyderabad",
+   "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2025-12-24%2Ffypgj12p%2Fdelivery1105357.jpg?rect=4%2C0%2C741%2C417&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVRWRjl3U1hkbmMzWnBUVmhGVFJDZkF4amlCU2dLTWdrSkFJeEdHaWdtaFFJ",
+   "date": "10/09/2026, 04:20 AM, +0000 UTC",
+   "iso_date": "2026-10-09T04:20:53Z"
+  },
+  {
+   "position": 3,
+   "title": "Swiggy Instamart brings back Quick India Movement: iPhone 17 Pro at Rs 1,19,999, MacBooks from Rs 66,900,",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/swiggy-instamart-brings-back-quick-india-movement-iphone-17-pro-at-rs-119999-macbooks-from-rs-66900-samsung-phones-from-rs-10999-and-more/articleshow/134786756.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-134790348,width-1280,height-720,imgsize-1025113,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJVMFpaYVVSSkxVOXphbk5ZVFJDZkF4ampCU2dLTWdhSllKS0dwZ2c",
+   "date": "10/08/2026, 12:17 PM, +0000 UTC",
+   "iso_date": "2026-10-08T12:17:00Z"
+  },
+  {
+   "position": 4,
+   "title": "Swiggy's Instamart looks to expand private-brand play beyond food, explores new categories",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aryaman Gupta"
+    ]
+   },
+   "link": "https://www.moneycontrol.com/news/business/startup/swiggys-instamart-looks-to-expand-private-brand-play-beyond-food-explores-new-categories-14048235.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/07/20260731072228_swiggy.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUdPV0o0WkdsQlUwVndSRlpKVFJDZkF4ampCU2dLTWdZUmtJaU9zUVU",
+   "date": "10/09/2026, 04:44 AM, +0000 UTC",
+   "iso_date": "2026-10-09T04:44:51Z"
+  },
+  {
+   "position": 5,
+   "title": "Ola, Uber To Swiggy, Zomato: Your Everyday Apps Will Face A 5% GST Rate. CBIC Clarifies What It Means",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtvprofit.com/economy/ola-uber-to-swiggy-zomato-your-everyday-apps-will-face-a-5-gst-rate-cbic-clarifies-what-it-means-12162625",
+   "thumbnail": "https://c.ndtvimg.com/2026-09/ps2uhu9k_gst_625x300_01_September_26.png?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJiV0pyYlZWcmExSlNaWEo2VFJDZkF4ampCU2dLTWdZQllZaTNvQWs",
+   "date": "10/09/2026, 01:59 PM, +0000 UTC",
+   "iso_date": "2026-10-09T13:59:34Z"
+  },
+  {
+   "position": 6,
+   "title": "Swiggy Instamart Dark Store Faces Scrutiny Over Expired Food",
+   "source": {
+    "name": "Equitypandit",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.equitypandit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.equitypandit.com/swiggy-instamart-dark-store-faces-scrutiny-over-expired-food/",
+   "thumbnail": "https://www.equitypandit.com/wp-content/uploads/2024/03/Swiggu_1709635601634_1709635608177.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXBlRUYyV0c5VlJWUldVblJJVFJEU0FoallCQ2dLTWdtUklaSm9HdW90aGdJ",
+   "date": "10/08/2026, 12:50 PM, +0000 UTC",
+   "iso_date": "2026-10-08T12:50:22Z"
+  },
+  {
+   "position": 7,
+   "title": "Dineout drops ‘Swiggy’ from its consumer-facing name",
+   "source": {
+    "name": "afaqs!",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.afaqs.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.afaqs.com/news/mktg/dineout-drops-swiggy-from-its-consumer-facing-name-12633101",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/640x430/filters:format(webp)/afaqs/media/media_files/2026/10/07/dineout-2026-10-07-13-42-24.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBWalYwUW5RMk0xaHdjR3hrVFJEb0FoaUFCU2dLTWdhZGxKU010UVk",
+   "date": "10/07/2026, 08:12 AM, +0000 UTC",
+   "iso_date": "2026-10-07T08:12:52Z"
+  },
+  {
+   "position": 8,
+   "title": "Swish tests no-fee restaurant delivery with Swish Go: We compared its prices with Swiggy and Zomato",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aakriti Bansal"
+    ]
+   },
+   "link": "https://www.medianama.com/2026/10/223-swish-go-food-delivery-vs-swiggy-zomato/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2024/05/quick-commerce.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBRbkJUVlVweVlYcDRTMDluVFJDZkF4ampCU2dLTWdZQmNKYXRyUWM",
+   "date": "10/08/2026, 08:05 AM, +0000 UTC",
+   "iso_date": "2026-10-08T08:05:19Z"
+  },
+  {
+   "position": 9,
+   "title": "5% GST on Ola, Uber, Swiggy, Zomato, Amazon and Flipkart regardless of business model: Report",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/companies/news/5-gst-on-ola-uber-swiggy-zomato-amazon-and-flipkart-regardless-of-business-model-report-11791567413508.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/09/1600x900/logo/ola_1791569585402_konI_1791569637277_soSl_9bbf85ae-a741-43eb-8bec-6eb13c990c4d_bNJS.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNTRZWEJ3UWsxek1HVjFOR05rVFJDZkF4ampCU2dLTWdzQkVJWjRDS3ByMXVqY3NR",
+   "date": "10/09/2026, 06:32 PM, +0000 UTC",
+   "iso_date": "2026-10-09T18:32:45Z"
+  },
+  {
+   "position": 10,
+   "title": "Shopping this Navratri? BOBCARD offers discounts on Swiggy, AJIO, jewellery and groceries",
+   "source": {
+    "name": "The Economic Times",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sneha Kulkarni"
+    ]
+   },
+   "link": "https://economictimes.indiatimes.com/wealth/spend/shopping-this-navratri-bobcard-offers-discounts-on-swiggy-ajio-jewellery-and-groceries/swiggy-10-off-on-orders-of-rs-499-and-above/slideshow/134833118.cms",
+   "thumbnail": "https://img.etimg.com/thumb/msid-134833112,width-480,height-360,imgsize-188004,resizemode-75/bobcard-navratri-offers-2026-check-discounts-on-food-clothes-and-jewellery.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZWakJmWldsdlp6TXlORWRoVFJEb0FoamdBeWdLTWdZZEVaREpHQXM",
+   "date": "10/09/2026, 12:05 PM, +0000 UTC",
+   "iso_date": "2026-10-09T12:05:00Z"
+  },
+  {
+   "position": 11,
+   "title": "Video | Ola, Uber To Swiggy, Zomato: Your Everyday Apps Will Face A 5% GST Rate. CBIC Clarifies What It Mean",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtvprofit.com/videos/business/ola-uber-to-swiggy-zomato-your-everyday-apps-will-face-a-5-gst-rate-cbic-clarifies-what-it-means-1171691",
+   "thumbnail": "https://c.ndtvimg.com/dmx-images/video/images/vod/medium/2026-10/shrimicbicongstratefall_202190_116843_5000_hd_big_thumb.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900&q=70",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWhjRFJmU1hadVZXeGFWVFJmVFJDZkF4ampCU2dLTWdtTk1ZelZvS2lwS1FJ",
+   "date": "10/09/2026, 01:19 PM, +0000 UTC",
+   "iso_date": "2026-10-09T13:19:43Z"
+  },
+  {
+   "position": 12,
+   "title": "After NOICE and Nectr, Swiggy explores private labels beyond food: Report",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.storyboard18.com/amp/brand-marketing/after-noice-and-nectr-swiggy-explores-private-labels-beyond-food-report-112245.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/07/Swiggy-news-2026-07-b082f73b8856bcd76c473a67235b29c3-1019x573.jpg?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVhWbm8yY1cxZmFXUkplVFZ0VFJEOEFoaWpCU2dLTWdrbEpZQ0wzYUZ6UmdJ",
+   "date": "10/09/2026, 08:00 AM, +0000 UTC",
+   "iso_date": "2026-10-09T08:00:01Z"
+  },
+  {
+   "position": 13,
+   "title": "Swiggy Dark Stores Face Fresh Scrutiny Over Food Safety Violations",
+   "source": {
+    "name": "Sahi",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.sahi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.sahi.com/news/swiggy-dark-stores-face-fresh-scrutiny-over-food-safety-violations",
+   "thumbnail": "https://www.sahi.com/assets/uploads/856517_PE_1_CORPORATE_08_10_2026_16x9_907872a322.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhOV1pzVG5ZemJsZE1TSEU1VFJDZUF4amxCU2dLTWdZVlE0NUxJUWM",
+   "date": "10/08/2026, 09:16 AM, +0000 UTC",
+   "iso_date": "2026-10-08T09:16:38Z"
+  },
+  {
+   "position": 14,
+   "title": "BOBCARD Announces Festive Discounts for Navratri 2026",
+   "source": {
+    "name": "Passionate In Marketing",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.passionateinmarketing.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.passionateinmarketing.com/bobcard-unveils-navratri-offers-across-ajio-swiggy-instamart-and-surat-diamonds/",
+   "thumbnail": "https://pimwp.s3-accelerate.amazonaws.com/2026/10/BOBCARD-Unveils-Navratri-Offers-Across-Ajio-Swiggy-Instamart-and-Surat-Diamonds.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUJaSHBqYjNSTVEyaDZZVXBwVFJDZkF4ampCU2dLTWdB",
+   "date": "10/09/2026, 01:08 PM, +0000 UTC",
+   "iso_date": "2026-10-09T13:08:33Z"
+  },
+  {
+   "position": 15,
+   "title": "Shopping this Navratri? BOBCARD offers discounts on Swiggy, AJIO, jewellery and groceries",
+   "source": {
+    "name": "The Economic Times",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sneha Kulkarni"
+    ]
+   },
+   "link": "https://m.economictimes.com/wealth/spend/shopping-this-navratri-bobcard-offers-discounts-on-swiggy-ajio-jewellery-and-groceries/swiggy-instamart-get-rs-75-off-on-grocery-orders/slideshow/134833111.cms",
+   "thumbnail": "https://img.etimg.com/thumb/msid-134833112,width-480,height-360,imgsize-188004,resizemode-75/bobcard-navratri-offers-2026-check-discounts-on-food-clothes-and-jewellery.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZWakJmWldsdlp6TXlORWRoVFJEb0FoamdBeWdLTWdZZEVaREpHQXM",
+   "date": "10/09/2026, 12:48 PM, +0000 UTC",
+   "iso_date": "2026-10-09T12:48:43Z"
+  },
+  {
+   "position": 16,
+   "title": "Swiggy Instamart Announces Return of Flagship ‘Quick India Movement’ (QIM) Sale Ahead of Festive Season",
+   "source": {
+    "name": "Telugu Times",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.telugutimes.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.telugutimes.net/en/bnews/swiggy-instamart-announces-return-of-flagship-quick-india-movement-qim-sale-ahead-of-festive-season-362734.html",
+   "thumbnail": "https://www.telugutimes.net/en/wp-content/uploads/sites/2/2026/10/instamart.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBWRlpzVms1M2VHcHRTMTlOVFJDc0F4ak5CU2dLTWdhSllKQ0dKZ2c",
+   "date": "10/08/2026, 02:33 PM, +0000 UTC",
+   "iso_date": "2026-10-08T14:33:27Z"
+  },
+  {
+   "position": 17,
+   "title": "GST Council Meeting On Oct. 8: Swiggy, Zomato Delivery Fees May Drop To 5%; ITC Relief On Agenda",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Shrimi Choudhary"
+    ]
+   },
+   "link": "https://www.ndtvprofit.com/economy/gst-council-meeting-on-oct-8-swiggy-zomato-delivery-fees-may-drop-to-5-itc-boost-healthcare-tax-cuts-on-agenda-12147562",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/0pa7cric_gst-council-meeting_625x300_04_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWthMFZvV1RkNFpreFhTRWhJVFJDZkF4ampCU2dLTWdZQmtKQmdNQWM",
+   "date": "10/06/2026, 03:51 PM, +0000 UTC",
+   "iso_date": "2026-10-06T15:51:08Z"
+  },
+  {
+   "position": 18,
+   "title": "Why the Delhi Consumer Commission says Swiggy can’t claim safe harbor on Dineout pricing",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.medianama.com/2026/10/223-delhi-consumer-commission-swiggy-safe-harbor-dineout/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2016/05/swiggy-1.jpg.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVlORFpuTUhGbVJHNUJTRVp1VFJEdUFoallCQ2dLTWdZQlVJNm5LQVk",
+   "date": "10/06/2026, 09:35 AM, +0000 UTC",
+   "iso_date": "2026-10-06T09:35:04Z"
+  },
+  {
+   "position": 19,
+   "title": "DigiPlus Fest 2026: How Swiggy brought brand and performance marketing under one roof",
+   "source": {
+    "name": "ET BrandEquity",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://brandequity.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://brandequity.economictimes.indiatimes.com/news/digital/digiplus-fest-2026-how-swiggy-brought-brand-and-performance-marketing-under-one-roof/134761193",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134761193,width-1600,height-900,resizemode-4/.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWxkSGMyVFc1Q2NreDBNR1pYVFJDZkF4ampCU2dLTWdZcFJvYnRJUWs",
+   "date": "10/07/2026, 08:53 AM, +0000 UTC",
+   "iso_date": "2026-10-07T08:53:23Z"
+  },
+  {
+   "position": 20,
+   "title": "Buy, Sell Or Hold: Reliance Industries, Tata Motors PV, Swiggy, HDFC Bank, Cochin Shipyard And Kalyan Jewellers — Ask Profit",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Prajwal Jayaraj"
+    ]
+   },
+   "link": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-reliance-industries-tata-motors-pv-swiggy-hdfc-bank-cochin-shipyard-and-kalyan-jewellers-ask-profit-12158193",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/6hios9ac_buy-sell-hold_625x300_08_October_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUphbmMzY1RCS1QxWjJaMDFKVFJDZkF4ampCU2dLTWdB",
+   "date": "10/08/2026, 04:02 PM, +0000 UTC",
+   "iso_date": "2026-10-08T16:02:21Z"
+  },
+  {
+   "position": 21,
+   "title": "Swiggy, Restaurant Told To Pay Rs 1 Lakh To Customer For \"Misleading\" Price",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtv.com/india-news/swiggy-dineout-restaurant-told-to-pay-rs-1-lakh-to-customer-for-misleading-price-12136440",
+   "thumbnail": "https://c.ndtvimg.com/2025-03/5f0m012o_restaurant-generic_625x300_25_March_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU1OVFZKY210eVowRm1UWFJKVFJDZkF4ampCU2dLTWdZQllJaUlTQVE",
+   "date": "10/04/2026, 07:14 AM, +0000 UTC",
+   "iso_date": "2026-10-04T07:14:20Z"
+  },
+  {
+   "position": 22,
+   "title": "Swiggy Instamart riders allege expired products sent for delivery in Hyderabad",
+   "source": {
+    "name": "Hyderabad Mail",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hyderabadmail.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://hyderabadmail.com/swiggy-instamart-riders-expired-products-hyderabad-hasthinapuram/",
+   "thumbnail": "https://hyderabadmail.com/wp-content/uploads/2026/09/Telangana-Gig-Workers-Seek-Fair-Pay-from-Zomato-Swiggy.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVJRbkp3VkRKT1lVOVpXSGxwVFJEbEF4ajRCQ2dLTWdrQklKWllsQ214S0FJ",
+   "date": "10/08/2026, 08:31 AM, +0000 UTC",
+   "iso_date": "2026-10-08T08:31:47Z"
+  },
+  {
+   "position": 23,
+   "title": "Swiggy Instamart riders allege they were asked to deliver expired products in Hyderabad",
+   "source": {
+    "name": "NewsMeter",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsmeter.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://newsmeter.in/hyderabad/swiggy-instamart-riders-allege-they-were-asked-to-deliver-expired-products-in-hyderabad-777047",
+   "thumbnail": "https://newsmeter.in/h-upload/2026/10/08/443337-whatsapp-image-2026-10-08-at-50618-pm.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdRVEowYWs5Q2RHa3lSbXBxVFJEQUF4aXNCU2dLTWdZQndJYUxSUVE",
+   "date": "10/08/2026, 11:39 AM, +0000 UTC",
+   "iso_date": "2026-10-08T11:39:25Z"
+  },
+  {
+   "position": 24,
+   "title": "Delhi consumer commission orders Swiggy, restaurant to pay Rs 1 lakh over misleading buffet price",
+   "source": {
+    "name": "Telegraph India",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.telegraphindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.telegraphindia.com/business/swiggy-themis-barbeque-house-ordered-to-pay-rs-1-lakh-over-misleading-dineout-price/cid/2182936",
+   "thumbnail": "https://assets.telegraphindia.com/telegraph/2024/Nov/1730803859_swiggy-ss.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHhiRFpxT0U5eGVWaGhka1IwVFJERUF4aW1CU2dLTWdhWmhaVHJNUWc",
+   "date": "10/03/2026, 09:30 AM, +0000 UTC",
+   "iso_date": "2026-10-03T09:30:01Z"
+  },
+  {
+   "position": 25,
+   "title": "Swiggy is eating itself to stay in the game",
+   "source": {
+    "name": "The Ken",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://the-ken.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Gopal Krishnan"
+    ]
+   },
+   "link": "https://the-ken.com/newsletters/two-by-two/swiggy-is-eating-itself-to-stay-in-the-game/",
+   "thumbnail": "https://the-ken.com/wp-content/uploads/2026/10/frame-291.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFVekl5ZUVSRGRWRlBlV2x4VFJDb0FSaXNBaWdCTWdhVk1vd1RHUW8",
+   "date": "10/02/2026, 06:52 AM, +0000 UTC",
+   "iso_date": "2026-10-02T06:52:04Z"
+  },
+  {
+   "position": 26,
+   "title": "India's Swiggy bets on Instamart model shift, mirroring main rival Blinkit; eyes margin boost",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Praveen Paramasivam"
+    ]
+   },
+   "link": "https://www.reuters.com/world/india/indias-swiggy-bets-instamart-model-shift-mirroring-main-rival-blinkit-eyes-2026-08-20/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/LDKRFUQ45NOT3HJILCC2D6I6CM.jpg?auth=471e30c727c074237bc7ef6270ae777e3d93bbeb4461cf7aeca881f1cf343657&width=1920&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUlaR2cxYUhOQ1lrTmZUM1U1VFJERUF4aW1CU2dLTWdhSklZN21tUWs",
+   "date": "08/20/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-20T07:00:00Z"
+  },
+  {
+   "position": 27,
+   "title": "SBI Mutual Fund raises Swiggy stake above 5% after Rs 300 Cr share purchase",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://entrackr.com/news/sbi-mutual-fund-raises-swiggy-stake-above-5-after-rs-300-cr-share-purchase-12611662",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2026/01/29/swiggy-2026-01-29-12-33-02.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNXRiMkp1VW5GNU4xcHplVEowVFJDZkF4ampCU2dLTWdzQlVwUURweWhrQ1ZwUG9n",
+   "date": "10/01/2026, 05:19 AM, +0000 UTC",
+   "iso_date": "2026-10-01T05:19:24Z"
+  },
+  {
+   "position": 28,
+   "title": "FSSAI cracks down on Amazon, Swiggy Instamart, BigBasket, Flipkart, Zepto over food safety violations",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/india/fssai-cracks-down-on-amazon-swiggy-instamart-bigbasket-flipkart-zepto-over-food-safety-violations-14036708.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/07/20260730170904_FSSAI.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXVXa1oyVkVSNVVqbHljelU1VFJDZkF4ampCU2dLTWdrZGM0d3FLYWRyVWdF",
+   "date": "09/23/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-23T07:00:00Z"
+  },
+  {
+   "position": 29,
+   "title": "Amazon, Swiggy Among Firms Facing India Food Regulator’s Action",
+   "source": {
+    "name": "Bloomberg.com",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.bloomberg.com/news/articles/2026-09-23/amazon-swiggy-among-firms-facing-india-food-regulator-s-action",
+   "thumbnail": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSOBodZvtz20/v0/300x225.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhPV3BJTVVkR1dreG5hMmxZVFJEQ0FSaURBaWdCTWdZQlFvWUlKZ1U",
+   "date": "09/23/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-23T07:00:00Z"
+  },
+  {
+   "position": 30,
+   "title": "SBI Mutual Fund crosses 5% in Swiggy with ~$36M share buy",
+   "source": {
+    "name": "Dealroom",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://app.dealroom.co&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://app.dealroom.co/news/note/sbi-mutual-fund-crosses-5-in-swiggy-with-36m-share-buy",
+   "thumbnail": "https://sg-imgs.dealroom.co/4ae3e5a0e4af925f3e0c55bc90317950.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVabGgyTTJsR0xVOXVOelJMVFJDb0FSaXNBaWdCTWdZcEZZck5HUWc",
+   "date": "10/01/2026, 05:45 AM, +0000 UTC",
+   "iso_date": "2026-10-01T05:45:03Z"
+  },
+  {
+   "position": 31,
+   "title": "Swiggy, Zomato And Restaurants: Inside A Battle That's Far From Over",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Prateek Shukla"
+    ]
+   },
+   "link": "https://www.ndtv.com/business-news/swiggy-zomato-boycott-bengaluru-august-15-restaurants-commission-discount-11836903",
+   "thumbnail": "https://c.ndtvimg.com/2022-07/bekrmj3_swiggy-zomato_625x300_18_July_22.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHljbTFoTlV4WmIzaGhTWGt4VFJDZkF4ampCU2dLTWdZcGhKQ3ROUVk",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 32,
+   "title": "Swiggy reshuffles leadership, appoints new CGPO, CTO and COO",
+   "source": {
+    "name": "People Matters - HR News",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.peoplematters.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Samriddhi Srivastava"
+    ]
+   },
+   "link": "https://www.peoplematters.in/news/leadership/swiggy-reshuffles-leadership-appoints-new-cgpo-cto-and-coo-51516",
+   "thumbnail": "https://asset.peoplematters.in/images/d419c6bd-fe24-40f5-8a8f-adbad49b40e3.jpg?w=800&auto=format,compress",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9NVVZ1UW10eVVHTkdhV0ozVFJDZkF4ampCU2dLTWdhQk1KNkRuQW8",
+   "date": "08/18/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-18T07:00:00Z"
+  },
+  {
+   "position": 33,
+   "title": "India's Swiggy pares gains as its shares exit MSCI indexes",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Bharath Rajeswaran"
+    ]
+   },
+   "link": "https://www.reuters.com/world/india/indias-swiggy-pares-gains-its-shares-exit-msci-indexes-2026-09-04/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/KWVEDZU26RKJFAPD2HENNRALZM.jpg?auth=cef944faa6f3fdb5fb9b70d74d7d3ebb985ab04c136f1e715fe2f1ccbcd0a858&width=1200&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUdkVmROVFdwVU4xSlVlbkZGVFJERUF4aW1CU2dLTWdZWlVvYkxvUWc",
+   "date": "09/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-04T07:00:00Z"
+  },
+  {
+   "position": 34,
+   "title": "Crusading India state food safety chief targets Eternal, Swiggy, Zepto in sweeping crackdown",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Dhwani Pandya",
+     "Arpan Chaturvedi"
+    ]
+   },
+   "link": "https://www.reuters.com/world/india/crusading-india-state-food-safety-chief-targets-eternal-swiggy-zepto-sweeping-2026-08-15/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/CFXGBYIC2VPJBFARRKY5RCS5MI.jpg?auth=ad77814553aca20ca73a59ad1bcd51417d51a3114643cfe697a657da4c35931b&width=1080&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNXBNVEp3VlhGNlJVMWtZUzFJVFJEZ0F4aUFCU2dLTWdzQlFZN2hKbWMwTEdva3Vn",
+   "date": "08/15/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-15T07:00:00Z"
+  },
+  {
+   "position": 35,
+   "title": "Swiggy 'cost for two' misleading? What Delhi consumer court's ₹1 lakh order means for diners",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sneha Biswas"
+    ]
+   },
+   "link": "https://www.livemint.com/money/swiggy-cost-for-two-misleading-what-delhi-consumer-courts-rs-1-lakh-order-means-for-diners-11790958495594.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/02/1600x900/logo/21601_1790961145226_iwPL_1790961150054_e70q_ae2b3e45-d7e8-47b6-9810-218311ea58ad_E0IV.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXRUM05QVkhOUlZXWmtVWFZhVFJDZkF4ampCU2dLTWdrTk1JYUYydUtwQ2dJ",
+   "date": "10/02/2026, 05:12 PM, +0000 UTC",
+   "iso_date": "2026-10-02T17:12:59Z"
+  },
+  {
+   "position": 36,
+   "title": "Swiggy Uses 350+ Features and Multi-Task MLP to Predict Customer Lifetime Value",
+   "source": {
+    "name": "infoq.com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.infoq.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp/",
+   "thumbnail": "https://imgopt.infoq.com/fit-in/3000x4000/filters:quality(85)/filters:no_upscale()/news/2026/09/swiggy-pltv-multitask-mlp/en/resources/1swiggyheader-1787508225683.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNDBkRGd6VkdKMWNscHNPRXBhVFJEN0FoaXBCaWdLTWdB",
+   "date": "09/02/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-02T07:00:00Z"
+  },
+  {
+   "position": 37,
+   "title": "India's Swiggy-owned Instamart key profitability metric improves, plans more stores",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.reuters.com/world/india/indias-swiggy-posts-a-narrower-quarterly-loss-2026-07-30/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/ORQVKOPDYVKKLALT7K4FT6ZIBM.jpg?auth=70b3aaad686677df745d58957df5186e3658df8a03b4ddc7e1272200f70d7cb5&width=1920&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDROMVpDVDJkT2NVNDNWMGhWVFJERUF4aW1CU2dLTWdZaFk0NXNLUWM",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 38,
+   "title": "Why Bengaluru Restaurants Plan To Boycott Swiggy From August 15",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jigyasa Kakwani",
+     "Reethu Rajpurohit"
+    ]
+   },
+   "link": "https://www.ndtv.com/food/why-bengaluru-restaurants-plan-to-boycott-swiggy-from-august-15-11836145",
+   "thumbnail": "https://c.ndtvimg.com/2026-07/3hlo8oeg_swiggy-delievery_625x300_11_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVFlamR5UVhaaFFrMVdaMU0xVFJDZkF4ampCU2dLTWdtQkVvNk5HU2RGQXdN",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 39,
+   "title": "FSSAI Initiates Penal Action Against Amazon, Flipkart, Swiggy Instamart, BigBasket & Zepto Over Food...",
+   "source": {
+    "name": "LawBeat",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://lawbeat.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aishwarya Iyer"
+    ]
+   },
+   "link": "https://lawbeat.in/news-updates/fssai-initiates-penal-action-against-amazon-flipkart-swiggy-instamart-bigbasket-zepto-over-food-safety-violations-1635150",
+   "thumbnail": "https://lawbeat.in/h-upload/2026/09/25/2274306-fssai-food-safetyjpg.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhVM1ZuYjNZMlNFa3RRV3czVFJDdEF4akxCU2dLTWdhaGhJNnR1UVU",
+   "date": "09/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-25T07:00:00Z"
+  },
+  {
+   "position": 40,
+   "title": "India's Swiggy targets $1 billion core earnings by FY31 as it doubles down on Instamart",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.reuters.com/world/india/indias-swiggy-targets-105-billion-core-earnings-by-fiscal-2031-2026-08-06/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/KWVEDZU26RKJFAPD2HENNRALZM.jpg?auth=cef944faa6f3fdb5fb9b70d74d7d3ebb985ab04c136f1e715fe2f1ccbcd0a858&width=1200&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUdkVmROVFdwVU4xSlVlbkZGVFJERUF4aW1CU2dLTWdZWlVvYkxvUWc",
+   "date": "08/06/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-06T07:00:00Z"
+  },
+  {
+   "position": 41,
+   "title": "Swiggy shareholders back move for Indian-owned status",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Praveen Paramasivam",
+     "Joyjeet Das"
+    ]
+   },
+   "link": "https://www.reuters.com/world/india/swiggy-shareholders-back-move-indian-owned-status-2026-08-18/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/KWVEDZU26RKJFAPD2HENNRALZM.jpg?auth=cef944faa6f3fdb5fb9b70d74d7d3ebb985ab04c136f1e715fe2f1ccbcd0a858&width=1200&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUdkVmROVFdwVU4xSlVlbkZGVFJERUF4aW1CU2dLTWdZWlVvYkxvUWc",
+   "date": "08/18/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-18T07:00:00Z"
+  },
+  {
+   "position": 42,
+   "title": "Udaan buys Swiggy’s Lynk Logistics for ₹500 crore",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thehindu.com/business/udaan-buys-swiggys-lynk-logistics-for-500-crore/article71438820.ece",
+   "thumbnail": "https://www.thehindu.com/theme/images/amp-og-image.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxjMll5TjBOVFpUQjRNSEZ4VFJDcUJCaXFCQ2dLTWdhTmtwQUlOUVk",
+   "date": "09/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-07T07:00:00Z"
+  },
+  {
+   "position": 43,
+   "title": "Swiggy Instamart pushes own brands as fast delivery loses novelty",
+   "source": {
+    "name": "The Arc Web",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thearcweb.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thearcweb.com/article/swiggy-instamart-pushes-own-brands-as-fast-delivery-loses-novelty-80ixxHrbJFvx6w3T",
+   "thumbnail": "https://www.thearcweb.com/_next/image?url=https%3A%2F%2Fstatic.thearcweb.com%2Fimages%2FPROD%2FPROD-562643f6-3e7e-470e-b60c-0f17a7428ea7.jpg%3Fw%3D90%26q%3D100&w=1024&q=100",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTVaRVZvVWw5QlZqVlJYemhxVFJEbkFoaldCaWdLTWdZbEZJcXVGUW8",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 44,
+   "title": "India's Swiggy names Nandita Sinha as CEO of quick commerce arm Instamart",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sonia Cheema",
+     "Urvi Dugar"
+    ]
+   },
+   "link": "https://www.reuters.com/world/india/indias-swiggy-names-nandita-sinha-instamart-ceo-amitesh-jha-steps-down-2026-07-28/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/ORQVKOPDYVKKLALT7K4FT6ZIBM.jpg?auth=70b3aaad686677df745d58957df5186e3658df8a03b4ddc7e1272200f70d7cb5&width=1080&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWtZemxWTld0b2MzTnNhbUZJVFJERUF4aW1CU2dLTWdZaFk0NXNLUWM",
+   "date": "07/28/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-28T07:00:00Z"
+  },
+  {
+   "position": 45,
+   "title": "Swiggy agrees to refund unauthorised campaign fees; Bengaluru hotels to wait till September 1",
+   "source": {
+    "name": "ET HospitalityWorld",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://hospitality.economictimes.indiatimes.com/news/operations/technology/swiggy-agrees-to-refund-unauthorised-campaign-fees-bengaluru-hotels-to-wait-till-september-1/133034897?frmsrc=amp_news",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-133034897,imgsize-258384,width-1200,height=627,overlay-ethospitality,resizemode-75/operations/technology/swiggy-agrees-to-refund-unauthorised-campaign-fees-bengaluru-hotels-to-wait-till-september-1.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDFORFYxYmsxYVpUTnBZVkZoVFJDUUF4ai1CU2dLTWdZZGtvcVB0UVU",
+   "date": "08/20/2026, 12:46 PM, +0000 UTC",
+   "iso_date": "2026-08-20T12:46:17Z"
+  },
+  {
+   "position": 46,
+   "title": "Bengaluru hoteliers defer Swiggy boycott till Aug 31 after talks with CEO Rohit Kapoor",
+   "source": {
+    "name": "Deccan Herald",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.deccanherald.com/business/companies/hoteliers-defer-swiggy-boycott-till-aug-31-after-talks-with-ceo-rohit-kapoor-4103799",
+   "thumbnail": "https://media.assettype.com/deccanherald%2F2025-11-18%2Fm9vs7mlo%2Fswiggy_1191110_1676395769.jpg?rect=0%2C0%2C1239%2C697&w=undefined&auto=format%2Ccompress&fit=max",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU9iMnRNTFdrd2NYZ3hXRmRFVFJDZkF4amlCU2dLTWdZcElLQ3ZsQWs",
+   "date": "08/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-07T07:00:00Z"
+  },
+  {
+   "position": 47,
+   "title": "When discounts cost dearly: Why Bengaluru restaurants are upset with Swiggy, Zomato",
+   "source": {
+    "name": "The News Minute",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thenewsminute.com/karnataka/when-discounts-cost-dearly-why-bengaluru-restaurants-are-upset-with-swiggy-zomato",
+   "thumbnail": "https://cf-images.assettype.com/tnm%2Fimport%2Fsites%2Fdefault%2Ffiles%2FSwiggy_Zomato_Workers_PTI_Delhi_31032020_1200x800.jpg?rect=0%2C63%2C1200%2C675&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZiblI0ZFUxd2NuWm9VRXQxVFJDZkF4ampCU2dLTWdrQlFwQXdvZWpBS2dJ",
+   "date": "08/16/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-16T07:00:00Z"
+  },
+  {
+   "position": 48,
+   "title": "AI food photos on Swiggy and Zomato becoming harder to detect",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sahana Venugopal"
+    ]
+   },
+   "link": "https://www.thehindu.com/sci-tech/technology/ai-food-photos-on-swiggy-and-zomato-becoming-harder-to-detect/article71280084.ece",
+   "thumbnail": "https://th-i.thgim.com/public/incoming/qd78j2/article71280060.ece/alternates/LANDSCAPE_1200/2024-10-31T060420Z_1467949700_RC2AKAA2KWO0_RTRMADP_3_SWIGGY-INDIA-IPO.JPG",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDROV0p5UzJ0blpEUnFiWHB0VFJDZkF4ampCU2dLTWdhQkFvck50UU0",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 49,
+   "title": "FSSAI starts penal action against Amazon, Swiggy, BigBasket, others for various non-compliances",
+   "source": {
+    "name": "The New Indian Express",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.newindianexpress.com/business/2026/Sep/23/fssai-starts-penal-action-against-amazon-swiggy-bigbasket-others-for-various-non-compliances",
+   "thumbnail": "https://cf-images.assettype.com/newindianexpress/2026-08-14/74hcyl22/202608143904370.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWFYMHRuY0hKWmNXSnZVV1V0VFJDZkF4ampCU2dLTWdtVlFvWkpKYWxiTWdF",
+   "date": "09/23/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-23T07:00:00Z"
+  },
+  {
+   "position": 50,
+   "title": "Karnataka suspends food licences of Amazon, Swiggy Instamart, BigBasket over Datura sale",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thehindu.com/news/national/karnataka/karnataka-suspends-food-licences-of-amazon-swiggy-instamart-bigbasket-over-datura-sale/article71386095.ece",
+   "thumbnail": "https://th-i.thgim.com/public/incoming/df9113/article71386160.ece/alternates/LANDSCAPE_1200/CCI_UDHindu_KSL_UPU4V64EQ_R1541863190_4_10336a56-9275-4282-9b78-4a7d59ed84fd.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNDJVSFZ2ZVVFMU9WOXJObmhCVFJDZkF4ampCU2dLTWdzSkVJSnBrU0s1OGxqVldn",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 51,
+   "title": "Udaan to acquire Swiggy-owned Lynk Logistics for Rs 500 Cr",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Harsh Upadhyay"
+    ]
+   },
+   "link": "https://entrackr.com/news/udaan-to-acquire-swiggy-owned-lynk-logistics-for-rs-500-cr-12503261",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2026/09/07/swiggy-2026-09-07-17-41-56.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNXVlblJSYURGZlRYVnZUWEk0VFJDZkF4ampCU2dLTWdzQllJaDRxT2pJS3RxZVRB",
+   "date": "09/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-07T07:00:00Z"
+  },
+  {
+   "position": 52,
+   "title": "TGPWU raises food safety, wage and rider ID concerns",
+   "source": {
+    "name": "Hyderabad Mail",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hyderabadmail.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Durga Prasad Sunku",
+     "Prasad Sunku"
+    ]
+   },
+   "link": "https://hyderabadmail.com/tgpwu-hyderabad-swiggy-instamart-bigbasket-delivery-workers/",
+   "thumbnail": "https://hyderabadmail.com/wp-content/uploads/2026/10/TGPWU-raises-food-safety-wage-and-rider-ID-concerns.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVlRkpsWDBaYVVqUTRlREZrVFJEbEF4ajRCQ2dLTWdZRlFKb0VJQWs",
+   "date": "10/08/2026, 11:48 AM, +0000 UTC",
+   "iso_date": "2026-10-08T11:48:06Z"
+  },
+  {
+   "position": 53,
+   "title": "Swiggy Launches CREW Premium Travel Concierge App Expanding Beyond Food And Quick Commerce",
+   "source": {
+    "name": "Sahi",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.sahi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.sahi.com/news/swiggy-launches-crew-premium-travel-concierge-app-expanding-beyond-food-and-quick-commerce-856517-PE1_C",
+   "thumbnail": "https://www.sahi.com/assets/uploads/856517_PE_1_CORPORATE_04_09_2026_16x9_04a2e5f8b4.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVTRkJMTlZkWk5HdGtSRWxtVFJDb0FSaXRBaWdCTWdhWlVaQUtJZ2M",
+   "date": "09/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-04T07:00:00Z"
+  },
+  {
+   "position": 54,
+   "title": "Swiggy Instamart receives 9 notices from food regulator over quality complaints",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Ashutosh Mishra"
+    ]
+   },
+   "link": "https://www.indiatoday.in/business/story/fssai-swiggy-instamart-notices-expired-contaminated-unsafe-food-complaints-2945503-2026-07-11",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202607/swiggy-instamart-is-seen-maintaining-its-growth-trajectory--achieving-contribution-breakeven-within-024758560-16x9.png?VersionId=fNG8uBi9DaS_TKXjJ5A.HrmUs2oyUaBH&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNaalpZVEcxUlFtTklSRWh2VFJDZkF4ampCU2dLTWdhQklZanRGUWc",
+   "date": "07/11/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-11T07:00:00Z"
+  },
+  {
+   "position": 55,
+   "title": "Bengaluru Restaurant Owners Threaten Swiggy Boycott Over High Commissions And Hidden Deductions; Demand Fair Partnership and Transparent Billing",
+   "source": {
+    "name": "ETV Bharat",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.etvbharat.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.etvbharat.com/en/state/bengaluru-restaurant-owners-threaten-swiggy-boycott-over-high-commissions-and-hidden-deductions-demand-fair-partnership-and-transparent-billing-enn26072800362",
+   "thumbnail": "https://imgs.etvbharat.com/etvbharat/prod-images/28-07-2026/1200-675-27250439-thumbnail-16x9-atyrea-aspera.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDBSVXB4ZWkxNFJVWkhaSHB5VFJDZkF4ampCU2dLTWdrQmNJakFPS1I2U2dJ",
+   "date": "07/28/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-28T07:00:00Z"
+  },
+  {
+   "position": 56,
+   "title": "Swiggy Dineout launches ‘Order-in-Cinemas’ feature to let moviegoers order food from their seats: Here’s",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/swiggy-dineout-launches-order-in-cinemas-feature-to-let-moviegoers-order-food-from-their-seats-heres-how-it-will-work/articleshow/133511104.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-133511391,width-1280,height-720,imgsize-527263,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTFjVGxCZG1wQlRYaElPRkJaVFJDZkF4ampCU2dLTWdB",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 57,
+   "title": "Video: 'I Used To Hide From My Friends', Ex-Swiggy Delivery Boy Now Runs Two Seafood Ventures",
+   "source": {
+    "name": "NDTV Food",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://food.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Mallika Khurana"
+    ]
+   },
+   "link": "https://food.ndtv.com/news/video-i-used-to-hide-from-my-friends-ex-swiggy-delivery-boy-now-runs-two-seafood-ventures-12112325",
+   "thumbnail": "https://c.ndtvimg.com/2026-09/6dpi4s2_swiggy-delivery-boy_625x300_29_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720?im=FaceCrop,algorithm=dnn,width=1200,height=886",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZVWEJsUVhCYVpWOWxWMVp6VFJDZkF4ampCU2dLTWdhTldZTEZwZ2M",
+   "date": "09/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-29T07:00:00Z"
+  },
+  {
+   "position": 58,
+   "title": "Swiggy has launched 'Guru', a 24×7 AI assistant designed specifically for its restaurant partners, aimed at helping them make data-driven decisions, manage ads and discounts, and resolve day-to-day operational queries in seconds through a simple chat interf",
+   "source": {
+    "name": "Instagram",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.instagram.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.instagram.com/p/DcNoIxrmC9r/",
+   "thumbnail": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3967003371744276331",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXpWaTFxZUV4MVJIQkZkMDFXVFJEckJCanZBeWdLTWdtQlVZcUxwU2U1VHdF",
+   "date": "08/19/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-19T07:00:00Z"
+  },
+  {
+   "position": 59,
+   "title": "Delhi consumer court orders Swiggy, restaurant to pay ₹1 lakh over misleading buffet price | India News",
+   "source": {
+    "name": "Hindustan Times",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Arnabjit Sur"
+    ]
+   },
+   "link": "https://www.hindustantimes.com/india-news/delhi-consumer-court-orders-swiggy-restaurant-to-pay-1-lakh-over-misleading-buffet-price-101790929232471.html",
+   "thumbnail": "https://www.hindustantimes.com/ht-img/img/2026/10/02/1600x900/logo/Delhi-consumer-court-said-Swiggy-had-a-duty-to-ens_1790929225642_87hv.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXpTa1JwVlRKbWFtZEpVekJ3VFJDZkF4ampCU2dLTWdrTmhJUUpMaUpjdGdB",
+   "date": "10/02/2026, 08:20 AM, +0000 UTC",
+   "iso_date": "2026-10-02T08:20:31Z"
+  },
+  {
+   "position": 60,
+   "title": "Bengaluru restaurants warn of Swiggy, Zomato boycott after Aug 15 over commissions",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.indiatoday.in/business/story/bengaluru-restaurants-swiggy-zomato-boycott-warning-august-15-commissions-discounts-2958807-2026-07-29",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202607/why-are-bengaluru-restaurants-boycotting-swiggy--zomato-294815262-16x9_0.jpg?VersionId=qWnyqqnRAzKCPhDZTNisZ_AA_CqXg6dU&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVFPRXBSTnpCd2NIRjJRMDkwVFJDZkF4ampCU2dLTWdrQklwUXdtU25KU1FJ",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 61,
+   "title": "Swiggy outlines exclusive product strategy for Instamart, sees cash break-even in two quarters",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Gyan Vardhan"
+    ]
+   },
+   "link": "https://entrackr.com/news-analysis/swiggy-outlines-exclusive-product-strategy-for-instamart-sees-cash-break-even-in-two-quarters-12232612",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2026/05/04/swiggy-2026-05-04-17-24-20.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFSRXROZFRWS01rSmZZMnREVFJDZkF4ampCU2dLTWdhaEk0cXVGUVk",
+   "date": "08/05/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-05T07:00:00Z"
+  },
+  {
+   "position": 62,
+   "title": "FSSAI issues notices to Swiggy Instamart over alleged food safety violations",
+   "source": {
+    "name": "News On AIR",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://newsonair.gov.in/fssai-issues-notices-to-swiggy-instamart-over-alleged-food-safety-violations/",
+   "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2026/07/2-8-300x300.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBPQzFpTURsVVZqRklZM1IyVFJDc0FoaXNBaWdLTWdhUklvb0lIUWs",
+   "date": "07/12/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-12T07:00:00Z"
+  },
+  {
+   "position": 63,
+   "title": "Hyderabad Man Finds Same Meal Costs Rs 206 More On Swiggy, Internet Calls It 'Cost Of Convenience'",
+   "source": {
+    "name": "NDTV Food",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://food.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://food.ndtv.com/news/hyderabad-man-finds-same-meal-costs-rs-206-more-on-swiggy-internet-calls-it-cost-of-convenience-12041078",
+   "thumbnail": "https://c.ndtvimg.com/2026-09/mov0n5hk_swiggy_625x300_13_September_26.png?im=FaceCrop,algorithm=dnn,width=1280,height=720?im=FaceCrop,algorithm=dnn,width=1200,height=886",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdTWEpsWjFseFozZzVTVEpsVFJEUUF4aTNCQ2dLTWdZQkFJUm5KZ2M",
+   "date": "09/13/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-13T07:00:00Z"
+  },
+  {
+   "position": 64,
+   "title": "Swiggy bets on affordability to counter new food delivery challengers",
+   "source": {
+    "name": "BusinessLine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thehindubusinessline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jyoti Banthia"
+    ]
+   },
+   "link": "https://www.thehindubusinessline.com/companies/swiggy-bets-on-affordability-to-counter-new-food-delivery-challengers/article71290927.ece",
+   "thumbnail": "https://bl-i.thgim.com/public/news/tugysa/article71206984.ece/alternates/LANDSCAPE_1200/Swiggy.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNDRRbTFMUmtSUllrSmhaRXR6VFJDZkF4ampCU2dLTWdzQkFJN2pDdXBiVFptTFln",
+   "date": "08/08/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-08T07:00:00Z"
+  },
+  {
+   "position": 65,
+   "title": "Food standards authority issues 9 notices to Swiggy Instamart over consumer complaints",
+   "source": {
+    "name": "BusinessLine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thehindubusinessline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Meenakshi Verma Ambwani"
+    ]
+   },
+   "link": "https://www.thehindubusinessline.com/companies/food-standards-authority-issues-9-notices-to-swiggy-instamart-over-consumer-complaints/article71209786.ece",
+   "thumbnail": "https://bl-i.thgim.com/public/incoming/dfteh3/article71169290.ece/alternates/LANDSCAPE_1200/2024-09-26T155830Z_1567905059_RC2YK7A7BJK5_RTRMADP_3_SWIGGY-IPO.JPG",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZPRWd3VUcxd1ZqVTRjM0paVFJDZkF4ampCU2dLTWdZaGc0cU1yUVU",
+   "date": "07/11/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-11T07:00:00Z"
+  },
+  {
+   "position": 66,
+   "title": "'15 days to rectify issues': Un-appy Bengaluru eateries warn of Swiggy, Zomato boycott",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Supriya Roy"
+    ]
+   },
+   "link": "https://timesofindia.indiatimes.com/city/bengaluru/citing-steep-commission-bluru-eateries-threaten-to-boycott-swiggy-zomato-from-aug-15/articleshow/132721349.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-132726036,width-1280,height-720,imgsize-1049111,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZaMlJ0ZDAxV2VGbDFjMDlZVFJDZkF4ampCU2dLTWdrSlFwQ21vcVk5WndJ",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 67,
+   "title": "India's Swiggy, HPCL to pilot on-demand cooking gas cylinder delivery via Instamart",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Nivedita Bhattacharjee"
+    ]
+   },
+   "link": "https://www.reuters.com/business/energy/indias-swiggy-hpcl-pilot-on-demand-cooking-gas-cylinder-delivery-via-instamart-2026-07-15/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/2HS2CREMTJP7ZEN2S6QUPGCGR4.jpg?auth=a9c97d640ea00e6613d24c3c6d194bddbe606924c9213283cc68307602740138&width=1920&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTFjMjg0ZDFkd05rdHZVRWc0VFJESUF4aWhCU2dLTWdZQkk0NVFyUVk",
+   "date": "07/15/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-15T07:00:00Z"
+  },
+  {
+   "position": 68,
+   "title": "21,000 Karnataka restaurants plan Swiggy, Zomato boycott from August 15. Here's why",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.storyboard18.com/brand-marketing/21000-karnataka-restaurants-plan-swiggy-zomato-boycott-from-august-15-heres-why-106261.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/07/yo-67-2026-07-947361aba3fa5b15cf89c68d4fab1e2e-1019x573.jpg?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJOVWxEZUdnNVduVlRkMkZKVFJEOEFoaWpCU2dLTWdhbGtvaXR2UVE",
+   "date": "07/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-31T07:00:00Z"
+  },
+  {
+   "position": 69,
+   "title": "Your food delivery from Swiggy, Zomato could be hit after August 15. Here's why",
+   "source": {
+    "name": "Deccan Herald",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Asra Mavad"
+    ]
+   },
+   "link": "https://www.deccanherald.com/india/karnataka/bengaluru/your-food-delivery-from-swiggy-zomato-could-be-hit-after-august-15-heres-why-4091672",
+   "thumbnail": "https://media.assettype.com/deccanherald%2F2026-07-29%2Fgyai1rpy%2Fac40fa89-3a16-473c-8aeb-119e8cfea99b.png?w=undefined&auto=format%2Ccompress&fit=max",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBNakJtYzFKVGVrSm9RemRtVFJDZkF4amlCU2dLTWdrQk1JcmttcWN0SndJ",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 70,
+   "title": "Swiggy Says Zero-Commission Food Delivery Is Unsustainable, Bets on Toing to Grow the Market",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.medianama.com/2026/08/223-swiggy-earnings-call-key-takeaways/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2024/06/Swiggy-delivery-workers.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNW9iR0Y2U1hWeFZrUk9XRk5PVFJEMkFoallCQ2dLTWdPQkJRbw",
+   "date": "08/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-07T07:00:00Z"
+  },
+  {
+   "position": 71,
+   "title": "Datura sold as food online: Karnataka suspends licences of Amazon, Swiggy Instamart and BigBasket",
+   "source": {
+    "name": "Firstpost",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.firstpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.firstpost.com/business/karnataka-datura-sale-amazon-swiggy-instamart-bigbasket-food-licences-suspended-14040569.html",
+   "thumbnail": "https://images.firstpost.com/uploads/2026/08/2026-08-06T051940Z_537004484_RC29KAASTL05_RTRMADP_3_SWIGGY-OUTLOOK_cropped-2026-08-3f468d11984f51a4b32d75206112f712-1200x675.jpg?im=FitAndFill,width=1200,height=675",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTNlalYwZUhkYVdrWjBaVjlrVFJDZkF4ampCU2dLTWdZZFE0VExvUWc",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 72,
+   "title": "BNP Paribas, Goldman Sachs acquire Rs 1,041 crore worth of Swiggy shares; Vikas Khemani offloads half his...",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/markets/bnp-paribas-goldman-sachs-acquire-rs-1-041-crore-worth-of-swiggy-shares-vikas-khemani-offloads-half-his-stake-in-unified-data-tech-solutions-14023077.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/08/20260808043926_stocks5.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdiVzF6VWpkd2JsOWhjRTAwVFJDZkF4ampCU2dLTWdhMU1KUzBGQW8",
+   "date": "09/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-04T07:00:00Z"
+  },
+  {
+   "position": 73,
+   "title": "Swiggy Q1 Net Loss Narrows To ₹7.9B As Revenue Climbs To ₹68B YoY",
+   "source": {
+    "name": "Sahi",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.sahi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.sahi.com/news/swiggy-q1-net-loss-narrows-to-7-9b-as-revenue-climbs-to-68b-yoy-856517-PE1_C",
+   "thumbnail": "https://www.sahi.com/assets/uploads/856517_PE_1_CORPORATE_31_07_2026_16x9_c3e0593c57.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRkWGg0YTJWbFJrMHRNQzFHVFJDb0FSaXRBaWdCTWdZQkVvNkZrUWM",
+   "date": "07/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-31T07:00:00Z"
+  },
+  {
+   "position": 74,
+   "title": "Swiggy launches AI partner Guru to help restaurants",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thehindu.com/business/swiggy-launches-ai-partner-guru-to-help-restaurants/article71355707.ece",
+   "thumbnail": "https://th-i.thgim.com/public/incoming/vwzzp8/article71355838.ece/alternates/LANDSCAPE_1200/2026-08-06T051940Z_537004484_RC29KAASTL05_RTRMADP_3_SWIGGY-OUTLOOK.JPG",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFaMjlSVlU1MWJ6Z3haR1p3VFJDZkF4ampCU2dLTWdhZEVvTHJHUW8",
+   "date": "08/17/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-17T07:00:00Z"
+  },
+  {
+   "position": 75,
+   "title": "Swiggy strengthens leadership bench across food marketplace and instamart",
+   "source": {
+    "name": "ET HospitalityWorld",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "http://hospitality.economictimes.indiatimes.com/news/operations/technology/swiggy-strengthens-leadership-bench-across-food-marketplace-and-instamart/133452247",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-133452247,width-1600,height-900,resizemode-4/.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVdkaTB0T0U5alluVk5ZVEl3VFJDZkF4ampCU2dLTWdhQlFKcWpwQWs",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 76,
+   "title": "Swiggy shareholders approve foreign ownership cap, paving way for Instamart inventory model",
+   "source": {
+    "name": "MediaNama",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.medianama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Anjali Tripathi"
+    ]
+   },
+   "link": "https://www.medianama.com/2026/08/223-swiggy-instamart-inventory-model/",
+   "thumbnail": "https://www.medianama.com/wp-content/uploads/2024/04/Swiggy-Instamart-1024x576.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHpXVVZQWkRGak9IbE9RazVIVFJDZkF4ampCU2dLTWdhTmNaSmxMZ2M",
+   "date": "08/21/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-21T07:00:00Z"
+  },
+  {
+   "position": 77,
+   "title": "Swiggy launches 'Late Night Eats' in 30 cities: What is it and all details",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/swiggy-launches-late-night-eats-in-30-cities-what-is-it-and-all-details/articleshow/132163519.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-132163580,width-1280,height-720,imgsize-341666,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXpkWGt6VmtscU1WZENOMVZWVFJDZkF4ampCU2dLTWdrUndZeG9SaVU5VVFF",
+   "date": "07/03/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-03T07:00:00Z"
+  },
+  {
+   "position": 78,
+   "title": "Food delivery gets a value push as 1 in 7 Swiggy orders comes from 99 Store",
+   "source": {
+    "name": "ET BrandEquity",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://brandequity.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://brandequity.economictimes.indiatimes.com/news/business-of-brands/food-delivery-gets-a-value-push-as-1-in-7-swiggy-orders-comes-from-99-store/133242657",
+   "thumbnail": "https://etimg.etb2bimg.com/photo/133242798.cms",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZXRkZ5VWw4dFExcDVOVjl1VFJEZ0F4aUFCU2dLTWdhRnNKU3NPQWM",
+   "date": "08/14/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-14T07:00:00Z"
+  },
+  {
+   "position": 79,
+   "title": "Tech3 | Govt cracks down on Big Tech; Swiggy Instamart has a new boss; and more",
+   "source": {
+    "name": "LinkedIn",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.linkedin.com/pulse/tech3-govt-cracks-down-big-tech-swiggy-instamart-has-new-eoddc",
+   "thumbnail": "https://media.licdn.com/dms/image/v2/D5612AQEsSHuo4Oa3Cg/article-cover_image-shrink_720_1280/B56Z.pDDM8G8AQ-/0/1785247577272?e=2147483647&v=beta&t=-i-VPL8_cNqVZ6y-J-oe0RL3oykERf6DhszOa-C4xAY",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDFSMkk0TFVsWFNWQjJNbWsyVFJDZkF4ampCU2dLTWdrTklvcVBuV214eFFJ",
+   "date": "07/28/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-28T07:00:00Z"
+  },
+  {
+   "position": 80,
+   "title": "Tech3 | Ownly takes a bite out of Swiggy, Zomato; Why Swiggy hired Nandita Sinha as Instamart CEO; and more",
+   "source": {
+    "name": "LinkedIn",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.linkedin.com/pulse/tech3-ownly-takes-bite-out-swiggy-zomato-why-hired-nandita-qgn0c",
+   "thumbnail": "https://media.licdn.com/dms/image/v2/D5612AQG0YhPcvD18wA/article-cover_image-shrink_720_1280/B56Z.uOconKIAQ-/0/1785334450948?e=2147483647&v=beta&t=EzSHArZP4FgRgscTTLzJ05BoIR90Oma-_BKkq840EsI",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9RVGRxWnpWWFJ6bDNWVVZFVFJDZkF4ampCU2dLTWdhQklKQ1BsUW8",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 81,
+   "title": "Swiggy Credits Snowflake for Making Data Workloads 96% Faster",
+   "source": {
+    "name": "Analytics India Magazine",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://analyticsindiamag.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Supreeth Koundinya"
+    ]
+   },
+   "link": "https://analyticsindiamag.com/ai-news/swiggy-credits-snowflake-for-making-data-workloads-96-faster",
+   "thumbnail": "https://zdpdvwhvukelzzbzbjvh.supabase.co/storage/v1/object/public/imported-images/1783080193658-fc1qo.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBOVkZWWkZCbVNYaDBNbFE1VFJDZkF4ampCU2dLTWdZbEZJenNHUVk",
+   "date": "09/10/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-10T07:00:00Z"
+  },
+  {
+   "position": 82,
+   "title": "Amazon, Swiggy Instamart, Bigbasket face licence suspension in Karnataka over Dhatura sale",
+   "source": {
+    "name": "Telegraph India",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.telegraphindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.telegraphindia.com/business/karnataka-suspends-food-licences-of-amazon-swiggy-instamart-bigbasket-over-dhatura-sale/cid/2176651",
+   "thumbnail": "https://assets.telegraphindia.com/telegraph/2026/Aug/1787639755_dhatura.gif",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTNaMVZOTlZsSFRtNXJYMUZKVFJERUF4aW1CU2dLTWdhQlFvamxvZ2c",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 83,
+   "title": "Amazon, Swiggy, InstaMart & BigBasket may lose food licences in Karnataka",
+   "source": {
+    "name": "Deccan Herald",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sneha Ramesh"
+    ]
+   },
+   "link": "https://www.deccanherald.com/india/karnataka/amazonswiggy-instamart-bigbasketmay-lose-food-licences-in-karnataka-4122790",
+   "thumbnail": "https://media.assettype.com/deccanherald%2F2025-03-06%2Fy5hh2igp%2Ffile7zndyk9u34pptzh1ov.jpg?rect=0%2C0%2C2865%2C1612&w=undefined&auto=format%2Ccompress&fit=max",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU9UR2R2V2s1b2VIcGZPRXRWVFJDZkF4amlCU2dLTWdhTkZZanRrUW8",
+   "date": "08/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-24T07:00:00Z"
+  },
+  {
+   "position": 84,
+   "title": "Bengaluru Swiggy AVP says employees get Monday off if public holiday falls on weekend: 'Thoughtful'",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Ankita Sengupta"
+    ]
+   },
+   "link": "https://www.moneycontrol.com/news/trends/bengaluru-swiggy-avp-says-employees-get-monday-off-if-public-holiday-falls-on-weekend-thoughtful-policies-14007836.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/08/20260817112711_MixCollage-17-Aug-2026-04-56-PM-9333.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVpla3RCWjBSU1IxcEVlWGw1VFJDZkF4ampCU2dLTWdhaFZwWUxwZ2c",
+   "date": "08/17/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-17T07:00:00Z"
+  },
+  {
+   "position": 85,
+   "title": "Read the full story: Inside Rapido’s plan to upend Zomato and Swiggy’s hard-won food-delivery math",
+   "source": {
+    "name": "The Ken",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://the-ken.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://the-ken.com/story_morning_email/inside-rapidos-plan-to-upend-zomato-and-swiggys-hard-won-food-delivery-math/",
+   "thumbnail": "https://the-ken.com/wp-content/uploads/2026/08/thekycfolder330x600-1.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVVYelpUZFcxQ2NpMUlhRVZXVFJDdkFoaW1BU2dCTWdB",
+   "date": "08/18/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-18T07:00:00Z"
+  },
+  {
+   "position": 86,
+   "title": "I quit Swiggy, Zomato for a month and cooked my meals instead. This is what happened",
+   "source": {
+    "name": "India Today",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Tiasa Bhowal"
+    ]
+   },
+   "link": "https://www.indiatoday.in/lifestyle/society/story/i-quit-swiggy-zomato-for-a-month-and-cooked-my-meals-instead-this-is-what-happened-2970602-2026-08-14",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202608/i-rediscovered-my-love-for-cooking-that-month-14100826-16x9_0.jpg?VersionId=xp.RoAYfQbJzc1OMfFFNwO6zquZ.fcLn&size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVialIwWkZOWGJtbDBPR1JqVFJDZkF4ampCU2dLTWdhQkVKQ09GUW8",
+   "date": "08/14/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-14T07:00:00Z"
+  },
+  {
+   "position": 87,
+   "title": "FSSAI starts penal action against Amazon, Swiggy, BigBasket, others",
+   "source": {
+    "name": "ThePrint",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://theprint.in/economy/fssai-starts-penal-action-against-amazon-swiggy-bigbasket-others/3051374/",
+   "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpVek5zVjFaMk56WkZRVzE2VFJDZkF4ampCU2dLTWdhTmNaYUlMUWc",
+   "date": "09/23/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-23T07:00:00Z"
+  },
+  {
+   "position": 88,
+   "title": "Swiggy Q4 FY26 Results: Overall Revenue Jumps 45% to ₹6,383 Crores, Net Loss Narrows to ₹800 Crores",
+   "source": {
+    "name": "Groww",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://groww.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://groww.in/blog/swiggy-q4-fy26-results",
+   "thumbnail": "https://cms-resources.groww.in/uploads/swigg_93ed9f5f5d.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVFjbDlCVEc5cWF6aFlNa2REVFJDZkF4amlCU2dLTWdrQmNKampxcWd0N1FF",
+   "date": "05/21/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-05-21T07:00:00Z"
+  },
+  {
+   "position": 89,
+   "title": "Swiggy top brass to meet Bengaluru hoteliers on Friday; Zomato adds OTP approval for discounts",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Supriya Roy"
+    ]
+   },
+   "link": "https://timesofindia.indiatimes.com/city/bengaluru/swiggy-top-brass-to-meet-bengaluru-hoteliers-on-friday-zomato-adds-otp-approval-for-discounts/articleshow/132839607.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-132839606,width-1280,height-720,imgsize-982545,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVUWGxsU1ZaT05GWlRlSFIxVFJDZ0F4amlCU2dLTWdZcHBJaU90UVE",
+   "date": "08/03/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-03T07:00:00Z"
+  },
+  {
+   "position": 90,
+   "title": "Bengaluru: Restaurants warn of Swiggy-Zomato boycott over discounts, commissions",
+   "source": {
+    "name": "The News Minute",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thenewsminute.com/karnataka/bengaluru-restaurants-warn-of-swiggy-zomato-boycott-over-discounts-commissions",
+   "thumbnail": "https://cf-images.assettype.com/thenewsminute/import/sites/default/files/Zomato-swiggy_collage.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVTbEZwT1VsQlIwUk5SR3B3VFJERUF4aW1CU2dLTWdZQk1KQ2xHZ2s",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 91,
+   "title": "Over 50,000 Swiggy gig workers file ITRs. Refund claims totalled Rs 6.5 crore",
+   "source": {
+    "name": "ThePrint",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Nootan Sharma"
+    ]
+   },
+   "link": "https://theprint.in/feature/over-50000-swiggy-gig-workers-file-itrs-refund-claims-totalled-rs-6-5-crore/3039213/",
+   "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/george-clooney-1-2.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNURTR05HWTBWVGNucDJRMGRZVFJDZkF4ampCU2dLTWdZSklZemxHUWs",
+   "date": "09/10/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-10T07:00:00Z"
+  },
+  {
+   "position": 92,
+   "title": "Why Karnataka suspended food licences of Amazon, Swiggy Instamart and BigBasket",
+   "source": {
+    "name": "THE WEEK",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theweek.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Meera Suresh"
+    ]
+   },
+   "link": "https://www.theweek.in/news/india/2026/08/25/why-karnataka-suspended-food-licences-of-amazon-swiggy-instamart-and-bigbasket.html",
+   "thumbnail": "https://img.theweek.in/content/dam/week/en/archive/news/india/images/2026/8/25/Datura-grocery.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpOblZFTlROSGJXZEtSVUZsVFJDZkF4ampCU2dLTWdhWlFZd3J5Z1E",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 93,
+   "title": "FSSAI issues notices to Swiggy Instamart for allegedly delivering spoiled, expired food products",
+   "source": {
+    "name": "The Hindu",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.thehindu.com/business/Industry/fssai-issues-notices-to-swiggy-instamart-for-allegedly-delivering-spoiled-expired-food-products/article71209909.ece",
+   "thumbnail": "https://th-i.thgim.com/public/news/national/yg2emr/article69624821.ece/alternates/LANDSCAPE_1200/instamart%20logo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWtSMWx6YjJkeU0zbDRTMWxKVFJDZkF4ampCU2dLTWdtTmNaS21NaWRGRFFJ",
+   "date": "07/11/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-11T07:00:00Z"
+  },
+  {
+   "position": 94,
+   "title": "Bengaluru restaurants threaten Swiggy boycott from August 15",
+   "source": {
+    "name": "ET HospitalityWorld",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "http://hospitality.economictimes.indiatimes.com/news/restaurants/bengaluru-restaurants-threaten-swiggy-boycott-from-august-15/132726962",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-132726004,imgsize-258384,width-1600,height=835,resizemode-75/news/bengaluru-news/bengaluru-hotels-threaten-swiggy-boycott-from-august-15/swiggy-announces-its-forthcoming-ipo-in-mumbai.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUtlVzVTZEVsdWIyRktXVmMwVFJDaUFSaTNBaWdCTWdhbGdZeVB0UVU",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 95,
+   "title": "9 Notices Issued To Swiggy Instamart Over Expired Healthify Whey Protein, Akshayakalpa Eggs And More",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aishvarya Jain"
+    ]
+   },
+   "link": "https://www.ndtv.com/food/9-notices-issued-to-swiggy-instamart-over-expired-healthify-whey-protein-akshayakalpa-eggs-and-more-11757534",
+   "thumbnail": "https://c.ndtvimg.com/2026-07/3hlo8oeg_swiggy-delievery_625x300_11_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVFlamR5UVhaaFFrMVdaMU0xVFJDZkF4ampCU2dLTWdtQkVvNk5HU2RGQXdN",
+   "date": "07/11/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-11T07:00:00Z"
+  },
+  {
+   "position": 96,
+   "title": "Why Swiggy Share Price is up 7% today?",
+   "source": {
+    "name": "India Infoline",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.indiainfoline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.indiainfoline.com/news/companies/why-swiggy-share-price-is-up-7-today",
+   "thumbnail": "https://www.indiainfoline.com/next-assets/image/default-new.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhaWEZGT0VjM1VXMUxjM0ZaVFJDZkFoai1BeWdLTWdhSmNaSVRLUWc",
+   "date": "07/29/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-29T07:00:00Z"
+  },
+  {
+   "position": 97,
+   "title": "Swiggy’s Food Delivery Profit Slips Sequentially As LPG Supply Disruption Hits Margins",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Lokesh Choudhary"
+    ]
+   },
+   "link": "https://inc42.com/buzz/swiggys-food-delivery-profit-slips-sequentially-as-lpg-supply-disruption-hits-margins/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/01/swiggy-Court-featured-760x570.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZXWEJGTkU5MU9GY3pielJ5VFJEZ0F4aUFCU2dLTWdhcGRJS1BNUVk",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 98,
+   "title": "Video | No More Online Orders? Bengaluru Eateries Warn Of Swiggy, Zomato Boycott",
+   "source": {
+    "name": "NDTV",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtv.com/video/no-more-online-orders-bengaluru-eateries-warn-of-swiggy-zomato-boycott-1135792",
+   "thumbnail": "https://c.ndtvimg.com/2026-07/l4sfbuhk_zomato-_160x120_30_July_26.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUhjRWRwYTFrNWJqRXhWR2hOVFJDZkF4ampCU2dLTWdrQlFZaTBxR1dwN3dB",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 99,
+   "title": "Swiggy Dineout lets moviegoers order food from their seats at cinema theatres: Here’s how it works",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/swiggy-dineout-lets-moviegoers-order-food-from-their-seats-at-cinema-theatres-here-s-how-it-works-14015081.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/07/20260731072228_swiggy.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFaV3RNTW5WMlJreHVibmxxVFJDZkF4ampCU2dLTWdZUmtJaU9zUVU",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 100,
+   "title": "Bengaluru restaurants threaten Swiggy, Zomato boycott: What's the dispute?",
+   "source": {
+    "name": "Business Standard",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Vrinda Goel"
+    ]
+   },
+   "link": "https://www.business-standard.com/industry/news/bengaluru-restaurants-threaten-swiggy-zomato-boycott-what-s-the-dispute-126073000471_1.html",
+   "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/13/full/1773425313-7762.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhhVFZKYlU5MGJVeHVZbGR3VFJEQ0F4aXBCU2dLTWdZcEZaRE5GUWs",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  }
+ ],
+ "menu_links": [
+  {
+   "title": "India",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE"
+  },
+  {
+   "title": "World",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Your local news",
+   "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+  },
+  {
+   "title": "Business",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Technology",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Entertainment",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Sports",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Science",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Health",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE"
+  }
+ ],
+ "related_topics": [
+  {
+   "topic_token": "CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZtTURGaWNYSTBlUklGWlc0dFIwSW9BQVAB",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZtTURGaWNYSTBlUklGWlc0dFIwSW9BQVAB",
+   "title": "Swiggy"
+  }
+ ]
+}

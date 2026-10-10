@@ -1,0 +1,1947 @@
+{
+ "search_metadata": {
+  "id": "6ac9b6a94de49a0b1a01bb3e",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/oZ6QT6g0_YVR3SaBkfm19KSwQ1fMPE2dKdY55WKONPs/6ac9b6a94de49a0b1a01bb3e.json",
+  "markdown_endpoint": "https://serpapi.com/searches/oZ6QT6g0_YVR3SaBkfm19KSwQ1fMPE2dKdY55WKONPs/6ac9b6a94de49a0b1a01bb3e.md",
+  "created_at": "2026-10-10 03:53:13 UTC",
+  "processed_at": "2026-10-10 03:53:13 UTC",
+  "google_play_product_url": "https://play.google.com/store/apps/details?id=com.application.zomato&hl=en&gl=in&showAllReviews=true",
+  "raw_html_file": "https://serpapi.com/searches/oZ6QT6g0_YVR3SaBkfm19KSwQ1fMPE2dKdY55WKONPs/6ac9b6a94de49a0b1a01bb3e.html",
+  "prettify_html_file": "https://serpapi.com/searches/oZ6QT6g0_YVR3SaBkfm19KSwQ1fMPE2dKdY55WKONPs/6ac9b6a94de49a0b1a01bb3e.prettify",
+  "total_time_taken": 1.65
+ },
+ "search_parameters": {
+  "engine": "google_play_product",
+  "product_id": "com.application.zomato",
+  "hl": "en",
+  "gl": "in",
+  "store": "apps",
+  "all_reviews": "true",
+  "platform": "phone",
+  "sort_by": "2",
+  "num": "199"
+ },
+ "reviews": [
+  {
+   "id": "5698341c93223935",
+   "rating": 5.0,
+   "snippet": "very nice",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:42:37Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:21Z"
+   }
+  },
+  {
+   "id": "38285fb410b4ee8d",
+   "rating": 5.0,
+   "snippet": "good 😊",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:39:19Z"
+  },
+  {
+   "id": "b06c2d715c938bac",
+   "rating": 5.0,
+   "snippet": "good 😊",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:26:02Z"
+  },
+  {
+   "id": "db7121c47ac31344",
+   "rating": 5.0,
+   "snippet": "ok",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:17:31Z"
+  },
+  {
+   "id": "4890699bc7edc9b9",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:13:38Z"
+  },
+  {
+   "id": "7615dc0983d7c447",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:05:40Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:21Z"
+   }
+  },
+  {
+   "id": "38fc8f3de4cfc895",
+   "rating": 1.0,
+   "snippet": "You are taking Platform charges, Then you are taking delivery partner charges, your price on food is already high compare to the original restaurant price. In shot you take a lot of extra money from u",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:01:54Z"
+  },
+  {
+   "id": "a73b2b6eb95187e8",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:01:39Z"
+  },
+  {
+   "id": "87af219edf0be701",
+   "rating": 5.0,
+   "snippet": "Best option in a busy schedule.",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:58:01Z"
+  },
+  {
+   "id": "70e4d111b7f4c4ad",
+   "rating": 5.0,
+   "snippet": "very nice ☺️",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:56:33Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:40Z"
+   }
+  },
+  {
+   "id": "2fc4442abae2dd39",
+   "rating": 5.0,
+   "snippet": "Good Job",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:50:50Z"
+  },
+  {
+   "id": "4a39731ccbf9943a",
+   "rating": 5.0,
+   "snippet": "എജ്ജാതി പൊളി ആപ്പ് , എൻ്റെ കരിയറിൽ ഞാൻ ഇങ്ങനെ ഒരു APP കണ്ടിട്ടില്ല",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:48:21Z"
+  },
+  {
+   "id": "614d7d7fb50267cf",
+   "rating": 3.0,
+   "snippet": "first. Time oder time please for Rating",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:39:16Z"
+  },
+  {
+   "id": "1d79ad5f4e4a27f9",
+   "rating": 5.0,
+   "snippet": "valo",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:38:50Z"
+  },
+  {
+   "id": "8f5b8a1b627205a4",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:26:57Z"
+  },
+  {
+   "id": "805615aab05fc8e0",
+   "rating": 5.0,
+   "snippet": "Excellent app experience. The delivery updates are seamless, and the drivers are always professional and prompt",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T01:48:13Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:40Z"
+   }
+  },
+  {
+   "id": "160fff5b622ba618",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T01:39:29Z"
+  },
+  {
+   "id": "6983057da25e3c7d",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience. My order was not delivered, and the delivery partner was extremely rude and arrogant. He refused to listen to my concerns and did not answer my calls when I tried to con",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T22:30:03Z"
+  },
+  {
+   "id": "2c23e9a3f1bfe091",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T22:21:10Z"
+  },
+  {
+   "id": "c81ff77830ffaaff",
+   "rating": 5.0,
+   "snippet": "😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:54:06Z"
+  },
+  {
+   "id": "a38e7c4291bcb350",
+   "rating": 1.0,
+   "snippet": "it's take toooooo much time",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:52:25Z"
+  },
+  {
+   "id": "53a80c6ec9e38a8a",
+   "rating": 5.0,
+   "snippet": "supur ❤️",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:40:19Z"
+  },
+  {
+   "id": "cbd2b03d4c6302c0",
+   "rating": 5.0,
+   "snippet": "supar",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:36:47Z"
+  },
+  {
+   "id": "86989df0739db790",
+   "rating": 1.0,
+   "snippet": "plz don't Us this app they are frod two time order from Jubilee hills Hyderabad waiting 2 two hours after receiving payment",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:27:09Z"
+  },
+  {
+   "id": "05dfdd863670a1f3",
+   "rating": 1.0,
+   "snippet": "iam working person, so some timed i have to order food late night thid ap shows one time at the time of booking approx 10-15 mins but after oder it will update to more than 1 hr some times, and after ",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:14:48Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Hi there, this is deeply concerning, and we want to get to the bottom of it. Please write to us at psreviewsupport@zomato.com & we'll look into this asap.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:40Z"
+   }
+  },
+  {
+   "id": "7e566c32f13a8603",
+   "rating": 2.0,
+   "snippet": "👍🏻👍🏻",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:45:58Z"
+  },
+  {
+   "id": "5456051024c10cea",
+   "rating": 5.0,
+   "snippet": "excellent",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:38:27Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:34Z"
+   }
+  },
+  {
+   "id": "9bad76eff143bac5",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:26:22Z"
+  },
+  {
+   "id": "284380529ec87c0e",
+   "rating": 1.0,
+   "snippet": "raat 2 baje ke karib likh raha hu jo aaj hua hai, aise hotel hote hai inke list may jo raat may order le kar hotel may tala laga dete hai aur mobile off, aur dilivery agent gate ke samne say awaj laga",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:26:13Z"
+  },
+  {
+   "id": "efd7292c0e446ecb",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:25:27Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:42Z"
+   }
+  },
+  {
+   "id": "a76d474bb6440713",
+   "rating": 5.0,
+   "snippet": "sike",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:17:14Z"
+  },
+  {
+   "id": "897b02fe433312c9",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:09:46Z"
+  },
+  {
+   "id": "05224341cf4edfb6",
+   "rating": 5.0,
+   "snippet": "good all format zomato",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:09:18Z"
+  },
+  {
+   "id": "5cce9d8135ed330c",
+   "rating": 1.0,
+   "snippet": "worst delivery app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:08:53Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Hi there, we're sorry to hear that. It would be great if you can share your concern at psreviewsupport@zomato.com, so we can address the same on priority.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:48Z"
+   }
+  },
+  {
+   "id": "e56bdcb187d45304",
+   "rating": 5.0,
+   "snippet": "very nice I am a happy",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:07:56Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:53Z"
+   }
+  },
+  {
+   "id": "b3da094edca04f68",
+   "rating": 5.0,
+   "snippet": "good app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:01:16Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:43Z"
+   }
+  },
+  {
+   "id": "bd4a763ae876f81d",
+   "rating": 5.0,
+   "snippet": "nis",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:59:33Z"
+  },
+  {
+   "id": "4d2373d15999f715",
+   "rating": 1.0,
+   "snippet": "not good service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:45:39Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:51Z"
+   }
+  },
+  {
+   "id": "a94f4e4d7526ec89",
+   "rating": 1.0,
+   "snippet": "worst app I had received rotten chicken 65 and I got no response at all",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:40:55Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:51Z"
+   }
+  },
+  {
+   "id": "1ec97c6abaa94b4c",
+   "rating": 5.0,
+   "snippet": "Nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:40:44Z"
+  },
+  {
+   "id": "31d062aa278e3fe2",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:36:18Z"
+  },
+  {
+   "id": "5df1b875216f950f",
+   "rating": 1.0,
+   "snippet": "not cod option 😡",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:36:10Z"
+  },
+  {
+   "id": "b5f8e234154b92d6",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:27:29Z"
+  },
+  {
+   "id": "1fe3323320bd229f",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:27:21Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:57Z"
+   }
+  },
+  {
+   "id": "920522fe8b19bbf1",
+   "rating": 5.0,
+   "snippet": "बहुत अच्छाई है",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:25:02Z"
+  },
+  {
+   "id": "bc6532fd35d54e9c",
+   "rating": 5.0,
+   "snippet": "fast delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:13:09Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:40Z"
+   }
+  },
+  {
+   "id": "65caa3c482b5bcbe",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:12:45Z"
+  },
+  {
+   "id": "1ffbcad5f54460d9",
+   "rating": 1.0,
+   "snippet": "I don't get my food",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:11:22Z"
+  },
+  {
+   "id": "75e57df9116fe30c",
+   "rating": 1.0,
+   "snippet": "One of the worst application, zero customer service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:08:20Z"
+  },
+  {
+   "id": "45b7d3f19bef9eff",
+   "rating": 4.0,
+   "snippet": "I am happy 😁",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:06:42Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:54Z"
+   }
+  },
+  {
+   "id": "64747eaf9950299a",
+   "rating": 3.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:02:15Z"
+  },
+  {
+   "id": "a29fdc46d5a9fe19",
+   "rating": 5.0,
+   "snippet": "good service...delivered by properly 👌",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:01:13Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:49:05Z"
+   }
+  },
+  {
+   "id": "1ac4d3473cdf88cf",
+   "rating": 5.0,
+   "snippet": "Nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:59:31Z"
+  },
+  {
+   "id": "d93bbe4720db6335",
+   "rating": 5.0,
+   "snippet": "Very Good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:53:34Z"
+  },
+  {
+   "id": "9a1eab338036283c",
+   "rating": 1.0,
+   "snippet": "nice 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:52:17Z"
+  },
+  {
+   "id": "70dd592ef52646b7",
+   "rating": 5.0,
+   "snippet": "very nice aap",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:38:53Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:57Z"
+   }
+  },
+  {
+   "id": "dfb5e5f3db8a86ad",
+   "rating": 1.0,
+   "snippet": "Hello I m frm surat gujarat 5 oct 2026 iin zomato i order monginis cookies 1 chocolate cookies it's price in zomato 115 & other makkaniea cookies it's price is 105 but order delivered time choclate co",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:38:03Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:56Z"
+   }
+  },
+  {
+   "id": "8f5d0b9224c0316d",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:37:09Z"
+  },
+  {
+   "id": "45a916ca12038600",
+   "rating": 5.0,
+   "snippet": "ok",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:33:24Z"
+  },
+  {
+   "id": "17658c055edf8ec2",
+   "rating": 5.0,
+   "snippet": "good 💯😊 mashallah mashallah 😍💐",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:29:01Z"
+  },
+  {
+   "id": "b9becff0b9c56740",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:28:14Z"
+  },
+  {
+   "id": "51c49834829cd447",
+   "rating": 3.0,
+   "snippet": "good service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:26:48Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:49:06Z"
+   }
+  },
+  {
+   "id": "da88dc7f344f7cad",
+   "rating": 3.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:26:15Z"
+  },
+  {
+   "id": "acbbce9b9b94b994",
+   "rating": 4.0,
+   "snippet": "one of the best beneficial app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:25:03Z"
+  },
+  {
+   "id": "e241ed0109967f36",
+   "rating": 5.0,
+   "snippet": "Awesome 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:24:37Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:57Z"
+   }
+  },
+  {
+   "id": "054937a0699c85fd",
+   "rating": 5.0,
+   "snippet": "mere odar ko jaldi se bhejo please check.",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:20:03Z"
+  },
+  {
+   "id": "92dd0401e3d76ded",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:19:40Z"
+  },
+  {
+   "id": "8540163d1f8ec3a6",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:14:07Z"
+  },
+  {
+   "id": "895aaf32d9d05aae",
+   "rating": 5.0,
+   "snippet": "mast",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:13:38Z"
+  },
+  {
+   "id": "cb8a7aa04f45534e",
+   "rating": 5.0,
+   "snippet": "nice job I am delivery partner",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:12:39Z"
+  },
+  {
+   "id": "8ec27b12e28a22ba",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:10:40Z"
+  },
+  {
+   "id": "b844365443780d28",
+   "rating": 4.0,
+   "snippet": "BEST APP",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:02:47Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:07Z"
+   }
+  },
+  {
+   "id": "39f91ea69043a04c",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:02:14Z"
+  },
+  {
+   "id": "fe217f77c0970a0d",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:01:42Z"
+  },
+  {
+   "id": "5ce4f4a1d9f47707",
+   "rating": 3.0,
+   "snippet": "not bad",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:01:26Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:15Z"
+   }
+  },
+  {
+   "id": "38dabcee8f259e8a",
+   "rating": 5.0,
+   "snippet": "mast nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:57:52Z"
+  },
+  {
+   "id": "eb10fbb9978f4275",
+   "rating": 5.0,
+   "snippet": "♥️",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:57:00Z"
+  },
+  {
+   "id": "ca4a35f903ebaa22",
+   "rating": 5.0,
+   "snippet": "ok 4sitar",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:56:42Z"
+  },
+  {
+   "id": "c5e47f7dfc1a1244",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:54:37Z"
+  },
+  {
+   "id": "d9e493ab165baa01",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:50:17Z"
+  },
+  {
+   "id": "9d1444a0afebd4f2",
+   "rating": 5.0,
+   "snippet": "no problem 👍🏻",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:49:17Z"
+  },
+  {
+   "id": "f58e82add8d1324b",
+   "rating": 5.0,
+   "snippet": "h iok",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:48:26Z"
+  },
+  {
+   "id": "611783d43a9edb70",
+   "rating": 1.0,
+   "snippet": "Fraud Don't use this Zomato",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:48:05Z"
+  },
+  {
+   "id": "7c9e4e47a2fd50e3",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:47:33Z"
+  },
+  {
+   "id": "a638ccf8222dd07c",
+   "rating": 5.0,
+   "snippet": "over all good Job",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:43:08Z"
+  },
+  {
+   "id": "3e48e369c3b16bf2",
+   "rating": 1.0,
+   "snippet": "nicee food",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:42:57Z"
+  },
+  {
+   "id": "ce8494e44362e660",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:40:38Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:10Z"
+   }
+  },
+  {
+   "id": "844cbe0a351f3499",
+   "rating": 1.0,
+   "snippet": "time waste application",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:36:35Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Hi there, it would be great if you can share your concern at psreviewsupport@zomato.com, so we can address the same on priority.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:24Z"
+   }
+  },
+  {
+   "id": "f435d5cb851c48c9",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:35:34Z"
+  },
+  {
+   "id": "741c64059ab90d14",
+   "rating": 5.0,
+   "snippet": "👍🏻 good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:34:43Z"
+  },
+  {
+   "id": "1b186fee60761862",
+   "rating": 1.0,
+   "snippet": "problem with items",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:33:26Z"
+  },
+  {
+   "id": "aaba0353668481c9",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:31:49Z"
+  },
+  {
+   "id": "99a6dcd5b0b842d3",
+   "rating": 5.0,
+   "snippet": "good👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:31:42Z"
+  },
+  {
+   "id": "01b4470c0dd150e9",
+   "rating": 5.0,
+   "snippet": "the best app ever to experience",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:30:18Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:22Z"
+   }
+  },
+  {
+   "id": "4d18cdb52eb24e14",
+   "rating": 5.0,
+   "snippet": "😄👍🏻🫶🏻",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:29:59Z"
+  },
+  {
+   "id": "0613a5e3c49af5a0",
+   "rating": 5.0,
+   "snippet": "super 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:29:23Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:22Z"
+   }
+  },
+  {
+   "id": "0f2556318c515d55",
+   "rating": 5.0,
+   "snippet": "good app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:27:33Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:18Z"
+   }
+  },
+  {
+   "id": "d002f32efab0cc70",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:26:29Z"
+  },
+  {
+   "id": "7e49794104902d61",
+   "rating": 5.0,
+   "snippet": "❤️‍🩹",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:26:12Z"
+  },
+  {
+   "id": "7ee24fc4c46d72fc",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:25:02Z"
+  },
+  {
+   "id": "b19a268c3a6ab5cc",
+   "rating": 5.0,
+   "snippet": "Tasty dish",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:23:24Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:26Z"
+   }
+  },
+  {
+   "id": "79f5098f6eef3aef",
+   "rating": 5.0,
+   "snippet": "very usefull",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:23:08Z"
+  },
+  {
+   "id": "b86710dfc6b6d54e",
+   "rating": 5.0,
+   "snippet": "thankyou",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:21:50Z"
+  },
+  {
+   "id": "9e578cb9dfa0823c",
+   "rating": 5.0,
+   "snippet": "good 😊👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:20:53Z"
+  },
+  {
+   "id": "2d36b73ad3f740c8",
+   "rating": 5.0,
+   "snippet": "nice 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:20:48Z"
+  },
+  {
+   "id": "16c31b8c5942ea92",
+   "rating": 5.0,
+   "snippet": "👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:20:46Z"
+  },
+  {
+   "id": "ddcc77417f2cffbf",
+   "rating": 5.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:20:44Z"
+  },
+  {
+   "id": "867b01e8a3e3ee95",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:18:22Z"
+  },
+  {
+   "id": "5d3f5b9ee4b8a5f5",
+   "rating": 1.0,
+   "snippet": "very High rate all food",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:17:39Z"
+  },
+  {
+   "id": "2ba2bb30455d2e28",
+   "rating": 5.0,
+   "snippet": "I love you 😘",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:16:12Z"
+  },
+  {
+   "id": "deeb500ade099bac",
+   "rating": 5.0,
+   "snippet": "good good good good good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:15:43Z"
+  },
+  {
+   "id": "0fd2f5c0bf0dfb90",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:15:29Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:40Z"
+   }
+  },
+  {
+   "id": "8fb9a9b27bb32f03",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:15:09Z"
+  },
+  {
+   "id": "d861dbd1488b3753",
+   "rating": 5.0,
+   "snippet": "I am",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:14:30Z"
+  },
+  {
+   "id": "a2cb77d2bac14d62",
+   "rating": 3.0,
+   "snippet": "use full app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:13:47Z"
+  },
+  {
+   "id": "f7fd8a0757f6e470",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:12:57Z"
+  },
+  {
+   "id": "69cc52f94b63a76e",
+   "rating": 1.0,
+   "snippet": "worst fairs",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:12:33Z"
+  },
+  {
+   "id": "35868866e6316313",
+   "rating": 5.0,
+   "snippet": "good app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:11:03Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:34Z"
+   }
+  },
+  {
+   "id": "e5c8e755f7880469",
+   "rating": 5.0,
+   "snippet": "wao",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:10:06Z"
+  },
+  {
+   "id": "a4cb9dd9d77c0af8",
+   "rating": 5.0,
+   "snippet": "very good zomato",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:09:14Z"
+  },
+  {
+   "id": "f4eb7b2d325573a8",
+   "rating": 5.0,
+   "snippet": "👍👍👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:07:12Z"
+  },
+  {
+   "id": "d60fa2dec2f87aab",
+   "rating": 3.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:07:02Z"
+  },
+  {
+   "id": "52bec865982d707f",
+   "rating": 3.0,
+   "snippet": "very good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:06:50Z"
+  },
+  {
+   "id": "fd258f07aa2132e4",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:06:33Z"
+  },
+  {
+   "id": "4fc85adaefe8da4e",
+   "rating": 5.0,
+   "snippet": "👍🏻👍🏻",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:03:33Z"
+  },
+  {
+   "id": "4f408853e9c7a0c6",
+   "rating": 5.0,
+   "snippet": "it's really nice app for eating food",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:57:13Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:40Z"
+   }
+  },
+  {
+   "id": "31a77df3469f9b81",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:53:26Z"
+  },
+  {
+   "id": "bf7375cee9f518c1",
+   "rating": 3.0,
+   "snippet": "just a little good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:51:46Z"
+  },
+  {
+   "id": "ad6fd7c69675a6c5",
+   "rating": 5.0,
+   "snippet": "best offers",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:51:03Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:48Z"
+   }
+  },
+  {
+   "id": "be29f49538811721",
+   "rating": 5.0,
+   "snippet": "best💗",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:50:53Z"
+  },
+  {
+   "id": "a0042877637daf13",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:50:02Z"
+  },
+  {
+   "id": "b6c3c6430effe2d8",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:49:53Z"
+  },
+  {
+   "id": "0531562a8dd1375d",
+   "rating": 4.0,
+   "snippet": "good application",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:49:45Z"
+  },
+  {
+   "id": "0924e79268ddb61a",
+   "rating": 5.0,
+   "snippet": "excellent",
+   "likes": 1,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:43:25Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:42Z"
+   }
+  },
+  {
+   "id": "8b8ac2cdfd4ee879",
+   "rating": 1.0,
+   "snippet": "I ordered chilli chicken from thakur ameer hotel tundla today 08/10/2026. no chicken pieces found in this, ararot pakoda. very big cheating of customers. I complained to zomato with photos and videos.",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:43:08Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:45Z"
+   }
+  },
+  {
+   "id": "4edc518f3c5c5c36",
+   "rating": 1.0,
+   "snippet": "Tried ordering dinner for someone at a different location, only to find the restaurant fully available at my address but completely unavailable at theirs. Because of this ridiculous inconsistency and ",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:41:49Z"
+  },
+  {
+   "id": "30139df6f6d10702",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:41:43Z"
+  },
+  {
+   "id": "7bc7f4bd0e334019",
+   "rating": 3.0,
+   "snippet": "Best experience 😁",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:41:40Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:45Z"
+   }
+  },
+  {
+   "id": "2237be7df29d16b4",
+   "rating": 4.0,
+   "snippet": "ok",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:40:49Z"
+  },
+  {
+   "id": "0fbdeec804f1cef5",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:37:59Z"
+  },
+  {
+   "id": "beb8df2ca7d95287",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:34:01Z"
+  },
+  {
+   "id": "b4ecb0c76e71c9d0",
+   "rating": 1.0,
+   "snippet": "worst app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:32:28Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:51Z"
+   }
+  },
+  {
+   "id": "a75b5e379ee847f5",
+   "rating": 5.0,
+   "snippet": "on time delivery..",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:32:24Z"
+  },
+  {
+   "id": "060e18c71cc902d2",
+   "rating": 1.0,
+   "snippet": "Not responding correctly",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:31:58Z"
+  },
+  {
+   "id": "51c5e5e9591602ce",
+   "rating": 1.0,
+   "snippet": "very bad experience",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:26:35Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:45Z"
+   }
+  },
+  {
+   "id": "a33ff2a1156df52c",
+   "rating": 1.0,
+   "snippet": "very very very bad your delivery boy very dirty treat🤬🤬🤬",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:24:15Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:51Z"
+   }
+  },
+  {
+   "id": "c3f88be05a832669",
+   "rating": 5.0,
+   "snippet": "good service 👍👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:23:32Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:40Z"
+   }
+  },
+  {
+   "id": "2fb1a205dd3aed74",
+   "rating": 4.0,
+   "snippet": "😊👍👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:22:41Z"
+  },
+  {
+   "id": "2e9446042a03e3a0",
+   "rating": 1.0,
+   "snippet": "bad",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:21:53Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:54Z"
+   }
+  },
+  {
+   "id": "04721149ff35050f",
+   "rating": 5.0,
+   "snippet": "nis",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:20:59Z"
+  },
+  {
+   "id": "eddc879f880c2122",
+   "rating": 1.0,
+   "snippet": "if food & service are good,I ll give 5 out of 5 definitely",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:20:50Z"
+  },
+  {
+   "id": "38197512ead4aa2e",
+   "rating": 5.0,
+   "snippet": "best dishes available, delivery boy service also good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:19:37Z"
+  },
+  {
+   "id": "36150e52004d6ecc",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:18:54Z"
+  },
+  {
+   "id": "4a317725a7be0bc8",
+   "rating": 4.0,
+   "snippet": "cash on delivery q nhi hai",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:16:21Z"
+  },
+  {
+   "id": "db71f0bc017a2596",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:16:12Z"
+  },
+  {
+   "id": "c7721e2c7f52dd42",
+   "rating": 4.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:13:42Z"
+  },
+  {
+   "id": "dacc598aab442918",
+   "rating": 1.0,
+   "snippet": "not good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:11:12Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:53Z"
+   }
+  },
+  {
+   "id": "b826272c54083764",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:10:26Z"
+  },
+  {
+   "id": "1128917baecbe311",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:09:54Z"
+  },
+  {
+   "id": "a376a602ef5e1f9d",
+   "rating": 5.0,
+   "snippet": "Good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:07:27Z"
+  },
+  {
+   "id": "fb096d9a1e91f05c",
+   "rating": 1.0,
+   "snippet": "You didn't refund my amount totally disagree with help center and not good customer support and I don't hope my refund is coming or not you said refund still I can't get it zomato I want to give -1 st",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:07:25Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:49:00Z"
+   }
+  },
+  {
+   "id": "08b6e44ff1f67055",
+   "rating": 4.0,
+   "snippet": "chicken garnish with sesame seeds it's not good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:06:00Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:49:02Z"
+   }
+  },
+  {
+   "id": "6667760d5f1e5f9d",
+   "rating": 5.0,
+   "snippet": "Nice 🙂",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:05:51Z"
+  },
+  {
+   "id": "39c27a00c1befc68",
+   "rating": 1.0,
+   "snippet": "Even after 36 hours there is no update on the order",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:05:23Z"
+  },
+  {
+   "id": "dab964e63c029a16",
+   "rating": 5.0,
+   "snippet": "offer best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:04:37Z"
+  },
+  {
+   "id": "3ab942b71460171b",
+   "rating": 5.0,
+   "snippet": "excellent",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:01:51Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:49:00Z"
+   }
+  },
+  {
+   "id": "3f97b6b726d67957",
+   "rating": 5.0,
+   "snippet": "zomato is giving exceptional service these days, good job team, keep it up",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:01:40Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:49:02Z"
+   }
+  },
+  {
+   "id": "b8e3cefc25f96e21",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:01:08Z"
+  },
+  {
+   "id": "c7414a7232846d07",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:57:44Z"
+  },
+  {
+   "id": "05a3d9ca042c1184",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:55:44Z"
+  },
+  {
+   "id": "d0334380f0f454f3",
+   "rating": 5.0,
+   "snippet": "Very good application 😸",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:53:03Z"
+  },
+  {
+   "id": "94aaa0edaceeed8c",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:51:24Z"
+  },
+  {
+   "id": "e4903cb7d64e9cef",
+   "rating": 5.0,
+   "snippet": "moringa vahut achha restorant hai testy khana hai kifayati dam pe",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:51:06Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:18Z"
+   }
+  },
+  {
+   "id": "ce9e74b4d4058042",
+   "rating": 5.0,
+   "snippet": "OK good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:49:09Z"
+  },
+  {
+   "id": "224f4720a9d91379",
+   "rating": 1.0,
+   "snippet": "always late delivery, assigns multiple pickup and delivery in between order",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:47:42Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Hey there, apologies for the less-than-perfect experience. Could you please send us your registered contact details at psreviewsupport@zomato.com? This will help us investigate and resolve the issue for you.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:18Z"
+   }
+  },
+  {
+   "id": "8bf897a0710acaa6",
+   "rating": 5.0,
+   "snippet": "Good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:46:42Z"
+  },
+  {
+   "id": "c9fc69e8825bb399",
+   "rating": 1.0,
+   "snippet": "they send you horrible food with damaged bill and when you want to report your food they want receipt which they have sent damaged",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:46:07Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:10Z"
+   }
+  },
+  {
+   "id": "c0b7bd57a8e9cb42",
+   "rating": 3.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:45:41Z"
+  },
+  {
+   "id": "ab57aa9ffc02af6e",
+   "rating": 1.0,
+   "snippet": "useless app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:45:23Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:18Z"
+   }
+  },
+  {
+   "id": "d48bb93953c25e67",
+   "rating": 3.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:44:10Z"
+  },
+  {
+   "id": "6ce4c957aee28fde",
+   "rating": 1.0,
+   "snippet": "without my permission zomato order ? place",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:43:15Z"
+  },
+  {
+   "id": "7a4f325acf10443f",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:42:57Z"
+  },
+  {
+   "id": "abfe5c1017d9b69e",
+   "rating": 1.0,
+   "snippet": "so so so ghatiya today I had ordered paneer and it's prepaid but i haven't received any call or message from zomato this is really disgusting",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:42:54Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "We understand that our app may not have met your expectations, and we apologize for any inconvenience caused. To address this issue, could you provide specific instances or details about what you experienced at psreviewsupport@zomato.com and we'll get this checked at the earliest.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:10Z"
+   }
+  },
+  {
+   "id": "a487d95a716d40e6",
+   "rating": 5.0,
+   "snippet": "good taste",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:42:54Z"
+  },
+  {
+   "id": "0f2c92cefb9f836a",
+   "rating": 3.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:41:45Z"
+  },
+  {
+   "id": "30b4319267568368",
+   "rating": 5.0,
+   "snippet": "I like this",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:41:19Z"
+  },
+  {
+   "id": "50cb015e06c2451e",
+   "rating": 5.0,
+   "snippet": "over all ok",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:39:43Z"
+  },
+  {
+   "id": "f69284c071a6dddd",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:39:35Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:28Z"
+   }
+  },
+  {
+   "id": "e51b3d5021f86ee4",
+   "rating": 4.0,
+   "snippet": "packing of many restaurants in black recycled container is unhealthy",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:39:21Z"
+  },
+  {
+   "id": "62e554d9468ea0e1",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:39:14Z"
+  },
+  {
+   "id": "bdd0ca9eba0b694c",
+   "rating": 2.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:39:09Z"
+  },
+  {
+   "id": "ac6e462885d1a0b6",
+   "rating": 4.0,
+   "snippet": "Better than but usable according to the app.",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:37:17Z"
+  },
+  {
+   "id": "ce6aea80e5afe55f",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:36:17Z"
+  },
+  {
+   "id": "a3e1fe011e11c6b7",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:34:26Z"
+  },
+  {
+   "id": "bcf3c6ed35ba0312",
+   "rating": 5.0,
+   "snippet": "wow what fast delivery app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:34:18Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:18Z"
+   }
+  },
+  {
+   "id": "01443d712ef1922c",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:33:41Z"
+  },
+  {
+   "id": "7c52eacb173fd05a",
+   "rating": 5.0,
+   "snippet": "good experience",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:33:13Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:24Z"
+   }
+  },
+  {
+   "id": "15098c0447364705",
+   "rating": 5.0,
+   "snippet": "Best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:33:11Z"
+  },
+  {
+   "id": "c1c459c8ca7e0d1f",
+   "rating": 3.0,
+   "snippet": "good experience, very fast service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:32:57Z",
+   "response": {
+    "title": "Zomato",
+    "snippet": "Thank you for your deliciously kind words! If you have any food for thought or tasty suggestions, we're all ears! Keep on ordering and bon appétit!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T11:48:18Z"
+   }
+  }
+ ],
+ "serpapi_pagination": {
+  "next": "https://serpapi.com/search.json?all_reviews=true&engine=google_play_product&gl=in&hl=en&next_page_token=CtMBIsoBAV8d1P0VKnFmCg5Z_ju0O46HWSZrJswXBu1kmS9Jj_8IUTYaYpyrzyoWbiV2JNmUBTTBm3G10XsMzbcb1K6ZBgcfWGEIxu6y5DhlN2ftPyKfAKn7t8_2OiF1jSLQeR98dy3zGR9ZoTDx_m55IONJltZwqm8--GUCvYDoNkI1-TUsO9Mlb34qxXaTDdgGTznkql-N2glepLaCr4YmiGTUP2BOJ0oNtfYgRPmCcv_Pc4xq5WELSc2wQdePjNsGKqS2jcVrF3NS2UK5OCir7abWBg&num=199&platform=phone&product_id=com.application.zomato&sort_by=2&store=apps",
+  "next_page_token": "CtMBIsoBAV8d1P0VKnFmCg5Z_ju0O46HWSZrJswXBu1kmS9Jj_8IUTYaYpyrzyoWbiV2JNmUBTTBm3G10XsMzbcb1K6ZBgcfWGEIxu6y5DhlN2ftPyKfAKn7t8_2OiF1jSLQeR98dy3zGR9ZoTDx_m55IONJltZwqm8--GUCvYDoNkI1-TUsO9Mlb34qxXaTDdgGTznkql-N2glepLaCr4YmiGTUP2BOJ0oNtfYgRPmCcv_Pc4xq5WELSc2wQdePjNsGKqS2jcVrF3NS2UK5OCir7abWBg"
+ }
+}

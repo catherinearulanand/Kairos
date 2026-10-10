@@ -1,0 +1,1498 @@
+{
+ "search_metadata": {
+  "id": "6ac9b3bba1de121243fc6887",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/G7qHfYiCtc6Mv9twzQGIz31IjOk7bF04F3v2KAsNMng/6ac9b3bba1de121243fc6887.json",
+  "markdown_endpoint": "https://serpapi.com/searches/G7qHfYiCtc6Mv9twzQGIz31IjOk7bF04F3v2KAsNMng/6ac9b3bba1de121243fc6887.md",
+  "created_at": "2026-10-10 03:40:43 UTC",
+  "processed_at": "2026-10-10 03:40:43 UTC",
+  "google_news_url": "https://news.google.com/search?q=Nykaa&hl=en&gl=IN",
+  "raw_html_file": "https://serpapi.com/searches/G7qHfYiCtc6Mv9twzQGIz31IjOk7bF04F3v2KAsNMng/6ac9b3bba1de121243fc6887.html",
+  "total_time_taken": 0.71
+ },
+ "search_parameters": {
+  "engine": "google_news",
+  "gl": "in",
+  "hl": "en",
+  "q": "Nykaa"
+ },
+ "news_results": [
+  {
+   "position": 1,
+   "title": "💄 L’Oréal CEO Nicolas Hieronimus on Bold & the Nykaa partnership: “Seize what is starting.” 🔍 The aim: spot nascent beauty trends in India and “feel the vibe” of the market. Shereen Bhan #LOreal #Nykaa #Bold #NicolasHieronimus #BeautyIndustry #IndiaBe",
+   "source": {
+    "name": "LinkedIn",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.linkedin.com/posts/cnbc-tv18_loreal-nykaa-bold-activity-7514309778878259200-GOOg",
+   "date": "10/09/2026, 01:04 PM, +0000 UTC",
+   "iso_date": "2026-10-09T13:04:20Z"
+  },
+  {
+   "position": 2,
+   "title": "Kay Beauty clocks ₹300-crore annualised sales run rate as House of Nykaa builds scale",
+   "source": {
+    "name": "Fortune India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fortuneindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Urvashi Mishra"
+    ]
+   },
+   "link": "https://www.fortuneindia.com/business-news/kay-beauty-clocks-300-crore-annualised-sales-run-rate-as-house-of-nykaa-builds-scale/163789",
+   "thumbnail": "https://media.fortuneindia.com/fortune-india/2026-01-19/cocmghid/2.jpg?auto=format,compress&format=webp&w=1200&h=675&dpr=1.0&q=90&fit=cover",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHlMWGs1WTBWaE1rNTNkMWRLVFJDZkF4ampCU2dLTWdZdEZvYk5GUW8",
+   "date": "10/09/2026, 10:26 AM, +0000 UTC",
+   "iso_date": "2026-10-09T10:26:52Z"
+  },
+  {
+   "position": 3,
+   "title": "NYKAA AND BOLD, L’Oréal’s Corporate venture fund, join forces to empower the next generation of Indian beauty entrepreneurs",
+   "source": {
+    "name": "L'Oréal",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.loreal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.loreal.com/en/press-release/group/nykaa-and-bold-l-oreals-corporate-venture-fund-join-forces-to-empower-the-next-generation-of-indian-beauty-entrepreneurs/",
+   "thumbnail": "https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/press-releases/group/2026/nykaa-and-bold-l-oreal-s-corporate-venture-fund/logoslorealnykaa1920x800.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTNSbUZQWkROcmNIUmxRMFEyVFJDUkFSamNBaWdCTWdZTm9wUkh1Z1k",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 4,
+   "title": "Nykaa shares in focus after strong Q2 update | What lies ahead for investors?",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Dhanya Nagasundaram"
+    ]
+   },
+   "link": "https://www.livemint.com/market/stock-market-news/nykaa-shares-in-focus-after-strong-q2-update-what-lies-ahead-for-investors-11791183360208.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/06/1600x900/maxresdefault_1791279539903_z2v4_1791279543719_nDpj_0bb3798a-b8ff-40c9-9265-d988fa3bab86_I8Nl.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJZV0ZNYVZBd2FUaFFTMGRmVFJDZkF4ampCU2dLTWdhcEJKS3VGUWs",
+   "date": "10/05/2026, 07:13 AM, +0000 UTC",
+   "iso_date": "2026-10-05T07:13:20Z"
+  },
+  {
+   "position": 5,
+   "title": "Nykaa Q2 update: Consolidated net revenue growth seen in late twenties, GMV in high twenties",
+   "source": {
+    "name": "CNBC TV18",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnbctv18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jomy Pullokaran"
+    ]
+   },
+   "link": "https://www.cnbctv18.com/market/stocks/nykaa-share-price-q2-update-consolidated-net-revenue-growth-seen-in-late-twenties-gmv-in-high-twenties-20004193.htm",
+   "thumbnail": "https://images.cnbctv18.com/uploads/2026/09/artificial-intelligence-15-2026-09-6291c927207be3a0cc0efe2822819cf2.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJZVE5tWW01dllrUXROM0ZPVFJDZkF4ampCU2dLTWdZZGhJcHJNUWM",
+   "date": "10/04/2026, 02:28 PM, +0000 UTC",
+   "iso_date": "2026-10-04T14:28:17Z"
+  },
+  {
+   "position": 6,
+   "title": "The Estée Lauder Companies, Nykaa & Startup India Announce Finalists for BEAUTY&YOU India 2026",
+   "source": {
+    "name": "The Estée Lauder Companies Inc.",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.elcompanies.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2026/10-09-2026",
+   "thumbnail": "https://media.elcompanies.com/images/e/estee-lauder-companies/global/news-and-media/2026-newsroom/press-releases/oct/elc-finalist-615x492.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iOkNnNVlUak10VmtKaVRXRXpWR1ZOVFJESkFSajdBU2dCTWhFQkFJYkRDbXMwMUFoUDBCNjZudXJkQXc",
+   "date": "10/09/2026, 12:40 PM, +0000 UTC",
+   "iso_date": "2026-10-09T12:40:34Z"
+  },
+  {
+   "position": 7,
+   "title": "Stocks to Watch Today, Monday, October 5, 2026: Nykaa, Infosys, DLF, Bajaj Finance, Shyam Metalics and Energy",
+   "source": {
+    "name": "HDFC Sky",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://hdfcsky.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://hdfcsky.com/news/stocks-to-watch-today-monday-october-5-2026-nykaa-infosys-dlf-bajaj-finance-shyam-metalics-and-energy",
+   "thumbnail": "https://static.hdfcsky.com/wp-content/uploads/2026/10/Stocks-to-Watch-Today.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpZa3gwWDI5SFVIVjNUMjUzVFJDZkF4amlCU2dLTWdZQmdJeGpNZ1k",
+   "date": "10/05/2026, 04:31 AM, +0000 UTC",
+   "iso_date": "2026-10-05T04:31:56Z"
+  },
+  {
+   "position": 8,
+   "title": "Nykaa's Q2 business update brings a fresh bout of optimism",
+   "source": {
+    "name": "TradingView",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.tradingview.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.tradingview.com/news/moodys:3d20b90c3c199:0-nykaa-s-q2-business-update-brings-a-fresh-bout-of-optimism/",
+   "date": "10/06/2026, 10:35 AM, +0000 UTC",
+   "iso_date": "2026-10-06T10:35:31Z"
+  },
+  {
+   "position": 9,
+   "title": "Nykaa expects around 30% GMV growth in Q2 FY27",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://entrackr.com/news/nykaa-expects-around-30-gmv-growth-in-q2-fy27-12623169",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2025/11/07/nykaa-2025-11-07-17-55-38.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWphV3BIUzFONU4yUkhZblF6VFJDZkF4ampCU2dLTWdhbE5ZYk5IUWs",
+   "date": "10/04/2026, 03:05 PM, +0000 UTC",
+   "iso_date": "2026-10-04T15:05:10Z"
+  },
+  {
+   "position": 10,
+   "title": "Nykaa Anticipates High-Twenties Q2 FY27 GMV Growth and Late-Twenties Net Revenue Growth",
+   "source": {
+    "name": "Sahi",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.sahi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.sahi.com/news/nykaa-anticipates-high-twenties-q2-fy27-gmv-growth-and-late-twenties-net-revenue-growth",
+   "thumbnail": "https://www.sahi.com/assets/uploads/5091_PE_1_CORPORATE_05_10_2026_16x9_9e2433be37.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVXVGxWTTI1alR6Y3Rla0Z6VFJDZUF4amxCU2dLTWdhcEpZN3RGUW8",
+   "date": "10/05/2026, 07:06 AM, +0000 UTC",
+   "iso_date": "2026-10-05T07:06:21Z"
+  },
+  {
+   "position": 11,
+   "title": "How L’Oréal and Nykaa Are Investing in India’s Emerging Beauty Brands",
+   "source": {
+    "name": "BeautyMatter",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://beautymatter.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Lady Alice Manners"
+    ]
+   },
+   "link": "https://beautymatter.com/articles/nykaa-becomes-big-beautys-gateway-to-india",
+   "thumbnail": "https://beautymatter.com/uploads/2026/09/seo/7hqopf8S13mfucSO1zMwwKa8wpY5xoQyvOMsRG3C.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUZiRkJGYnpsdlN6VkdhbkJ2VFJESkF4aWZCU2dLTWdB",
+   "date": "10/06/2026, 09:53 PM, +0000 UTC",
+   "iso_date": "2026-10-06T21:53:17Z"
+  },
+  {
+   "position": 12,
+   "title": "Nykaa Luxe’s Premium Beauty Retail Strategy",
+   "source": {
+    "name": "MarkHub24",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.markhub24.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.markhub24.com/post/nykaa-luxe-s-premium-beauty-retail-strategy",
+   "thumbnail": "https://static.wixstatic.com/media/8a841b_a51a20eba9404408be1ecce08129c5f9~mv2.jpeg/v1/fill/w_568,h_310,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/8a841b_a51a20eba9404408be1ecce08129c5f9~mv2.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVkMGgyUjFSVFFVZHVjbEEwVFJDbUFSaXdBaWdCTWdhWkE0aXRqUXM",
+   "date": "10/06/2026, 08:51 AM, +0000 UTC",
+   "iso_date": "2026-10-06T08:51:44Z"
+  },
+  {
+   "position": 13,
+   "title": "Nomura reaffirms 'Buy' on Nykaa as strong revenue growth sustains",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/stocks/nomura-reaffirms-buy-on-nykaa-as-strong-revenue-growth-sustains-14045542.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/10/20261006035700_market_up_higher.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXpVbnBOWDJoUlNWRkJUVzgyVFJDZkF4ampCU2dLTWdtWk1ZanZxR09paHdJ",
+   "date": "10/06/2026, 06:01 AM, +0000 UTC",
+   "iso_date": "2026-10-06T06:01:01Z"
+  },
+  {
+   "position": 14,
+   "title": "Nykaa, Honasa, Trent: Q2 trends show consumers opening up their wallets ahead of festive season",
+   "source": {
+    "name": "Upstox",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://upstox.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Abhishek Vasudev"
+    ]
+   },
+   "link": "https://upstox.com/news/market-news/stocks/nykaa-honasa-trent-q2-trends-show-consumers-opening-up-their-wallets-ahead-of-festive-season/article-201343/",
+   "thumbnail": "https://assets.upstox.com/content/assets/images/news/festive-season.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNURSSFJKWVZKT2RrWnVSa1ZVVFJDZkF4ampCU2dLTWdhTllZeG9xZ2M",
+   "date": "10/06/2026, 06:44 AM, +0000 UTC",
+   "iso_date": "2026-10-06T06:44:06Z"
+  },
+  {
+   "position": 15,
+   "title": "Nykaa adds 14 stores to reach 338 as Beauty and Fashion growth accelerates",
+   "source": {
+    "name": "Indian Television Dot Com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indiantelevision.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://indiantelevision.com/mam/nykaa-adds-14-stores-to-reach-338-as-beauty-and-fashion-growth-accelerates/",
+   "thumbnail": "https://indiantelevision.com/wp-content/uploads/2026/10/Nykaa.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTJhRnBvUkZaTU1YSnNOR2x6VFJDZkF4ampCU2dLTWdrSlVJalV6S1N4aVFJ",
+   "date": "10/05/2026, 07:10 AM, +0000 UTC",
+   "iso_date": "2026-10-05T07:10:14Z"
+  },
+  {
+   "position": 16,
+   "title": "Nykaa Shares Jump 6% On Strong Q2 FY27 Growth Outlook",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Shrishti Bisht"
+    ]
+   },
+   "link": "https://inc42.com/buzz/nykaa-shares-jump-6-on-strong-q2-fy27-growth-outlook/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/07/nykaa-oman-featured-760x570.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxaV3QyZWxGQ1JGWnZXbEkwVFJEZ0F4aUFCU2dLTWdhTlFweW1IZ2s",
+   "date": "10/05/2026, 06:22 AM, +0000 UTC",
+   "iso_date": "2026-10-05T06:22:51Z"
+  },
+  {
+   "position": 17,
+   "title": "Nykaa stock jumps 4% after strong Q2 revenue update; fashion vertical leads growth",
+   "source": {
+    "name": "BusinessLine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thehindubusinessline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Anupama Ghosh"
+    ]
+   },
+   "link": "https://www.thehindubusinessline.com/markets/stock-markets/nykaa-stock-jumps-4-after-strong-q2-revenue-update-fashion-vertical-leads-growth/article71545932.ece",
+   "thumbnail": "https://bl-i.thgim.com/public/incoming/5jq6hg/article71545942.ece/alternates/LANDSCAPE_1200/Nykaa-surpassesGC6G0RTPQ.5.jpg.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVXalZsWHpOc2JXRnpWVUozVFJDZkF4ampCU2dLTWdaWkVJWWJtQWs",
+   "date": "10/05/2026, 05:25 AM, +0000 UTC",
+   "iso_date": "2026-10-05T05:25:01Z"
+  },
+  {
+   "position": 18,
+   "title": "Nykaa Share Price Jumps 4% In Trade. Here's why",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Maumita Mitra"
+    ]
+   },
+   "link": "https://www.ndtvprofit.com/markets/nykaa-share-price-jumps-nearly-4-in-trade-heres-why-12139081",
+   "thumbnail": "https://c.ndtvimg.com/2026-10/79gc89es_nykaa-stock-rises-ahead-of-q2_625x300_05_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDNSbHBDVDJsTllVZGFiVmMzVFJDZkF4ampCU2dLTWdZTlVZSXdxUWM",
+   "date": "10/05/2026, 04:08 AM, +0000 UTC",
+   "iso_date": "2026-10-05T04:08:51Z"
+  },
+  {
+   "position": 19,
+   "title": "Matt Orton sees India stock opportunities despite FII outflows; prefers M&M, Eicher Motors, Nykaa",
+   "source": {
+    "name": "CNBC TV18",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnbctv18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Prashant Nair"
+    ]
+   },
+   "link": "https://www.cnbctv18.com/market/hdfc-icici-mahindra-eicher-nykaa-adani-ports-indigo-matt-orton-india-stocks-20007286.htm",
+   "thumbnail": "https://images.cnbctv18.com/uploads/2026/09/1789982881_7VFCHoYCnd-StocksMarket2May14jpg-bGwFzLE1Jv.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFYMW94VjI1V1ducEhiWEZ1VFJDZkF4ampCU2dLTWdZUkVJSXhyUVE",
+   "date": "10/08/2026, 04:20 AM, +0000 UTC",
+   "iso_date": "2026-10-08T04:20:27Z"
+  },
+  {
+   "position": 20,
+   "title": "Nykaa's Q2 business update brings a fresh bout of optimism",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Ananya Roy"
+    ]
+   },
+   "link": "https://www.livemint.com/market/mark-to-market/nykaa-q2-business-update-nykaa-share-price-beauty-personal-care-india-11791268138208.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/06/1600x900/logo/NYKAA-RESULTS--0_1720688266151_1791270312879_LpKT_80d41ae1-f81b-4b7d-a923-a6df0dfb9fc1_zg6Z.JPG",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpUeTAwVUdsdWRra3dXRVJsVFJDZkF4ampCU2dLTWdZUlFJeVdQQVU",
+   "date": "10/06/2026, 07:14 AM, +0000 UTC",
+   "iso_date": "2026-10-06T07:14:48Z"
+  },
+  {
+   "position": 21,
+   "title": "L’Oréal Joins Forces With Nykaa to Invest in Indian Beauty Brands",
+   "source": {
+    "name": "The Business of Fashion",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businessoffashion.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Rachel Eliza Griffiths"
+    ]
+   },
+   "link": "https://www.businessoffashion.com/news/beauty/nykaa-loreal-bold-investment-partnership/",
+   "thumbnail": "https://img.businessoffashion.com/resizer/v2/MORTX4YVP5HUHKYUNNS3KYEHX4.jpg?auth=8370c9362431743fa522fdae76af7d108e8e90147d043a4cbcfd10198d86bdff&width=1440",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZhV2xaWmpGc1VUVTNXakZ6VFJDZkF4ampCU2dLTWdZbEE0QXVEUXc",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 22,
+   "title": "Nykaa expands retail network to 338 stores as offline like-for-like sales surge",
+   "source": {
+    "name": "Adgully.com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.adgully.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.adgully.com/post/21708/nykaa-expands-retail-network-to-338-stores-as-offline-like-for-like-sales-surge",
+   "thumbnail": "https://erp.adgully.com/artical_image/1897b7da1c374501b50789ff9577fb7f.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHhOR3BRVFVwbFVESXlXbFpWVFJDZkF4ampCU2dLTWdrSkFvRHRHS3B5UXdN",
+   "date": "10/05/2026, 07:47 AM, +0000 UTC",
+   "iso_date": "2026-10-05T07:47:00Z"
+  },
+  {
+   "position": 23,
+   "title": "Nykaa Q2 update: JM sees 'excellent trends' in BPC & Fashion; stock up 5%",
+   "source": {
+    "name": "Business Standard",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Abhinav Ranjan"
+    ]
+   },
+   "link": "https://www.business-standard.com/markets/news/nykaa-q2-update-jm-sees-excellent-trends-in-bpc-fashion-stock-up-5-126100500310_1.html",
+   "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-02/07/full/1707324828-9251.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNURVbFJTYTBoUWFrSm9hWE5tVFJEY0F4aUZCU2dLTWdZTk1KS1dNQWM",
+   "date": "10/05/2026, 06:45 AM, +0000 UTC",
+   "iso_date": "2026-10-05T06:45:22Z"
+  },
+  {
+   "position": 24,
+   "title": "Nykaa shares jump over 5% as Q2 NSV growth tops 30%; Goldman Sachs raises price target - CNBC TV18",
+   "source": {
+    "name": "LinkedIn",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.linkedin.com/posts/cnbc-tv18_nykaa-shares-jump-over-5-as-q2-nsv-growth-activity-7512797773574959104-deUU",
+   "thumbnail": "https://media.licdn.com/dms/image/sync/v2/D5627AQHSSwLeY9yQKA/articleshare-shrink_800/B56aELRr8yHMAY-/0/1791190550015?e=2147483647&v=beta&t=_WdQExurqXJxcnHp6W2f_Cip8OcpAxOfO3ZoUDOQqIk",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJlbWRXTlhsbFpHaHJXREpDVFJDZkF4ampCU2dLTWdZQllJekdQQVk",
+   "date": "10/05/2026, 08:56 AM, +0000 UTC",
+   "iso_date": "2026-10-05T08:56:10Z"
+  },
+  {
+   "position": 25,
+   "title": "Nykaa expands retail network to 338 stores as Q2 revenue growth stays strong",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.storyboard18.com/brand-marketing/nykaa-expands-retail-network-to-338-stores-as-q2-revenue-growth-stays-strong-111960.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/08/Visuals-Page-2026-08-04T164915.504-2026-08-d1e12b509e586e7f6291a3bf60abd321-1019x573.jpg?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWlOMDFEY2xKT1FUZEdaVlJEVFJEOEFoaWpCU2dLTWdrVmc0eXJ5YVZrelFF",
+   "date": "10/04/2026, 05:26 PM, +0000 UTC",
+   "iso_date": "2026-10-04T17:26:46Z"
+  },
+  {
+   "position": 26,
+   "title": "Nykaa shares jump 5.5%, Avenue Supermarts slips after Q2 updates; key takeaways for festive season",
+   "source": {
+    "name": "Upstox",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://upstox.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "SWATI VERMA"
+    ]
+   },
+   "link": "https://upstox.com/news/market-news/stocks/avenue-supermarts-nykaa-in-focus-after-q2-updates-what-investors-need-to-know-ahead-of-festive-season/article-201250/",
+   "thumbnail": "https://assets.upstox.com/content/assets/images/news/nykaa-dmart-q2-updates-pexels.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWhNWFprVGtGVU4weElTMlkxVFJDZkF4ampCU2dLTWdZQm80VG8wUU0",
+   "date": "10/05/2026, 03:27 AM, +0000 UTC",
+   "iso_date": "2026-10-05T03:27:24Z"
+  },
+  {
+   "position": 27,
+   "title": "Your Day Has Many Moods, Nykaa Wanderlust Has A Mist For Each One | Grazia India",
+   "source": {
+    "name": "Grazia India",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.grazia.co.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.grazia.co.in/beauty-and-health/your-day-has-many-moods-nykaa-wanderlust-has-a-mist-for-each-one-16031.html",
+   "thumbnail": "https://grazia.wwmindia.com/thumb/content/2026/aug/grazia-2026-08-19t1221491831787122338.jpg?width=1200&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNU1hM2xSVEc1eGVFcE1OMmhpVFJEZ0F4aUFCU2dLTWdtSllZeWxNaVk5YlFF",
+   "date": "10/05/2026, 11:27 AM, +0000 UTC",
+   "iso_date": "2026-10-05T11:27:00Z"
+  },
+  {
+   "position": 28,
+   "title": "Kay Beauty Hits ₹300 Crore Annualised NSV Run Rate",
+   "source": {
+    "name": "Passionate In Marketing",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.passionateinmarketing.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.passionateinmarketing.com/from-celebrity-collaboration-to-a-scaled-beauty-business-the-rise-of-kay-beauty/",
+   "thumbnail": "https://pimwp.s3-accelerate.amazonaws.com/2026/10/From-Celebrity-Collaboration-to-a-Scaled-Beauty-Business-The-Rise-of-Kay-Beauty.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUZlRE52U21zMVNscFZXRkpPVFJDZkF4ampCU2dLTWdB",
+   "date": "10/09/2026, 12:54 PM, +0000 UTC",
+   "iso_date": "2026-10-09T12:54:24Z"
+  },
+  {
+   "position": 29,
+   "title": "Nykaa shares: Morgan Stanley expects strong Q2 show; stock jumps 7%",
+   "source": {
+    "name": "Business Today",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businesstoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Prashun Talukdar"
+    ]
+   },
+   "link": "https://www.businesstoday.in/markets/stocks/story/nykaa-shares-morgan-stanley-expects-strong-q2-show-stock-jumps-6-559468-2026-10-05",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202610/6ac339554605a-morgan-stanley-has-assigned-an-overweight-rating-to-nykaa-05445243-16x9.jpg?size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUtOM2R1TTNkcU0xUkNaRVpuVFJDZkF4ampCU2dLTWdZQlVJUm5xZ1k",
+   "date": "10/05/2026, 05:44 AM, +0000 UTC",
+   "iso_date": "2026-10-05T05:44:57Z"
+  },
+  {
+   "position": 30,
+   "title": "Mamaearth, Nykaa expect strong growth momentum in Q2 FY27",
+   "source": {
+    "name": "The Economic Times",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://m.economictimes.com/tech/startups/mamaearth-nykaa-expect-strong-growth-momentum-in-q2-fy27/articleshow/134741513.cms",
+   "thumbnail": "https://img.etimg.com/thumb/msid-134741513,width-1200,height-900,imgsize-54414,resizemode-8,quality-100/tech/startups/mamaearth-nykaa-expect-strong-growth-momentum-in-q2-fy27.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVTRUZrVkZKaFdYbDZNREZ0VFJEZ0F4aUFCU2dLTWdhQmNJcldyQWc",
+   "date": "10/06/2026, 01:05 PM, +0000 UTC",
+   "iso_date": "2026-10-06T13:05:34Z"
+  },
+  {
+   "position": 31,
+   "title": "How Shoppers’ Stop, Nykaa, are growing India’s $23 billion beauty ecosystem through their B2B arm",
+   "source": {
+    "name": "Fortune India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fortuneindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Ajita Shashidhar"
+    ]
+   },
+   "link": "https://www.fortuneindia.com/business-news/how-shoppers-stop-nykaa-are-growing-indias-23-billion-beauty-ecosystem-through-their-b2b-arm/162675",
+   "thumbnail": "https://media.fortuneindia.com/fortune-india/2025-06-18/dyqt03kp/Beauty_Products_IMG_2726_copy.jpg?w=640&auto=format,compress&q=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUZPREJvZGpGRk5FRnlXbWRmVFJDSEF4aUFCU2dLTWdZQkFJd25HZ1k",
+   "date": "10/04/2026, 09:38 AM, +0000 UTC",
+   "iso_date": "2026-10-04T09:38:37Z"
+  },
+  {
+   "position": 32,
+   "title": "Nykaa shares gain after Q2 update; Goldman Sachs stays Neutral; check target",
+   "source": {
+    "name": "Zee Business",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.zeebiz.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Abhay Shukla"
+    ]
+   },
+   "link": "https://www.zeebiz.com/market-news/news-nykaa-shares-gain-after-q2-update-goldman-sachs-stays-neutral-check-target-403341",
+   "thumbnail": "https://cdn.zeebiz.com/sites/default/files/2026/10/05/415128-nykaa-share-price.jpg?im=FitAndFill=(448,252)&format=webp&quality=medium",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDRTMVpYWTFneVdsSnNWMk5IVFJEOEFSakFBeWdLTWdhbE5LS3NGUW8",
+   "date": "10/05/2026, 05:40 AM, +0000 UTC",
+   "iso_date": "2026-10-05T05:40:40Z"
+  },
+  {
+   "position": 33,
+   "title": "Top stocks to watch and why today: Ola, HDFC Bank, Nykaa, Infosys shares in focus on Monday, 5 Oct | Full list",
+   "source": {
+    "name": "TradingView",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.tradingview.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.tradingview.com/news/moodys:5f75ed5e76c86:0-top-stocks-to-watch-and-why-today-ola-hdfc-bank-nykaa-infosys-shares-in-focus-on-monday-5-oct-full-list/",
+   "thumbnail": "https://s.tradingview.com/static/images/illustrations/news-story.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBjR0phV0haM2FVMUZRMlZ4VFJDUkF4ajhCU2dLTWdhbGRKU3NMUWM",
+   "date": "10/05/2026, 05:09 AM, +0000 UTC",
+   "iso_date": "2026-10-05T05:09:00Z"
+  },
+  {
+   "position": 34,
+   "title": "Top 2 stocks to buy or sell for tomorrow: Nykaa, LIC by Chandan Taparia - Check stop-loss, targets",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Dhanya Nagasundaram"
+    ]
+   },
+   "link": "https://www.livemint.com/market/stock-market-news/top-2-stocks-to-buy-or-sell-for-tomorrow-nykaa-lic-by-chandan-taparia-check-stop-loss-targets-11791197933714.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/05/1600x900/logo/Chandan_Taparia_1788834234050_af1895d2-d413-4eaa-9_1791202112209_bZby_1791202112406_x2ub_f4c7fda7-73e1-43b5-ab6c-af0833cb1bbc_j9J9.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDFjVVF3UTI1WWJrUnZVbTk1VFJDZkF4ampCU2dLTWdtTlVaYW1ycWRNU3dJ",
+   "date": "10/05/2026, 12:12 PM, +0000 UTC",
+   "iso_date": "2026-10-05T12:12:11Z"
+  },
+  {
+   "position": 35,
+   "title": "Nykaa, Bajaj Finance, L&T among buzzing stocks as SENSEX climbs nearly 130 pts; NIFTY50 trades above 22,450",
+   "source": {
+    "name": "Upstox",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://upstox.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://upstox.com/news/market-news/stocks/nykaa-bajaj-finance-l-and-t-among-buzzing-stocks-as-sensex-climbs-nearly-130-pts-nifty-50-trades-above-22-450/article-201279/",
+   "thumbnail": "https://assets.upstox.com/content/assets/images/news/buzzingstocksoct52026.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHllbkpoT1VWck56UmZVM0ZCVFJDZkF4ampCU2dLTWdZSmtZNjJQQVk",
+   "date": "10/05/2026, 07:53 AM, +0000 UTC",
+   "iso_date": "2026-10-05T07:53:11Z"
+  },
+  {
+   "position": 36,
+   "title": "YES Bank, Nykaa, Welspun Living: Top stocks to trade — Key levels, target prices & stop loss",
+   "source": {
+    "name": "Business Today",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businesstoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Pawan Nahar"
+    ]
+   },
+   "link": "https://www.businesstoday.in/markets/stocks/story/yes-bank-nykaa-welspun-living-top-stocks-to-trade-key-levels-target-prices-stop-loss-559706-2026-10-06",
+   "thumbnail": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202610/6ac4660b76275-welspun-living-has-witnessed-a-strong-upmove-and-is-currently-trading-above-its-10--20-and-50-dema-060754305-16x9.jpg?size=1280:720",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXRkVEZ0V1hsSVlVZDVNMGhsVFJDZkF4ampCU2dLTWdrQkFJNG5zdVl0S1FJ",
+   "date": "10/06/2026, 03:09 AM, +0000 UTC",
+   "iso_date": "2026-10-06T03:09:51Z"
+  },
+  {
+   "position": 37,
+   "title": "Nykaa Share Price Jumps 6% on Strong Q2 Update: What Next?",
+   "source": {
+    "name": "Univest",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://univest.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Lakshit Sharma"
+    ]
+   },
+   "link": "https://univest.in/blogs/nykaa-share-price-q2-fy27-update-morgan-stanley-target",
+   "thumbnail": "https://univest.in/blogs-2/wp-content/uploads/2026/10/nykaa-share-price-jumps-6-after-a-strong-q2-fy27-update-late-twenties-revenue.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdNV0ZmWTJkNVJVaG5jMHh4VFJDUUF4ai1CU2dLTWdhQk1JcWptZ2s",
+   "date": "10/05/2026, 07:52 AM, +0000 UTC",
+   "iso_date": "2026-10-05T07:52:05Z"
+  },
+  {
+   "position": 38,
+   "title": "Stock Picks Today: IndiGo, Nykaa, ITC, Bajaj Finance, DMart And More On Brokerages' Radar",
+   "source": {
+    "name": "NDTV Profit",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.ndtvprofit.com/markets/stock-picks-today-indigo-nykaa-itc-bajaj-finance-dmart-and-more-on-brokerages-radar-12138915",
+   "thumbnail": "https://c.ndtvimg.com/2026-07/kmochsng_brokerage-radar_625x300_14_July_26.png?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXNORTkyYVRSbk4wWXdTMjFqVFJDZkF4ampCU2dLTWdtQlU1SnduV2FwU2dJ",
+   "date": "10/05/2026, 03:01 AM, +0000 UTC",
+   "iso_date": "2026-10-05T03:01:29Z"
+  },
+  {
+   "position": 39,
+   "title": "Nykaa shares jump over 5% as Q2 NSV growth tops 30%; Goldman Sachs raises price target",
+   "source": {
+    "name": "CNBC TV18",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnbctv18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Gareema Bangad"
+    ]
+   },
+   "link": "https://www.cnbctv18.com/market/nykaa-share-price-q2-business-growth-strong-goldman-sachs-raises-target-price-beauty-fashion-20004622.htm",
+   "thumbnail": "https://images.cnbctv18.com/uploads/2026/10/gareema-feature-images-2026-10-05t133802920-2026-10-039748aaba14cb8abf11f6db034a18d1.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNOa05rUVU5UU4yZFdMVFZDVFJDZkF4ampCU2dLTWdZQllJekdQQVk",
+   "date": "10/05/2026, 08:43 AM, +0000 UTC",
+   "iso_date": "2026-10-05T08:43:15Z"
+  },
+  {
+   "position": 40,
+   "title": "Q2 business update: Banks report healthy loan growth; Nykaa, DMart post strong revenue growth",
+   "source": {
+    "name": "Upstox",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://upstox.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Abhishek Vasudev"
+    ]
+   },
+   "link": "https://upstox.com/news/market-news/stocks/q2-business-update-banks-report-healthy-loan-growth-nykaa-d-mart-post-strong-revenue-growth/article-201270/",
+   "thumbnail": "https://assets.upstox.com/content/assets/images/news/buzzing-stocks-nov-13.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDJSWEZmUmxWVmJIaFFOMWhvVFJEZ0F4aUFCU2dLTWdhQklZWXJyUVk",
+   "date": "10/05/2026, 06:28 AM, +0000 UTC",
+   "iso_date": "2026-10-05T06:28:48Z"
+  },
+  {
+   "position": 41,
+   "title": "Why Nykaa's Q2 business update has brought about a fresh round of optimism",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.livemint.com/videos/why-nykaas-q2-business-update-has-brought-about-a-fresh-round-of-optimism-11791297850938.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/10/06/600x338/Why-Nykaas-Q2-business-update-has-brought-about-a-_1791297896885_U9Zq_1791297897011_FcUg_ae95738e-c0e3-4e6a-bbd1-6f4b87a8905a_sKq1.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWtXWHBzUmxGTmVWaHFXRTF1VFJEUkFoallCQ2dLTWdZbEJaYk5oUWc",
+   "date": "10/06/2026, 02:45 PM, +0000 UTC",
+   "iso_date": "2026-10-06T14:45:21Z"
+  },
+  {
+   "position": 42,
+   "title": "Nykaa expects net revenue growth in late twenties in Q2",
+   "source": {
+    "name": "The Economic Times",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://m.economictimes.com/tech/technology/nykaa-expects-net-revenue-growth-in-late-twenties-in-q2/articleshow/134679826.cms",
+   "thumbnail": "https://m.economictimes.com/thumb/msid-134679945,width-1200,height-900,resizemode-4,imgsize-125010/nykaa.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVNV1JUZUZKT1EzRlZURzFyVFJEZ0F4aUFCU2dLTWdhcFZaak5vUWc",
+   "date": "10/04/2026, 07:09 PM, +0000 UTC",
+   "iso_date": "2026-10-04T19:09:19Z"
+  },
+  {
+   "position": 43,
+   "title": "Nykaa Q2FY27 Results: GMV growth in early 30s, Net Revenue up 29%",
+   "source": {
+    "name": "scanx.trade",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://scanx.trade&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://scanx.trade/stock-market-news/companies/nykaa-q2fy27-results-gmv-growth-early-30s-net-revenue-up-29/52665246",
+   "thumbnail": "https://news-images.dhan.co/nykaa-q2fy27-results-gmv-growth-early-30s-net-revenue-up-29.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJORlZNWnkxMFZYaHhOV3RmVFJDaUF4amRCU2dLTWdZQmdJeElPUVk",
+   "date": "10/04/2026, 01:17 PM, +0000 UTC",
+   "iso_date": "2026-10-04T13:17:39Z"
+  },
+  {
+   "position": 44,
+   "title": "Nykaa Fashion launches Hidden Gems accelerator with zero commission for six months: What it means for use",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/nykaa-fashion-launches-hidden-gems-accelerator-with-zero-commission-for-six-months-what-it-means-for-users/articleshow/134623907.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-134623947,width-1280,height-720,imgsize-2192841,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWhlRnBxYWxGT056WkVNMmt6VFJDZkF4ampCU2dLTWdtQk1KakFvbWdsaGdJ",
+   "date": "10/01/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-10-01T07:00:00Z"
+  },
+  {
+   "position": 45,
+   "title": "Nykaa Fashion accelerator offers zero commission for six months",
+   "source": {
+    "name": "BusinessLine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thehindubusinessline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Anupama Ghosh"
+    ]
+   },
+   "link": "https://www.thehindubusinessline.com/companies/nykaa-fashion-launches-hidden-gems-accelerator-for-home-grown-brands/article71532794.ece",
+   "thumbnail": "https://bl-i.thgim.com/public/incoming/2zyz4d/article71533124.ece/alternates/LANDSCAPE_1200/IMG_Nykaa_2_1_EHAOSJ5J.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBSMmhEVkd4VmNsRnpUR2Q2VFJDZkF4ampCU2dLTWdhTk01cG9vUWs",
+   "date": "10/01/2026, 01:21 PM, +0000 UTC",
+   "iso_date": "2026-10-01T13:21:10Z"
+  },
+  {
+   "position": 46,
+   "title": "Nykaa Fashion expands ‘Hidden Gems’ with accelerator programme for home-grown brands",
+   "source": {
+    "name": "ETRetail.com",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://retail.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/nykaa-fashion-expands-hidden-gems-with-accelerator-programme-for-home-grown-brands/134610384",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134610384,width-1600,height-900,resizemode-4/.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHRXa3RmUTFGMk9XSnNaMmxRVFJDZkF4ampCU2dLTWdtQmNaS2dMdWM4U2dJ",
+   "date": "10/01/2026, 06:26 AM, +0000 UTC",
+   "iso_date": "2026-10-01T06:26:59Z"
+  },
+  {
+   "position": 47,
+   "title": "Nykaa and L’Oréal’s venture fund BOLD join hands to invest in Indian beauty startups",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Mukul Manchanda"
+    ]
+   },
+   "link": "https://entrackr.com/snippets/nykaa-and-lor%C3%A9als-venture-fund-bold-join-hands-to-invest-in-indian-beauty-startups-12571944",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2026/09/24/nykaa-loreal-fund-2026-09-24-17-29-18.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDBaakpuUjNGTGJ6QmpaM3BvVFJDZkF4ampCU2dLTWdrQlVZd1ZLZWw3TWdF",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 48,
+   "title": "India's Nykaa posts profit jump as fashion business ramps up",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Surbhi Misra",
+     "Ronojoy Mazumdar"
+    ]
+   },
+   "link": "https://www.reuters.com/world/india/indias-nykaa-posts-higher-quarterly-profit-strong-beauty-demand-fashion-growth-2026-08-04/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/HWKHMGRZDZPXDFUY75NRLPTRSY.jpg?auth=0ac28c409bd75d415b9ecdda909d6a7b58962968f10d63a877b6b9a590117ffa&width=480&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU9PVGMyTlRCNk5sVktWRkZXVFJEaUFoamdBeWdLTWdZTk1KU1dMQWM",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  },
+  {
+   "position": 49,
+   "title": "Nykaa, L’Oreal’s venture capital arm BOLD to invest in Indian beauty startups",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/nykaa-l-oreal-s-venture-capital-arm-bold-to-invest-in-indian-beauty-startups-14037513.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/06/20260618061434_nykaa.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWtjelUwTjJwblozQk1hVlIxVFJDZkF4ampCU2dLTWdrQkFJQ0RsQ0hvOGdB",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 50,
+   "title": "Nykaa & L’Oréal’s BOLD join hands to invest in Indian beauty brands",
+   "source": {
+    "name": "afaqs!",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.afaqs.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.afaqs.com/news/mktg/nykaa-lor%C3%A9als-bold-join-hands-to-invest-in-indian-beauty-brands-12573797",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/640x360/filters:format(webp)/afaqs/media/media_files/2026/09/25/nykaa-2026-09-25-11-08-46.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXNkbUpLZWxSek9UUlFRMFk1VFJEb0FoaUFCU2dLTWdtSmtaS2x0bVk5endF",
+   "date": "09/25/2026, 05:41 AM, +0000 UTC",
+   "iso_date": "2026-09-25T05:41:51Z"
+  },
+  {
+   "position": 51,
+   "title": "Nykaa Cosmetics launches ‘Love At First Swipe’ with Rasha Thadani and Rohit Saraf",
+   "source": {
+    "name": "IMPACT Magazine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.impactonnet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.impactonnet.com/more-from-impact/nykaa-cosmetics-launches-love-at-first-swipe-with-rasha-thadani-and-rohit-saraf-16846.html",
+   "thumbnail": "https://storage.googleapis.com/impact-news-photo/news-photo/16846-pressrelease.pdf---2026-10-01T125118.563.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWxUSE0wWDJ0UFRYZDRia0l3VFJEU0F4aVRCU2dLTWdtTmM0eEpzdVpVU2dJ",
+   "date": "10/01/2026, 12:31 PM, +0000 UTC",
+   "iso_date": "2026-10-01T12:31:42Z"
+  },
+  {
+   "position": 52,
+   "title": "Nykaa, L’Oréal venture fund to invest in Indian beauty brands",
+   "source": {
+    "name": "FashionNetwork - The World's Fashion Business News",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://ww.fashionnetwork.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jennifer Braun"
+    ]
+   },
+   "link": "https://ww.fashionnetwork.com/news/Nykaa-l-oreal-venture-fund-to-invest-in-indian-beauty-brands,1871208.html",
+   "thumbnail": "https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/f1c6/724b/f579/7b54/91a0/f99a/8718/ad85/6832/8c12/8c12.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNPRlpaYTFOMlIwRjFPVE5tVFJETEFSajRBU2dCTWdhcEpKS3VtUWM",
+   "date": "09/29/2026, 03:22 AM, +0000 UTC",
+   "iso_date": "2026-09-29T03:22:26Z"
+  },
+  {
+   "position": 53,
+   "title": "Nykaa Names Anushka Sen Face of K-Beauty Category",
+   "source": {
+    "name": "Global Cosmetics News",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.globalcosmeticsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.globalcosmeticsnews.com/nykaa-names-anushka-sen-face-of-k-beauty-category/",
+   "thumbnail": "https://www.globalcosmeticsnews.com/wp-content/uploads/2026/09/Anushka-Sen-joins-Nykaa-K-Beauty-universe.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDJjMGh3T1RWNVIxUnVjbEY1VFJDR0F4allCQ2dLTWdhcFJaanRuUWc",
+   "date": "09/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-25T07:00:00Z"
+  },
+  {
+   "position": 54,
+   "title": "Nykaa brings haircare brand Oribe to India",
+   "source": {
+    "name": "FashionNetwork - The World's Fashion Business News",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://ww.fashionnetwork.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Isabelle Crossley"
+    ]
+   },
+   "link": "https://ww.fashionnetwork.com/news/Nykaa-brings-haircare-brand-oribe-to-india,1869802.html",
+   "thumbnail": "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/ce08/78e7/097b/568f/eea6/e3df/b463/deb6/931f/30eb/30eb.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHpPRFpqYTNKc2NYTlZjRXRtVFJEaEFSamhBU2dCTWdZcFpaRE5MUWM",
+   "date": "09/24/2026, 10:34 AM, +0000 UTC",
+   "iso_date": "2026-09-24T10:34:30Z"
+  },
+  {
+   "position": 55,
+   "title": "Nykaa, L’Oréal’s BOLD to jointly invest in India’s emerging beauty brands",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Deepthi Rao"
+    ]
+   },
+   "link": "https://www.storyboard18.com/brand-marketing/nykaa-loreals-bold-to-jointly-invest-in-indias-emerging-beauty-brands-111347.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/09/Copy-of-SB18-Article-Image-2026-09-82b19ee0cd6872601d327281ee10cbe1-1019x573.png?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVlaRWxLUjBSSmNYUTRSRkZKVFJEOEFoaWpCU2dLTWdB",
+   "date": "09/24/2026, 12:53 PM, +0000 UTC",
+   "iso_date": "2026-09-24T12:53:26Z"
+  },
+  {
+   "position": 56,
+   "title": "L’Oréal and Nykaa Partner to Invest in Emerging Indian Beauty Brands",
+   "source": {
+    "name": "Global Cosmetics News",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.globalcosmeticsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.globalcosmeticsnews.com/loreal-and-nykaa-partner-to-invest-in-emerging-indian-beauty-brands/",
+   "thumbnail": "https://www.globalcosmeticsnews.com/wp-content/uploads/2026/06/Nykaa-Banner-Image-1-1-1-1.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFWVEZTYzFSRk5GRmphWFJFVFJESkFoallCQ2dLTWdZWlk1WkxLUWc",
+   "date": "09/28/2026, 05:03 AM, +0000 UTC",
+   "iso_date": "2026-09-28T05:03:13Z"
+  },
+  {
+   "position": 57,
+   "title": "L’Oréal BOLD and Nykaa partner to invest in up-and-coming Indian beauty brands",
+   "source": {
+    "name": "Cosmetics Business",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cosmeticsbusiness.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Lynsey Barber"
+    ]
+   },
+   "link": "https://cosmeticsbusiness.com/loreal-bold-nykaa-partner-invest-indian-beauty-brands",
+   "thumbnail": "https://cosmeticsbusiness.com/l-or%C3%A9al-bold-and-nykaa-partner-to.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZlSEJuY2t4Q1JsbFNNVjgzVFJERUF4aW5CU2dLTWdZQldJS2pLZ2M",
+   "date": "09/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-25T07:00:00Z"
+  },
+  {
+   "position": 58,
+   "title": "Nykaa partners with L’Oréal’s BOLD to invest in Indian beauty startups, shares flat",
+   "source": {
+    "name": "BusinessLine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thehindubusinessline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Anupama Ghosh"
+    ]
+   },
+   "link": "https://www.thehindubusinessline.com/markets/stock-markets/nykaa-partners-with-loreals-bold-to-invest-in-indian-beauty-startups-shares-flat/article71507281.ece",
+   "thumbnail": "https://bl-i.thgim.com/public/incoming/2xbw8n/article71507316.ece/alternates/LANDSCAPE_1200/2026-05-05T100643Z_1227459085_RC2M9V9G9E5D_RTRMADP_3_ZEE-NYKAA-INDIA-LAWSUIT.JPG",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWxYMDlPVldsMlNXTndUM1V0VFJDZkF4ampCU2dLTWdhUlVJeTJ2QVU",
+   "date": "09/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-25T07:00:00Z"
+  },
+  {
+   "position": 59,
+   "title": "Rasha Thadani and Rohit Saraf star in Nykaa Cosmetics’ Lovestruck campaign",
+   "source": {
+    "name": "ET BrandEquity",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://brandequity.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://brandequity.economictimes.indiatimes.com/news/research/advertising/rasha-thadani-and-rohit-saraf-star-in-nykaa-cosmetics-lovestruck-campaign/134611579",
+   "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134611579,width-1600,height-900,resizemode-4/.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDFObk5ZVTBweGEwWnNUamxHVFJDZkF4ampCU2dLTWdtbEJKQ05qYXQ3amdF",
+   "date": "10/01/2026, 07:48 AM, +0000 UTC",
+   "iso_date": "2026-10-01T07:48:56Z"
+  },
+  {
+   "position": 60,
+   "title": "Nykaa Fashion offers six-month zero-commission model for apparel brands",
+   "source": {
+    "name": "Business Standard",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Udisha Srivastav"
+    ]
+   },
+   "link": "https://www.business-standard.com/companies/news/nykaa-fashion-offers-six-month-zero-commission-model-for-apparel-brands-126100100970_1.html",
+   "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/01/full/1790856363-8802.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUtPRWh6VFUwNUxYZGxTRVZpVFJDcUJCaXFCQ2dLTWdhTmtaQXZQUVk",
+   "date": "10/01/2026, 12:08 PM, +0000 UTC",
+   "iso_date": "2026-10-01T12:08:17Z"
+  },
+  {
+   "position": 61,
+   "title": "Nykaa Wanderlust brings product storytelling into microdrama with ‘Hotel Wanderlust’ via SW Network",
+   "source": {
+    "name": "marketech apac",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://marketech-apac.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://marketech-apac.com/nykaa-wanderlust-brings-product-storytelling-into-microdrama-with-hotel-wanderlust-via-sw-network/",
+   "thumbnail": "https://marketech-apac.com/wp-content/uploads/2026/09/nykaa-wanderlust-hotel-wanderlust.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUNOMDFmVFhaUFQwTXRVRUkzVFJDUUF4aThCU2dLTWdrQmdJN2l0dVlsTUFF",
+   "date": "09/30/2026, 12:03 PM, +0000 UTC",
+   "iso_date": "2026-09-30T12:03:05Z"
+  },
+  {
+   "position": 62,
+   "title": "Nykaa, L’Oréal’s BOLD back emerging Indian beauty brands in strategic venture deal",
+   "source": {
+    "name": "marketech apac",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://marketech-apac.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://marketech-apac.com/nyka-loreals-bold-back-emerging-indian-beauty-brands-in-strategic-venture-deal/",
+   "thumbnail": "https://marketech-apac.com/wp-content/uploads/2026/10/nykaa-loreal-bold-indian-beauty-investment.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVliRU5HUkVOSWNTMVJNRU4xVFJDUUF4aThCU2dLTWdrTm9wUkh1aVk5emdF",
+   "date": "10/02/2026, 07:49 AM, +0000 UTC",
+   "iso_date": "2026-10-02T07:49:29Z"
+  },
+  {
+   "position": 63,
+   "title": "Rakhi Sawant sneaks into Nykaa’s warehouse in a beauty heist",
+   "source": {
+    "name": "Adgully.com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.adgully.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.adgully.com/post/21552/rakhi-sawant-sneaks-into-nykaas-warehouse-in-a-beauty-heist",
+   "thumbnail": "https://erp.adgully.com/artical_image/1f54a226ad9c4dde8c15eb77b394db89.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1hV1ZPWVhWMVJVMVFXWEJRVFJDZkF4ampCU2dLTWdZaEJJaXJsUVk",
+   "date": "10/01/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-10-01T07:00:00Z"
+  },
+  {
+   "position": 64,
+   "title": "L’Oréal and Nykaa collaborate to fund Indian beauty brands",
+   "source": {
+    "name": "Yahoo Finance",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://finance.yahoo.com/small-business/articles/l-al-nykaa-collaborate-fund-103718523.html",
+   "thumbnail": "https://s.yimg.com/lo/mysterio/api/ef465058daefa2d6c027a129523b3ada74441f57fa453e0171fbc5ea77c0b32b/lightyear_networkapi/resizefit_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fretail_insight_network_724%2F1c5d71e0535a6f08aa2e2a5ee17f29ae.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNWljWEo0YVdwaWNVRlZRM0JwVFJDZkF4ampCU2dLTWdNNVlBdw",
+   "date": "09/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-25T07:00:00Z"
+  },
+  {
+   "position": 65,
+   "title": "Nykaa and L’Oréal Venture Fund to Back Indian Beauty Entrepreneurs",
+   "source": {
+    "name": "Yahoo! Finance Canada",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://ca.finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jennifer N. Weil"
+    ]
+   },
+   "link": "https://ca.finance.yahoo.com/news/nykaa-l-al-venture-fund-180541888.html",
+   "thumbnail": "https://s.yimg.com/lo/mysterio/api/fb7fa055f4ea8069c0285c0aaa309d486336cdf6efda271d6f6b7a4dc9543440/lightyear_networkapi/resizefit_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2F7866ccad64ef8639c9c8b10fa75c7dac.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNU5iR05ZVmpoNExWaExlVEF3VFJDcUJCaXFCQ2dLTWdrQkVJWU1GU3E1VVFF",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 66,
+   "title": "Rasha Thadani, Rohit Saraf bring romance to Nykaa Cosmetics’ new lipstick campaign",
+   "source": {
+    "name": "Indian Television Dot Com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indiantelevision.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://indiantelevision.com/mam/rasha-thadani-rohit-saraf-bring-romance-to-nykaa-cosmetics-new-lipstick-campaign/",
+   "thumbnail": "https://indiantelevision.com/wp-content/uploads/2026/10/rasa-nyaka-400x225.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDVWWE5JU2s4eE5IY3ROMlF0VFJEaEFSaVFBeWdLTWdrRllaYTJvR214Q2dJ",
+   "date": "10/01/2026, 07:40 AM, +0000 UTC",
+   "iso_date": "2026-10-01T07:40:12Z"
+  },
+  {
+   "position": 67,
+   "title": "Nykaa and L’Oréal Venture Fund to Back Indian Beauty Entrepreneurs",
+   "source": {
+    "name": "WWD",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://wwd.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jennifer N. Weil"
+    ]
+   },
+   "link": "https://wwd.com/beauty-industry-news/beauty-features/nykaa-loreal-venture-fund-back-indian-beauty-entrepreneurs-1239260842/",
+   "thumbnail": "https://wwd.com/wp-content/uploads/2019/04/loreal_0088037_ori.jpg?crop=0px%2C358px%2C6660px%2C3726px&resize=1000%2C563",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTFNa2xQZFhOME1rUjRNWGR6VFJDZkF4amlCU2dLTWdhQjBZTHkwQU0",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 68,
+   "title": "Nykaa Fashion Offers Zero Commission for New Hidden Gems Brands",
+   "source": {
+    "name": "SMEStreet",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://smestreet.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://smestreet.in/infocus/nykaa-fashion-offers-zero-commission-for-new-hidden-gems-brands-12616969",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/smstreet/media/media_files/2026/10/02/nykaa-fashion-2026-10-02-16-29-19.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFaM1JwY1hNeFZucFVhR1I2VFJEZ0F4aUFCU2dLTWdhQmNaS2lyZ2M",
+   "date": "10/02/2026, 11:38 AM, +0000 UTC",
+   "iso_date": "2026-10-02T11:38:37Z"
+  },
+  {
+   "position": 69,
+   "title": "India's Nykaa posts higher quarterly profit on strong beauty demand, fashion growth",
+   "source": {
+    "name": "Yahoo Finance Singapore",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://sg.finance.yahoo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://sg.finance.yahoo.com/news/indias-nykaa-posts-higher-quarterly-105146810.html",
+   "thumbnail": "https://s.yimg.com/lo/mysterio/api/b78c83436566f5e666571abddbcf701594c494f82dbf536915dae6562ccf01da/lightyear_networkapi/resizefit_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F5e56a89367d900ab3e7ddf9642cb9c74",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVdXVWhOU1RkM2VWUkhlRzlmVFJEY0F4aUVCU2dLTWdZTk1KU1dNQWM",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  },
+  {
+   "position": 70,
+   "title": "Nykaa, L'Oréal's BOLD to co-invest in homegrown beauty brands",
+   "source": {
+    "name": "BMI",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://bestmediainfo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/nykaa-lor%C3%A9als-bold-to-co-invest-in-homegrown-beauty-brands-12573539",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/bmi/media/media_files/2026/09/25/nykaa-loreal-2026-09-25-09-57-30.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWxVRXBtT1VveWIyTmxha3RTVFJDZkF4ampCU2dLTWdZVnNaSXB3UVk",
+   "date": "09/25/2026, 04:43 AM, +0000 UTC",
+   "iso_date": "2026-09-25T04:43:51Z"
+  },
+  {
+   "position": 71,
+   "title": "Beauty retailer Nykaa partners with L’Oréal’s BOLD to invest in emerging Indian beauty brands",
+   "source": {
+    "name": "Indian Startup News",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://indianstartupnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://indianstartupnews.com/news/beauty-retailer-nykaa-partners-with-lor%C3%A9als-bold-to-invest-in-emerging-indian-beauty-brands-12572255",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/indianstartupnews/media/media_files/2026/06/19/loreal-2026-06-19-10-46-51.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFkWEZuTjI0NFJuWXdWVWhTVFJEZ0F4aUFCU2dLTWdhQkE0S3RpUXM",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 72,
+   "title": "Nykaa adds luxury haircare brand Oribe to India portfolio",
+   "source": {
+    "name": "BMI",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://bestmediainfo.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/nykaa-adds-luxury-haircare-brand-oribe-to-india-portfolio-12567722",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/bmi/media/media_files/2026/09/23/oribe-2026-09-23-15-32-06.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDJkbVJ6YVdSR1NGbFNZek5NVFJDZkF4ampCU2dLTWdZSllKS21xZ2M",
+   "date": "09/23/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-23T07:00:00Z"
+  },
+  {
+   "position": 73,
+   "title": "Anushka Sen enters her beauty chapter as face of Nykaa K-Beauty",
+   "source": {
+    "name": "Adgully.com",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.adgully.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.adgully.com/post/20924/anushka-sen-enters-her-beauty-chapter-as-face-of-nykaa-k-beauty",
+   "thumbnail": "https://erp.adgully.com/artical_image/9c16e7f552cf652c3bd33548adda918e.jpeg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZNMUJTYTBkdmJ6Vk1WRGxtVFJDZkF4ampCU2dLTWdhQlk0eHdLUWc",
+   "date": "09/21/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-21T07:00:00Z"
+  },
+  {
+   "position": 74,
+   "title": "Nykaa Fashion’s turnaround is taking shape, but the hard part lies ahead",
+   "source": {
+    "name": "Livemint",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sowmya Ramasubramanian"
+    ]
+   },
+   "link": "https://www.livemint.com/companies/nykaa-fashion-gmv-growth-profitability-11781421999258.html",
+   "thumbnail": "https://www.livemint.com/lm-img/img/2026/06/14/1600x900/logo/Falguni_Nayar_Web_1781436082901_1781436109325_96121de3-4852-47d7-a5ac-50222f885141_1781438064752_d6d66868-2300-40b6-b7fa-7af9411a4da6.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTVhazlxZFZoRlV6Tk1TRVpMVFJDZkF4ampCU2dLTWdZcEJvVE5pUW8",
+   "date": "06/14/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-06-14T07:00:00Z"
+  },
+  {
+   "position": 75,
+   "title": "Nykaa Plans To Boost GMV 2.5-3 Times And EBITDA 4-5 Times By FY30",
+   "source": {
+    "name": "Sahi",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.sahi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.sahi.com/news/nykaa-plans-to-boost-gmv-2-5-3-times-and-ebitda-4-5-times-by-fy30-5091-PE1_COR",
+   "thumbnail": "https://www.sahi.com/assets/uploads/5091_PE_1_CORPORATE_25_08_2026_16x9_5a5320fe05.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFPRFF6TWxwVmJIbDBWRzAxVFJDb0FSaXRBaWdCTWdZZFU0cHFKUVk",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 76,
+   "title": "How Nykaa is building an owned-media empire",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.storyboard18.com/how-it-works/how-nykaa-is-building-an-owned-media-empire-106505.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/08/SB18-Article-Image-77-2026-08-7c5cbd7a9095fb8cac5ccdece0faef58-1019x573.png?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhkRlEwUkhWMk1VcDVSblpFVFJEOEFoaWpCU2dLTWdZQkU0UlFFUW8",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  },
+  {
+   "position": 77,
+   "title": "Top stocks in focus tomorrow: Investors must watch Sterlite Tech, Nykaa, JSW Cement shares on Fri, 25 Sept | Triggers",
+   "source": {
+    "name": "TradingView",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.tradingview.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.tradingview.com/news/moodys:657e5a10b807a:0-top-stocks-in-focus-tomorrow-investors-must-watch-sterlite-tech-nykaa-jsw-cement-shares-on-fri-25-sept-triggers/",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 78,
+   "title": "Nykaa Q1: Profit jumps over 3.2x YoY to Rs 80 crore, revenue up 29%",
+   "source": {
+    "name": "Moneycontrol.com",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.moneycontrol.com/news/business/earnings/nykaa-q1-profit-jumps-over-3-2x-yoy-to-rs-80-crore-revenue-up-29-13993930.html",
+   "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/07/20260727161515_ee.jpg?impolicy=website&width=1600&height=900",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNTWGxzZFdKSGVWaG9lRkJ0VFJDZkF4ampCU2dLTWdhZGQ1UXFMZ2M",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  },
+  {
+   "position": 79,
+   "title": "Nykaa To Acquire Majority Stake In D2C Skincare Brand Aminu",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Anjali Jain"
+    ]
+   },
+   "link": "https://inc42.com/buzz/nykaa-to-acquire-majority-stake-in-d2c-skincare-brand-aminu/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/11/Nykaa-FTR-1-760x570.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxlREZsYVhWNVRtazFiMVJuVFJEZ0F4aUFCU2dLTWdhQlFaemtHZ28",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  },
+  {
+   "position": 80,
+   "title": "Nykaa brings beauty and fashion to ChatGPT with OpenAI collaboration",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/nykaa-brings-beauty-and-fashion-to-chatgpt-with-openai-collaboration/articleshow/131793016.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-131793005,width-1280,height-720,imgsize-38208,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHdPRUYxUlRScU1XZEJiakJNVFJDZkF4ampCU2dLTWdtQllaSVNzU2VhTEFJ",
+   "date": "06/17/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-06-17T07:00:00Z"
+  },
+  {
+   "position": 81,
+   "title": "Broker’s call: Nykaa (Buy)",
+   "source": {
+    "name": "BusinessLine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.thehindubusinessline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Badri Narayanan"
+    ]
+   },
+   "link": "https://www.thehindubusinessline.com/markets/brokers-call-nykaa-buy/article71389192.ece",
+   "thumbnail": "https://bl-i.thgim.com/public/news/5z3icy/article71389487.ece/alternates/LANDSCAPE_1200/NYKAA.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUpTMHB0YnpsaVVETlBaRTVMVFJDZkF4ampCU2dLTWdhVkFKSzJxQWM",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 82,
+   "title": "Nykaa projects around 30% revenue growth in Q1 FY27",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://entrackr.com/news/nykaa-projects-around-30-revenue-growth-in-q1-fy27-12137572",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2026/05/21/nykaa-2026-05-21-16-56-36.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNYMmhoVEVWU1NITTNNM0pNVFJDZkF4ampCU2dLTWdhbE5aYk5vUWc",
+   "date": "07/06/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-06T07:00:00Z"
+  },
+  {
+   "position": 83,
+   "title": "Nykaa to add more muscle to its house of brands business",
+   "source": {
+    "name": "Fortune India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fortuneindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Ajita Shashidhar"
+    ]
+   },
+   "link": "https://www.fortuneindia.com/business-news/nykaa-to-add-more-muscle-to-its-house-of-brands-business/156532",
+   "thumbnail": "https://media.fortuneindia.com/fortune-india/import/2022-02/7b0d534e-a460-4335-8566-dc5fe3a373ab/Nykaa_copy.jpg?auto=format,compress&format=webp&w=1200&h=675&dpr=1.0&q=90&fit=cover",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNRM0pXY1RWRVgzRmlOM0IzVFJDZkF4ampCU2dLTWdZQkFvTDBoQXc",
+   "date": "08/31/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-31T07:00:00Z"
+  },
+  {
+   "position": 84,
+   "title": "Nykaa Appoints Former Instamart Executive to Lead Quick Commerce Expansion",
+   "source": {
+    "name": "Global Cosmetics News",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.globalcosmeticsnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.globalcosmeticsnews.com/nykaa-appoints-former-instamart-executive-to-lead-quick-commerce-expansion/",
+   "thumbnail": "https://www.globalcosmeticsnews.com/wp-content/uploads/2026/06/Nykaa-Banner-Image-1-1-1-1.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFWVEZTYzFSRk5GRmphWFJFVFJESkFoallCQ2dLTWdZWlk1WkxLUWc",
+   "date": "07/30/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-07-30T07:00:00Z"
+  },
+  {
+   "position": 85,
+   "title": "Nykaa, L'Oreal join hands to invest in emerging Indian beauty brands",
+   "source": {
+    "name": "Business Standard",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Sharleen Dsouza"
+    ]
+   },
+   "link": "https://www.business-standard.com/industry/news/nykaa-l-oreal-join-hands-to-invest-in-emerging-indian-beauty-brands-126092401100_1.html",
+   "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-02/08/full/1770569717-1698.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWpObk5rVDBSWlUxUlpWVlZDVFJDZkF4ampCU2dLTWdtTmNZNElzbVUxU1FJ",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 86,
+   "title": "Inside Nykaa's Inventory Model: Where The Margin Comes From",
+   "source": {
+    "name": "Inc42",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inc42.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Palak Sharma"
+    ]
+   },
+   "link": "https://inc42.com/features/inside-nykaa-inventory-model-where-the-margin-comes-from/",
+   "thumbnail": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/08/ftr-27.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVBWRmsyYld4bWMzcHhMV0kzVFJEZ0F4aUFCU2dLTWdZWms0cXR1UVU",
+   "date": "08/07/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-07T07:00:00Z"
+  },
+  {
+   "position": 87,
+   "title": "Nykaa’s profits jump 3.3X to Rs 80 Cr in Q1 FY27; acquires 51% stake in skin care brand Aminu",
+   "source": {
+    "name": "Entrackr",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://entrackr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://entrackr.com/fintrackr/nykaas-profits-jump-33x-to-rs-80-cr-in-q1-fy27-acquires-51-stake-in-skin-care-brand-aminu-12227393",
+   "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/entrackr/media/media_files/2026/05/21/nykaa-2026-05-21-16-56-36.png",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNYMmhoVEVWU1NITTNNM0pNVFJDZkF4ampCU2dLTWdhbE5aYk5vUWc",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  },
+  {
+   "position": 88,
+   "title": "Nykaa partners with OpenAI to integrate shopping experiences on ChatGPT",
+   "source": {
+    "name": "ET Enterprise AI",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://enterpriseai.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://enterpriseai.economictimes.indiatimes.com/news/industry/nykaa-collaborates-with-openai-to-enhance-ai-driven-shopping-experience-on-chatgpt/131795209",
+   "thumbnail": "https://etimg.etb2bimg.com/photo/131795231.cms",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWZhSHBsT1hwVVpXOUVlVEZEVFJERUF4aW1CU2dLTWdZTlVvenFxQVk",
+   "date": "06/17/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-06-17T07:00:00Z"
+  },
+  {
+   "position": 89,
+   "title": "Nykaa finally fixed fashion, and investors came rushing back. Myntra still sees no reason for panic",
+   "source": {
+    "name": "The Ken",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://the-ken.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Nuha Bubere"
+    ]
+   },
+   "link": "https://the-ken.com/story/nykaa-finally-fixed-fashion-and-investors-came-rushing-back-myntra-still-sees-no-reason-for-panic/",
+   "thumbnail": "https://the-ken.com/wp-content/uploads/2026/08/nykaafashion-1-1024x576.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU9TVVoxZG1sWU4yaGFNemRYVFJDZkF4ampCU2dLTWdhdEZZak9GUW8",
+   "date": "08/25/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-25T07:00:00Z"
+  },
+  {
+   "position": 90,
+   "title": "Nykaa puts consumer questions at the centre of new Awareness Week campaign",
+   "source": {
+    "name": "IMPACT Magazine",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.impactonnet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.impactonnet.com/more-from-impact/nykaa-puts-consumer-questions-at-the-centre-of-new-awareness-week-campaign-16170.html",
+   "thumbnail": "https://storage.googleapis.com/impact-news-photo/news-photo/16170-Nykaaawarenessweek.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUdlbXhEVXpJMVdISmhRMWhvVFJEVUF4aVBCU2dLTWdZQk1JU01yUVk",
+   "date": "08/20/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-20T07:00:00Z"
+  },
+  {
+   "position": 91,
+   "title": "Stocks in Focus Today: Nykaa, Waaree, LTTS & More",
+   "source": {
+    "name": "HDFC Sky",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://hdfcsky.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://hdfcsky.com/news/stocks-to-watch-today-friday-september-25-2026-nykaa-waaree-energies-dr-lal-pathlabs-sterlite-technologies-lt-technology-services",
+   "thumbnail": "https://static.hdfcsky.com/wp-content/uploads/2026/09/stocks_to_watch_today_friday_september_25_2026_-1.webp",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVNhV3BvWVhKMGFXUjVUbkZCVFJDZkF4ampCU2dLTWdrQllJYUNKcWNWdEFB",
+   "date": "09/25/2026, 03:56 AM, +0000 UTC",
+   "iso_date": "2026-09-25T03:56:13Z"
+  },
+  {
+   "position": 92,
+   "title": "Nykaa Q1 Results: Net profit surges over threefold to Rs.80 crore on strong beauty demand",
+   "source": {
+    "name": "TradingView",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.tradingview.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.tradingview.com/news/moodys:49a994a0939a2:0-nykaa-q1-results-net-profit-surges-over-threefold-to-rs-80-crore-on-strong-beauty-demand/",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  },
+  {
+   "position": 93,
+   "title": "Nykaa partners with L'Oréal's BOLD fund to back Indian beauty entrepreneurs",
+   "source": {
+    "name": "CNBC TV18",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnbctv18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Srabastee Biswas"
+    ]
+   },
+   "link": "https://www.cnbctv18.com/business/companies/nykaa-partners-with-loreals-bold-fund-to-back-indian-beauty-entrepreneurs-19997852.htm",
+   "thumbnail": "https://images.cnbctv18.com/uploads/2026/09/artificial-intelligence-15-2026-09-6291c927207be3a0cc0efe2822819cf2.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJZVE5tWW01dllrUXROM0ZPVFJDZkF4ampCU2dLTWdZZGhJcHJNUWM",
+   "date": "09/24/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-09-24T07:00:00Z"
+  },
+  {
+   "position": 94,
+   "title": "Nykaa, L’Oréal venture fund to invest in Indian beauty brands",
+   "source": {
+    "name": "FashionNetwork USA",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://us.fashionnetwork.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Jennifer Braun"
+    ]
+   },
+   "link": "https://us.fashionnetwork.com/news/Nykaa-l-oreal-venture-fund-to-invest-in-indian-beauty-brands,1870478.html",
+   "thumbnail": "https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/f1c6/724b/f579/7b54/91a0/f99a/8718/ad85/6832/8c12/8c12.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUNPRlpaYTFOMlIwRjFPVE5tVFJETEFSajRBU2dCTWdhcEpKS3VtUWM",
+   "date": "09/29/2026, 03:22 AM, +0000 UTC",
+   "iso_date": "2026-09-29T03:22:26Z"
+  },
+  {
+   "position": 95,
+   "title": "Nykaa Fashion Number of Employees 2026 | Employee Count & Headcount Data",
+   "source": {
+    "name": "Revelio Labs",
+    "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.reveliolabs.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.reveliolabs.com/companies/nykaa-fashion/employees",
+   "thumbnail": "https://www.reveliolabs.com/companies/nykaa-fashion/employees/opengraph-image-l01jpo?966eda30c2d7e3df",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRPVUZxZDI5UU5XZG9UelF0VFJDakFSaTJBaWdCTWdZQldvempMZ1U",
+   "date": "07/28/2026, 03:33 AM, +0000 UTC",
+   "iso_date": "2026-07-28T03:33:18Z"
+  },
+  {
+   "position": 96,
+   "title": "Nykaa acquires 51% stake in skincare brand Aminu for ₹32 crore",
+   "source": {
+    "name": "StoryBoard 18",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.storyboard18.com/brand-marketing/nykaa-acquires-51-stake-in-skincare-brand-aminu-for-%E2%82%B932-crore-ws-l-106655.htm",
+   "thumbnail": "https://images.storyboard18.com/storyboard18/2026/08/Visuals-Page-2026-08-04T164915.504-2026-08-d1e12b509e586e7f6291a3bf60abd321-1019x573.jpg?impolicy=website&width=675&height=1200",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWlOMDFEY2xKT1FUZEdaVlJEVFJEOEFoaWpCU2dLTWdrVmc0eXJ5YVZrelFF",
+   "date": "08/05/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-05T07:00:00Z"
+  },
+  {
+   "position": 97,
+   "title": "Nykaa Expands K-Beauty Presence with Experiential Festival in Bengaluru",
+   "source": {
+    "name": "Indian Retailer",
+    "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.indianretailer.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://www.indianretailer.com/news/nykaa-expands-k-beauty-presence-experiential-festival-bengaluru",
+   "thumbnail": "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2026-09/Untitled%20design%20-%202026-09-23T120815.045.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWtORXhKYlU1amFFWklhRGxSVFJDcEF4alNCU2dLTWdZaFZJTE1yUVk",
+   "date": "09/23/2026, 07:04 AM, +0000 UTC",
+   "iso_date": "2026-09-23T07:04:10Z"
+  },
+  {
+   "position": 98,
+   "title": "EXCLUSIVE: India's Nykaa seeks to include Meta in music copyright fight with Zee",
+   "source": {
+    "name": "Reuters",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Aditya Kalra"
+    ]
+   },
+   "link": "https://www.reuters.com/legal/litigation/indias-nykaa-seeks-include-meta-music-copyright-fight-with-zee-2026-05-20/",
+   "thumbnail": "https://www.reuters.com/resizer/v2/OGTYICLS6NPA7EDICWWTQEAQWA.jpg?auth=6235dd2b31920259d7f04dc7079870b247c9e14c25974f27191a18077efd73df&width=1200&quality=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBVM1JxVm5JdFFqSTBMWHBqVFJET0F4aVlCU2dLTWdZWlJJb0xTZ1E",
+   "date": "05/20/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-05-20T07:00:00Z"
+  },
+  {
+   "position": 99,
+   "title": "Beauty Emergency & the Rise of Quick Commerce: Inside Nykaa’s 30-Minute Makeup Rescue Campaign",
+   "source": {
+    "name": "Open Magazine",
+    "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://openthemagazine.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+   },
+   "link": "https://openthemagazine.com/branding-marketing-and-advertising/beauty-emergency-the-rise-of-quick-commerce-inside-nykaas-30-minute-makeup-rescue-campaign",
+   "thumbnail": "https://media.openthemagazine.com/openthemagazine/2026-08-28/zobexngo/PINK.png?w=640&auto=format,compress&q=80",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBTR2hZYm5OT0xVNU1WVlpNVFJEb0FoaUFCU2dLTWdZQk1JYkhtUWc",
+   "date": "08/28/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-28T07:00:00Z"
+  },
+  {
+   "position": 100,
+   "title": "Nykaa to buy 51% stake in Aminu for up to Rs 32 crore",
+   "source": {
+    "name": "The Times of India",
+    "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "authors": [
+     "Supriya Roy"
+    ]
+   },
+   "link": "https://timesofindia.indiatimes.com/city/bengaluru/nykaa-to-buy-51-stake-in-aminu-for-up-to-rs-32-crore/articleshow/132867248.cms",
+   "thumbnail": "https://static.toiimg.com/thumb/msid-132867247,width-1280,height-720,imgsize-18017,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUZNUzFQVmkxMGF6TTRjVzl3VFJDZkF4ampCU2dLTWdhdFZaVE9wUWc",
+   "date": "08/04/2026, 07:00 AM, +0000 UTC",
+   "iso_date": "2026-08-04T07:00:00Z"
+  }
+ ],
+ "menu_links": [
+  {
+   "title": "India",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE"
+  },
+  {
+   "title": "World",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Your local news",
+   "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+  },
+  {
+   "title": "Business",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Technology",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Entertainment",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Sports",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Science",
+   "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+  },
+  {
+   "title": "Health",
+   "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE"
+  }
+ ],
+ "related_topics": [
+  {
+   "topic_token": "CAAqKQgKIiNDQkFTRkFvTEwyMHZNREV4WW5rMGJuUVNCV1Z1TFVkQ0tBQVAB",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKQgKIiNDQkFTRkFvTEwyMHZNREV4WW5rMGJuUVNCV1Z1TFVkQ0tBQVAB",
+   "title": "Nykaa",
+   "thumbnail": "https://lh4.googleusercontent.com/proxy/kBFZ9pZHcB-7R8fn9BjvXTSO7HDCJPK6spJI07mkTZ1AZHVMYjdWZkUHG9jT-Ld--FwrroOMCeIqs0h3hRuT-G_ak4XqLPuoHihR7kOkNTfCtOaHUBm83l6JcNMPCco5J9udeCbCr79a2iskYL9EhVBqYVLsPMdwUvNC28sj-uaHDN0"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+# Demo watchlist. Every identifier must be checked by a person before the demo
+# capture; set verified_by to your name once you have checked that row.
+#
+# trends_queries is a fixed, ordered list. Trends values are relative to the other
+# queries in the same request, so never change it after the first capture.
+# ETERNAL and SWIGGY share one list on purpose: the request is identical, so the
+# second one is served from SerpApi's 1-hour cache at no charge.
+entities:
+  - entity_id: ETERNAL
+    name: Eternal Ltd (Zomato)
+    nse_ticker: "ETERNAL:NSE"
+    domain: zomato.com
+    primary_brand: Zomato
+    trends_queries: [Zomato, Swiggy]
+    primary_trends_query: Zomato
+    play_id: com.application.zomato
+    ads_text: zomato.com
+    ads_region: "2356"          # India, from SerpApi's Ads Transparency region list
+    news_query: Zomato
+    verified_by: null
+
+  - entity_id: SWIGGY
+    name: Swiggy Ltd
+    nse_ticker: "SWIGGY:NSE"
+    domain: swiggy.com
+    primary_brand: Swiggy
+    trends_queries: [Zomato, Swiggy]
+    primary_trends_query: Swiggy
+    play_id: in.swiggy.android
+    ads_text: swiggy.com
+    ads_region: "2356"
+    news_query: Swiggy
+    verified_by: null
+
+  - entity_id: NYKAA
+    name: FSN E-Commerce Ventures (Nykaa)
+    nse_ticker: "NYKAA:NSE"
+    domain: nykaa.com
+    primary_brand: Nykaa
+    trends_queries: [Nykaa, Purplle, Tira Beauty]
+    primary_trends_query: Nykaa
+    play_id: com.fsn.nykaa
+    ads_text: nykaa.com
+    ads_region: "2356"
+    news_query: Nykaa
+    verified_by: null

@@ -1,0 +1,2811 @@
+{
+ "search_metadata": {
+  "id": "6ac9b3b3a89e020c43182a46",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/tatpJYqmLDpFG0hetp0uxsM0-J89k8_aiPNYUDddQNQ/6ac9b3b3a89e020c43182a46.json",
+  "markdown_endpoint": "https://serpapi.com/searches/tatpJYqmLDpFG0hetp0uxsM0-J89k8_aiPNYUDddQNQ/6ac9b3b3a89e020c43182a46.md",
+  "created_at": "2026-10-10 03:40:35 UTC",
+  "processed_at": "2026-10-10 03:40:35 UTC",
+  "google_play_product_url": "https://play.google.com/store/apps/details?id=com.fsn.nykaa&hl=en&gl=in&showAllReviews=true",
+  "raw_html_file": "https://serpapi.com/searches/tatpJYqmLDpFG0hetp0uxsM0-J89k8_aiPNYUDddQNQ/6ac9b3b3a89e020c43182a46.html",
+  "prettify_html_file": "https://serpapi.com/searches/tatpJYqmLDpFG0hetp0uxsM0-J89k8_aiPNYUDddQNQ/6ac9b3b3a89e020c43182a46.prettify",
+  "total_time_taken": 5.71
+ },
+ "search_parameters": {
+  "engine": "google_play_product",
+  "product_id": "com.fsn.nykaa",
+  "hl": "en",
+  "gl": "in",
+  "store": "apps",
+  "all_reviews": "true",
+  "platform": "phone",
+  "sort_by": "2",
+  "num": "199"
+ },
+ "reviews": [
+  {
+   "id": "9b4d445381ff40dc",
+   "rating": 5.0,
+   "snippet": "my favourite",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:33:17Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Dipannita Nath, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T03:38:52Z"
+   }
+  },
+  {
+   "id": "0fb5b12a38ab178e",
+   "rating": 5.0,
+   "snippet": "ok",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:19:10Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Parvati! Thank you for the feedback!✨",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:17:43Z"
+   }
+  },
+  {
+   "id": "3c43405aeb85c556",
+   "rating": 5.0,
+   "snippet": "good app",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:06:48Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Raja Kumar, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T03:12:44Z"
+   }
+  },
+  {
+   "id": "88c5802604ab12df",
+   "rating": 3.0,
+   "snippet": "very bad experience they did not refunded mony fast it takes 10 to 15 days",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:44:05Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Farzana Banu, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T02:49:05Z"
+   }
+  },
+  {
+   "id": "7e851716f3ec84d5",
+   "rating": 1.0,
+   "snippet": "no good offers",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:43:38Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Sweety! Apologies for the inconvenience! We hope you understand that our offers may be time sensitive and will change frequently.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:18:32Z"
+   }
+  },
+  {
+   "id": "4b82401212a3c752",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:15:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey shilpa naik, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T02:22:24Z"
+   }
+  },
+  {
+   "id": "d864a48504505a84",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T23:57:44Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Vyga Vyga, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T00:03:34Z"
+   }
+  },
+  {
+   "id": "8db8b5e57fa840b1",
+   "rating": 5.0,
+   "snippet": "good 😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T22:53:09Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Jyoti Kannaujiya, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T22:59:52Z"
+   }
+  },
+  {
+   "id": "702358a4ebac169c",
+   "rating": 3.0,
+   "snippet": "okay",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:53:57Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Wadood! Thank you for the feedback!✨",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:19:53Z"
+   }
+  },
+  {
+   "id": "edd81641131ff097",
+   "rating": 5.0,
+   "snippet": "fast delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:25:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Ankita! Thank you for the feedback!✨",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:20:22Z"
+   }
+  },
+  {
+   "id": "2b44afb97c4b63ab",
+   "rating": 3.0,
+   "snippet": "good app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:23:30Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Jigisha! Thank you for the feedback!✨",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:20:55Z"
+   }
+  },
+  {
+   "id": "41b6b785dffec2ff",
+   "rating": 4.0,
+   "snippet": "I always ordered from Nykaa",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:06:23Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Farmin! Thank you for the feedback!✨",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:21:38Z"
+   }
+  },
+  {
+   "id": "95c08a0fe2bd1fda",
+   "rating": 5.0,
+   "snippet": "satisfying 😄",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:52:16Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Ishika! Thank you for the feedback!✨",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:22:11Z"
+   }
+  },
+  {
+   "id": "44a4f19f74dfbc06",
+   "rating": 5.0,
+   "snippet": "wonder ful",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:31:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Shad! Thank you for the feedback!✨",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:23:05Z"
+   }
+  },
+  {
+   "id": "2fe3c6f40a1a6d1b",
+   "rating": 1.0,
+   "snippet": "no discount on first order",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:27:28Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Probir, for any concerns, do reach out to us via email at support@nykaa.com and we shall help you with it.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:23:31Z"
+   }
+  },
+  {
+   "id": "46e4046613f982ff",
+   "rating": 5.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:26:20Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Raya Singha roy, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:31:45Z"
+   }
+  },
+  {
+   "id": "0ea331ed75807a47",
+   "rating": 5.0,
+   "snippet": "Nice delivered with nice product 👌",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:24:47Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Aman Chautala, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:31:42Z"
+   }
+  },
+  {
+   "id": "1f16176734231749",
+   "rating": 1.0,
+   "snippet": "Disappointing experience with Nykaa They keep missing the promised delivery dates, and this seems to happen every time I place an order. If you cannot deliver on the committed date, why provide an est",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:05:43Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Prasen Rokaday, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:11:41Z"
+   }
+  },
+  {
+   "id": "14d873935b7452c4",
+   "rating": 4.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:03:47Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Manvi Mishra, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:08:48Z"
+   }
+  },
+  {
+   "id": "22b592e81c6a9814",
+   "rating": 5.0,
+   "snippet": "nice 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:55:26Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Neha Waghmare, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:02:45Z"
+   }
+  },
+  {
+   "id": "11b241fd4dbd0cfb",
+   "rating": 4.0,
+   "snippet": "Nykaa is very good shop selling",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:49:05Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Sarika Paswan, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:56:41Z"
+   }
+  },
+  {
+   "id": "818f6ba2cbb1c40b",
+   "rating": 1.0,
+   "snippet": "Thank you so much nykaa accha product dene k lia .hamesa aeise hi orginal product dete rehe na 🥰🥰😍👌👌",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:43:50Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate you taking the time to provide your invaluable feedback!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:24:24Z"
+   }
+  },
+  {
+   "id": "dce53e10ff893b73",
+   "rating": 5.0,
+   "snippet": "thank you",
+   "likes": 1,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:43:08Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your incredible star ratings!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:23:36Z"
+   }
+  },
+  {
+   "id": "c1971361bc5d4dee",
+   "rating": 5.0,
+   "snippet": "very nice product I like it nykaa",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:42:57Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Geetanjali Sahoo, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:47:37Z"
+   }
+  },
+  {
+   "id": "afbe46acee9bb296",
+   "rating": 1.0,
+   "snippet": "friends please don't use nykaa I order cerave moisture, foxtale serum and sunscreen but I got wrong product which are expired I tried to return it but my return request is rejected. nykaa is most wors",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:44:06Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we truly regret to hear this! Kindly write to us at support@nykaa.com with your issue so that we can get this addressed for you.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:23:17Z"
+   }
+  },
+  {
+   "id": "4e870567ab77057b",
+   "rating": 5.0,
+   "snippet": "I like 💕",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:39:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we greatly appreciate your wonderful feedback!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:22:39Z"
+   }
+  },
+  {
+   "id": "8e593fd42b145b8f",
+   "rating": 4.0,
+   "snippet": "it's really gud product",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:14:19Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you so much for the lovely feedback!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:22:00Z"
+   }
+  },
+  {
+   "id": "39efd84bc771f482",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:11:36Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey ANAKAPALLI BHARGAVI, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:17:08Z"
+   }
+  },
+  {
+   "id": "cda5eb66f210758b",
+   "rating": 1.0,
+   "snippet": "pathetic service, the delivery agent will be told we are not able to deliver and cancel the order and customer support also not ready to help ,they only take feedback",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:40:04Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi juhi Ranjana! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:46:47Z"
+   }
+  },
+  {
+   "id": "1e84906b21a6076c",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:35:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey POOJA HALPATI, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:40:42Z"
+   }
+  },
+  {
+   "id": "ea8a86d4c0cfdff2",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:35:16Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Siku Dutta, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:40:39Z"
+   }
+  },
+  {
+   "id": "88e5c1a9c3de68f7",
+   "rating": 5.0,
+   "snippet": "good service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:33:25Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Tamal Paul, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:40:36Z"
+   }
+  },
+  {
+   "id": "70bdaa0cbce58374",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:30:00Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Yalamanchili Swathi, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:37:33Z"
+   }
+  },
+  {
+   "id": "2e0695407b7fb25b",
+   "rating": 5.0,
+   "snippet": "good👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:25:23Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you so much for your amazing feedback!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:21:41Z"
+   }
+  },
+  {
+   "id": "dfc3abc5ed739768",
+   "rating": 1.0,
+   "snippet": "Worst app for delivery of products. Delayed my delivery for 3 days , then said the customer is non contactable when the delivery person didn't contact me at all. please don't install this app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:45:22Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Koyel Biswas, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:52:03Z"
+   }
+  },
+  {
+   "id": "bdcded074f806003",
+   "rating": 3.0,
+   "snippet": "👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:35:35Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! We appreciate the wonderful star rating.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:21:19Z"
+   }
+  },
+  {
+   "id": "7a0936b642855129",
+   "rating": 5.0,
+   "snippet": "Good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:27:36Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey DIVINE MANTRAS 777, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:32:51Z"
+   }
+  },
+  {
+   "id": "b1ad110ae26339a1",
+   "rating": 5.0,
+   "snippet": "original product deta hai nice apps",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:20:56Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Jyoti Kumari, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:26:48Z"
+   }
+  },
+  {
+   "id": "78933897a8c7c7b9",
+   "rating": 1.0,
+   "snippet": "Very disappointed with the whole team of nykaa not bad it's too worst service. I just want to return my product which I received different shade from What I ordered and reason they mentioned that both",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:16:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Arti, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:23:43Z"
+   }
+  },
+  {
+   "id": "7b705c7da392e887",
+   "rating": 4.0,
+   "snippet": "Really happy with this app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:14:12Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you so much for your amazing feedback!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:20:41Z"
+   }
+  },
+  {
+   "id": "25cd84d90c7ac053",
+   "rating": 4.0,
+   "snippet": "first Oder",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:13:45Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing stars!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:20:15Z"
+   }
+  },
+  {
+   "id": "12f237dad53dd3a7",
+   "rating": 5.0,
+   "snippet": "bakwas",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:09:14Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we're sincerely sorry to hear this! Please write us at support@nykaa.com with your issue so that we may address it for you.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:19:57Z"
+   }
+  },
+  {
+   "id": "bb52747d995a2134",
+   "rating": 5.0,
+   "snippet": "khaspargha",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:06:50Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! We are grateful for your amazing star rating!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:19:23Z"
+   }
+  },
+  {
+   "id": "532ab14b1ef8cfa0",
+   "rating": 4.0,
+   "snippet": "nykaa ne kabhi disappoint nhi kiya sab make up product easily mil jata hai aur original bhi thank you nykaa ♥️",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:52:57Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, we hope you loved shopping with us! 💞🤩",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:00:06Z"
+   }
+  },
+  {
+   "id": "5e6a0f95bd3fc66c",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:28:18Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Astha Pandey, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:33:36Z"
+   }
+  },
+  {
+   "id": "3bd2abf292cb6c06",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:28:15Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey jaspal jassa, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:33:34Z"
+   }
+  },
+  {
+   "id": "fd503512cc728e06",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:06:38Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Sujita Ganju, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:15:19Z"
+   }
+  },
+  {
+   "id": "6bff0182bf9afaf2",
+   "rating": 2.0,
+   "snippet": "this app is really nice.. but now the problem is most of the Korean products remain out of stock for months and months such as numbuzin toner pads , house of hur sunscreens ... even if they show the s",
+   "likes": 6,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:52:26Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we're sincerely sorry to hear this! Please write us at support@nykaa.com with your issue so that we may address it for you.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:18:45Z"
+   }
+  },
+  {
+   "id": "a4997247a7d0c943",
+   "rating": 5.0,
+   "snippet": "mast",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:51:38Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:53:40Z"
+   }
+  },
+  {
+   "id": "3863c9df6f2959c9",
+   "rating": 4.0,
+   "snippet": "give more good and well product and offers",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:43:17Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:48:23Z"
+   }
+  },
+  {
+   "id": "6370b1fb68994110",
+   "rating": 5.0,
+   "snippet": "🫶🏻😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:43:05Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:43:56Z"
+   }
+  },
+  {
+   "id": "d31df50675d07f85",
+   "rating": 1.0,
+   "snippet": "Very bad company, they don't return the item",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:25:25Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we would not want any of our customers to feel this way. We'd like to know what went wrong and help you with it. Can you please mail us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:29:05Z"
+   }
+  },
+  {
+   "id": "fc6a79fe489b1454",
+   "rating": 5.0,
+   "snippet": "amazing",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:16:53Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, hope you had a great time shopping with us. 💕✨",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:19:42Z"
+   }
+  },
+  {
+   "id": "9698a7175994fcec",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:14:00Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:15:55Z"
+   }
+  },
+  {
+   "id": "2f5df0ae01166901",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T13:07:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Somashree Naskar, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:13:50Z"
+   }
+  },
+  {
+   "id": "a85eefbb23c0723f",
+   "rating": 1.0,
+   "snippet": "worst experience. Always shows 2 hour delivery before placing order and once you place order delivery time will automatically change for 2 hour to the next day. & then they again change the delivery t",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T12:51:01Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi SONY PAL, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T12:56:34Z"
+   }
+  },
+  {
+   "id": "08b69b824ff2e5b4",
+   "rating": 5.0,
+   "snippet": "thank you naykaa",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T12:48:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T13:21:27Z"
+   }
+  },
+  {
+   "id": "9c229c1b22e1017d",
+   "rating": 1.0,
+   "snippet": "“You guys are nothing but frauds. You’re just fooling your customers.”",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T12:48:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we truly regret to hear this! Kindly write to us at support@nykaa.com with your issue so that we can get this addressed for you.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T04:18:11Z"
+   }
+  },
+  {
+   "id": "6c0926f58191e9ae",
+   "rating": 4.0,
+   "snippet": "very good product",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T12:24:07Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T12:26:24Z"
+   }
+  },
+  {
+   "id": "1185dc789f31e5f9",
+   "rating": 1.0,
+   "snippet": "ordered from nykaa section but went through as nykaa now. no option to cancel the order as soon as it is placed. no live location tracking of the delivery guy, he was lost",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T11:43:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T11:52:35Z"
+   }
+  },
+  {
+   "id": "78464ad6c01b7bfa",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T11:05:28Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Shalini Manjunath, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T11:12:10Z"
+   }
+  },
+  {
+   "id": "f58944e2d43f36d7",
+   "rating": 4.0,
+   "snippet": "its the best app for makeup and skincare products best to use they tell whats your face actually need with best rating and bestsellers product so u dont have to be cofuse what u will buy must app ✨💕💕💕",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:54:53Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Noor Ayesha, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T11:00:05Z"
+   }
+  },
+  {
+   "id": "508f44e364a02cf0",
+   "rating": 1.0,
+   "snippet": "ghatiya app koi facility nhi h",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:53:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T11:00:29Z"
+   }
+  },
+  {
+   "id": "b32e80279a225e84",
+   "rating": 1.0,
+   "snippet": "nykaa is a scam they don't add the correct discount they reduce the discount in total basically is the total discount is 240 rupees, only 115 is applied in the discount final detail",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:49:29Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T11:00:49Z"
+   }
+  },
+  {
+   "id": "1d6bd57727135466",
+   "rating": 5.0,
+   "snippet": "bohat acha brand hai nykaa",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:47:53Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! Thank you for showing your love. Keep exploring!!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T10:51:31Z"
+   }
+  },
+  {
+   "id": "a38bab3a223c951d",
+   "rating": 5.0,
+   "snippet": "👍😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:46:11Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! Thank you for showing your love. Keep exploring!!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T10:52:03Z"
+   }
+  },
+  {
+   "id": "3c983e7e1b5668c2",
+   "rating": 1.0,
+   "snippet": "my refund complaint is due",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:38:32Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey sunny karan, we regret to hear this, we'd like to know what went wrong and help you with it. We request you to email us at support@nykaa.com with your order details so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T10:44:48Z"
+   }
+  },
+  {
+   "id": "89d77c13eb0d525b",
+   "rating": 5.0,
+   "snippet": "very good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:36:54Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Priya Thakur, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T10:41:52Z"
+   }
+  },
+  {
+   "id": "e26307d42240a4f2",
+   "rating": 5.0,
+   "snippet": "best sellers",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:22:27Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T10:25:37Z"
+   }
+  },
+  {
+   "id": "f88bb10bd11fa2ae",
+   "rating": 5.0,
+   "snippet": "i ..love nykka",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:20:33Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T10:26:03Z"
+   }
+  },
+  {
+   "id": "d9b6afa8b4032463",
+   "rating": 5.0,
+   "snippet": "Good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T10:11:05Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T10:13:20Z"
+   }
+  },
+  {
+   "id": "3beaedec9d4656fd",
+   "rating": 5.0,
+   "snippet": "Good Brand 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T09:34:43Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Dipika Barua, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T09:42:46Z"
+   }
+  },
+  {
+   "id": "580514b76ef22a84",
+   "rating": 5.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T09:32:36Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi anuradha aute, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T09:38:59Z"
+   }
+  },
+  {
+   "id": "ea26af31eebeed96",
+   "rating": 1.0,
+   "snippet": "jo mangaya aaya nhi",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T09:24:36Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T11:01:11Z"
+   }
+  },
+  {
+   "id": "41462bd4ae093b35",
+   "rating": 1.0,
+   "snippet": "Bad service are available,product delivery is aslo delay, plz think carefully before placing order 👎",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T09:24:15Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Molina Khatun! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T09:32:24Z"
+   }
+  },
+  {
+   "id": "9ef0df4660da414b",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T09:00:55Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Sona Verma, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T09:07:04Z"
+   }
+  },
+  {
+   "id": "a5dc1800efcc3e04",
+   "rating": 1.0,
+   "snippet": "I will just give bad rating on this app beause always delivery issues I have faced many times so I totally frustrated 🥴",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:59:14Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Geethanjali M, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T09:06:53Z"
+   }
+  },
+  {
+   "id": "9b240a560fa4685f",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:52:42Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:57:17Z"
+   }
+  },
+  {
+   "id": "36e45d093179bc1f",
+   "rating": 5.0,
+   "snippet": "nice nykaa",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:51:12Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:57:34Z"
+   }
+  },
+  {
+   "id": "65cd95be0fbbc31f",
+   "rating": 5.0,
+   "snippet": "to good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:45:54Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Sumana Pal, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:32:21Z"
+   }
+  },
+  {
+   "id": "6a693d6babfb4a1d",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:36:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Payal Dhiman, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:42:56Z"
+   }
+  },
+  {
+   "id": "c840af3a7757303b",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience. I ordered products advertised with 30-minute delivery, but they were not delivered yesterday as promised. Today, support says the delivery partner couldn’t reach me and ",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:26:59Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:59:34Z"
+   }
+  },
+  {
+   "id": "8cb7d11c830c39de",
+   "rating": 4.0,
+   "snippet": "first time experience",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:20:11Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:24:02Z"
+   }
+  },
+  {
+   "id": "39f3d07996efca7d",
+   "rating": 3.0,
+   "snippet": "let see",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:16:38Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the rating!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:58:48Z"
+   }
+  },
+  {
+   "id": "ad11dc3b4b65a28f",
+   "rating": 5.0,
+   "snippet": "good product",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:05:26Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Pooja Sharma, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:11:14Z"
+   }
+  },
+  {
+   "id": "48fdfa94ae458f51",
+   "rating": 4.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:04:14Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Subhrajyoti Routray, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:11:10Z"
+   }
+  },
+  {
+   "id": "6b3197f77b707dab",
+   "rating": 5.0,
+   "snippet": "nice app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T08:00:54Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Mamta Tripathi, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:05:02Z"
+   }
+  },
+  {
+   "id": "82a3c29849d5604c",
+   "rating": 5.0,
+   "snippet": "very good product and pretty",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T07:54:17Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Vandana Yadav, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:02:00Z"
+   }
+  },
+  {
+   "id": "25e9e3a1ec0e6b70",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T07:43:32Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T08:20:08Z"
+   }
+  },
+  {
+   "id": "38dfd02b36d6bc80",
+   "rating": 5.0,
+   "snippet": "Good product super offers & free bag gift from nyka ❤️ i really love the nyka",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T07:30:08Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback! Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T07:34:38Z"
+   }
+  },
+  {
+   "id": "2befc67f386ee8d8",
+   "rating": 5.0,
+   "snippet": "so many offers 😁",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T07:05:45Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T07:13:18Z"
+   }
+  },
+  {
+   "id": "3dc04065f1fc6d37",
+   "rating": 5.0,
+   "snippet": "👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T07:03:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T07:13:44Z"
+   }
+  },
+  {
+   "id": "2e8b16e64dfcffce",
+   "rating": 5.0,
+   "snippet": "nice app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T06:52:03Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Harikrishna G, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:57:20Z"
+   }
+  },
+  {
+   "id": "d4d30804347611f0",
+   "rating": 5.0,
+   "snippet": "Mera Nykaa ke sath good experience hain iss app ka products Sach me acha hai koi v fake products nehi vej te hai ye brand Sach me acha product or acha packaging me ate hai",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T06:48:29Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:50:32Z"
+   }
+  },
+  {
+   "id": "713cb4866d4320e9",
+   "rating": 5.0,
+   "snippet": "nice app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T06:41:38Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Tushar Lingudkar, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:47:50Z"
+   }
+  },
+  {
+   "id": "d9c79dc36c49db2d",
+   "rating": 1.0,
+   "snippet": "pathetic delivery service I've ordered makeup for my main day and these people keep on delaying it even after contacting support no solution",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T06:29:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey suraiyya khan, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:39:23Z"
+   }
+  },
+  {
+   "id": "6a82c0de3cedbd2d",
+   "rating": 1.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T06:17:18Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:48:03Z"
+   }
+  },
+  {
+   "id": "9d016d818c09e9aa",
+   "rating": 4.0,
+   "snippet": "it is a useful application for cosmetic products to purchase",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T06:13:05Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:20:39Z"
+   }
+  },
+  {
+   "id": "89fcc2b3beba5a5f",
+   "rating": 5.0,
+   "snippet": "good app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T06:10:25Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Bhargav, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:17:54Z"
+   }
+  },
+  {
+   "id": "b8a1545e6d088dd1",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T05:38:33Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T05:40:01Z"
+   }
+  },
+  {
+   "id": "4fc5742a746dcd72",
+   "rating": 5.0,
+   "snippet": "so nice very good 💯",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T05:37:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T05:40:24Z"
+   }
+  },
+  {
+   "id": "33a9dc70cd19a6f5",
+   "rating": 1.0,
+   "snippet": "If the customer is not satisfied, it is your responsibility to assist promptly. However, the assistance provided so far is not concerning the actual issue I raised. I want to return or replace the ord",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T05:36:16Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T06:48:30Z"
+   }
+  },
+  {
+   "id": "21e4c4d490ea83b8",
+   "rating": 5.0,
+   "snippet": "authentic app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T05:33:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T05:35:39Z"
+   }
+  },
+  {
+   "id": "68944b0c017f0f16",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T05:31:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T05:32:18Z"
+   }
+  },
+  {
+   "id": "3a86b20d5600869c",
+   "rating": 4.0,
+   "snippet": "give me more discounts so I can buy moreee",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T04:57:53Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey! Our offers change to bring you a variety of deals. Visit Nykaa.com to check the discounts we are currently hosting.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T05:00:53Z"
+   }
+  },
+  {
+   "id": "dd47639138e7b44a",
+   "rating": 1.0,
+   "snippet": "so so",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T04:54:31Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to see this rating. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:58:03Z"
+   }
+  },
+  {
+   "id": "5a8936d3649dd4ce",
+   "rating": 5.0,
+   "snippet": "nykaa always are good genuine items and original product provided👍♥️",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T04:39:14Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Nivedita Mitra, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:45:06Z"
+   }
+  },
+  {
+   "id": "3ed5bbac11208872",
+   "rating": 3.0,
+   "snippet": "please provide delivery 3-4 days",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T04:25:03Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:55:54Z"
+   }
+  },
+  {
+   "id": "ffae751a3261e6c3",
+   "rating": 5.0,
+   "snippet": "really like the offers",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T04:22:58Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the rating!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:56:41Z"
+   }
+  },
+  {
+   "id": "45ebcb6317391bda",
+   "rating": 5.0,
+   "snippet": "too good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T04:22:56Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Archana Rai, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:29:10Z"
+   }
+  },
+  {
+   "id": "14c174bf3ebd832d",
+   "rating": 3.0,
+   "snippet": "God products",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T04:20:04Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:57:08Z"
+   }
+  },
+  {
+   "id": "816457a2240416f7",
+   "rating": 1.0,
+   "snippet": "Fraud app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T03:37:18Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Saurab rock FF, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T03:44:02Z"
+   }
+  },
+  {
+   "id": "32217c84bcc61596",
+   "rating": 4.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T03:36:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! Thank you for showing your love. Keep exploring!! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:16:00Z"
+   }
+  },
+  {
+   "id": "2786c1887ea397cd",
+   "rating": 1.0,
+   "snippet": "worst app , shows discount on home page and cant avail it on any product, also there is no way to reach for any query or complain . I had ordered product since 10 days and still it isn't out for deliv",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T03:34:48Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Harshil, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T03:43:58Z"
+   }
+  },
+  {
+   "id": "140da1ab646cb8fc",
+   "rating": 1.0,
+   "snippet": "An untrustworthy app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T02:44:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, this is not how we would like you to feel about us. We request you email us at support@nykaa.com with your order details so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:16:36Z"
+   }
+  },
+  {
+   "id": "18c4ed1007a48091",
+   "rating": 4.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T01:36:08Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Kaushal Kannaujiya, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T01:43:30Z"
+   }
+  },
+  {
+   "id": "34a00e250e783f2a",
+   "rating": 1.0,
+   "snippet": "review",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T00:33:13Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, this is not how we would like you to feel about us. We request you email us at support@nykaa.com with your order details so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:17:13Z"
+   }
+  },
+  {
+   "id": "d7a356ba67d4799c",
+   "rating": 5.0,
+   "snippet": "bahut aacha products milta hai bhorsa hai is aap pe wow🤗",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T00:01:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! Thank you for showing your love. Keep exploring!! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:17:31Z"
+   }
+  },
+  {
+   "id": "5ff039af4cec4c14",
+   "rating": 5.0,
+   "snippet": "Nice 👍🏻",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T23:58:42Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Ruma Sarkar, thank you for taking the time to rate us!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T00:04:51Z"
+   }
+  },
+  {
+   "id": "6d0dfb5b434ac818",
+   "rating": 5.0,
+   "snippet": "best product",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T23:37:41Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Pankaj Kumar, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T23:42:50Z"
+   }
+  },
+  {
+   "id": "018cae24898e9ff1",
+   "rating": 5.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T21:55:55Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Nandita Saha, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T22:01:46Z"
+   }
+  },
+  {
+   "id": "3cdb21276642d954",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T21:53:42Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi m vikamani, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T21:58:43Z"
+   }
+  },
+  {
+   "id": "407235cc52dfc901",
+   "rating": 5.0,
+   "snippet": "I love you nykaa",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T20:24:59Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Rizwana Rizwana, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T20:30:27Z"
+   }
+  },
+  {
+   "id": "4f532f8701ccf742",
+   "rating": 3.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T20:22:20Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! Thank you for showing your love. Keep exploring!! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:17:53Z"
+   }
+  },
+  {
+   "id": "986a7144322ae01c",
+   "rating": 1.0,
+   "snippet": "worst app ever i got a different shade of the product and they didn't return it",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T19:13:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Negi, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T19:20:26Z"
+   }
+  },
+  {
+   "id": "937dd93c096de885",
+   "rating": 5.0,
+   "snippet": "superb shopping experience ever with naykaa",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T19:12:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! Thank you for showing your love. Keep exploring!! 💖",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:18:08Z"
+   }
+  },
+  {
+   "id": "0d72ce9d3c057b9f",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T18:57:23Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Rahul Shaw, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T19:02:07Z"
+   }
+  },
+  {
+   "id": "79e314e3b4f06bab",
+   "rating": 1.0,
+   "snippet": "the grievance redressal is very very poor",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T18:53:36Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey yogita, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T18:58:44Z"
+   }
+  },
+  {
+   "id": "2afabbe36a98038c",
+   "rating": 4.0,
+   "snippet": "very good 👍",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T18:25:56Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Bristi Pal, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T18:30:26Z"
+   }
+  },
+  {
+   "id": "3807ad40139b64d1",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T18:04:42Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Arpita Roy, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T18:11:40Z"
+   }
+  },
+  {
+   "id": "c904395446df6e74",
+   "rating": 1.0,
+   "snippet": "They have the most useless customer service known to mankind. you order something and the day it should arrive, it's shows ' the reciever didn't pick up the call, the order failed ' when literally no ",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T18:04:09Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Beena George, we regret to hear this, we'd like to know what went wrong and help you with it. We request you to email us at support@nykaa.com with your order details so that we can have this addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T18:11:10Z"
+   }
+  },
+  {
+   "id": "37040206a96e6e09",
+   "rating": 5.0,
+   "snippet": "amazing app",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T18:01:25Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Suchandra Biswas, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T18:08:37Z"
+   }
+  },
+  {
+   "id": "fc4063238a76b07e",
+   "rating": 4.0,
+   "snippet": "awesome",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T18:00:54Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Naveen Kumar, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T18:05:33Z"
+   }
+  },
+  {
+   "id": "018f192aac97adf1",
+   "rating": 5.0,
+   "snippet": "nyka product is best",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T17:55:30Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Drashti Rawal, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T18:01:43Z"
+   }
+  },
+  {
+   "id": "dd12e6ae8c11d2d5",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T17:49:21Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey MAANAT GORAIN, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T17:57:26Z"
+   }
+  },
+  {
+   "id": "37f5743707c8a98b",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T17:43:11Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Shyamali Manna, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T17:49:43Z"
+   }
+  },
+  {
+   "id": "a47ee022992fa826",
+   "rating": 5.0,
+   "snippet": "nice 👍",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T17:06:08Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Arnav Gupta, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T17:14:02Z"
+   }
+  },
+  {
+   "id": "3a5c50e8235b0b6a",
+   "rating": 4.0,
+   "snippet": "wow 😳",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T17:04:50Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey VARDHAN VARDHAN, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T17:10:59Z"
+   }
+  },
+  {
+   "id": "0ae9b5b33d0b46a1",
+   "rating": 5.0,
+   "snippet": "waw",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:58:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback! Keep exploring!💕",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:18:46Z"
+   }
+  },
+  {
+   "id": "628f4c6c81348bac",
+   "rating": 2.0,
+   "snippet": "nice apps",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:56:53Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback! Keep exploring!💕",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:19:06Z"
+   }
+  },
+  {
+   "id": "cc4c37ee52b3d542",
+   "rating": 2.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:46:54Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback! Keep exploring!💕",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:19:27Z"
+   }
+  },
+  {
+   "id": "29417db2c2404d74",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:30:29Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi jaysukh balar, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T16:37:47Z"
+   }
+  },
+  {
+   "id": "7d60009f5a1fffee",
+   "rating": 5.0,
+   "snippet": "nykaa is the bestt app for online shopping",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:29:20Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi! Thank you for the feedback!✨",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:18:02Z"
+   }
+  },
+  {
+   "id": "3a91a02d91864c87",
+   "rating": 1.0,
+   "snippet": "delivery boy of shadow fax give me 4 missed call . when I call back him 17 time. he switched off his phone. my house is in road side area . he missed call me 4-17 pm this time I am just in front of my",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:15:48Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Dipak, we are sorry for your experience, would request you to email us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:17:13Z"
+   }
+  },
+  {
+   "id": "d931f66df30791df",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:15:27Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Yanu Salvi, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T16:21:06Z"
+   }
+  },
+  {
+   "id": "8b215fa3ec767388",
+   "rating": 1.0,
+   "snippet": "bahot hi karb anubhav che product no product na gamti hoy toy ketli var request kari toy return ni leta hu to koi day ama thi ni magvu ne bija ne bi kahish na magve return ni leta aa loko 😡😡😡😡😡😡😡😡😡😡😡😡",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:08:06Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Shital, we are sorry for your experience, would request you to email us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:16:41Z"
+   }
+  },
+  {
+   "id": "5921a4adc04a45f9",
+   "rating": 4.0,
+   "snippet": "superb",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T16:03:00Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Dinesh! Thank you for the feedback!✨",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:16:06Z"
+   }
+  },
+  {
+   "id": "4c6efab3032d8ce9",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:55:25Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Kulbir Heir, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T16:02:44Z"
+   }
+  },
+  {
+   "id": "c7307e68649e2a98",
+   "rating": 1.0,
+   "snippet": "very disappointed with nykaa delivery..it offers 30minutes delivery but in reality it takes more than 7days to deliver single product..poor service.poor communication..",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:45:42Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Chandrima Munshi! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T15:52:27Z"
+   }
+  },
+  {
+   "id": "f478ef7ea019ecd7",
+   "rating": 1.0,
+   "snippet": "1. The payment option will not visible without selecting edit option to the address already available in app or required to add new address. 2. Today, I am not getting which items are added in cart. o",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:41:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Ashish, we are sorry for your experience, would request you to email us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:15:37Z"
+   }
+  },
+  {
+   "id": "33a3d41712986b9a",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:39:10Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Vijay, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T15:46:23Z"
+   }
+  },
+  {
+   "id": "9297371ebfba73ba",
+   "rating": 1.0,
+   "snippet": "Most worst shopping app ever. i ordered a blush and it delivered dry, with bad quality. i tried to return it many times but, i faced a lot of problems, Then i used help center but they didn't even acc",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:20:28Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Sapna Das! We are sorry to hear about this. Please highlight this concern to us at support@nykaa.com, so the team can assist you with this.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T15:27:04Z"
+   }
+  },
+  {
+   "id": "c15b7e8d31802c58",
+   "rating": 1.0,
+   "snippet": "very bad experience. In every order delivery date extended continuously. slow delivery, irresponsible .",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:07:27Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi APABRITA SARKAR, we request you to please email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T15:15:26Z"
+   }
+  },
+  {
+   "id": "8a9b702950370883",
+   "rating": 4.0,
+   "snippet": "It's amazing and I am order gonna more of make up too.",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:06:11Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Vishakha Naidu, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T15:15:26Z"
+   }
+  },
+  {
+   "id": "33c76806bd7d49e5",
+   "rating": 5.0,
+   "snippet": "age product ta use kori tarpor comment korbo",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:04:14Z"
+  },
+  {
+   "id": "712bd2bbd80210d2",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T15:01:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Subhana khan Khan, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T15:07:47Z"
+   }
+  },
+  {
+   "id": "c61da4ed1d29b540",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T14:37:06Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Rubeena 92, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T14:42:28Z"
+   }
+  },
+  {
+   "id": "e0411ad17a4cbf4d",
+   "rating": 1.0,
+   "snippet": "⭐ 1 Star Extremely disappointing customer service. I had a prepaid order & followed up for 7 days regarding the delivery. I clearly confirmed that I had NOT cancelled or rejected the order and request",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T14:18:27Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Trupti, we are sorry for your experience, would request you to email us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:13:40Z"
+   }
+  },
+  {
+   "id": "ee77040c7ff42e8a",
+   "rating": 5.0,
+   "snippet": "Nykaa one of my favourite platforms",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T14:03:41Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Jayasree Sarkar, we are grateful for your feedback and will continue to strive to provide our customers with the highest quality of service and products. Keep exploring!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T14:10:26Z"
+   }
+  },
+  {
+   "id": "3dd4992a9ad08cd0",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:56:03Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T14:03:12Z"
+   }
+  },
+  {
+   "id": "986230ab6ef60725",
+   "rating": 1.0,
+   "snippet": "nykaa ur such a cheapest website when it comes to provide discount and birthday gift to prive member. such an thug,never recommend to anyone better go to tira and official website",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:38:03Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi Shabista, we are sorry for your experience, would request you to email us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T04:12:36Z"
+   }
+  },
+  {
+   "id": "e7708c435afa2569",
+   "rating": 3.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:33:40Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T13:38:13Z"
+   }
+  },
+  {
+   "id": "d762eb7facbc0276",
+   "rating": 4.0,
+   "snippet": "good but costly",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:24:38Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Himani Nikaju, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T13:29:06Z"
+   }
+  },
+  {
+   "id": "c24db089ee724c24",
+   "rating": 5.0,
+   "snippet": "👍",
+   "likes": 1,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:14:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the rating!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T13:17:55Z"
+   }
+  },
+  {
+   "id": "f9f07ce6f7db335d",
+   "rating": 1.0,
+   "snippet": "worst app.... bakwass customer support",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:12:05Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T13:15:45Z"
+   }
+  },
+  {
+   "id": "ce29f6798f9e8791",
+   "rating": 5.0,
+   "snippet": "nice app",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:11:26Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the feedback!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T13:17:04Z"
+   }
+  },
+  {
+   "id": "373838fe8ce2c0c9",
+   "rating": 4.0,
+   "snippet": "nice 👍",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:09:56Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T13:12:30Z"
+   }
+  },
+  {
+   "id": "e7c11cd128e5ac3d",
+   "rating": 5.0,
+   "snippet": "original product with 100% trust and affordable prices",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T13:02:02Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T13:05:51Z"
+   }
+  },
+  {
+   "id": "92f316c43f686c21",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience with Nykaa. I placed my prepaid order on 1st October, and the delivery date has been repeatedly changed. Even after several days, my parcel was not properly dispatched, a",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T12:42:34Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we would not want any of our customers to feel this way. We'd like to know what went wrong and help you with it. Can you please mail us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T12:44:01Z"
+   }
+  },
+  {
+   "id": "77076427c4d7e057",
+   "rating": 4.0,
+   "snippet": "suddenly stop 😠",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T12:14:19Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the rating!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T12:53:55Z"
+   }
+  },
+  {
+   "id": "a0035865a14a697e",
+   "rating": 5.0,
+   "snippet": "nice app",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T12:13:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T12:15:48Z"
+   }
+  },
+  {
+   "id": "366535a784ded97b",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:58:11Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Manu C, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T12:04:24Z"
+   }
+  },
+  {
+   "id": "a4ebb348d80006c7",
+   "rating": 5.0,
+   "snippet": "Good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:57:49Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey shamim 7860, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T12:04:21Z"
+   }
+  },
+  {
+   "id": "079d2cd6e2a02b83",
+   "rating": 5.0,
+   "snippet": "the app has all real thing and this is beautiful experience with nykaa.",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:47:36Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, hope you had a great time shopping with us. 💕✨",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T12:02:21Z"
+   }
+  },
+  {
+   "id": "bb45f3ef1a861306",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 1,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:43:00Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T11:48:27Z"
+   }
+  },
+  {
+   "id": "43289001b45854f2",
+   "rating": 1.0,
+   "snippet": "very bad experience never order from nykaa",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:34:23Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Bhanu raika, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T11:42:00Z"
+   }
+  },
+  {
+   "id": "5f9a5f4b55f138b1",
+   "rating": 5.0,
+   "snippet": "M happy & nykaa product 😍😍",
+   "likes": 1,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:30:50Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we value your readiness to give your feedback!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T11:37:54Z"
+   }
+  },
+  {
+   "id": "3a279f81f6d18fd3",
+   "rating": 1.0,
+   "snippet": "Wow, Nykaa, how cheap your policy is! Your delivery boy marked my order delivered without actually delivering it, and without taking an OTP. Customer care says they can’t do anything—not about my mone",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:30:23Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we regret to hear this. We'd like to investigate this further. Kindly write to us via email at support@nykaa.com, so that we can have this addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T12:55:10Z"
+   }
+  },
+  {
+   "id": "d9cbce8af9ef34d0",
+   "rating": 5.0,
+   "snippet": "good 😊 nykaa",
+   "likes": 1,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:20:47Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T11:22:26Z"
+   }
+  },
+  {
+   "id": "4f58932e407a901e",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:15:01Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T11:16:20Z"
+   }
+  },
+  {
+   "id": "fb49a2d167cd3bf6",
+   "rating": 1.0,
+   "snippet": "_I ordered 10 products from Nayka, but only 9 arrived and the delivery was very late.",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T11:12:47Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we would not want any of our customers to feel this way. We'd like to know what went wrong and help you with it. Can you please mail us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T11:21:38Z"
+   }
+  },
+  {
+   "id": "f7fe334e9a5dd344",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T10:52:09Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Vijay Jaiswal, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T10:59:39Z"
+   }
+  },
+  {
+   "id": "d499c3f5be4d786c",
+   "rating": 1.0,
+   "snippet": "very bad experience . I oder 4 product .. 2 product resive .. 2 product not deliver 2 weeks .",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T10:45:39Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we would not want any of our customers to feel this way. We'd like to know what went wrong and help you with it. Can you please mail us at support@nykaa.com so that we can have this addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T10:46:38Z"
+   }
+  },
+  {
+   "id": "7154a3a1588f4293",
+   "rating": 5.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T10:31:04Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Tejal Phalsamkar, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T10:37:44Z"
+   }
+  },
+  {
+   "id": "21c7687bd3dec534",
+   "rating": 1.0,
+   "snippet": "Worst Customer Care and Worst Delivery Courier. Multiple Complaints for delays are not taken seriously or on priority.",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T10:23:58Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Ray Star, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T10:28:41Z"
+   }
+  },
+  {
+   "id": "5c1709d269113839",
+   "rating": 2.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T10:22:08Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T10:23:03Z"
+   }
+  },
+  {
+   "id": "de27e097b91babc8",
+   "rating": 5.0,
+   "snippet": "the best app for skin care products and first order 20% off ❤",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:54:44Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Abhisek Behera, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T10:00:56Z"
+   }
+  },
+  {
+   "id": "cde48157feb25a6b",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:42:56Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:45:04Z"
+   }
+  },
+  {
+   "id": "664eea628fb4fdc7",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:40:52Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, thank you for the amazing feedback!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:44:30Z"
+   }
+  },
+  {
+   "id": "e24a1c4f1728c76c",
+   "rating": 5.0,
+   "snippet": "satisfied",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:24:55Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:35:09Z"
+   }
+  },
+  {
+   "id": "159c012c7f850651",
+   "rating": 1.0,
+   "snippet": "Really bad customer service. I received only part of my order, with two products missing and despite repeatedly informing customer support that I never received them, nykaa has not taken responsibilit",
+   "likes": 1,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:17:15Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Malvika Rathore, this is not how we would like you to feel about us. Kindly email us at support@nykaa.com with your concerns so that we can have them addressed for you.",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:22:09Z"
+   }
+  },
+  {
+   "id": "563db8a59c6036c7",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:14:13Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Nikhat Zamir, your feedback means a lot to us. We're committed to continuously bringing you products and services that will keep you thrilled. Keep exploring and happy shopping!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:19:08Z"
+   }
+  },
+  {
+   "id": "5cd86fb8df5c39e0",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:07:58Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Udaya Jyothi, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:12:41Z"
+   }
+  },
+  {
+   "id": "e80d4ba44db5cdaf",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T09:05:53Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, hope you had a great time shopping with us. 💕✨",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:09:24Z"
+   }
+  },
+  {
+   "id": "0969f5a1c9bed16b",
+   "rating": 4.0,
+   "snippet": "this app is literally very superb and very good but one problem budget mony to high only",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T08:59:01Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, hope you had a great time shopping with us. 💕✨",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T09:05:52Z"
+   }
+  },
+  {
+   "id": "488f408c478834ab",
+   "rating": 4.0,
+   "snippet": "good 🙂",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T08:48:57Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey Mamota, thank you for taking the time to rate us!",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T08:53:33Z"
+   }
+  },
+  {
+   "id": "27e304c93ff6a2fd",
+   "rating": 5.0,
+   "snippet": "really worth",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T08:48:24Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hey, hope you had a great time shopping with us. 💕✨",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T08:54:56Z"
+   }
+  },
+  {
+   "id": "98b6d8196139a37a",
+   "rating": 2.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T08:39:47Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T08:51:25Z"
+   }
+  },
+  {
+   "id": "a082dd08ad6cd841",
+   "rating": 5.0,
+   "snippet": "it's very useful",
+   "likes": 0,
+   "date": "October 07, 2026",
+   "iso_date": "2026-10-07T08:33:35Z",
+   "response": {
+    "title": "NYKAA",
+    "snippet": "Hi, we appreciate your wonderful feedback! 💖",
+    "date": "October 07, 2026",
+    "iso_date": "2026-10-07T08:35:31Z"
+   }
+  }
+ ],
+ "serpapi_pagination": {
+  "next": "https://serpapi.com/search.json?all_reviews=true&engine=google_play_product&gl=in&hl=en&next_page_token=CsgBIr8BAV8d1P2tW_8-zV4VFCtZDjeJuE7CZ2tnHSHvRgjyFHujwc_Zht6vvQihH9eN3NhGIh0xGmqAxph99WPVR4s3c_5G54ZGyRFI0yNR9E9_seJqNCmVdy3HlKlMz81dDAfuvrVozG_L-SPiYZZlDsRZn2jP85rNsRP5eUEedAdUJMvcOlfVZ_NK6v0oRxwJa3qRUzLOC5phNGBxb0Ass-v3L0ZrN6MPEPC-TCJeVaDS3yH7XWjTH0qGiU1gZ1nxv-souOem1gY&num=199&platform=phone&product_id=com.fsn.nykaa&sort_by=2&store=apps",
+  "next_page_token": "CsgBIr8BAV8d1P2tW_8-zV4VFCtZDjeJuE7CZ2tnHSHvRgjyFHujwc_Zht6vvQihH9eN3NhGIh0xGmqAxph99WPVR4s3c_5G54ZGyRFI0yNR9E9_seJqNCmVdy3HlKlMz81dDAfuvrVozG_L-SPiYZZlDsRZn2jP85rNsRP5eUEedAdUJMvcOlfVZ_NK6v0oRxwJa3qRUzLOC5phNGBxb0Ass-v3L0ZrN6MPEPC-TCJeVaDS3yH7XWjTH0qGiU1gZ1nxv-souOem1gY"
+ }
+}

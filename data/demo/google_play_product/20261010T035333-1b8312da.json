@@ -1,0 +1,2811 @@
+{
+ "search_metadata": {
+  "id": "6ac9b6bbbca7e5a9d2e55ea8",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/PD5BOfZGdGNKdBTdWgG3s9z01usclHpSs18KKRlm2yc/6ac9b6bbbca7e5a9d2e55ea8.json",
+  "markdown_endpoint": "https://serpapi.com/searches/PD5BOfZGdGNKdBTdWgG3s9z01usclHpSs18KKRlm2yc/6ac9b6bbbca7e5a9d2e55ea8.md",
+  "created_at": "2026-10-10 03:53:31 UTC",
+  "processed_at": "2026-10-10 03:53:31 UTC",
+  "google_play_product_url": "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en&gl=in&showAllReviews=true",
+  "raw_html_file": "https://serpapi.com/searches/PD5BOfZGdGNKdBTdWgG3s9z01usclHpSs18KKRlm2yc/6ac9b6bbbca7e5a9d2e55ea8.html",
+  "prettify_html_file": "https://serpapi.com/searches/PD5BOfZGdGNKdBTdWgG3s9z01usclHpSs18KKRlm2yc/6ac9b6bbbca7e5a9d2e55ea8.prettify",
+  "total_time_taken": 1.99
+ },
+ "search_parameters": {
+  "engine": "google_play_product",
+  "product_id": "in.swiggy.android",
+  "hl": "en",
+  "gl": "in",
+  "store": "apps",
+  "all_reviews": "true",
+  "platform": "phone",
+  "sort_by": "2",
+  "num": "199"
+ },
+ "reviews": [
+  {
+   "id": "9a27b1be73b2ac51",
+   "rating": 1.0,
+   "snippet": "Facing Difficulties in App downloading. After 8% app not installing",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:50:50Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about this. Please help us with the order id over an email at swiggysocial@swiggy.in, so we can help resolve the issue.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T03:57:17Z"
+   }
+  },
+  {
+   "id": "f33961657dac4cc1",
+   "rating": 2.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:39:17Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we would like to know more about it. Please write to us at swiggysocial@swiggy.in with relevant details elaborating further on your ordering experience with us, so we can set this right for you.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T03:48:02Z"
+   }
+  },
+  {
+   "id": "feadd964619f8baa",
+   "rating": 1.0,
+   "snippet": "worst app first they ask for online payment at the night they charge u so many things and after all that there dilivery partner neither come or location or call us but they say that dilivery boy has c",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:35:08Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry to have put you through such a situation. We would like to make amends and request you to kindly share the order ID along with the details of your concern at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T03:48:02Z"
+   }
+  },
+  {
+   "id": "689c46ddda5948a1",
+   "rating": 5.0,
+   "snippet": "good delivery",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:27:04Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! It's a bliss to see that our service brought a smile to your face. We'll endeavor to keep it up. Keep Swiggying. 🙂",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T03:32:57Z"
+   }
+  },
+  {
+   "id": "bb2972636618d4a8",
+   "rating": 2.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T03:21:36Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please write to us about your experience at swiggysocial@swiggy.in from your registered email address, so we can better our services.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T03:22:32Z"
+   }
+  },
+  {
+   "id": "0c3b0689ff3e0b69",
+   "rating": 4.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:56:01Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thank you for your feedback. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T02:56:49Z"
+   }
+  },
+  {
+   "id": "9916cdd04ec75a91",
+   "rating": 5.0,
+   "snippet": "on time delivery",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:52:36Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T02:56:48Z"
+   }
+  },
+  {
+   "id": "d6089f057de10c20",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:24:52Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T02:32:37Z"
+   }
+  },
+  {
+   "id": "7da02c89bfef5d3e",
+   "rating": 5.0,
+   "snippet": "great buying experience",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T02:02:20Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T02:03:01Z"
+   }
+  },
+  {
+   "id": "9622a7bbfd1a28a1",
+   "rating": 5.0,
+   "snippet": "perfect",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T01:48:27Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T01:55:13Z"
+   }
+  },
+  {
+   "id": "e8dec448b212dd17",
+   "rating": 1.0,
+   "snippet": "Swiggy’s customer support and transparency have become terrible. My food was packed at 10 PM but delivered at 12:30 AM due to a delivery delay. They delivered the same package without ensuring food sa",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T01:42:02Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we're sorry for the inconvenience caused. Kindly drop us an email at swiggysocial@swiggy.in from your registered email address regarding the same, and we'll work on fixing the issue asap.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T01:45:57Z"
+   }
+  },
+  {
+   "id": "33b3d19c2aa0f936",
+   "rating": 5.0,
+   "snippet": "Good",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T01:33:12Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T01:33:49Z"
+   }
+  },
+  {
+   "id": "efd4809158b16730",
+   "rating": 5.0,
+   "snippet": "sharma at ok thanks for the information",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T00:10:01Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T00:14:44Z"
+   }
+  },
+  {
+   "id": "cf3152f1b2712049",
+   "rating": 1.0,
+   "snippet": "worst, fraud ,scam and money graber",
+   "likes": 0,
+   "date": "October 09, 2026",
+   "iso_date": "2026-10-09T00:07:24Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 09, 2026",
+    "iso_date": "2026-10-09T00:14:45Z"
+   }
+  },
+  {
+   "id": "57b73467b76654e2",
+   "rating": 1.0,
+   "snippet": "so late on this apps not good at all",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T23:34:07Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry to have put you through such a situation. We would like to make amends and request you to kindly share the order ID along with the details of your concern at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T23:43:35Z"
+   }
+  },
+  {
+   "id": "d700d10cca71534f",
+   "rating": 1.0,
+   "snippet": "looters",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T23:06:49Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T23:14:54Z"
+   }
+  },
+  {
+   "id": "4e9376d6c6d58578",
+   "rating": 1.0,
+   "snippet": "Stop time manipulation on Orders, why You stop delivery time and show order on time, Shamee on you.",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T22:41:33Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry for the unpleasant experience you had. Please share more details about the incident by writing an email at swiggysocial@swiggy.in from your registered email ID. we'll take it up.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T22:44:16Z"
+   }
+  },
+  {
+   "id": "adbdd9d208835e74",
+   "rating": 1.0,
+   "snippet": "worst app. don't order food. it delivers spoil food and change high money many fake hotels fake reviews just to loot money . basmati biryani named dishes don't have basmati rice and spoiled chicken co",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:17:40Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, please drop an email at swiggysocial@swiggy.in with your order ID, it will help us get this checked and get back to you with an apt resolution.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T21:25:00Z"
+   }
+  },
+  {
+   "id": "48a1e55f28f2d8b2",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:04:24Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T21:05:27Z"
+   }
+  },
+  {
+   "id": "e409a086f1f71344",
+   "rating": 3.0,
+   "snippet": "leet delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T21:00:14Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are thankful to you for your review! We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T21:05:27Z"
+   }
+  },
+  {
+   "id": "4ac0ea04e0c0d45c",
+   "rating": 1.0,
+   "snippet": "wast Swiggy devilry boy Swiggy",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:59:11Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, we are sorry for any hassle you have faced while ordering with us. Please share the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email address and we would be happy to connect with you and resolve the matter.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T21:05:27Z"
+   }
+  },
+  {
+   "id": "b94248ab55b56ffe",
+   "rating": 1.0,
+   "snippet": "worst return service got damaged item pickup at loss on my expense",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:58:43Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we completely understand that we have missed the mark in delivering the order within the promised timeline. Please share your registered details or the order ID by writing to us at swiggysocial@swiggy.in and we would be happy to connect with you post having it checked.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T21:05:26Z"
+   }
+  },
+  {
+   "id": "fdc2c6bc85e6169d",
+   "rating": 2.0,
+   "snippet": "ok",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:50:07Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we would like to know more about it. Please write to us at swiggysocial@swiggy.in with relevant details elaborating further on your ordering experience with us, so we can set this right for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T20:56:01Z"
+   }
+  },
+  {
+   "id": "773e78886c32cf71",
+   "rating": 5.0,
+   "snippet": "just i like it",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:49:36Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T20:56:01Z"
+   }
+  },
+  {
+   "id": "80449578ee5f91d6",
+   "rating": 1.0,
+   "snippet": "बहुत ही घाटियां सर्विस है, बहुत सी बार डेयरी प्रोडक्ट ओर नमकीन वगैरह expired भेजते है, ऊपर से replacement/refund का कोशिश करो तो सुनते नहीं, किसी ओर से ग्रॉसरी मंगवाना अच्छा रहेगा",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:04:57Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we're sorry for the unpleasant experience. Please share your concern along with your order details via email at swiggysocial@swiggy.in so that we will look into this & assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T20:13:44Z"
+   }
+  },
+  {
+   "id": "ab5a2308f1fba57f",
+   "rating": 4.0,
+   "snippet": "Too Good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T20:03:17Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T20:04:05Z"
+   }
+  },
+  {
+   "id": "913011e0ed06278e",
+   "rating": 5.0,
+   "snippet": "it's a very good app and foods are good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:57:54Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 😊",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T20:04:06Z"
+   }
+  },
+  {
+   "id": "a1717d30cbe209b1",
+   "rating": 5.0,
+   "snippet": "Badiya",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:57:47Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T20:04:05Z"
+   }
+  },
+  {
+   "id": "124ce0aab609a7e8",
+   "rating": 5.0,
+   "snippet": "very nice 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:48:19Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:54:25Z"
+   }
+  },
+  {
+   "id": "5a8ea580d04e1d9e",
+   "rating": 1.0,
+   "snippet": "third quality of paneer chilli got unfried paneer",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:45:50Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we request you to let us know more about your experience by writing us an email at swiggysocial@swiggy.in from your registered email ID so that we can have your concern addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:54:26Z"
+   }
+  },
+  {
+   "id": "5e4c09a685d42a3a",
+   "rating": 5.0,
+   "snippet": "वोहोत अछ्छा है",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:45:46Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:54:27Z"
+   }
+  },
+  {
+   "id": "6db30c1d6cee755e",
+   "rating": 4.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:30:10Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, thank you for delighting us with the positive review We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our service worth 5 stars.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:34:29Z"
+   }
+  },
+  {
+   "id": "0499c57f02af15b1",
+   "rating": 5.0,
+   "snippet": "bahauut Badiya hai",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:26:16Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:34:28Z"
+   }
+  },
+  {
+   "id": "1b5ae2fd200f2c87",
+   "rating": 5.0,
+   "snippet": "jaldi se aao",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:23:08Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thank you for the ratings. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:24:06Z"
+   }
+  },
+  {
+   "id": "8900efa222527f58",
+   "rating": 5.0,
+   "snippet": "best service and best biryani",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:18:03Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi Imran, thank you for the wonderful review. This will inspire us to continue delivering exceptional service as we always do.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T20:05:12Z"
+   }
+  },
+  {
+   "id": "b6b0ab2ba44c1b02",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:16:49Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! It's a bliss to see that our service brought a smile to your face. We'll endeavor to keep it up. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:24:06Z"
+   }
+  },
+  {
+   "id": "8d4e4d461f1caab4",
+   "rating": 1.0,
+   "snippet": "Terrible app They have bots to rate them 5 star but I wish someone read this Low quality foods waste of money no refunds",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:15:17Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we apologize for the inconvenience caused. We request you to kindly let us know more about the issue by writing to us at swiggysocial@swiggy.in from your registered email address, so we can look into it and have it fixed at the earliest.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:24:06Z"
+   }
+  },
+  {
+   "id": "a9472d2ddb2fdcfb",
+   "rating": 4.0,
+   "snippet": "Fast Service and Cool working App.",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:15:08Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order. We would love to hear from you about how we could hit the 5-star rating. Please do share your thoughts by dropping an email at swiggysocial@swiggy.in.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:24:07Z"
+   }
+  },
+  {
+   "id": "9243c38fdf0df649",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:12:20Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:15:07Z"
+   }
+  },
+  {
+   "id": "d5a178f28a0d2ac1",
+   "rating": 5.0,
+   "snippet": "fust time exprince",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:08:55Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the valuable feedback. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:15:08Z"
+   }
+  },
+  {
+   "id": "acdfde6273382077",
+   "rating": 1.0,
+   "snippet": "swiggy has done it multiple times... when ever I order around 2:30 am.. I need to wait till 4 am just to get refund... such a usless money sucker service from swiggy... very very disappointed... and t",
+   "likes": 1,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:06:42Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're disappointed to know the service has not been to your satisfaction. Kindly write to us at swiggysocial@swiggy.in from your registered email address and we'll have this addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:15:08Z"
+   }
+  },
+  {
+   "id": "878f6b1ef4167ff0",
+   "rating": 1.0,
+   "snippet": "Don't order from Swiggy specially late if order time showing 20 min order delivered 50 min if cancelled Swiggy charge fully amount",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:05:20Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry to have put you through such a situation. We would like to make amends and request you to kindly share the order ID along with the details of your concern at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:15:08Z"
+   }
+  },
+  {
+   "id": "1f766e0147c1df08",
+   "rating": 4.0,
+   "snippet": "good response",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T19:00:57Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:05:01Z"
+   }
+  },
+  {
+   "id": "6b2fee4f58273ac7",
+   "rating": 5.0,
+   "snippet": "thanks for",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:55:21Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T19:05:01Z"
+   }
+  },
+  {
+   "id": "6a148f98f1a0828f",
+   "rating": 5.0,
+   "snippet": "godd",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:54:05Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:55:25Z"
+   }
+  },
+  {
+   "id": "2b488555f935de52",
+   "rating": 5.0,
+   "snippet": "💯👍😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:53:54Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:55:27Z"
+   }
+  },
+  {
+   "id": "4075e3b4fa946b22",
+   "rating": 1.0,
+   "snippet": "totally a scammers platform I ordered a cake from this platform and I recieved a totally different cake. I raised the concern they said it's beyond the my authorities i shared image of the cake they s",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:53:13Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about this. Please help us with the order id over an email at swiggysocial@swiggy.in, so we can help resolve the issue.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:55:27Z"
+   }
+  },
+  {
+   "id": "4d6ddac8acd6ef15",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience with Swiggy. I have placed an order accidentally and requested cancellation within just 2 minutes, but was told the order was already being packed. Despite a promised 40-",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:53:11Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, we are sorry for any hassle you have faced while ordering with us. Please share the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email address and we would be happy to connect with you and resolve the matter.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:55:26Z"
+   }
+  },
+  {
+   "id": "fb984ae0daf3aa15",
+   "rating": 5.0,
+   "snippet": "great",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:48:23Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:55:28Z"
+   }
+  },
+  {
+   "id": "58706db6fa0d8ae6",
+   "rating": 1.0,
+   "snippet": "Worst customer service ever. Wrong order, delivery partner took it back, and Swiggy still marked it as delivered. I wasted 90+ minutes talking to multiple agents and was finally told to wait another 2",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:45:33Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "That doesn't seem right. Kindly help us with more details of this concern by writing to us at swiggysocial@swiggy.in from your registered email ID and we'll get this checked right away for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:55:26Z"
+   }
+  },
+  {
+   "id": "372e3d1e4d289e10",
+   "rating": 1.0,
+   "snippet": "sabse ghatiya service Maine Jo product order kiya tha vah mujhe nahin mila hai iska sabse ghatiya service chal raha hai kripya Koi se Saman Na Le call karne per Koi response nahin leta hai",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:45:32Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:55:26Z"
+   }
+  },
+  {
+   "id": "d58a23d5107d53a9",
+   "rating": 4.0,
+   "snippet": "good job 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:44:09Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such a bliss! We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:44:29Z"
+   }
+  },
+  {
+   "id": "fba9e1807b381b5e",
+   "rating": 1.0,
+   "snippet": "always makes the delivery very late i can share atleast 30 orders which was delivered me late more than half an hour nobody should use swiggy use zomato it quite better than swiggy",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:43:57Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:44:31Z"
+   }
+  },
+  {
+   "id": "fa3104a3d4717e95",
+   "rating": 5.0,
+   "snippet": "very good 👍😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:42:20Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, glad that we have stood up to your expectations. Thank you for the positive review and the perfect star rating. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:44:31Z"
+   }
+  },
+  {
+   "id": "4e11ffceee5f4260",
+   "rating": 5.0,
+   "snippet": "👍🏻👍🏻",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:36:10Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:44:30Z"
+   }
+  },
+  {
+   "id": "8f3430bcda5ca857",
+   "rating": 1.0,
+   "snippet": "your customer support specially tanweer is pathetic no use",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:35:23Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we would like to know more about it. Please write to us at swiggysocial@swiggy.in with relevant details elaborating further on your ordering experience with us, so we can set this right for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:44:32Z"
+   }
+  },
+  {
+   "id": "7e6a71f9e2395c96",
+   "rating": 1.0,
+   "snippet": "most of all orders are late than time showed on app. Also when contact to inquire about it simply says multiple orders are combined so it will take time and refused to cancel delayed orders. Once I pl",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:35:03Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, that should not have happened and we would like to get this checked right away. Kindly help us with your order ID over an email to swiggysocial@swiggy.in, it will help us take this up with our executives and work on corrective measures.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:44:32Z"
+   }
+  },
+  {
+   "id": "76cafb69dcad7818",
+   "rating": 1.0,
+   "snippet": "after waiting for one half an hour for the order the order is just cancelled",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:32:08Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we would like to know more about it. Please write to us at swiggysocial@swiggy.in with relevant details elaborating further on your ordering experience with us, so we can set this right for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:34:41Z"
+   }
+  },
+  {
+   "id": "532290929495f628",
+   "rating": 4.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:29:18Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for the review and the stars. We would love to hear from you about how we could hit the 5-star rating. Please do share your thoughts by dropping an email from your registered address at swiggysocial@swiggy.in. Looking forward to hearing from you. Keep Swiggying till then. 😊",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:34:42Z"
+   }
+  },
+  {
+   "id": "6c73ff51fce4a331",
+   "rating": 1.0,
+   "snippet": "Better to avoid this platform. inflated price and shameles support system. Pathetic policy and seems fraud platform. Avoid for future",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:22:39Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, we are sorry for any hassle you have faced while ordering with us. Please share the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email address and we would be happy to connect with you and resolve the matter.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:24:09Z"
+   }
+  },
+  {
+   "id": "f955d40c325622be",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:21:46Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:24:09Z"
+   }
+  },
+  {
+   "id": "98ceab315243d51c",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:15:18Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:24:10Z"
+   }
+  },
+  {
+   "id": "768e3f7061bce5a7",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:15:10Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:24:08Z"
+   }
+  },
+  {
+   "id": "8363976a6ec1560b",
+   "rating": 5.0,
+   "snippet": "Good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:14:18Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:24:10Z"
+   }
+  },
+  {
+   "id": "ea892ceb3ec975a9",
+   "rating": 1.0,
+   "snippet": "not delivered intime",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:11:08Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please write to us about your experience at swiggysocial@swiggy.in from your registered email address, so we can better our services.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:14:28Z"
+   }
+  },
+  {
+   "id": "7275f9e2a0c01543",
+   "rating": 1.0,
+   "snippet": "pathetic service ever .",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:09:10Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We are sorry to let you down. Please write to us at swiggysocial@swiggy.in from your registered email address elaborating further on your ordeal, so we can expiate for the miss.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:14:29Z"
+   }
+  },
+  {
+   "id": "dc7fb7d0c24d4e14",
+   "rating": 1.0,
+   "snippet": "worst experience ever. my dad is a heart patient and i ordered food from Swiggy for him I was in the office. we tried calling the delivery guy 10 Times the order was delayed by an hour and the custome",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:06:49Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, that doesn't sound right. We would like to have this investigated. Please share the relevant order ID to swiggysocial@swiggy.in and we will assist you further in this regard.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:14:29Z"
+   }
+  },
+  {
+   "id": "21185415934b2599",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T18:02:02Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:03:18Z"
+   }
+  },
+  {
+   "id": "68636c96ba93ce74",
+   "rating": 1.0,
+   "snippet": "Worst experience, food not delivered even after one hour, though shown 20 min while ordering from Mehfil. Why the restaurants take orders they can't fulfill ? Swiggy people are equally helpless about ",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:58:33Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry for the unpleasant experience you had. Please share more details about the incident by writing an email at swiggysocial@swiggy.in from your registered email ID. we'll take it up.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:03:19Z"
+   }
+  },
+  {
+   "id": "0289d6abc0496dff",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:57:18Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such a bliss! We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:03:18Z"
+   }
+  },
+  {
+   "id": "7bd26a460afd3466",
+   "rating": 2.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:54:18Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please let us know how we can make our service better by writing to us at swiggysocial@swiggy.in from your registered email address.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:54:46Z"
+   }
+  },
+  {
+   "id": "3a03e48c36e97231",
+   "rating": 5.0,
+   "snippet": "fast delivery 🙏",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:52:52Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, glad that we have stood up to your expectations. Thank you for the positive review and the perfect star rating. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:54:47Z"
+   }
+  },
+  {
+   "id": "c7e7294ee2fc1863",
+   "rating": 1.0,
+   "snippet": "order fake hota he",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:51:54Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "This shouldn't have happened. Kindly help us with the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email ID & we will have this checked.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:54:46Z"
+   }
+  },
+  {
+   "id": "74655fd80a7bf025",
+   "rating": 1.0,
+   "snippet": "Worst Customer Support and Wors delivery service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:48:26Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we're sorry for the unpleasant experience. Please share your concern along with your order details via email at swiggysocial@swiggy.in so that we will look into this & assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:54:47Z"
+   }
+  },
+  {
+   "id": "30c718dae01ecb72",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:43:05Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:54:46Z"
+   }
+  },
+  {
+   "id": "6a1faeb679238c47",
+   "rating": 5.0,
+   "snippet": "super app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:38:51Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We are happy to hear such positive feedback. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:42:46Z"
+   }
+  },
+  {
+   "id": "8df0b55840bcb41b",
+   "rating": 5.0,
+   "snippet": "niec app am fast time",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:30:03Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for the excellent rating. This will inspire us to continue delivering exceptional service as we always do.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:28:57Z"
+   }
+  },
+  {
+   "id": "6de9190fc3f804be",
+   "rating": 2.0,
+   "snippet": "Difficult to understand",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:29:31Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please write to us about your experience at swiggysocial@swiggy.in from your registered email address, so we can better our services.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:32:29Z"
+   }
+  },
+  {
+   "id": "04071c1eec98b76c",
+   "rating": 1.0,
+   "snippet": "the size is very small comparing with the prize and plus no sauce nothing is being given....very dissatisfied",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:28:40Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about this. Please help us with the order id over an email at swiggysocial@swiggy.in, so we can help resolve the issue.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:32:30Z"
+   }
+  },
+  {
+   "id": "e8d1b398a89f10bf",
+   "rating": 1.0,
+   "snippet": "i didn't want to give one star also worst experience i waited for 1 an half hr for my order but the delivery partner didn't cooperative soo eventually I canceled my order ☹️😔",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:26:56Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we request you to let us know more about your experience by writing us an email at swiggysocial@swiggy.in from your registered email ID so that we can have your concern addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:32:30Z"
+   }
+  },
+  {
+   "id": "616e5990e5c3a6b4",
+   "rating": 1.0,
+   "snippet": "wrost app , forcefully apni policy customer par thopte hain",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:19:22Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:24:09Z"
+   }
+  },
+  {
+   "id": "cb82b4caff3167e7",
+   "rating": 5.0,
+   "snippet": "vini",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:18:00Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thank you for your feedback. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:24:09Z"
+   }
+  },
+  {
+   "id": "b38aeb67b17325d0",
+   "rating": 1.0,
+   "snippet": "service is too bad",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:17:45Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "This shouldn't have happened. Kindly help us with the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email ID & we will have this checked.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:24:08Z"
+   }
+  },
+  {
+   "id": "41cd5a74e71989bb",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:16:24Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such a bliss! We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:24:09Z"
+   }
+  },
+  {
+   "id": "3507c8e0f39a5b99",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:13:36Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:16:26Z"
+   }
+  },
+  {
+   "id": "f7df9ecd59a7e3eb",
+   "rating": 1.0,
+   "snippet": "worest app don't recieve the orders",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:11:15Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we're sorry for the unpleasant experience. Please share your concern along with your order details via email at swiggysocial@swiggy.in so that we will look into this & assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:16:28Z"
+   }
+  },
+  {
+   "id": "0ff8600b4aad28e4",
+   "rating": 5.0,
+   "snippet": "yes broo best ...",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:10:41Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:16:27Z"
+   }
+  },
+  {
+   "id": "ce34118dd4e151de",
+   "rating": 5.0,
+   "snippet": "acha aap hai ye 👍🏻😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:10:07Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:16:25Z"
+   }
+  },
+  {
+   "id": "caaf228312ace4fd",
+   "rating": 1.0,
+   "snippet": "kwii",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:08:05Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we request you to let us know more about your experience by writing us an email at swiggysocial@swiggy.in from your registered email ID so that we can have your concern addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:16:24Z"
+   }
+  },
+  {
+   "id": "78c5a481d0320dc7",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:07:53Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:16:25Z"
+   }
+  },
+  {
+   "id": "3b2723823f32a95b",
+   "rating": 1.0,
+   "snippet": "thank u",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:05:48Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we request you to let us know more about your experience by writing us an email at swiggysocial@swiggy.in from your registered email ID so that we can have your concern addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:16:25Z"
+   }
+  },
+  {
+   "id": "a691cbeabaaf1bd6",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T17:02:37Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! It's a bliss to see that our service brought a smile to your face. We'll endeavor to keep it up. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:04:58Z"
+   }
+  },
+  {
+   "id": "239ea2867fea4cb5",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:59:15Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:05:08Z"
+   }
+  },
+  {
+   "id": "0ed02f48808c6d2b",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:56:10Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:05:00Z"
+   }
+  },
+  {
+   "id": "9f02b3b1a3b22ed7",
+   "rating": 1.0,
+   "snippet": "How can customers trust a platform like this? Some items were missing from my order. Instead of refunding for items I paid for but never received, Swiggy gave me a coupon with multiple restrictions. I",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:55:03Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we apologize for keeping you waiting for food that long. We would like to make it up to you. Kindly share the relevant order ID and we will get connected with you asap.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T17:05:01Z"
+   }
+  },
+  {
+   "id": "0ecb90db9fe0644e",
+   "rating": 1.0,
+   "snippet": "bad response swiggy delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:53:22Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we regret this experience. Kindly contact us at swiggysocial@swiggy.in using your registered email address and share the details of your experience, so we can look into the issue and resolve it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:39:42Z"
+   }
+  },
+  {
+   "id": "7b2efbb4142bf80b",
+   "rating": 1.0,
+   "snippet": "very bad aap",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:50:38Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we would like to know more about it. Please write to us at swiggysocial@swiggy.in with relevant details elaborating further on your ordering experience with us, so we can set this right for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:55:03Z"
+   }
+  },
+  {
+   "id": "2bad14ed449469cf",
+   "rating": 1.0,
+   "snippet": "Worst experience with dineout. I went to a bar where I had pre-booked my table. While paying the bill I had to pay what they wanted irrespective of my pre-book offer. I also paid booking charges throu",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:48:36Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we request you to let us know more about your experience by writing us an email at swiggysocial@swiggy.in from your registered email ID so that we can have your concern addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:55:04Z"
+   }
+  },
+  {
+   "id": "b498d3e5f6f839eb",
+   "rating": 4.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:48:14Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for the review and the stars. We would love to hear from you about how we could hit the 5-star rating. Please do share your thoughts by dropping an email from your registered address at swiggysocial@swiggy.in. Looking forward to hearing from you. Keep Swiggying till then. 😊",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:55:02Z"
+   }
+  },
+  {
+   "id": "283828132b050c7b",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:46:17Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! It's a bliss to see that our service brought a smile to your face. We'll endeavor to keep it up. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:55:04Z"
+   }
+  },
+  {
+   "id": "cc1442b7edae245b",
+   "rating": 1.0,
+   "snippet": "Very disappointing delivery service from Swiggy. My orders are almost always delayed, and delivery partners often have multiple orders, so my order gets delivered last. By the time it arrives, the foo",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:45:40Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we would like to get this checked to see what went wrong. Kindly help us with your registered details at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:55:02Z"
+   }
+  },
+  {
+   "id": "77d76cb47b81842c",
+   "rating": 1.0,
+   "snippet": "Worst app ever. I never received my order but money got deducted and in response I was redirected to some ai generated responses and asked to send a mail which was never responded to. very bad experie",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:42:59Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we would like to know more about it. Please write to us at swiggysocial@swiggy.in with relevant details elaborating further on your ordering experience with us, so we can set this right for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:44:00Z"
+   }
+  },
+  {
+   "id": "fcac0473ec4a82aa",
+   "rating": 5.0,
+   "snippet": "bath bhadiya h ye application",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:42:46Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:43:59Z"
+   }
+  },
+  {
+   "id": "d0a23e115f931292",
+   "rating": 5.0,
+   "snippet": "happy",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:41:39Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:43:58Z"
+   }
+  },
+  {
+   "id": "ce8feebe36354e15",
+   "rating": 1.0,
+   "snippet": "gluttony",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:40:47Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please let us know how we can make our service better by writing to us at swiggysocial@swiggy.in from your registered email address.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:43:59Z"
+   }
+  },
+  {
+   "id": "a565c05be9ee4f86",
+   "rating": 5.0,
+   "snippet": "good service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:39:34Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:44:02Z"
+   }
+  },
+  {
+   "id": "88fe7b8bda8a8ff7",
+   "rating": 1.0,
+   "snippet": "high price comparison with zomato.dont use",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:38:22Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, we are sorry for any hassle you have faced while ordering with us. Please share the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email address and we would be happy to connect with you and resolve the matter.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:43:58Z"
+   }
+  },
+  {
+   "id": "01477c92d09470d0",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:36:39Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:44:01Z"
+   }
+  },
+  {
+   "id": "e094dfb2b94309aa",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:36:13Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:44:02Z"
+   }
+  },
+  {
+   "id": "46dac87372352fc8",
+   "rating": 5.0,
+   "snippet": "bagundhi",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:33:02Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the valuable feedback. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:35:45Z"
+   }
+  },
+  {
+   "id": "3db096de1dcbffea",
+   "rating": 5.0,
+   "snippet": "ok",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:32:50Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thank you for your feedback. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:35:44Z"
+   }
+  },
+  {
+   "id": "945f25262963db99",
+   "rating": 1.0,
+   "snippet": "Extremely poor!...they do not deliver your order and also do not refund... everyone should uninstall the app ...",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:32:46Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, we are sorry for any hassle you have faced while ordering with us. Please share the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email address and we would be happy to connect with you and resolve the matter.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:35:43Z"
+   }
+  },
+  {
+   "id": "04784a1e6957915d",
+   "rating": 1.0,
+   "snippet": "worst food ordering app I have ever encountered I just paid for an order it took the and said it was showing payment is refunded in swiggy but when I check my bank statement it was not refunded well d",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:30:13Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're apologetic about this experience you've faced while ordering with us. Please write to us at swiggysocial@swiggy.in from your registered email address detailing your experience, so we can look into the issue and resolve it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:35:46Z"
+   }
+  },
+  {
+   "id": "f65ccede3523ad8d",
+   "rating": 4.0,
+   "snippet": "best 👌",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:26:38Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:35:44Z"
+   }
+  },
+  {
+   "id": "13db5e55cd7efb73",
+   "rating": 5.0,
+   "snippet": "awsome taste with quality can feel the purity of food ..",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:26:00Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:35:45Z"
+   }
+  },
+  {
+   "id": "eade9237b7bc96ec",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:23:13Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:23Z"
+   }
+  },
+  {
+   "id": "2d4cb717f7a141fc",
+   "rating": 2.0,
+   "snippet": "very expensive your food and worst delivery boy very bad treat🤬🤬🤬",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:23:01Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're apologetic about this experience you've faced while ordering with us. Please write to us at swiggysocial@swiggy.in from your registered email address detailing your experience, so we can look into the issue and resolve it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:20Z"
+   }
+  },
+  {
+   "id": "4c9b49821ef4cf5f",
+   "rating": 5.0,
+   "snippet": "very useful",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:21:53Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:21Z"
+   }
+  },
+  {
+   "id": "0bb1a020d0c7bc4d",
+   "rating": 1.0,
+   "snippet": "wrong order every time",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:20:46Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we regret this experience. Kindly contact us at swiggysocial@swiggy.in using your registered email address and share the details of your experience, so we can look into the issue and resolve it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:39:08Z"
+   }
+  },
+  {
+   "id": "5766176153db0d8b",
+   "rating": 1.0,
+   "snippet": "my order got delayed for 2 hours",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:20:15Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we're sorry for the inconvenience caused. Kindly drop us an email at swiggysocial@swiggy.in from your registered email address regarding the same, and we'll work on fixing the issue asap.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:26Z"
+   }
+  },
+  {
+   "id": "667a20ef239aeb71",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:20:02Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:21Z"
+   }
+  },
+  {
+   "id": "f924a1a177cd94b4",
+   "rating": 1.0,
+   "snippet": "order was getting late by delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:17:11Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, we are sorry for any hassle you have faced while ordering with us. Please share the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email address and we would be happy to connect with you and resolve the matter.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:22Z"
+   }
+  },
+  {
+   "id": "c89b404db05304e3",
+   "rating": 5.0,
+   "snippet": "okay okay",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:16:47Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thank you for your kind review. We hope to keep on giving you a consistent service every time. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:24Z"
+   }
+  },
+  {
+   "id": "97aab8351ef1e30a",
+   "rating": 5.0,
+   "snippet": "super 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:15:22Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:25:23Z"
+   }
+  },
+  {
+   "id": "501c69ccc0f28c0c",
+   "rating": 1.0,
+   "snippet": "late delivery and fees charges for cancellation the order and charges very high amount",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:11:09Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We are sorry to let you down. Please write to us at swiggysocial@swiggy.in from your registered email address elaborating further on your ordeal, so we can expiate for the miss.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:12:55Z"
+   }
+  },
+  {
+   "id": "ce1b28602650aa60",
+   "rating": 2.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:09:34Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please write to us about your experience at swiggysocial@swiggy.in from your registered email address, so we can better our services.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:12:56Z"
+   }
+  },
+  {
+   "id": "de6e4f2f2b0c0cd9",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:09:15Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:12:57Z"
+   }
+  },
+  {
+   "id": "d650b175743f69d0",
+   "rating": 1.0,
+   "snippet": "Really bad customer support. They'll just provide you unhelpful robotic answers even after delaying your food delivery by two hours",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:08:47Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're disappointed to know the service has not been to your satisfaction. Kindly write to us at swiggysocial@swiggy.in from your registered email address and we'll have this addressed",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:12:55Z"
+   }
+  },
+  {
+   "id": "b5a58dff5410f907",
+   "rating": 1.0,
+   "snippet": "worst",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:05:45Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, we are sorry for any hassle you have faced while ordering with us. Please share the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email address and we would be happy to connect with you and resolve the matter.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:12:56Z"
+   }
+  },
+  {
+   "id": "6e37e7237f805180",
+   "rating": 5.0,
+   "snippet": "nice 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:02:16Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:03:54Z"
+   }
+  },
+  {
+   "id": "2d1dda53cb39cb4c",
+   "rating": 5.0,
+   "snippet": "best app for food",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T16:00:32Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:03:53Z"
+   }
+  },
+  {
+   "id": "8914c48ceb0324f9",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:59:29Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:03:55Z"
+   }
+  },
+  {
+   "id": "aeb208f0515bdf55",
+   "rating": 3.0,
+   "snippet": "swiggy money is not there on instamart",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:56:02Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we are sorry for the trouble you have been through. Please drop an email at swiggysocial@swiggy.in along with order ID and we will help you sort this out.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:03:55Z"
+   }
+  },
+  {
+   "id": "993b59fb3ac4d1b0",
+   "rating": 1.0,
+   "snippet": "very poor service.. I ordered express delivery.. but I've received my order after one and half hour.",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:54:27Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're apologetic about this experience you've faced while ordering with us. Please write to us at swiggysocial@swiggy.in from your registered email address detailing your experience, so we can look into the issue and resolve it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:03:54Z"
+   }
+  },
+  {
+   "id": "1866c7a4a5523929",
+   "rating": 5.0,
+   "snippet": "The taste of the frid rice is truly magnificent—excellent and delicious. thankyou for best test",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:54:14Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T16:03:53Z"
+   }
+  },
+  {
+   "id": "81d8f7ae6e1507cd",
+   "rating": 5.0,
+   "snippet": "too good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:51:21Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we're pleased that you enjoyed your experience with Swiggy. We'll endeavor to keep it up. Keep ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:05Z"
+   }
+  },
+  {
+   "id": "d953de6596aecfe5",
+   "rating": 1.0,
+   "snippet": "such a waste of time please switch to Zomato, the kind of experience what is being delivered here day by day is pathetic and very careless, I have planned a event and successfully placed in order with",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:51:21Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we apologize for the inconvenience caused. We request you to kindly let us know more about the issue by writing to us at swiggysocial@swiggy.in from your registered email address, so we can look into it and have it fixed at the earliest.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:02Z"
+   }
+  },
+  {
+   "id": "d173ea3e7927d94a",
+   "rating": 1.0,
+   "snippet": "very bad experience delivery boy refused to deliver orders always delivery is late very bad app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:48:53Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we request you to let us know more about your experience by writing us an email at swiggysocial@swiggy.in from your registered email ID so that we can have your concern addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:03Z"
+   }
+  },
+  {
+   "id": "2877e6c1b238393a",
+   "rating": 5.0,
+   "snippet": "good 👍😊",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:48:32Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:02Z"
+   }
+  },
+  {
+   "id": "dee2a74bad95b4f5",
+   "rating": 2.0,
+   "snippet": "expensive!!",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:48:17Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're apologetic about this experience you've faced while ordering with us. Please write to us at swiggysocial@swiggy.in from your registered email address detailing your experience, so we can look into the issue and resolve it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:03Z"
+   }
+  },
+  {
+   "id": "87ce0c1ce3398f3d",
+   "rating": 1.0,
+   "snippet": "it's the worst app and it's swiggy instamart is even worse . mine order showing delivered of 1k plus but they didn't delivered. even after many follow ups no proper response. this company and their de",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:47:34Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry to have put you through such a situation. We would like to make amends and request you to kindly share the order ID along with the details of your concern at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:53:58Z"
+   }
+  },
+  {
+   "id": "2d50ff70df0ee045",
+   "rating": 5.0,
+   "snippet": "nice food and nice delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:45:07Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We are happy to hear such positive feedback. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:01Z"
+   }
+  },
+  {
+   "id": "3fe55fcb84046fd5",
+   "rating": 5.0,
+   "snippet": "best",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:44:04Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:01Z"
+   }
+  },
+  {
+   "id": "d5bdddc880dc3085",
+   "rating": 5.0,
+   "snippet": "superior",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:43:52Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:54:01Z"
+   }
+  },
+  {
+   "id": "f653f2e0828dff37",
+   "rating": 5.0,
+   "snippet": "Before ordering in blinkit please check prices in Swiggy Instamart always less than blinkit.",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:41:34Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:43:59Z"
+   }
+  },
+  {
+   "id": "3fc3d681837b1197",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:41:30Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:44:02Z"
+   }
+  },
+  {
+   "id": "aa28e3510bb61854",
+   "rating": 1.0,
+   "snippet": "order is at 8 min for last 20 min",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:41:26Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:44:01Z"
+   }
+  },
+  {
+   "id": "67e0f9e17462df3c",
+   "rating": 4.0,
+   "snippet": "good 😊👍🏻",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:39:51Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for the review and the stars. We would love to hear from you about how we could hit the 5-star rating. Please do share your thoughts by dropping an email from your registered address at swiggysocial@swiggy.in. Looking forward to hearing from you. Keep Swiggying till then. 😊",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:44:01Z"
+   }
+  },
+  {
+   "id": "a7fbafbd3b85364d",
+   "rating": 5.0,
+   "snippet": "nice experience",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:37:20Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we're pleased that you enjoyed your experience with Swiggy. We'll endeavor to keep it up. Keep ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:43:58Z"
+   }
+  },
+  {
+   "id": "8617da7d656bca25",
+   "rating": 5.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:35:35Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:44:00Z"
+   }
+  },
+  {
+   "id": "9250096e026d02a4",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:34:28Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:44:00Z"
+   }
+  },
+  {
+   "id": "b824f3d140245744",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:31:52Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:33:04Z"
+   }
+  },
+  {
+   "id": "49b9c71ca8d65274",
+   "rating": 1.0,
+   "snippet": "for one pizza you told 129 you told 144",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:31:40Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the below-par experience with your order. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:33:05Z"
+   }
+  },
+  {
+   "id": "a4cdb750500eee95",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:31:22Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:33:06Z"
+   }
+  },
+  {
+   "id": "92b655bbf4b41ab5",
+   "rating": 1.0,
+   "snippet": "I'm not giving Swiggy 1 star for a single incident. but because of repeated issues. Their customer service and their absolutely useless AI agent are frustrating to deal with. It's easier to get beaten",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:28:42Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we apologize for the inconvenience caused. We request you to kindly let us know more about the issue by writing to us at swiggysocial@swiggy.in from your registered email address, so we can look into it and have it fixed at the earliest.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:33:06Z"
+   }
+  },
+  {
+   "id": "4067d64f9609302b",
+   "rating": 5.0,
+   "snippet": "👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:27:55Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:33:07Z"
+   }
+  },
+  {
+   "id": "835b08a49c9afee9",
+   "rating": 5.0,
+   "snippet": "thank",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:27:46Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! It's a bliss to see that our service brought a smile to your face. We'll endeavor to keep it up. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:33:04Z"
+   }
+  },
+  {
+   "id": "a78c8b54d21daf12",
+   "rating": 5.0,
+   "snippet": "Good enough to take order and prpceed",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:25:19Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:25:32Z"
+   }
+  },
+  {
+   "id": "0dac77b2ab681cd2",
+   "rating": 5.0,
+   "snippet": "very nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:23:14Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we're pleased that you enjoyed your experience with Swiggy. We'll endeavor to keep it up. Keep ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:25:35Z"
+   }
+  },
+  {
+   "id": "fab1d9a1aabe4ada",
+   "rating": 1.0,
+   "snippet": "Very disappointing experience with Swiggy. I ordered a meal for ₹298 with a discount but received a completely different order. After waiting 35 minutes, I had to return it and was told to reorder. Wh",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:21:54Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the sub-par experience you had faced while ordering with us. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:25:33Z"
+   }
+  },
+  {
+   "id": "ea41136331d5cf0a",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:20:21Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:25:36Z"
+   }
+  },
+  {
+   "id": "75d2db728ca33742",
+   "rating": 1.0,
+   "snippet": "late delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:20:12Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we apologize for the inconvenience caused. We request you to kindly let us know more about the issue by writing to us at swiggysocial@swiggy.in from your registered email address, so we can look into it and have it fixed at the earliest.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:25:34Z"
+   }
+  },
+  {
+   "id": "1c4c46ec08e16e68",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:19:11Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:25:35Z"
+   }
+  },
+  {
+   "id": "51322c906d2349d6",
+   "rating": 5.0,
+   "snippet": "gaurav",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:16:05Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the valuable feedback. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:17:32Z"
+   }
+  },
+  {
+   "id": "46d967a1ecd18ff1",
+   "rating": 5.0,
+   "snippet": "jordar",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:15:47Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are thankful to you for your review! We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:17:33Z"
+   }
+  },
+  {
+   "id": "d8d0a0c5a2e5090b",
+   "rating": 5.0,
+   "snippet": "what aa sarvis",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:15:43Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thank you for the ratings. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:17:31Z"
+   }
+  },
+  {
+   "id": "ad90c33e65a46e35",
+   "rating": 4.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:14:38Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, thank you so much for the positive review! We'll endeavor to keep it up. Please let us know how we can provide service worth 5 stars by writing to us at swiggysocial@swiggy.in from your registered email address.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:17:31Z"
+   }
+  },
+  {
+   "id": "2f481c2045e741ac",
+   "rating": 5.0,
+   "snippet": "this is awesome but where is my ₹1 order why not I can't ordering",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:13:55Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, appreciate you for rating us 5-star and giving us your honest feedback. Do elaborate your concern along with the necessary details by writing an email at swiggysocial@swiggy.in from your registered email ID, we'll look into it.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:14:18Z"
+   }
+  },
+  {
+   "id": "f08b70273a9bbc5a",
+   "rating": 1.0,
+   "snippet": "VERY POOR SUPPORT. I have ordered my dinner and made full payment. got a whatsapp message stating that my order is big one and will be delivered as two orders by two different people. we all are waiti",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:11:30Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "This shouldn't have happened. Kindly help us with the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email ID & we will have this checked.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:14:19Z"
+   }
+  },
+  {
+   "id": "dd3a1897747ab293",
+   "rating": 4.0,
+   "snippet": "too much delivery charge",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:11:24Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, appreciate your feedback, we give utmost priority to our user's feedback and would request you to share yours on swiggysocial@swiggy.in and we can work towards implementing them to provide better services.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:14:17Z"
+   }
+  },
+  {
+   "id": "6d0371c5e9e9f5f7",
+   "rating": 5.0,
+   "snippet": "good 👍 very very good service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:09:22Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, nothing delights us more than hearing this. We are happy that you had a great experience. Keep Swiggying. 😊",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:14:18Z"
+   }
+  },
+  {
+   "id": "3b2a9f1a1f1d725b",
+   "rating": 5.0,
+   "snippet": "very best aap",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:08:13Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:14:17Z"
+   }
+  },
+  {
+   "id": "b3de028e9ba6492b",
+   "rating": 5.0,
+   "snippet": "good 👍",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:05:52Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for your patronage and the perfect rating. We will strive to provide consistent seamless ordering experiences. Keep Swiggying!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:14:15Z"
+   }
+  },
+  {
+   "id": "140b253bfaabc9c7",
+   "rating": 5.0,
+   "snippet": "very nice Swiggy",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:04:41Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for the excellent rating. This will inspire us to continue delivering exceptional service as we always do.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:37:26Z"
+   }
+  },
+  {
+   "id": "5cab062f7886e80b",
+   "rating": 1.0,
+   "snippet": "Money not refund don't use swiggy app 😒 now 2026 sri laxmi bar and restaurant Zomato app open Swiggy app closed why ????",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:02:54Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please write to us about your experience at swiggysocial@swiggy.in from your registered email address, so we can better our services.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:14:17Z"
+   }
+  },
+  {
+   "id": "d5fa3e06b626166d",
+   "rating": 4.0,
+   "snippet": "bast app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:02:50Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order. We would love to hear from you about how we could hit the 5-star rating. Please do share your thoughts by dropping an email at swiggysocial@swiggy.in.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:03:06Z"
+   }
+  },
+  {
+   "id": "9e3e9b17e6e12361",
+   "rating": 1.0,
+   "snippet": "Today, we placed an order, comprising two sets of poori and one set of parotta on COD. But, one set of parotta was missing. When we talked to the customer service, they said they collected it and deli",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:02:32Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about this. Please help us with the order id over an email at swiggysocial@swiggy.in, so we can help resolve the issue.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:03:05Z"
+   }
+  },
+  {
+   "id": "4eaf5171f3189e55",
+   "rating": 1.0,
+   "snippet": "Maine saman magaya tha aur offer mai bhi chige magayi thi par inhone offer wali chige di hi nahi aur na refund Kiya they are doing scam at first they will show you all offers but when you become regul",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:01:05Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we're sorry for the unpleasant experience. Please share your concern along with your order details via email at swiggysocial@swiggy.in so that we will look into this & assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:03:07Z"
+   }
+  },
+  {
+   "id": "8d77101a39f0b2b3",
+   "rating": 5.0,
+   "snippet": "super",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T15:00:15Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi there, thank you for the excellent rating. This will inspire us to continue delivering exceptional service as we always do.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:28:07Z"
+   }
+  },
+  {
+   "id": "ef945be7ed325b8b",
+   "rating": 1.0,
+   "snippet": "charges r become more we",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:57:39Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, please write to us about your experience at swiggysocial@swiggy.in from your registered email address, so we can better our services.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T15:03:04Z"
+   }
+  },
+  {
+   "id": "2374a1d6be6c4cd1",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:50:30Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:53:04Z"
+   }
+  },
+  {
+   "id": "996c10f916615331",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:50:06Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we are glad to have patrons like you and will strive towards providing better services to keep such reviews coming our way. Keep ordering.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:53:05Z"
+   }
+  },
+  {
+   "id": "ae6cbef53d5e4a28",
+   "rating": 5.0,
+   "snippet": "bekar key use korben na kabar valo asena poka take",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:48:48Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thank you for the ratings. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:53:06Z"
+   }
+  },
+  {
+   "id": "e509f5e847f30c60",
+   "rating": 1.0,
+   "snippet": "thakela app, worst app",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:48:31Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We are sorry to let you down. Please write to us at swiggysocial@swiggy.in from your registered email address elaborating further on your ordeal, so we can expiate for the miss.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:53:02Z"
+   }
+  },
+  {
+   "id": "da1731c91564f2ce",
+   "rating": 2.0,
+   "snippet": "lets try",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:44:55Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, we request you to let us know more about your experience by writing us an email at swiggysocial@swiggy.in from your registered email ID so that we can have your concern addressed.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:53:08Z"
+   }
+  },
+  {
+   "id": "57e1bd6da1d15fec",
+   "rating": 5.0,
+   "snippet": "nice",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:44:55Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:53:08Z"
+   }
+  },
+  {
+   "id": "6c4521cccadc253d",
+   "rating": 5.0,
+   "snippet": "very good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:43:23Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the perfect ratings. We appreciate your efforts in contributing to our improvements.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:44:54Z"
+   }
+  },
+  {
+   "id": "bf06de710873faf6",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:42:39Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! It's a bliss to see that our service brought a smile to your face. We'll endeavor to keep it up. Keep Swiggying. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:44:55Z"
+   }
+  },
+  {
+   "id": "66f187eb53137f85",
+   "rating": 1.0,
+   "snippet": "very late delivery",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:41:36Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "This shouldn't have happened. Kindly help us with the order ID along with the details of the issue by writing to us at swiggysocial@swiggy.in from your registered email ID & we will have this checked.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:44:51Z"
+   }
+  },
+  {
+   "id": "d3f2a1a0395c04e8",
+   "rating": 1.0,
+   "snippet": "Ordered food and delivery partner was not moving for 2 full hours so I wanted to cancel the order. and struggled 1 more hour with customer service and 3 hours wasted and waited for cancellation. worst",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:40:58Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, that doesn't sound right. We would like to have this investigated. Please share the relevant order ID to swiggysocial@swiggy.in and we will assist you further in this regard.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:44:52Z"
+   }
+  },
+  {
+   "id": "0fb5f93301216ee0",
+   "rating": 5.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:37:33Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey, thanks for the rating! This motivates us to keep serving you better with every order.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:44:53Z"
+   }
+  },
+  {
+   "id": "5f900e36cd5ec82d",
+   "rating": 3.0,
+   "snippet": "dilevery charge extra",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:37:19Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, thanks for the ratings, but it appears that you are not very satisfied with the experience. Please reach out to us at swiggysocial@swiggy.in using your registered email address and provide details about your experience so we can investigate the matter and address it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T18:36:53Z"
+   }
+  },
+  {
+   "id": "f643a7c84e5f79cf",
+   "rating": 5.0,
+   "snippet": "great experience",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:34:45Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there! Such positive reviews motivate us to strive hard to provide you a much better experience. Happy ordering. 🙂",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:44:51Z"
+   }
+  },
+  {
+   "id": "0d2b414812e49083",
+   "rating": 3.0,
+   "snippet": "good",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:34:30Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, thank you for the valuable feedback. We request you to let us know more about your experience by writing an email to swiggysocial@swiggy.in so we can make our services better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:44:53Z"
+   }
+  },
+  {
+   "id": "4d7c6935bc3b2501",
+   "rating": 1.0,
+   "snippet": "worst delivery and customer care service",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:33:51Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hey there, we are sorry to have put you through such a situation. We would like to make amends and request you to kindly share the order ID along with the details of your concern at swiggysocial@swiggy.in and we will do what it takes to turn this around!",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:34:23Z"
+   }
+  },
+  {
+   "id": "73db9a2898be00bb",
+   "rating": 2.0,
+   "snippet": "chhi eyu your app is very bad i didn't find that woman in your add i want to order her",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:33:34Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hi, we are sorry about the ordeal. Please write to us at swiggysocial@swiggy.in along with the order ID, so we can assist you better.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:34:20Z"
+   }
+  },
+  {
+   "id": "b990d0425f1357fa",
+   "rating": 1.0,
+   "snippet": "doesn't allow to change the address. customer is left helpless cuz of this. worst chat interface. even the agents are of no help",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:32:52Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "We're apologetic about this experience you've faced while ordering with us. Please write to us at swiggysocial@swiggy.in from your registered email address detailing your experience, so we can look into the issue and resolve it for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:34:21Z"
+   }
+  },
+  {
+   "id": "16c5f70d96257a9a",
+   "rating": 1.0,
+   "snippet": "Though as a platform, Seiggy is low standard in terms of services and respinse, today I would mention the executive Chitrans who has been highly positive in resolving the issue wherein the delivery pa",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:31:30Z",
+   "response": {
+    "title": "Swiggy",
+    "snippet": "Hello, we would like to know more about it. Please write to us at swiggysocial@swiggy.in with relevant details elaborating further on your ordering experience with us, so we can set this right for you.",
+    "date": "October 08, 2026",
+    "iso_date": "2026-10-08T14:34:22Z"
+   }
+  },
+  {
+   "id": "1f6718a1bce8068e",
+   "rating": 1.0,
+   "snippet": "1st time",
+   "likes": 0,
+   "date": "October 08, 2026",
+   "iso_date": "2026-10-08T14:30:25Z"
+  }
+ ],
+ "serpapi_pagination": {
+  "next": "https://serpapi.com/search.json?all_reviews=true&engine=google_play_product&gl=in&hl=en&next_page_token=Cs4BIsUBAV8d1P0k3VzIOxQpP1NIF0Afj8DIRdY78j58sjXFC_xp1EfcY2nBq_aEfrfeUE66UqR3b9chv7zZrhGF1RE0nK0a4YaNcBcnicB9mwSRVLef7nFZBCQmmiW4EVJKNXpBvxfFjTuoVJ_Q6Qlx3_Hn9XgLqwzQewzG1HbJHoY_7YZY1rIcBwSfy1bN-IInUAkCOVilVE1N2l5ycgIbMVEnyCNqB0danlpX7q7olBZ4xm61RlUuUCt3Ir47bMp6AWIL9e0BM_Mou-2m1gY&num=199&platform=phone&product_id=in.swiggy.android&sort_by=2&store=apps",
+  "next_page_token": "Cs4BIsUBAV8d1P0k3VzIOxQpP1NIF0Afj8DIRdY78j58sjXFC_xp1EfcY2nBq_aEfrfeUE66UqR3b9chv7zZrhGF1RE0nK0a4YaNcBcnicB9mwSRVLef7nFZBCQmmiW4EVJKNXpBvxfFjTuoVJ_Q6Qlx3_Hn9XgLqwzQewzG1HbJHoY_7YZY1rIcBwSfy1bN-IInUAkCOVilVE1N2l5ycgIbMVEnyCNqB0danlpX7q7olBZ4xm61RlUuUCt3Ir47bMp6AWIL9e0BM_Mou-2m1gY"
+ }
+}
