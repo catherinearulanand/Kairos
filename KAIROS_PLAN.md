@@ -22,7 +22,7 @@ One SERP call is a snapshot. The same call on a schedule, normalised into one sc
 |---|---|
 | Headline rule is now search share vs price (old A4) | It is the only rule that matches the "diverges from price" claim, and both inputs backfill 12 months from one call |
 | Use share of search (brand / brand + competitors) instead of raw Trends interest | Festive-season lift in October raises every brand; share cancels it. Same call, no extra credits |
-| Every alert shows its base rate: "true in N of the last 40 weeks" | Tells the judge whether an alert is rare or routine, and answers "is this just noise?" before it is asked |
+| Every R1 headline evaluation shows its historical frequency: "true in N of M evaluable weeks" | Tells the judge whether a headline alert is rare or routine, and answers "is this just noise?" before it is asked |
 | App reviews and ad activity become supporting context on the alert, not standalone High alerts | Newest reviews are usually below the displayed rating, so the old A1 would fire almost always |
 | Audience is "small research teams and analysts", not "retail investors" | Running it for real needs a paid SerpApi plan, and this avoids any hint of stock tips |
 | Dropped: Maps store reviews, Jobs, Shopping, AI Overview, lead-lag, resume/recover, alert lifecycle, cron | None can be shown working with one day of captures |

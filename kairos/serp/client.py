@@ -4,6 +4,8 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import ssl
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -57,10 +59,19 @@ def params_hash(params: dict) -> str:
     return hashlib.sha256(blob.encode("utf-8")).hexdigest()
 
 
+def _ssl_context():
+    # Windows' native chain builder can retrieve current intermediates instead of
+    # selecting an expired chain from the certificates copied into OpenSSL.
+    if sys.platform == "win32":
+        import truststore
+        return truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+    return ssl.create_default_context()
+
+
 def _http_get(url: str) -> tuple[int, bytes]:
     req = urllib.request.Request(url, headers={"User-Agent": "kairos/0.1"})
     try:
-        with urllib.request.urlopen(req, timeout=90) as r:
+        with urllib.request.urlopen(req, timeout=90, context=_ssl_context()) as r:
             return r.status, r.read()
     except urllib.error.HTTPError as e:
         return e.code, e.read()
@@ -150,7 +161,7 @@ class SerpClient:
             try:
                 self._left = self.account().get("total_searches_left")
             except SerpError:
-                self._left = None               # guard is skipped if the quota can't be read
+                self._left = None               # collection fails closed when a reserve is requested
             self._left_known = True
         return self._left
 

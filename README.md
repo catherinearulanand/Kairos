@@ -57,6 +57,8 @@ kairos alerts --entity NYKAA
 
 Unset `KAIROS_OFFLINE` or set it to `0` in the shell before live collection; shell variables
 take precedence over `.env`. The earlier `kairos-capture` command remains available.
+On Windows, the installed `truststore` dependency uses native certificate-chain validation
+for SerpApi requests. HTTPS certificates and hostnames are still verified.
 
 ---
 
@@ -201,7 +203,7 @@ Kairos uses a modular plugin architecture. Read [CONTRIBUTING.md](CONTRIBUTING.m
 - **Freshness:** Capture timestamps are separate from observation weeks. Collection attempts are recorded; a failed or unfinished latest attempt marks dependent rules insufficient and displays a dashboard warning. Older successful readings remain available with their dates. Demo-backed replay databases retain the demo source label.
 - **Capture integrity:** Trends share requires the whole configured competitor basket. All parser and evidence reads verify byte hashes and repository path containment. Demo export stages complete successful bundles, checks metric equality after sanitization and preserves collection outcomes before publication. Already sanitized fixtures keep their original bytes. Legacy databases are backfilled from committed captures; historical attempt boundaries cannot be reconstructed exactly.
 - **Integration:** Ads series share sensor/metric but differ by `dims.window`. Analytics opens source databases read-only; commentary uses the separate writable `data/alerts.db` cache and invalidates when analytical inputs change.
-- **Release work:** The screenshot above was captured from the running offline app. Demo video, form submission and public-link checks remain unverified by the code suite. Live-provider validation is also outstanding.
+- **Verification:** Automated checks run the offline test suite, rendered dashboard and CLI, plus a full-history secret scan. See [app readiness](docs/APP_READINESS.md) for the verified revision, reviewed scanner matches and live-provider status. The screenshot above was captured from the running offline app. Video and submission remain the team's responsibility.
 
 ---
 

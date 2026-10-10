@@ -1,5 +1,7 @@
 # All-lanes repair verification
 
+This report records the original all-lanes repair. Subsequent live verification, the Windows TLS fix and automated readiness checks are recorded in [APP_READINESS.md](APP_READINESS.md).
+
 Repairs apply to the complete codebase merged at `05196de7879447bbe42cd636a1baa5bfd974d182`. The user authorized modifications in every lane, superseding the earlier lane 1 no-edit boundary. No real provider/LLM calls were made, and committed demo fixtures were retained.
 
 ## Standards
@@ -37,7 +39,7 @@ Screenshot and MIT license artifacts are included. Independent final Spec review
 
 ## Remaining practical limits
 
-- Live provider behavior and quota availability need a real integration run. The regression suite uses fake provider responses and committed fixtures.
+- The original repair used fake provider responses and committed fixtures. The subsequent real integration run completed all five Nykaa sensors successfully; see [APP_READINESS.md](APP_READINESS.md).
 - Thresholds remain heuristics; unadjusted price safeguards do not identify every corporate action. Current demo R1 has 0/41 historical fires for each company; no thresholds or data were changed to manufacture a result.
 - A failed rollback or abrupt process termination can leave `data/.kairos-demo-backup-*`; this directory intentionally survives for recovery. Restore it to `data/demo` after resolving the filesystem failure if publication did not finish.
 - Demo video, submission form and external public-link verification remain human release tasks, not code correctness fixes.
